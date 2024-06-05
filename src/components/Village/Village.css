@@ -101,14 +101,16 @@
 
 
 .button-village-cost {
-  background-color: transparent;
-  border: 4px solid rgb(240, 212, 5);
-  padding: 20px 30px;
-  border-radius: 50px;
+  background-color: rgb(199, 240, 255);
+  border: 1px;
+  width: 180px;
+  height: 100px;
+  border-radius: 50%;
   cursor: pointer;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
   font-size: 1.3rem;
+  padding: 10px;
 }
 
 /* Media Queries for Larger Screens */
