@@ -1,4 +1,4 @@
-import GLLogo from "../../assets/gloft-logo.svg";
+import GLLogo from "../../assets/gl-john-logo.png";
 import "./Footer.css";
 
 function Footer() {
@@ -6,7 +6,7 @@ function Footer() {
     <>
       <div className="footer">
         <div className="footer-content">
-          <h1>Content</h1>
+          <h1>Garden Loft Backyard Suites</h1>
           <h3>
             <a href="#support-features">Our Support Features</a>
           </h3>
@@ -31,8 +31,11 @@ function Footer() {
           <h3>
             <a href="/faq">FAQ</a>
           </h3>
+          <h1><a href="/village">Garden Loft Villages</a></h1>
+          <h1>Atrium House by Garden Loft</h1>
           <div>
             <h1>Request a :</h1>
+            <div className="call-feat">
             <h3>
               <a href="#phone-call">Phone Call</a>
             </h3>
@@ -48,6 +51,7 @@ function Footer() {
             <h3>
               <a href="#initial-meeting">Initial Meeting</a>
             </h3>
+            </div>
           </div>
         </div>
       </div>
@@ -55,7 +59,7 @@ function Footer() {
         <div className="logos">
           <div className="logos-title">
             <img src={GLLogo} alt="Logos" />
-            <h1>garden loft</h1>
+            {/* <h1>garden loft</h1> */}
           </div>
           <div className="address">
           <p>
