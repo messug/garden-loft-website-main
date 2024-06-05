@@ -12,6 +12,7 @@ import Testimony from "../Testimony/Testimony";
 import Report from "../Report/Report";
 import Advantage from "../Advantage/Advantage";
 
+
 function MainPage() {
   return (
       <>
