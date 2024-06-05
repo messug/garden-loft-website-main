@@ -1,5 +1,3 @@
-
-
 import './Village.css'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
@@ -12,7 +10,7 @@ import Village5 from '/images/village5.png'
 import Village6 from '/images/village6.png'
 
 
-function FAQ() {
+function Village() {
   return (
     <>
     <Navbar />
@@ -32,7 +30,8 @@ function FAQ() {
       <img src={Village1} alt="GL-Cost Image" />
       
       <h3>All the advantages of living in a Garden Lft combined with an intentional community</h3>
-      <button>Learn more about Garden Loft units</button>
+      <button className='button-village-cost'>Learn more about Garden Loft units</button>
+     
       <img src={Village2} alt="GL-Cost Image" />
       <h3>Garden Loft Villages can be integrated with new existing community building clubhouses and coffee shops</h3>
       <img src={Village3} alt="GL-Cost Image" />
@@ -50,16 +49,20 @@ function FAQ() {
           <li><h4>Housing management bodies</h4></li>
           <li><h4>Existing care facilities</h4></li>
         </ul>
-        <button>Book a preliminary consult</button>
+        <button className='button-village-cost'>Book a preliminary consult</button>
       <img src={Village4} alt="GL-Cost Image" />
       <h3>Garden Loft villages are particularly well suited in rural communitites with small-scale demand for supportive housing</h3>
+      <button className='button-village-cost'>Call us</button>
+      <h1>Garden Loft Village Projects in Development</h1>
+      <h3>We are currently working on village projects in Calgary, southern Alberta, and central British Columbia</h3>
       <img src={Village5} alt="GL-Cost Image" />
+      <h1>Small Town Rental Village</h1>
+      <h3>10 Garden Loft units located in a park-like setting to augment and adjacent care facility with independent living units
+of an adjacent care facility</h3>
       <img src={Village6} alt="GL-Cost Image" />
-
-      <p>Owning a Garden Loft allows for a long-term generational investmnt for your family.
-        Once you own one you can pass it down to your family to turn it into a studio loft 
-         </p>
-      <button className='button-village-cost'>Learn about the new rules and costs</button>
+      <h1>Country Residential Village</h1>
+      <h3>93 Garden Loft units with cafe and recreation amenity buildings on an acreage outside of Calgary</h3>
+      <button className='button-village-cost'>Tour our Showsuite</button>
   </div>
   </section>
   <Footer/>
@@ -67,4 +70,4 @@ function FAQ() {
   )
 }
 
-export default FAQ;
+export default Village;
