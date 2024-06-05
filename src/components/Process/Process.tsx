@@ -25,32 +25,32 @@ const Process: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "50vh", margin: '1rem auto' }} />
             <h2 style={{ textAlign: 'center' }}> <strong>STEP 1</strong></h2>
-            <h3 style={{ textAlign: 'center', margin: '10px' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
+            <h3 style={{ textAlign: 'center', margin: '10px', fontSize: '1.5rem' }}>Feasibility Analysis & Design Selections</h3>
+            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1.2rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "50vh", margin: '1rem auto' }} />
             <h2 style={{ textAlign: 'center' }}> <strong>STEP 2</strong></h2>
-            <h3 style={{ textAlign: 'center', margin: '10px' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
+            <h3 style={{ textAlign: 'center', margin: '10px', fontSize: '1.5rem' }}>Permits + Approvals</h3>
+            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1.2rem' }}>We take care of obtaining all the development and building permits and approvals. Garden Lofts are now permitted in all Calgary neighborhoods as legal secondary suites</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "50vh", margin: '1rem auto' }} />
             <h2 style={{ textAlign: 'center' }}> <strong>STEP 3</strong></h2>
-            <h3 style={{ textAlign: 'center', margin: '10px' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
+            <h3 style={{ textAlign: 'center', margin: '10px', fontSize: '1.5rem' }}>Fabrication + Site Preparation</h3>
+            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1.2rem' }}>While we build your Garden Loft to order in our Calgary- based factory, we also prepare your site, install the pile foundations, and rough-in the utilities</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '70vw', height: "50vh", margin: '1rem auto' }} />
             <h2 style={{ textAlign: 'center' }}> <strong>STEP 4</strong></h2>
-            <h3 style={{ textAlign: 'center', margin: '10px' }}>Feasibility Analysis & Design selection</h3>
-            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1rem' }}>Our free feasibility analysis will tell you  <br />where and how we can locate a Garden Loft on your property. Work with Our design team to select your fixtures and finishes.</p>
+            <h3 style={{ textAlign: 'center', margin: '10px', fontSize: '1.5rem' }}>Installation + Site Completion</h3>
+            <p style={{ textAlign: 'center', marginBottom: '20px', fontSize: '1.2rem' }}>We deliver your Garden Loft by truck and crane it into place. We hook up the utilities, install any decking, stairs, or ramps, and prepare the unit for occupancy</p>
           </div>
         </SwiperSlide>
  </Swiper>

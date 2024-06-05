@@ -24,8 +24,18 @@ const Advantage: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' }} />
             <div className="carousel-text">
-            <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
-            <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <h3 style={{ textAlign: 'center' }}>Community Connected</h3>
+            <p style={{ textAlign: 'center' }}>Garden Loft’s backyard location is close
+to family, without being intrusive. Our digital platform offers online activities and gatherings</p>
+          </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ textAlign: 'center' }}>
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' }} />
+            <div className="carousel-text">
+            <h3 style={{ textAlign: 'center' }}>Non-Institutional Living</h3>
+            <p style={{ textAlign: 'center' }}>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</p>
           </div>
           </div>
         </SwiperSlide>
@@ -42,8 +52,8 @@ const Advantage: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' }} />
             <div className="carousel-text">
-            <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
-            <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <h3 style={{ textAlign: 'center' }}>Low-Impact Installation</h3>
+            <p style={{ textAlign: 'center' }}>Garden Lofts are delivered to the site by truck and craned into place with minimal on- site disruption. They can be resold and moved when no longer needed</p>
           </div>
           </div>
         </SwiperSlide>
@@ -51,8 +61,8 @@ const Advantage: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' }} />
             <div className="carousel-text">
-            <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
-            <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <h3 style={{ textAlign: 'center' }}>Research-Based Design</h3>
+            <p style={{ textAlign: 'center' }}>Garden Loft's safety and support features were developed and tested at the University of Calgary in collaboration with medical researchers</p>
           </div>
           </div>
         </SwiperSlide>
@@ -60,8 +70,8 @@ const Advantage: React.FC = () => {
           <div style={{ textAlign: 'center' }}>
             <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' }} />
             <div className="carousel-text">
-            <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
-            <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
+            <h3 style={{ textAlign: 'center' }}>Technology-Enabled Support</h3>
+            <p style={{ textAlign: 'center' }}>Garden Loft's built-in safety and support features enable someone with differing abilities to live with more independence</p>
           </div>
           </div>
         </SwiperSlide>
