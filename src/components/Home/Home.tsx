@@ -1,10 +1,13 @@
 import React from 'react';
 import './Home.css';
+
 import GLHero from '/images/gl-hero-vid2.mp4'
 
 const Home: React.FC = () => {
   return (
+
     <section className="home">
+    
       <div className="home-content">
         <video className="video" src={GLHero} autoPlay loop muted/>
         <div className="content">
