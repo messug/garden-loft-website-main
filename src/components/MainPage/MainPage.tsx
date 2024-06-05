@@ -11,6 +11,7 @@ import Process from "../Process/Process";
 import Testimony from "../Testimony/Testimony";
 import Report from "../Report/Report";
 import Advantage from "../Advantage/Advantage";
+import Award from '../Award/Award';
 
 
 function MainPage() {
@@ -21,6 +22,7 @@ function MainPage() {
         <Safety />
         <Advantage />
         <Report />
+        <Award/>
         <Units />
         <Costs />
         <Process />
