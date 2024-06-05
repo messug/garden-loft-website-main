@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css"; 
 import { Link } from "react-router-dom";
-import GLLogo from "../../assets/gloft-logo.svg";
+import GLLogo from "../../assets/gl-john-logo.png";
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
       <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
         <div className="logo">
           <img src={GLLogo} alt="Logo" />
-          <h1>garden loft</h1>
+          {/* <h1>garden loft</h1> */}
         </div>
       </Link>
       <div className={`menu-web ${isMenuOpen ? "open" : ""}`} id="menu-web">
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
         <Link to="/faq" style={{ textDecoration: "none" }}>
           <p>Backyard Suites</p>
         </Link>
-        <Link to="/faq" style={{ textDecoration: "none" }}>
+        <Link to="/village" style={{ textDecoration: "none" }}>
           <p>Villages</p>
         </Link>
         <Link to="/faq" style={{ textDecoration: "none" }}>

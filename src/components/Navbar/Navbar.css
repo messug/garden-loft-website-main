@@ -3,9 +3,9 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
   width: 100vw;
-  gap: 2rem;
+  gap: 5rem;
   position: fixed;
   top: 0;
   transition: all 0.3s ease;
@@ -34,19 +34,20 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 5rem;
   font-size: 0.75rem;
 }
 
 .logo img {
-  transform: scale(1.3);
-  width: 50px;
-  margin-right: 1rem;
+  transform: scale(2);
+  width: 100px;
+  margin-right: 2rem;
+  margin-top: 2rem;
 }
 
 .menu-web {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 1rem;
 }
 
@@ -65,17 +66,17 @@
   display: none;
   cursor: pointer;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.4rem;
 }
 
 .hamburger {
-  width: 25px;
-  height: 3px;
+  width: 35px;
+  height: 4px;
   background-color: #fff;
 }
 .hamburger2 {
-  width: 25px;
-  height: 3px;
+  width: 35px;
+  height: 4px;
   background-color: #fff;
 }
 
@@ -126,6 +127,7 @@
   color: #ffffff;
   border-radius: 13rem;
   padding: 1rem 2rem;
+  
 }
 
 .button3:hover {
@@ -146,6 +148,7 @@
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2rem;
+ margin-left: -15px;
 }
 
 @media (max-width: 768px) {
@@ -157,7 +160,7 @@
     top: 100px;
     background-color: #ffffff;
     color: #000;
-    padding: 6rem;
+    padding: 8rem;
     width: 100vw;
     height: 100vh;
     margin-top: -100px;

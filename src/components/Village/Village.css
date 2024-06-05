@@ -1,0 +1,133 @@
+#village {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.village-content {
+  margin-top: 3rem;
+}
+.village-content h3 {
+  margin-top: 3rem;
+  padding: 0 1.2rem;
+}
+
+#village h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+#village p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.village-list, .work {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+#village img {
+  /* width: 100vw;
+  height: 70vh; */
+  object-fit: contain;
+  padding-bottom: 2rem;
+  padding-top: 2rem;;
+}
+
+.hero-village {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  height: 100vh;
+  /* background-image: url('/images/gl-hero'); */
+  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat; 
+  color: white;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.hero-content {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px;
+}
+
+.content {
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  height: 83%;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  align-items: flex-end;
+}
+
+.hero-video {
+  width:110vw;
+  height: 105vh;
+  /* position: relative;
+  top: 90px; */
+  object-fit: cover;
+}
+
+.hero-village h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 3rem;
+  
+}
+
+.hero-village p {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-bottom: 2.5rem;
+  line-height: 1.5rem;
+
+}
+
+
+.button-village-cost {
+  background-color: transparent;
+  border: 4px solid rgb(240, 212, 5);
+  padding: 20px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  #village h1 {
+    font-size: 3rem;
+  }
+
+  #village p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #village h1 {
+    font-size: 4rem;
+  }
+
+  #village p {
+    font-size: 1.5rem;
+  }
+}
