@@ -51,7 +51,7 @@ function Village() {
         </ul>
         <button className='button-village-cost'>Book a preliminary consult</button>
       <img src={Village4} alt="GL-Cost Image" />
-      <h3>Garden Loft villages are particularly well suited in rural communitites with small-scale demand for supportive housing</h3>
+      <h3>Garden Loft villages are particularly well suited in rural communities with small-scale demand for supportive housing</h3>
       <button className='button-village-cost'>Call us</button>
       <h1>Garden Loft Village Projects in Development</h1>
       <h3>We are currently working on village projects in Calgary, southern Alberta, and central British Columbia</h3>
