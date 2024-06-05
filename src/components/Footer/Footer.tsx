@@ -1,4 +1,5 @@
 import GLLogo from "../../assets/gl-john-logo.png";
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 function Footer() {
@@ -37,22 +38,22 @@ function Footer() {
             <h1>Request a :</h1>
             <div className="call-feat">
             <h3>
-              <a href="#phone-call">Phone Call</a>
+            <Link to="/phone-call">Phone Call</Link>
             </h3>
             <h3>
-              <a href="#brochure">Brochure</a>
+            <Link to="/brochure">Brochure</Link>
             </h3>
-            <h3>
-              <a href="#feasibility-report">Feasibility Report</a>
+             <h3>
+            <Link to="/feasibility-report">Feasibility Report</Link>
             </h3>
-            <h3>
-              <a href="#book-tour">Book A Tour</a>
-            </h3>
-            <h3>
-              <a href="#initial-meeting">Initial Meeting</a>
-            </h3>
-            </div>
+           <h3>
+            <Link to="/book-tour">Book A Tour</Link>
+           </h3>
+           <h3>
+            <Link to="/initial-meeting">Initial Meeting</Link>
+           </h3>
           </div>
+        </div>
         </div>
       </div>
       <div className="logo-section">
