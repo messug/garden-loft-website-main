@@ -51,6 +51,7 @@ const Report: React.FC = () => {
           <p className="report-title">Combining light-filled open plan loft-living with safety and peace of mind</p>
         </SwiperSlide>
       </Swiper>
+  
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <button className="report-button">Request a  <br />Feasibility <br /> Report</button>
       </div>
