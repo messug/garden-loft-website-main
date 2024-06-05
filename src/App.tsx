@@ -5,6 +5,7 @@ import MainPage from "./components/MainPage/MainPage"
 import FAQ from "./components/FAQ/FAQ";
 import Tour from './components/Tour/Tour'
 import Village from './components/Village/Village'
+
 import Atrium from "./components/Atrium/Atrium";
 // import Brochure from './components/Brochure/Brochure';
 
