@@ -1,5 +1,5 @@
 
-import GLCost from  '../../assets/images/gl-cost.png'
+
 import './Village.css'
 import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
