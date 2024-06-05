@@ -1,15 +1,15 @@
 .report-container {
-  margin-top: 8rem;
+  margin-top: 1rem;
   text-align: center;
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
 }
 
 .report-title {
   display: none;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  margin-top: 40px;
+  margin-top: -70px;
   text-align: center;
   font-weight: bold;
 }
@@ -22,7 +22,7 @@
 .report-image {
   width: 80vw;
   height: 50vh;
-  object-fit: cover;
+  object-fit:contain;
   margin: 0 auto;
   /* border-radius: 10px; */
 }
