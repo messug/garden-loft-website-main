@@ -22,8 +22,8 @@ const Atrium = () => {
         <div className="hero-content">
           <video className="hero-video" src={GLHero} autoPlay loop muted />
           <div className="content">
-            <h1>garden loft</h1>
-            <h3>Atrium House <br />care enhanced community living</h3>
+            <h1>Garden Loft Atrium Houses</h1>
+            <p>care enhanced  <br/>community living</p>
           </div>
         </div>
       </section>
