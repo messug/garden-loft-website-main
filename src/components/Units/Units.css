@@ -1,0 +1,84 @@
+#two-units {
+  display: flex;
+  /* background-color: #ffbf00; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+  /* height: 200vh; */
+}
+
+.gl-one,
+.gl-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers children vertically */
+  justify-content: center; /* Centers children horizontally */
+}
+
+.gl-one,
+.gl-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers children vertically */
+  justify-content: center; /* Centers children horizontally */
+}
+
+.title-gl {
+  background-color: rgb(6, 6, 6);
+  border: 1px solid rgb(48, 48, 47);
+  color:azure;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  align-content: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  width: 30vw;
+}
+
+.unit-title h1 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+.unit-title p {
+  font-size: 1.3rem;
+}
+.unit-title {
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.gl-specs {
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  .safety h1 {
+    font-size: 3rem;
+  }
+
+  .safety p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .safety h1 {
+    font-size: 4rem;
+  }
+
+  .safety p {
+    font-size: 1.5rem;
+  }
+}

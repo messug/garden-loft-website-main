@@ -1,0 +1,76 @@
+/* Carousel.css */
+.swiper-pagination {
+  position: relative;
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #000 !important;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  width: 100vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* border-radius: 10px; */
+}
+
+.carousel-text {
+  display: none;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.swiper-slide.swiper-slide-active .carousel-text {
+  display: block;
+}
+
+.carousel-text h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.carousel-text p {
+  font-size: 1rem;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.carousel-text p::before {
+  font-size: 2.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+}
+
+.carousel-text p::after {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  color: #000;
+}

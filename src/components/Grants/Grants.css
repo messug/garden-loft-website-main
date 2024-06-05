@@ -1,0 +1,81 @@
+#rules-and-grants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as necessary */
+  padding: 10px;
+}
+.background-image {
+  width: 100%;
+  opacity: 0.4; /* Lower opacity for the background image */
+}
+
+
+
+#rules-and-grants h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+
+  
+}
+#rules-and-grants p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* Adjust text color as needed */
+  text-align: center;
+ 
+}
+
+.button-grant {
+  margin-top: 2rem; /* Adjust margin to position the button */
+  
+}
+
+.button-safety-grant{
+  background-color: rgb(199, 240, 255);
+  border: 1px;
+  width: 190px;
+  height: 130px;
+  /* padding: 20px 30px; */
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  #rules-and-grants h1 {
+    font-size: 3rem;
+  }
+
+  #rules-and-grants p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #rules-and-grants h1 {
+    font-size: 4rem;
+  }
+
+  #rules-and-grants p {
+    font-size: 1.5rem;
+  }
+}
+

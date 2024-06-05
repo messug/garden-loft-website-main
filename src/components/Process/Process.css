@@ -1,0 +1,46 @@
+/* Carousel.css */
+
+#four-step-process {
+  /* background-color: #ffbf00; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 110vw;
+}
+
+.swiper-pagination {
+  position: relative;
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background: #000 !important;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  border: 2px solid #000 !important;
+  width: 14px;
+  height: 14px;
+  opacity: 1;
+  margin: 0 4px !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  width: 60vw;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* border-radius: 10px; */
+}

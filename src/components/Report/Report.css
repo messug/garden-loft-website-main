@@ -1,0 +1,74 @@
+.report-container {
+  margin-top: 8rem;
+  text-align: center;
+  width: 100vw;
+  height: 120vh;
+}
+
+.report-title {
+  display: none;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.report-slide {
+  position: relative;
+  text-align: center;
+}
+
+.report-image {
+  width: 80vw;
+  height: 50vh;
+  object-fit: cover;
+  margin: 0 auto;
+  /* border-radius: 10px; */
+}
+
+.report-button {
+  background: none;
+  border: 1px; /* Yellow outline */
+  width: 180px;
+  height: 100px;
+  background-color: rgb(199, 240, 255);
+  padding: 20px 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #000;
+}
+
+.swiper-slide.swiper-slide-active .report-title {
+  display: block;
+}
+
+/* .report-title h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+} */
+
+.report-title p {
+  font-size: 1rem;
+  margin-top: 10px;
+  position: relative;
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+.report-title p::before {
+  font-size: 2.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000;
+}
+
+.report-title p::after {
+  font-size: 2.5rem;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  color: transparent;
+}

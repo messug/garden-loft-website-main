@@ -1,0 +1,60 @@
+#compare-costs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /* height: 100vh; */
+}
+
+.costs-content {
+  padding: 10px;
+}
+
+.costs-content h1 {
+  padding: 40px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+
+}
+.costs-img{
+  width: 100vw;
+}
+
+#compare-costs h1 {
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+
+
+
+.button-costs {
+  background-color: rgb(199, 240, 255);
+  border: 1px ;
+  width: 180px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+  #compare-costs h1 {
+    font-size: 3rem;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  #compare-costs h1 {
+    font-size: 4rem;
+  }
+
+ 
+}
+
