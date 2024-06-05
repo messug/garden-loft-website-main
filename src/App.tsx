@@ -9,6 +9,7 @@ import Village from './components/Village/Village'
 import Atrium from "./components/Atrium/Atrium";
 // import Brochure from './components/Brochure/Brochure';
 
+
 function App() {
   return (
     <>
