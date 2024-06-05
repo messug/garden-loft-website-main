@@ -13,7 +13,7 @@ import './Advantage.css'
 const Advantage: React.FC = () => {
   return (
     <section id="garden-loft-advantage" style={{  textAlign: 'center', width: "100vw" }}>
-      <h1 style={{ fontSize: "3rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Advantage</h1>
+      <h1 style={{ fontSize: "3rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Backyard Advantage</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={10}
@@ -29,8 +29,13 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'contain' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Community Connected</h3>
-            <p style={{ textAlign: 'center' }}>Garden Loft’s backyard location is close
-to family, without being intrusive. Our digital platform offers online activities and gatherings</p>
+            <p style={{ textAlign: 'center' }}>Garden Loft’s backyard
+location is close
+to family, without
+being intrusive. Our
+digital platform offers
+online activities and
+gatherings</p>
           </div>
           </div>
         </SwiperSlide>
