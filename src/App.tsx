@@ -6,6 +6,7 @@ import FAQ from "./components/FAQ/FAQ";
 import Tour from './components/Tour/Tour'
 import Village from './components/Village/Village'
 import Brochure from './components/Brochure/Brochure';
+import Atrium from "./components/Atrium/Atrium";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/tour" element={<Tour />} />
           <Route path="/village" element={<Village />} />
           <Route path="/brochure" element={<Brochure />} />
+          <Route path="/atrium" element={<Atrium /> }/>
         </Routes>
       </Router>
     </>
