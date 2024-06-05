@@ -5,7 +5,6 @@ import MainPage from "./components/MainPage/MainPage"
 import FAQ from "./components/FAQ/FAQ";
 import Tour from './components/Tour/Tour'
 import Village from './components/Village/Village'
-import Atrium from "./components/Atrium/Atrium";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/tour" element={<Tour />} />
           <Route path="/village" element={<Village />} />
-          <Route path="/atrium" element={<Atrium /> }/>
         </Routes>
       </Router>
     </>
