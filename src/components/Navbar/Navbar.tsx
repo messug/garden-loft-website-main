@@ -54,7 +54,7 @@ const Navbar: React.FC = () => {
         <Link to="/village" style={{ textDecoration: "none" }}>
           <p>Villages</p>
         </Link>
-        <Link to="/faq" style={{ textDecoration: "none" }}>
+        <Link to="/atrium" style={{ textDecoration: "none" }}>
           <p>Atrium House</p>
         </Link>
         <Link to="/faq" style={{ textDecoration: "none" }}>
