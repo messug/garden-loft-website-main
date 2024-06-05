@@ -7,6 +7,7 @@ import Tour from './components/Tour/Tour'
 import Village from './components/Village/Village'
 import Atrium from "./components/Atrium/Atrium";
 import Brochure from './components/Brochure/Brochure';
+import Atrium from "./components/Atrium/Atrium";
 
 function App() {
   return (

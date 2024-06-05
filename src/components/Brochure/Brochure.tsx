@@ -15,16 +15,16 @@ const Brochure = () => {
 
     const [message, setMessage] = useState('');
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
         setFormData({
             ...formData,
-            [e.target.name]: e.target.value
+            [name]: value
         });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        emailjs.send('--z3yrvQqS1HsMCaG', 'sTUgjbWLR338Sz-A-', formData, 'sTUgjbWLR338Sz-A-')
+    const handleSubmit = () => {
+        emailjs.send('service_9sbvjnv', 'template_fj50p8j', formData, 'sTUgjbWLR338Sz-A-')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 setMessage('Form submitted successfully!');
