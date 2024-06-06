@@ -26,7 +26,7 @@ const Advantage: React.FC = () => {
       >
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'contain' }} />
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Community Connected</h3>
             <p style={{ textAlign: 'center' }}>Garden Loft’s backyard
@@ -41,7 +41,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage1} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'contain' }} />
+            <img src={livingRoomImage1} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Non-Institutional Living</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</p>
@@ -50,7 +50,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage2} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'contain' }} />
+            <img src={livingRoomImage2} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
@@ -59,7 +59,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage3} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'contain' }} />
+            <img src={livingRoomImage3} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Low-Impact Installation</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts are delivered to the site by truck and craned into place with minimal on- site disruption. They can be resold and moved when no longer needed</p>
@@ -68,7 +68,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage4} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'contain' }} />
+            <img src={livingRoomImage4} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Research-Based Design</h3>
             <p style={{ textAlign: 'center' }}>Garden Loft's safety and support features were developed and tested at the University of Calgary in collaboration with medical researchers</p>
@@ -77,7 +77,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px' , objectFit: 'contain'}} />
+            <img src={livingRoomImage} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px' , objectFit: 'cover'}} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Technology-Enabled Support</h3>
             <p style={{ textAlign: 'center' }}>Garden Loft's built-in safety and support features enable someone with differing abilities to live with more independence</p>
