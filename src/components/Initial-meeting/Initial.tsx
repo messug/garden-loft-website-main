@@ -3,6 +3,9 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import emailjs from 'emailjs-com';
 import './Initial.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import Home from '../Home/Home';
 
 const Initial: React.FC = () => {
   const [startDate, setStartDate] = useState<Date | null>(null);
@@ -42,6 +45,9 @@ const Initial: React.FC = () => {
   };
 
   return (
+    <>
+  <Navbar/>
+  <Home/>
     <div className="initial-meeting">
       <h2>Book a Complimentary Initial Meeting</h2>
       <form onSubmit={handleSubmit}>
@@ -97,6 +103,8 @@ const Initial: React.FC = () => {
         <p><a href="/privacy-policy">Our Privacy Policy</a></p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
