@@ -8,6 +8,7 @@ import Village from './components/Village/Village'
 
 import Atrium from "./components/Atrium/Atrium";
 // import Brochure from './components/Brochure/Brochure';
+import Initial from "./components/Initial-meeting/Initial";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/village" element={<Village />} />
           {/* <Route path="/brochure" element={<Brochure />} /> */}
           <Route path="/atrium" element={<Atrium /> }/>
+          <Route path="/initial" element={< Initial/> }/>
         </Routes>
       </Router>
     </>

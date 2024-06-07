@@ -50,7 +50,7 @@ function Footer() {
             <Link to="/book-tour">Book A Tour</Link>
            </h3>
            <h3>
-            <Link to="/initial-meeting">Initial Meeting</Link>
+            <Link to="/initial">Initial Meeting</Link>
            </h3>
           </div>
         </div>
