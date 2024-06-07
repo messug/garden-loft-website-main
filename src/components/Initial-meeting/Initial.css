@@ -1,4 +1,4 @@
-.initial-meeting {
+/* .initial-meeting {
   padding: 20px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
@@ -43,4 +43,68 @@
 .contact-info span {
   display: block;
   margin: 2px 0;
+} */
+
+/* Initial.css */
+
+.initial-meeting {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.date-picker {
+  margin-bottom: 1rem;
+}
+
+.date-picker label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-info p {
+  margin: 0.5rem 0;
+}
+
+.contact-info a {
+  color: #007bff;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
