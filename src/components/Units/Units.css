@@ -9,13 +9,6 @@
   /* height: 200vh; */
 }
 
-.gl-one,
-.gl-two {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers children vertically */
-  justify-content: center; /* Centers children horizontally */
-}
 
 .gl-one,
 .gl-two {
@@ -64,13 +57,22 @@
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
-  .safety h1 {
+  #two-units h1 {
     font-size: 3rem;
   }
 
   .safety p {
     font-size: 1.25rem;
   }
+
+  .gl-one img,
+.gl-two img{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers children vertically */
+  justify-content: center; /* Centers children horizontally */
+  width: 80vw;
+}
 }
 
 @media (min-width: 1024px) {
@@ -80,5 +82,14 @@
 
   .safety p {
     font-size: 1.5rem;
+  }
+
+  .gl-one img,
+  .gl-two img{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children vertically */
+    justify-content: center; /* Centers children horizontally */
+    width: 80vw;
   }
 }
