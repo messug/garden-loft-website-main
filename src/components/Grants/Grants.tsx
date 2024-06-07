@@ -1,5 +1,5 @@
 
-import GLCost from  '../../assets/images/Calgary_Community_map.png'
+import GLCost from  '../../assets/images/backyard 35.jpg'
 import './Grants.css'
 
 function Grants() {
