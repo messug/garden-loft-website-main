@@ -11,6 +11,7 @@ import Village6 from '/images/village-6.jpg'
 import Village7 from '/images/village-7.jpg'
 
 
+
 function Village() {
   return (
     <>

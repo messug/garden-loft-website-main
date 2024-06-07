@@ -8,18 +8,19 @@
 }
 
 .safety-content {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 #support-features h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 300;
   color: black;
   margin-bottom: 1rem;
-  padding: 20px;
+  padding: 10px;
 }
 
 #support-features p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
   padding: 20px;
 }
@@ -38,13 +39,13 @@
 .button-safety {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 180px;
-  height: 100px;
+  width: 60vw;
+  height: 20vh;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding: 10px;
    /* border: 4px solid rgb(240, 212, 5); */
   /* padding: 10px 50px; /* Adjust padding to make it more oval-shaped */
