@@ -2,7 +2,7 @@
   margin-top: 1rem;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
 }
 
 .report-title {
@@ -22,9 +22,16 @@
 .report-image {
   width: 80vw;
   height: 50vh;
-  object-fit:contain;
+  object-fit:cover;
   margin: 0 auto;
   /* border-radius: 10px; */
+}
+.carousel-text {
+  display: none;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
 }
 
 .report-button {
@@ -50,7 +57,7 @@
 } */
 
 .report-title p {
-  font-size: 1rem;
+  font-size: 3rem;
   margin-top: 10px;
   position: relative;
   padding-left: 20px;
