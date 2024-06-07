@@ -16,19 +16,10 @@
   align-items: center; /* Centers children vertically */
   justify-content: center; /* Centers children horizontally */
 }
-
-.gl-one,
-.gl-two {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers children vertically */
-  justify-content: center; /* Centers children horizontally */
-}
-
 .title-gl {
   background-color: rgb(6, 6, 6);
   border: 1px solid rgb(48, 48, 47);
-  color:azure;
+  color: azure;
   font-size: 2rem;
   padding: 10px 20px;
   border-radius: 2rem;
@@ -74,11 +65,20 @@
 }
 
 @media (min-width: 1024px) {
-  .safety h1 {
+  #two-units h1 {
     font-size: 4rem;
   }
 
   .safety p {
     font-size: 1.5rem;
+  }
+
+  .gl-one img,
+  .gl-two img {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children vertically */
+    justify-content: center; /* Centers children horizontally */
+    width: 80vw;
   }
 }

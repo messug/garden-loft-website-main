@@ -59,4 +59,11 @@
   .learn-more-btn {
     font-size: 1.5rem;
   }
+
+  .award-section {
+    position: relative;
+    background: url("/images/award.jpg") no-repeat center center/cover; /* Make sure to use the correct path to your image */
+    align-content: justify;
+    text-align: right;
+  }
 }

@@ -1,17 +1,18 @@
 import React from "react";
 import "./Units.css";
-import GL380 from "../../assets/images/glmap.png";
+import GL380 from "../../assets/images/backyard 20 (edited).jpg"
+import GL480f from "../../assets/images/backyard 19.jpg";
+import GL480s from "../../assets/images/backyard 18.jpg";
 // import GL480 from "../../assets/images/gl480.png";
 const Units: React.FC = () => {
   return (
     <section id="two-units">
       <div className="unit-title">
         <h1>Our Units</h1>
-        
         {/* <p>Garden Lofts come in 2 sizes:</p> */}
       </div>
       <div className="gl-one">
-        <img src={GL380} alt="GL380" />
+        <img src={GL480f} alt="GL380" />
         <div className="title-gl">GL480-f</div>
         <p className="gl-specs">
           one bedroom with <em>front</em> wall entry <br />
@@ -24,7 +25,7 @@ const Units: React.FC = () => {
         </p>
       </div>
       <div className="gl-two">
-        <img src={GL380} alt="GL380" />
+        <img src={GL480s} alt="GL380" />
         <div className="title-gl">GL480-s</div>
         <p className="gl-specs">
           one bedroom with <em>side</em> wall entry <br /> 480 sqft | 14’-0” x 33’-6” <br />
