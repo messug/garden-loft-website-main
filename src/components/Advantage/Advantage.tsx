@@ -3,17 +3,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import livingRoomImage from '../../assets/images/alt backyard 5.jpg'; // Ensure this path is correct
+import livingRoomImage from '../../assets/images/backyard 5.jpg'; // Ensure this path is correct
 import livingRoomImage1 from '../../assets/images/backyard 2.jpg'; // Ensure this path is correct
 import livingRoomImage2 from '../../assets/images/backyard 3.jpg'; // Ensure this path is correct
 import livingRoomImage3 from '../../assets/images/backyard 4.jpg'; // Ensure this path is correct
-import livingRoomImage4 from '../../assets/images/backyard 8.jpg'; // Ensure this path is correct
+import livingRoomImage5 from '../../assets/images/backyard 1.jpg'; // Ensure this path is correct
+import livingRoomImage6 from '../../assets/images/backyard 6.jpg'; // Ensure this path is correct
 import './Advantage.css'
 
 const Advantage: React.FC = () => {
   return (
     <section id="garden-loft-advantage" style={{  textAlign: 'center', width: "100vw" }}>
-      <h1 style={{ fontSize: "3rem", marginBottom: '30px', marginTop: '40px' }}>The Garden Loft Backyard Advantage</h1>
+      <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px', fontWeight: '500' }}>The Garden Loft <br/> Backyard Advantage</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={10}
@@ -26,7 +27,7 @@ const Advantage: React.FC = () => {
       >
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
+            <img src={livingRoomImage5} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Community Connected</h3>
             <p style={{ textAlign: 'center' }}>Garden Loft’s backyard
@@ -41,7 +42,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage1} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
+            <img src={livingRoomImage6} alt="Living Room" style={{ width: '90vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Non-Institutional Living</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</p>
@@ -50,7 +51,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage2} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
+            <img src={livingRoomImage1} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Prefabrication Efficiency</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
@@ -59,7 +60,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage3} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
+            <img src={livingRoomImage2} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px', objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Low-Impact Installation</h3>
             <p style={{ textAlign: 'center' }}>Garden Lofts are delivered to the site by truck and craned into place with minimal on- site disruption. They can be resold and moved when no longer needed</p>
@@ -68,7 +69,7 @@ gatherings</p>
         </SwiperSlide>
         <SwiperSlide>
           <div style={{ textAlign: 'center' }}>
-            <img src={livingRoomImage4} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
+            <img src={livingRoomImage3} alt="Living Room" style={{ width: '100vw', height: "50vh", margin: '0 auto', borderRadius: '1px',objectFit: 'cover' }} />
             <div className="carousel-text">
             <h3 style={{ textAlign: 'center' }}>Research-Based Design</h3>
             <p style={{ textAlign: 'center' }}>Garden Loft's safety and support features were developed and tested at the University of Calgary in collaboration with medical researchers</p>

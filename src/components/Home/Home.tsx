@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <div className="home-content">
         <video className="video" src={GLHero} autoPlay loop muted/>
         <div className="content">
-        <h1>Garden Loft <br />Backyard Suites</h1>
+        <h1>Garden Loft Backyard Suites</h1>
         <p>family focused <br />supportive living</p></div>
       </div>
     </section>

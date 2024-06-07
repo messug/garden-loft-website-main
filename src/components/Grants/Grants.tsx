@@ -14,7 +14,7 @@ for the $10,000  <br />secondary suite grant</h1>
 </div>
   </div>
      <div  className='button-grant'>
-      <button className='button-safety-grant'>Learn about <br />the new rules and  <br />grants</button>
+      <button className='button-safety-grant'>Learn about <br />the new rules +  <br />grants</button>
       </div>
  
   </section>

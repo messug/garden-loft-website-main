@@ -5,6 +5,7 @@
   flex-direction: column;
   text-align: center;
   margin-bottom: 10rem;
+  font-weight: 700;
 }
 .image-container {
   position: relative;
@@ -14,14 +15,14 @@
 }
 .background-image {
   width: 90%;
-  opacity: 0.3; /* Lower opacity for the background image */
+  opacity: 0.7; /* Lower opacity for the background image */
   
 }
 
 
 
 #rules-and-grants h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   font-weight: lighter;
  
@@ -58,7 +59,7 @@
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 
 /* Media Queries for Larger Screens */
