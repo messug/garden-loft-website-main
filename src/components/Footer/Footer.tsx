@@ -32,8 +32,12 @@ function Footer() {
           <h3>
             <a href="/faq">FAQ</a>
           </h3>
-          <h1><a href="/village">Garden Loft Villages</a></h1>
-          <h1>Atrium House by Garden Loft</h1>
+          <h1><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          Villages
+        </Link></h1>
+          <h1> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          Atrium House
+        </Link></h1>
           <div>
             <h1>Request a :</h1>
             <div className="call-feat">
