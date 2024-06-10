@@ -7,7 +7,9 @@ function Footer() {
     <>
       <div className="footer">
         <div className="footer-content">
-            <h3>Garden Loft Backyard Suites</h3>
+          <h3>
+            <a href="#support-features">Garden Loft Backyard Suites</a>
+            </h3>
           <h3>
             <a href="#support-features">Our Support Features</a>
           </h3>
@@ -38,25 +40,35 @@ function Footer() {
           <h3> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Atrium House
         </Link></h3>
-          <div>
-            <h1>Request a :</h1>
+        <div className="request-section">
+            <h1>Request a:</h1>
             <div className="call-feat">
-            <h3>
-            <Link to="/phone-call">Phone Call</Link>
-            </h3>
-            <h3>
-            <Link to="/brochure">Brochure</Link>
-            </h3>
-             <h3>
-            <Link to="/feasibility-report">Feasibility Report</Link>
-            </h3>
-           <h3>
-            <Link to="/book-tour">Book A Tour</Link>
-           </h3>
-           <h3>
-            <Link to="/initial">Initial Meeting</Link>
-           </h3>
-          </div>
+              <h3>
+                <Link to="/phone-call">Phone Call</Link>
+              </h3>
+              <ul>
+                <li>
+                  <h3>
+                    <Link to="/brochure">Brochure</Link>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <Link to="/feasibility-report">Feasibility Report</Link>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <Link to="/book-tour">Book A Tour</Link>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <Link to="/initial">Initial Meeting</Link>
+                  </h3>
+                </li>
+              </ul>
+            </div>
         </div>
         </div>
       </div>
