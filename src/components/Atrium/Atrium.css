@@ -1,53 +1,58 @@
-/* Atrium.css */
-
 #atrium {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
+  align-content: center;
   flex-direction: column;
   text-align: center;
   margin-bottom: 3rem;
   width: 100vw;
 }
 
+.hero-atrium-img {
+  height: auto;
+  object-fit: cover;
+  /* width: 100vw; */
+  padding-bottom: 0.4rem;
+}
 .atrium-content {
   margin-top: 3rem;
 }
 
 .atrium-content h3 {
-  margin-top: 3rem;
-  padding: 1.2rem;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  line-height: 1.1;
+  font-weight: 500;
 }
 
 .atrium-content h1 {
-  margin: 1.5rem;
-  padding: 1.2rem;
+  font-size: 2.2rem;
+  font-weight: 400;
+
+  padding: 1.5rem;
 }
 
 #atrium img {
-  /* width: 100%; */
-  /* max-width: 800px; */
   height: auto;
-  object-fit: contain;
-  padding-bottom: 2rem;
+  object-fit: cover;
+  width: 100vw;
+  padding-bottom: 0.4rem;
 }
+
 .logoDiv {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding: 20px;
 }
 
-.logoDiv img {
+#atrium .logoDiv img {
   object-fit: contain;
   width: 40vw;
 }
 
 .hero-atrium {
-  display: flex;
   justify-content: center;
   align-items: center;
-  align-items: flex-end;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -56,14 +61,8 @@
   width: 100vw;
   overflow-x: hidden;
 }
-.hero-content {
-  text-align: center;
-  width: 100vw;
-  height: 100vh;
-  padding: 10px;
-}
 
-.content {
+.hero-atrium-content {
   color: white;
   position: absolute;
   top: 0;
@@ -76,17 +75,17 @@
   align-items: flex-end;
 }
 
-.hero-video {
+.hero-atrium-img {
   width: 110vw;
   height: 105vh;
   object-fit: cover;
 }
 
 .hero-atrium h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
-  text-align: left;
-  line-height: 3rem;
+  text-align: right;
+  line-height: 2rem;
 }
 
 .hero-atrium p {
@@ -100,7 +99,7 @@
   background-color: rgb(199, 240, 255);
   border: 1px;
   width: 180px;
-  height: 100px;
+  height: 120px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
@@ -110,7 +109,6 @@
 }
 
 .foundation-section {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   margin: 2rem;
@@ -119,24 +117,29 @@
 #plusDiv {
   display: flex;
   flex-direction: row;
-  -ms-flex-direction: row;
+  justify-content: center;
+  margin: 1rem 0;
 }
+
 .foundation-box {
-  border: 1px solid #ccc;
+  border: 1px solid #070707;
   padding: 1rem;
   margin: 1rem;
   width: 300px;
-  background-color: #f9f9f9;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  text-align: left;
 }
 
 .foundation-box h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .foundation-box ul {
-  /* list-style: bullet; */
-  padding: 1 rem;
+  padding: 1rem;
 }
 
 .foundation-box ul li {
@@ -163,6 +166,12 @@
   .atrium-content p {
     font-size: 1.2rem;
   }
+  .foundation-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -176,5 +185,11 @@
 
   .foundation-box {
     width: 400px;
+  }
+  .foundation-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
   }
 }
