@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
   font-weight: 700;
 }
 .image-container {
@@ -22,7 +22,9 @@
 
 
 #rules-and-grants h1 {
-  font-size: 2.5rem;
+
+  font-size: 3.5rem;
+
   margin-bottom: 2rem;
   font-weight: lighter;
  
@@ -40,7 +42,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: black; /* Adjust text color as needed */
-  text-align: center;
+
+ 
  
 }
 
@@ -59,7 +62,17 @@
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.7rem;
+
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.grant-h2{
+  font-size: 2rem;
+  font-weight: lighter;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Media Queries for Larger Screens */

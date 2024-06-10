@@ -5,14 +5,16 @@ import GLCost from '../../assets/images/gl-cost.png'
 const Costs: React.FC = () => {
   return (
     <section id="compare-costs">
-      <div className='costs-img'>
-        <img className='costs-img' src={GLCost} alt="GL" />
+    <div className="costs-container">
+      <img className="costs-img" src={GLCost} alt="GL" />
+      <div className="costs-text">
+        <h2>Garden Lofts  can be more <br />affordable than living in care  <br />facility</h2>
       </div>
-      <div className="costs-content">
-        <h1>Garden Lofts can be more affordable than <br />living in care facility</h1>
-        <button className='button-costs'>Compare <br /> our costs</button>
     </div>
-    </section>
+    <div className="costs-content">
+      <button className="button-costs">Compare <br /> our costs</button>
+    </div>
+  </section>
   );
 };
 
