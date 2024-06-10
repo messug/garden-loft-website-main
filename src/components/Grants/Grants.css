@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
   font-weight: 700;
 }
 .image-container {
@@ -15,24 +15,20 @@
 }
 .background-image {
   width: 90%;
-  opacity: 0.7; /* Lower opacity for the background image */
+  opacity: 0.6; /* Lower opacity for the background image */
   
 }
 
 
 
 #rules-and-grants h1 {
-
-  font-size: 3.5rem;
-
+  font-size: 9vw;
   margin-bottom: 2rem;
   font-weight: lighter;
- 
-
-  
 }
+
 #rules-and-grants p {
-  font-size: 1rem;
+  font-size: 1.5vw; 
   margin-bottom: 0.5rem;
 }
 
@@ -63,12 +59,12 @@
   text-align: center;
   margin-top: 10px;
 
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .grant-h2{
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   align-items: center;
   text-align: center;
@@ -82,7 +78,7 @@
   }
 
   #rules-and-grants p {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 

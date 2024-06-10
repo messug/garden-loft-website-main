@@ -10,7 +10,7 @@
 
 
 .costs-content h1 {
-  padding: 40px;
+  padding: 2rem;
   padding-bottom: 10px;
   font-size: 2rem;
 
@@ -27,9 +27,10 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   text-align: right;
+  width: 70%;
 }
 
 /* #compare-costs h1 {
@@ -56,18 +57,25 @@
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
-  #compare-costs h1 {
+  .costs-content h1 {
     font-size: 3rem;
   }
 
-
+  .costs-text {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  #compare-costs h1 {
+  .costs-content h1 {
     font-size: 4rem;
   }
 
- 
+  .costs-text {
+    font-size: 1.8rem;
+  }
 }
+
+ 
+
 
