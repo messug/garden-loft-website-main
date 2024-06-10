@@ -1,3 +1,4 @@
+/* Report.css */
 .report-container {
   margin-top: 1rem;
   text-align: center;
@@ -6,10 +7,9 @@
 }
 
 .report-title {
-  display: none;
   font-size: 1.5rem;
   margin-bottom: 30px;
-  margin-top: -70px;
+  margin-top: 10px;
   text-align: center;
   font-weight: bold;
 }
@@ -21,16 +21,15 @@
 
 .report-image {
   width: 80vw;
-  height: 50vh;
-  object-fit:contain;
+
+  object-fit: contain;
   margin: 0 auto;
-  /* border-radius: 10px; */
 }
+
 .carousel-text {
-  display: none;
   text-align: left;
-  margin-top: 20px;
-  margin-bottom: 1.5rem;
+  margin-top: 10px;
+  /* margin-bottom: 1.5rem; */
   font-size: 3rem;
 }
 
@@ -47,35 +46,36 @@
   color: #000;
 }
 
-.swiper-slide.swiper-slide-active .report-title {
-  display: block;
+@media (min-width: 768px) {
+  .report-title {
+    font-size: 2rem;
+  }
+
+  .carousel-text {
+    font-size: 1.5rem;
+  }
+
+  .report-button {
+    width: 200px;
+    height: 60px;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+  }
 }
 
-/* .report-title h3 {
-  font-size: 1.5rem;
-  margin-top: 20px;
-} */
+@media (min-width: 1024px) {
+  .report-title {
+    font-size: 2.5rem;
+  }
 
-.report-title p {
-  font-size: 3rem;
-  margin-top: 10px;
-  position: relative;
-  padding-left: 20px;
-  font-size: 1.5rem;
-}
+  .carousel-text {
+    font-size: 1.8rem;
+  }
 
-.report-title p::before {
-  font-size: 2.5rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #000;
-}
-
-.report-title p::after {
-  font-size: 2.5rem;
-  position: absolute;
-  right: 0;
-  bottom: -10px;
-  color: transparent;
+  .report-button {
+    width: 220px;
+    height: 70px;
+    font-size: 1.4rem;
+    padding: 20px 30px;
+  }
 }
