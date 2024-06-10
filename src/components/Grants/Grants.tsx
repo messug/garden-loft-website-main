@@ -8,17 +8,22 @@ function Grants() {
       <div className="image-container">
     <img src={GLCost} alt="GL-Cost Image" className="background-image" />
     <div className="overlay-text">
-      <h1>Garden Lofts
-<br />are now permitted  <br />in all Calgary <br /> neighborhoods <br />and qualify <br />
-for the $10,000  <br />secondary suite grant</h1>
+      <h1>Garden Lofts <br />
+are now permitted in all Calgary <br /> neighborhoods <br />and qualify <br />
+for the $10,000 secondary suite grant</h1>
 </div>
   </div>
+ 
      <div  className='button-grant'>
       <button className='button-safety-grant'>Learn about <br />the new rules and  <br />grants</button>
+      </div>
+
+      <div className='grant -h2'>
+        <h2> <em>Garden Lofts are now permitted <br />in most cities and towns across Canada</em></h2>
       </div>
  
   </section>
   )
 }
 
-export default Grants
+export default Grants;

@@ -7,9 +7,7 @@
   /* height: 100vh; */
 }
 
-.costs-content {
-  padding: 10px;
-}
+
 
 .costs-content h1 {
   padding: 40px;
@@ -17,16 +15,31 @@
   font-size: 2rem;
 
 }
+.costs-container {
+  position: relative;
+  width: 100%;
+}
 .costs-img{
   width: 100vw;
 }
 
-#compare-costs h1 {
-  margin-bottom: 1rem;
-  color: #000;
+.costs-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: white;
+  text-align: right;
 }
 
+/* #compare-costs h1 {
+  margin-bottom: 1rem;
+  color: #000;
+} */
 
+.costs-content {
+  padding: 30px;
+}
 
 
 .button-costs {
