@@ -12,18 +12,23 @@
 }
 .footer-content {
   /* background-color: #f8ab07d6;  */
+  
   padding: 1rem; 
+  text-align: left;
+  width: 70%; /* Adjust this width to control how much you want to shift the text to the left */
+  margin-left: 1%; /* Center the content within the footer */
 }
 
 
 .footer h1 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
 }
 
 .footer h3 {
-  font-size: 1.2rem;
-  margin: 1rem 2rem;
+  font-size: 1.5rem;
+
+  margin: 1rem 1.7rem; 
 }
 
 .footer h3 a {
@@ -36,6 +41,40 @@
 .footer h3 a:hover {
   text-decoration: underline;
 }
+
+.request-section {
+  display: flex;
+ 
+  margin-left: 1.7rem;
+}
+
+.request-section h1 {
+  margin-right: 15px; /* Adjust spacing as needed */
+  padding-top: 5px;
+  
+}
+
+.call-feat {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-feat h3 {
+  margin: 2px 0;
+}
+
+.call-feat ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.call-feat li {
+  margin: 5px 0;
+}
+
+
+
 .logos-section {
   padding: 2rem;
 }
@@ -61,14 +100,14 @@
 }
 
 .logos h1 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin: 0;
 }
 
 .logos p {
   margin: 0;
   margin-top: -20px;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-align: center;
   padding-bottom: 4rem;
   color: rgb(10, 10, 10);
