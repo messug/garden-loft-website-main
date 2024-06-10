@@ -7,7 +7,7 @@ function Footer() {
     <>
       <div className="footer">
         <div className="footer-content">
-          <h1>Garden Loft Backyard Suites</h1>
+            <h3>Garden Loft Backyard Suites</h3>
           <h3>
             <a href="#support-features">Our Support Features</a>
           </h3>
@@ -32,12 +32,12 @@ function Footer() {
           <h3>
             <a href="/faq">FAQ</a>
           </h3>
-          <h1><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          <h3><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Villages
-        </Link></h1>
-          <h1> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+        </Link></h3>
+          <h3> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Atrium House
-        </Link></h1>
+        </Link></h3>
           <div>
             <h1>Request a :</h1>
             <div className="call-feat">
