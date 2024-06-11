@@ -31,10 +31,9 @@
 }
 
 .advantage-image {
-  max-width: 100%;
-  width: 100vw;
+  /* max-width: 100%; */
+  width: 80vw;
   object-fit: contain;
-  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -42,14 +41,6 @@
 .advantage-slide {
   position: relative;
   text-align: center;
-}
-
-.advantage-image {
-  width: 100vw;
-  height: 50vh;
-  margin: 0 auto;
-  border-radius: 1px;
-  object-fit: cover;
 }
 
 .advantage-title {
@@ -98,8 +89,8 @@
   }
 
   .advantage-image {
-    width: 50vw;
-    height: 50vh;
+    /* width: 50vw;
+    height: 50vh; */
   }
 
   .advantage-title {
@@ -117,8 +108,8 @@
   }
 
   .advantage-image {
-    width: 33vw;
-    height: 50vh;
+    /* width: 33vw;
+    height: 50vh; */
   }
 
   .advantage-title {
