@@ -40,14 +40,14 @@ video {
 }
 
 .home h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   /* margin-bottom: 1rem; */
-  text-align: left;
+  text-align: right;
   line-height: 3rem;
 }
 
 .home p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: right;
   margin-bottom: 2.5rem;
   line-height: 1.9rem;
