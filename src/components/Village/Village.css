@@ -5,7 +5,7 @@
   flex-direction: column;
   text-align: center;
   margin-bottom: 3rem;
-  margin-top: -50px;
+  /* margin-top: -50px; */
   color: black;
 }
 
@@ -98,7 +98,7 @@
   position: absolute;
   top: 0;
   width: 90%;
-  height: 83%;
+  height: 100%;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
