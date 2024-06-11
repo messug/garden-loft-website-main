@@ -1,9 +1,8 @@
 import "./Village.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import GLHero from "/images/hero-village.mp4";
-// import Village1 from '/images/Village-1.jpg'
-import Village2 from "/images/Village-2.jpg";
+import Village1 from '/images/Village-1.jpg'
+import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
 import Village5 from "/images/village-5.jpg";
@@ -16,8 +15,9 @@ function Village() {
       <Navbar />
       <section className="hero-village">
         <div className="hero-content">
-          <video className="hero-video" src={GLHero} autoPlay loop muted />
-          <div className="content">
+          <div className="sky-background"></div>
+          <img className="hero-video" src={Village1} alt="Village1" />
+          <div className="content-village">
             <h1>Garden Loft Villages</h1>
             <p>
               community embedded <br />
@@ -110,8 +110,8 @@ function Village() {
           <img src={Village5} alt="GL-Cost Image" />
           <h3>
             <em>
-              Garden Loft villages are particularly well suited in rural
-              communities with small-scale demand for supportive housing
+              Garden Loft villages are <br/> particularly well suited in rural<br/>
+              communities with small-scale <br/> demand for supportive housing
             </em>
           </h3>
           <button className="button-village-cost call-us">Call us</button>
@@ -121,14 +121,14 @@ function Village() {
           </h1>
           <h3>
             <em>
-              We are currently working on village projects in Calgary, southern
+              We are currently working on <br/> village projects in Calgary, <br/> southern
               Alberta, and <br /> central British Columbia
             </em>
           </h3>
           <img src={Village6} alt="GL-Cost Image" />
           <p ><em>Small Town Rental Village</em></p>
           <h3>
-            <em>10 Garden Loft units located in <br/> a park-like setting to augment and
+            <em>10 Garden Loft units located in <br/> a park-like setting to augment <br/> and
             adjacent care facility with independent living units <br/> of an adjacent
             care facility</em>
           </h3>

@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  /* height: 100vh; */
+
 }
 
 
@@ -23,14 +23,16 @@
   width: 100vw;
 }
 
-.costs-text {
+.costs-text h2{
   position: absolute;
-  top: 10px;
+  top: 8px;
   right: 10px;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: white;
   text-align: right;
-  width: 70%;
+  width: 90%;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 /* #compare-costs h1 {
@@ -46,13 +48,13 @@
 .button-costs {
   background-color: rgb(199, 240, 255);
   border: 1px ;
-  width: 180px;
-  height: 100px;
+  width: 280px;
+  height: 130px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.3rem;
+  font-size: 2.2rem;
 }
 
 /* Media Queries for Larger Screens */

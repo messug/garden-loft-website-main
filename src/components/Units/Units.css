@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 100vw;
   /* height: 200vh; */
 }
 
@@ -43,6 +42,8 @@
 .unit-title h1 {
   font-size: 2.5rem;
   margin-top: 2rem;
+  font-weight: 400;
+  color: black;
 }
 .unit-title p {
   font-size: 1.3rem;
@@ -50,14 +51,16 @@
 .unit-title {
   padding: 10px;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .gl-specs {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin-bottom: 3rem;
   text-align: center;
-  line-height: 3rem;
+  line-height: 2.5rem;
+  color: black;
+  font-weight: 500;
 }
 
 /* Media Queries for Larger Screens */

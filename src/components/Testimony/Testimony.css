@@ -2,50 +2,47 @@
 .testimony-section {
   text-align: center;
   width: 100vw;
-  /* padding: 20px; */
 }
 
 .testimony-title {
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .testimony-content {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 1.5rem;
-  padding: 0 10%;
 }
 
 .testimony-image {
-  width: 80vw;
-  /* max-width: 400px; */
+  width: 100vw;
   height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-  margin: 0 auto;
+  object-fit: contain;
+
 }
 
 .testimony-description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 10px;
   margin-bottom: 20px;
   color: #333;
-  font-weight: 600;
+  font-weight: 500;
+  line-height: 32px;
 }
 
 .testimony-button {
   border: none;
-  width: 200px;
-  height: 100px;
+  width: 270px;
+  height: 120px;
   background-color: rgb(199, 240, 255);
   padding: 20px 30px;
   border-radius: 50%; /* Adjusted to create an elliptical shape */
   cursor: pointer;
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 /* Media Queries */

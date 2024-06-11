@@ -5,6 +5,13 @@
   flex-direction: column;
   text-align: center;
   margin-bottom: 3rem;
+  margin-top: -50px;
+  color: black;
+}
+
+.sky-background {
+  height: 20vh;
+  background-color: rgb(225, 235, 235);
 }
 
 .workers-list h3 {
@@ -28,26 +35,25 @@
   font-weight: 500;
 }
 
-.village-content {
-  margin-top: 3rem;
-}
 .village-content h3 {
   padding: 0 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .village-content h1 {
  font-weight: 400;
   padding: 0 2rem;
   margin-top: 1rem;
+  line-height: 40px;
+  color: black;
 }
 
 #village h1 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+
   padding: 0 2rem;
 }
 
@@ -58,9 +64,9 @@
 
 
 #village img {
-  /* width: 100vw;
-  height: 70vh; */
-  object-fit: contain;
+  width: 100vw;
+  /* height: 70vh; */
+  object-fit:contain;
   /* padding-bottom: 2rem; */
   padding-top: 2rem;;
 }
@@ -87,8 +93,8 @@
   padding: 10px;
 }
 
-.content {
-  color: white;
+.content-village {
+  color: rgb(0, 0, 0);
   position: absolute;
   top: 0;
   width: 90%;
@@ -101,25 +107,24 @@
 }
 
 .hero-video {
-  width:110vw;
-  height: 105vh;
-  /* position: relative;
-  top: 90px; */
-  object-fit: cover;
+  width: 100vw;
+  /* height: 70vh; */
+  object-fit:contain;
 }
 
 .hero-village h1 {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 2rem;
+  /* margin-bottom: 9rem; */
   text-align: left;
   line-height: 3rem;
   
 }
 
 .hero-village p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
   text-align: right;
-  margin-bottom: 2.5rem;
+  margin-bottom: -1rem;
   line-height: 1.5rem;
 
 }

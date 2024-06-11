@@ -9,7 +9,7 @@ function Grants() {
     <img src={GLCost} alt="GL-Cost Image" className="background-image" />
     <div className="overlay-text">
       <h1>Garden Lofts <br />
-are now permitted in all Calgary <br /> neighborhoods <br />and qualify <br />
+are now permitted <br /> in all Calgary neighborhoods <br />and qualify <br />
 for the $10,000 secondary suite grant</h1>
 </div>
   </div>
@@ -18,8 +18,8 @@ for the $10,000 secondary suite grant</h1>
       <button className='button-safety-grant'>Learn about <br />the new rules +  <br />grants</button>
       </div>
 
-      <div className='grant -h2'>
-        <h2> <em>Garden Lofts are now permitted <br />in most cities and towns across Canada</em></h2>
+      <div className='grant-h2'>
+        <h2> <em>Garden Lofts are also now<br/> permitted in most cities and <br/> towns across Canada</em></h2>
       </div>
  
   </section>
