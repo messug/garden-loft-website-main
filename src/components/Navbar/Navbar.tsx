@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
         </div>
       </Link>
       <div className={`menu-web ${isMenuOpen ? "open" : ""}`} id="menu-web">
-        <Link to="/faq" style={{ textDecoration: "none" }}>
+        <Link to="/about" style={{ textDecoration: "none" }}>
           <p>About</p>
         </Link>
         <Link to="/" style={{ textDecoration: "none" }}>
