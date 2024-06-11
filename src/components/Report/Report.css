@@ -3,16 +3,15 @@
   margin-top: 1rem;
   text-align: center;
   width: 100vw;
-
 }
 
 .report-title {
-  font-size: 2rem;
+  font-size: 22px;
   margin-bottom: 30px;
   margin-top: 10px;
   text-align: center;
   font-weight: 500;
-  line-height: 40px;
+  /* line-height: 40px; */
 }
 
 .report-slide {
@@ -22,9 +21,9 @@
 
 .report-image {
   width: 100vw;
-  object-fit:contain;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .vertical {
@@ -37,7 +36,7 @@
   text-align: left;
   margin-top: 10px;
   /* margin-bottom: 1.5rem; */
-  font-size: 3rem;
+  font-size: 22px;
 }
 
 .report-button {
@@ -49,7 +48,7 @@
   padding: 20px 30px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 22px;
   color: #000;
   margin-bottom: 3rem;
 }

@@ -15,10 +15,7 @@
 .background-image {
   width: 90%;
   opacity: 0.6; /* Lower opacity for the background image */
-  
 }
-
-
 
 #rules-and-grants h1 {
   font-size: 9vw;
@@ -27,7 +24,7 @@
 }
 
 #rules-and-grants p {
-  font-size: 1.5vw; 
+  font-size: 22px;
   margin-bottom: 0.5rem;
 }
 
@@ -38,17 +35,14 @@
   transform: translate(-50%, -50%);
   color: black; /* Adjust text color as needed */
   width: 80vw;
-
- 
- 
 }
 
 .button-grant {
   margin-top: 2rem; /* Adjust margin to position the button */
-  
+  font-size: 22px;
 }
 
-.button-safety-grant{
+.button-safety-grant {
   background-color: rgb(199, 240, 255);
   border: 1px;
   width: 260px;
@@ -58,19 +52,18 @@
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 2rem;
+  font-size: 22px;
   margin-bottom: 2rem;
   font-weight: 500;
 }
 
-.grant-h2 h2{
-  font-size: 1.8rem;
+.grant-h2 h2 {
+  font-size: 22px;
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 35px;
-
 }
 
 /* Media Queries for Larger Screens */
@@ -93,4 +86,3 @@
     font-size: 1.5rem;
   }
 }
-

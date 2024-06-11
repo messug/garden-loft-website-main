@@ -28,22 +28,29 @@ const Atrium = () => {
       </section>
       <section id="atrium">
         <div className="atrium-content">
-          <h1>Combining advanced <br/>age-in-place architecture with person-led care and living support</h1>
-          <h3><em>Atrium House features Garden Loft units clustered around a central interior light-filled community atrium</em></h3>
+          <h2>Combining advanced <br/>age-in-place architecture <br/>with person-led care and <br/>living support</h2>
+          <h3><em>Atrium House features <br/>Garden Loft units clustered<br/> around a central interior<br/> light-filled community atrium</em></h3>
           <img src={AtriumImage2} alt="Atrium House Image 2" />
-          <h1>Atrium House is a small care home providing high levels of nursing care and support for up to 14 residents</h1>
+          <h2>Atrium House is a small <br/>care home providing <br/>high levels of nursing<br/> care and support for up<br/> to 14 residents</h2>
           <img src={AtriumImage3} alt="Atrium House Image 3" />
-          <h3><em>The familiar domestic <br/>environment combines the <br/>privacy and independence of living in a Garden Loft with <br/>the social connectiveness <br/>and sense of belonging that comes from being part of a<br/> small village-style community</em></h3>
+          <h3><em>The familiar domestic<br/>
+environment combines the<br/>
+privacy and independence of<br/>
+living in a Garden Loft with<br/>
+the social connectiveness<br/>
+and sense of belonging that<br/>
+comes from being part of a<br/>
+small village-style community.</em></h3>
           <button className='button-atrium'>Learn more about Garden Loft units</button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
-          <h3><em>The prefabricated Garden Loft units can be configured in any number of ways and combined with other uses to meet the site and programmatic needs of a particular project</em></h3>
+          <h3><em>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</em></h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
           <button className='button-atrium custom'>We custom <br/> design and <br/>build Atrium<br/>Houses across<br/> Alberta</button>
           <div className="logoDiv">
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
             <img src={GLLogo} alt="Garden Loft Logo" />
           </div>
-          <h1>Atrium House is a <br/>collaboration with <br/>the Brenda Strafford<br/> Foundation</h1>
+          <h2>Atrium House is a <br/>collaboration with <br/>the Brenda Strafford<br/> Foundation</h2>
           <div id='plusDiv'>
             <h3>advanced<br/> age-in-place <br/>architecture</h3>
             <div className="plus-sign">+</div>
@@ -69,26 +76,26 @@ const Atrium = () => {
           </div>
           <button className='button-atrium'>Call us</button>
           <img src={AtriumImage6} alt="Atrium House Image 6" />
-          <h1>Atrium House is<br/> particularly well suited<br/> for rural and remote<br/> communities</h1>
-          <h3><em>Atrium House’s prefabricated
-modular construction system
-can be deployed in areas with
-limited access to construction
+          <h2>Atrium House is<br/> particularly well suited<br/> for rural and remote<br/> communities</h2>
+          <h3><em>Atrium House’s prefabricated<br/>
+modular construction system<br/>
+can be deployed in areas with<br/>
+limited access to construction<br/>
 materials and trades</em></h3>
-<h3><em>The Atrium Way commissioning
-playbook can be customized and
-implemented to meet
-the capacity and capabilities of the
-service provider.</em></h3>
-<h3><em>The result is a one-stop-shop for
-designing, fabricating, and
-launching high-quality care
+<h3><em>The Atrium Way commissioning<br/>
+playbook can be customized and<br/>
+implemented to meet<br/>
+the capacity and capabilities of the<br/>
+service provider</em></h3>
+<h3><em>The result is a one-stop-shop for<br/>
+designing, fabricating, and<br/>
+launching high-quality care<br/>
 enhanced housing solutions</em></h3>
           <button className='button-atrium'>Book a preliminary consult</button>
           
-          <h1>Atrium House can also <br/>be combined with a <br/>Garden Loft Village</h1>
+          <h2>Atrium House can also <br/>be combined with a <br/>Garden Loft Village</h2>
           <img src={AtriumImage7} alt="Atrium House Image 7" />
-          <h3><em>A common entry courtyard deck enhances community by connecting the private outdoor spaces for the independent living Garden Loft units with the communal outdoor space for Atrium residents</em></h3>
+          <h3><em>A common entry courtyard deck<br/> enhances community by <br/>connecting the private outdoor <br/>spaces for the independent living <br/>Garden Loft units with the communal outdoor space for <br/>Atrium residents</em></h3>
           <img src={AtriumImage8} alt="Atrium House Image 8" />
           <button className='button-atrium'>Visit our showsuite and sales center</button>
         </div>
