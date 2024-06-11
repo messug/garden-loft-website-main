@@ -1,9 +1,9 @@
 .navbar {
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 3rem;
+  padding: 0.7rem;
   width: 100vw;
   gap: 5rem;
   position: fixed;
@@ -40,7 +40,7 @@
 
 .logo img {
   transform: scale(2);
-  width: 80px;
+  width: 60px;
   margin-right: 2rem;
   margin-top: 2rem;
 }
