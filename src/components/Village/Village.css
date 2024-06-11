@@ -1,34 +1,59 @@
 #village {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.workers-list h3 {
+  text-align: left;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.village-list {
+  text-align: left;
+  padding-left: 2rem;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+
+.village-list h4 {
+  font-weight: 500;
 }
 
 .village-content {
   margin-top: 3rem;
 }
 .village-content h3 {
-  margin-top: 3rem;
   padding: 0 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+.village-content h1 {
+ font-weight: 400;
+  padding: 0 2rem;
+  margin-top: 1rem;
 }
 
 #village h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  padding: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  padding: 0 2rem;
 }
 
 #village p {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.village-list, .work {
-  text-align: left;
-  padding-left: 3rem;
+  font-size: 1.5rem;
+ font-weight: 800;
 }
 
 
@@ -36,7 +61,7 @@
   /* width: 100vw;
   height: 70vh; */
   object-fit: contain;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
   padding-top: 2rem;;
 }
 
@@ -103,14 +128,23 @@
 .button-village-cost {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 180px;
-  height: 100px;
+  width: 250px;
+  height: 150px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
-  font-size: 1.3rem;
+  font-size: 2rem;
   padding: 10px;
+  font-weight: 500;
+}
+
+.call-us {
+  height: 100px;
+}
+
+.village-content .caption p{
+  font-size: 5rem;
 }
 
 /* Media Queries for Larger Screens */
@@ -130,6 +164,6 @@
   }
 
   #village p {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 }
