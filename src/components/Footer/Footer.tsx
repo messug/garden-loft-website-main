@@ -17,7 +17,13 @@ function Footer() {
             <a href="#garden-loft-advantage">The Garden Loft Advantage</a>
           </h3>
           <h3>
-            <a href="#two-units">Our Two Units</a>
+            <a href="#award">Pur 2024 Award</a>
+          </h3>
+          <h3>
+            <a href="#two-units">Our Units</a>
+          </h3>
+          <h3>
+            <a href="#projects">Our Projects</a>
           </h3>
           <h3>
             <a href="#compare-costs">Compare Our Costs</a>
@@ -35,10 +41,10 @@ function Footer() {
             <a href="/faq">FAQ</a>
           </h3>
           <h3><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
-          Villages
+          Garden Loft Villages
         </Link></h3>
           <h3> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
-          Atrium House
+          Atrium House by Garden Loft
         </Link></h3>
         <div className="request-section">
             <h1>Request a:</h1>
@@ -80,7 +86,7 @@ function Footer() {
           </div>
           <div className="address">
           <p>
-            838 11 Ave SW {"("}by appointment{")"} <br /> (403) 229-4330 <br />
+            838 11 Ave SW {"("}by appt only{")"} <br /> (403) 229-4330 <br />
             info@gardenloft.ca
           </p>
           </div>

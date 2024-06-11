@@ -15,8 +15,8 @@
   
   padding: 1rem; 
   text-align: left;
-  width: 70%; /* Adjust this width to control how much you want to shift the text to the left */
-  margin-left: 1%; /* Center the content within the footer */
+  /* width: 70%; Adjust this width to control how much you want to shift the text to the left */
+  margin-left: -7%; /* Center the content within the footer */
 }
 
 
@@ -44,13 +44,15 @@
 
 .request-section {
   display: flex;
- 
-  margin-left: 1.7rem;
+  margin-left: 1.5rem;
+  width: 90vw;
 }
 
 .request-section h1 {
-  margin-right: 15px; /* Adjust spacing as needed */
+  margin-right: 25px; /* Adjust spacing as needed */
   padding-top: 5px;
+  font-weight: 400;
+  font-size: 1.6rem;
   
 }
 
@@ -112,5 +114,6 @@
   padding-bottom: 4rem;
   color: rgb(10, 10, 10);
   letter-spacing: 2px;
+  margin-bottom: 3rem;
 }
 

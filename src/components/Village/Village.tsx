@@ -1,7 +1,6 @@
 import "./Village.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import GLHero from "/images/hero-village.mp4";
 import Village1 from '/images/Village-1.jpg'
 import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
@@ -18,7 +17,7 @@ function Village() {
         <div className="hero-content">
           <div className="sky-background"></div>
           <img className="hero-video" src={Village1} alt="Village1" />
-          <div className="content">
+          <div className="content-village">
             <h1>Garden Loft Villages</h1>
             <p>
               community embedded <br />
