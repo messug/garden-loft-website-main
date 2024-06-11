@@ -20,7 +20,7 @@ const Units: React.FC = () => {
           480 sq.ft. footprint <br/> 14’-0” x 33’-6” <br />
           full kitchen + laundry <br />
           17 safety and support features <br />
-          award-winning accessibility design
+          award-winning accessible design
           <br/>
           customizable exterior and <br/> interior finishes <br/> left or right hand plan available
         </p>
@@ -32,7 +32,7 @@ const Units: React.FC = () => {
           one bedroom with side wall entry <br /> 480 sq.ft. footprint <br/>  14’-0” x 33’-6” <br />
           full kitchen + laundry <br />
           17 safety and support features <br />
-          award-winning accessibility design
+          award-winning accessible design
           <br/>
           customizable exterior and <br/> interior finishes <br/> left or right hand plan available
         </p>
@@ -44,7 +44,7 @@ const Units: React.FC = () => {
           studio with front wall entry <br/> 386 sq.ft. footprint <br/> 14’-0” x 27’-6” <br />
           full kitchen + laundry <br />
           17 safety and support features <br />
-          award-winning accessibility design
+          award-winning accessible design
           <br/>
           customizable exterior and <br/>interior finishes <br/> left or right hand plan available
         </p>

@@ -1,15 +1,14 @@
 import React from 'react';
 import './Home.css';
 
-import GLHero from '/images/gl-hero-vid2.mp4'
+import BYSuite from '../../assets/images/backyard 1.jpg'
 
 const Home: React.FC = () => {
   return (
 
     <section className="home">
-    
       <div className="home-content">
-        <video className="video" src={GLHero} autoPlay loop muted/>
+        <img className="video" src={BYSuite} />
         <div className="content">
         <h1>Garden Loft Backyard Suites</h1>
         <p>family focused <br />supportive living</p></div>
