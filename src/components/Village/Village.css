@@ -17,7 +17,7 @@
 .workers-list h3 {
   text-align: left;
   margin-left: 1rem;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -25,11 +25,9 @@
   text-align: left;
   padding-left: 2rem;
   color: black;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 500;
 }
-
-
 
 .village-list h4 {
   font-weight: 500;
@@ -37,13 +35,13 @@
 
 .village-content h3 {
   padding: 0 1.2rem;
-  font-size: 1.5rem;
+  font-size: 22px;
   font-weight: 500;
   line-height: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 .village-content h1 {
- font-weight: 400;
+  font-weight: 400;
   padding: 0 2rem;
   margin-top: 1rem;
   line-height: 40px;
@@ -51,24 +49,23 @@
 }
 
 #village h1 {
-  font-size: 2rem;
+  font-size: 35px;
   margin-bottom: 2rem;
 
   padding: 0 2rem;
 }
 
 #village p {
-  font-size: 1.5rem;
- font-weight: 800;
+  font-size: 22px;
+  font-weight: 600;
 }
-
 
 #village img {
   width: 100vw;
   /* height: 70vh; */
-  object-fit:contain;
+  object-fit: contain;
   /* padding-bottom: 2rem; */
-  padding-top: 2rem;;
+  padding-top: 2rem;
 }
 
 .hero-village {
@@ -76,11 +73,11 @@
   justify-content: center;
   align-items: center;
   align-items: flex-end;
-  height: 100vh;
+  height: 80vh;
   /* background-image: url('/images/gl-hero'); */
-  background-size: cover;    
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   width: 100vw;
   overflow-x: hidden;
@@ -89,7 +86,7 @@
 .hero-content {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   padding: 10px;
 }
 
@@ -98,48 +95,45 @@
   position: absolute;
   top: 0;
   width: 90%;
-  height: 88vh;
+  height: 79vh;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content:end;
+  justify-content: end;
   align-items: flex-end;
 }
 
 .hero-video {
   width: 100vw;
   /* height: 70vh; */
-  object-fit:contain;
+  object-fit: contain;
 }
 
 .hero-village h1 {
-  font-size: 2rem;
+  font-size: 35px;
   /* margin-bottom: 9rem; */
   text-align: left;
   line-height: 3rem;
-  
 }
 
 .hero-village p {
-  font-size: 1.8rem;
+  font-size: 22px;
   font-weight: 500;
   text-align: right;
   /* margin-bottom: 2rem; */
   line-height: 1.5rem;
-
 }
-
 
 .button-village-cost {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 100px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
-  font-size: 2rem;
+  font-size: 22px;
   padding: 10px;
   font-weight: 500;
 }
@@ -147,9 +141,16 @@
 .call-us {
   height: 100px;
 }
-
-.village-content .caption p{
-  font-size: 5rem;
+.village-content h2 {
+  padding: 0 1.2rem;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+.village-content .caption p {
+  font-size: 35px;
 }
 
 /* Media Queries for Larger Screens */

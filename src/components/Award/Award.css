@@ -14,7 +14,7 @@
 }
 
 .award-content h1 {
-  font-size: 1.5rem;
+  font-size: 22px;
   margin-bottom: 11rem;
   padding: 0 1rem;
   font-weight: 600;
@@ -23,10 +23,10 @@
 
 .learn-more-btn {
   background-color: transparent;
-  border: 2px solid transparent;
+  /* border: 2px solid transparent; */
   color: white;
   padding: 0.5rem 1rem;
-  font-size: 1.7rem;
+  font-size: 22px;
   margin-top: 1rem;
   margin-right: 1rem;
   cursor: pointer;
@@ -34,8 +34,6 @@
 }
 
 .learn-more-btn:hover {
-  background-color: white;
-  color: black;
 }
 
 .learn-btn {

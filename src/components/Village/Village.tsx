@@ -28,10 +28,10 @@ function Village() {
       </section>
       <section id="village">
         <div className="village-content">
-          <h1>
+          <h2>
             Garden Loft creates <br /> small-scale supportive <br /> living
             communities{" "}
-          </h1>
+          </h2>
           <h3>
             <em>
               A cluster of Garden Loft units <br /> organized around a
@@ -59,11 +59,11 @@ function Village() {
             </em>
           </h3>
           <img src={Village4} alt="GL-Cost Image" />
-          <h1>
+          <h2>
             Garden Loft Village <br /> clients are looking for <br /> a
             one-stop-shop <br /> development option for <br /> supportive
             housing{" "}
-          </h1>
+          </h2>
         </div>
         <div className="workers-list">
           <h3 className="work-title">We work with: </h3>
@@ -115,10 +115,10 @@ function Village() {
             </em>
           </h3>
           <button className="button-village-cost call-us">Call us</button>
-          <h1 className="dev-gl">
+          <h2 className="dev-gl">
             <br />
             Garden Loft Village Projects in Development
-          </h1>
+          </h2>
           <h3>
             <em>
               We are currently working on <br/> village projects in Calgary, <br/> southern

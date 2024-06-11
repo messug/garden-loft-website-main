@@ -27,7 +27,7 @@ const Advantage: React.FC = () => {
         <SwiperSlide>
           <div className="advantage-slide">
             <img src={livingRoomImage5} alt="Living Room" className="advantage-image" />
-            <div className="advantage-title">Community <br/>Connected</div>
+            <div className="advantage-title  ">Community <br/>Connected</div>
             <div className="advantage-text">
               <p><em>Garden Loft’s backyard location is close to family, without being intrusive. Our digital platform offers online activities and gatherings</em></p>
             </div>
@@ -36,7 +36,7 @@ const Advantage: React.FC = () => {
         <SwiperSlide>
           <div className="advantage-slide">
             <img src={livingRoomImage6} alt="Living Room" className="advantage-image" />
-            <div className="advantage-title">Non-Institutional <br/>Living</div>
+            <div className="advantage-title black-text">Non-Institutional <br/>Living</div>
             <div className="advantage-text">
               <p><em>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</em></p>
             </div>
@@ -72,7 +72,7 @@ const Advantage: React.FC = () => {
         <SwiperSlide>
           <div className="advantage-slide">
             <img src={livingRoomImage} alt="Living Room" className="advantage-image" />
-            <div className="advantage-title">Technology-Enabled <br/>Support</div>
+            <div className="advantage-title black-text">Technology-Enabled <br/>Support</div>
             <div className="advantage-text">
               <p><em>Garden Loft's built-in safety and support features enable someone with differing abilities to live with more independence</em></p>
             </div>
@@ -89,7 +89,7 @@ const Advantage: React.FC = () => {
           padding: '20px 30px',
           borderRadius: '50%', /* Adjusted to create an elliptical shape */
           cursor: 'pointer',
-          fontSize: '15px',
+          fontSize: '22px',
           marginTop: "20px",
           marginBottom: "20px"
         }}>

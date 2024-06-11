@@ -5,7 +5,7 @@
 }
 
 .testimony-title {
-  font-size: 2rem;
+  font-size: 35px;
   margin-bottom: 20px;
   margin-top: 30px;
   line-height: 1.2;
@@ -22,11 +22,10 @@
   width: 100vw;
   height: auto;
   object-fit: contain;
-
 }
 
 .testimony-description {
-  font-size: 1.6rem;
+  font-size: 22px;
   margin-top: 10px;
   margin-bottom: 20px;
   color: #333;
@@ -36,13 +35,13 @@
 
 .testimony-button {
   border: none;
-  width: 270px;
-  height: 120px;
+  width: 200px;
+  height: 100px;
   background-color: rgb(199, 240, 255);
   padding: 20px 30px;
   border-radius: 50%; /* Adjusted to create an elliptical shape */
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 22px;
 }
 
 /* Media Queries */
