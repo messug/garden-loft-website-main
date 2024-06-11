@@ -4,28 +4,27 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 85vh;
+
 }
 
-.safety-content {
-  /* padding: 10px; */
-}
-
-#support-features h1 {
-  font-size: 2rem;
+#support-features h1{
+  font-size: 1.7rem;
   font-weight: 400;
   color: black;
   margin-bottom: 2rem;
-  margin-top: -8rem;
-  padding: 10px;
+  
 }
 
 #support-features p {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
+  color: black;
   padding: 10px;
   font-weight: 400;
+  line-height: 35px;
 }
+
+
 
 
 /* .button-safety {
@@ -41,14 +40,15 @@
 .button-safety {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 60vw;
-  height: 20vh;
+  width: 65vw;
+  height: 15vh;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
   font-size: 2rem;
   padding: 10px;
+  font-weight: 500;
    /* border: 4px solid rgb(240, 212, 5); */
   /* padding: 10px 50px; /* Adjust padding to make it more oval-shaped */
   /* border-radius: 70px; */ 

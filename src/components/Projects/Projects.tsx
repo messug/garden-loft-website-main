@@ -84,7 +84,8 @@ const Projects: React.FC = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
-                <img src={projectImage10} alt="Project 10" className="project-image" />
+                <img src={projectImage10} alt="Project 10" className="project-image project-landscape" />
+                <img src={projectImage13} alt="Project 13" className="project-image project-landscape" />
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -97,11 +98,7 @@ const Projects: React.FC = () => {
                 <img src={projectImage12} alt="Project 12" className="project-image" />
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div style={{ textAlign: 'center' }}>
-                <img src={projectImage13} alt="Project 13" className="project-image" />
-              </div>
-            </SwiperSlide>
+           
 
           </Swiper>
         </div>
