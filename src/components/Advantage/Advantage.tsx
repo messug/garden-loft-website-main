@@ -14,7 +14,7 @@ import './Advantage.css'
 const Advantage: React.FC = () => {
   return (
     <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw" }}>
-      <h1 style={{ fontSize: "2rem", marginBottom: '30px', marginTop: '40px', fontWeight: '500' }}>The Garden Loft <br /> Backyard Advantage</h1>
+      <h1 style={{ fontSize: "40px", marginBottom: '30px', marginTop: '40px', fontWeight: '500' }}>The Garden Loft <br /> Backyard Advantage</h1>
       <Swiper
         modules={[Pagination]}
         spaceBetween={10}
@@ -89,7 +89,7 @@ const Advantage: React.FC = () => {
           padding: '20px 30px',
           borderRadius: '50%', /* Adjusted to create an elliptical shape */
           cursor: 'pointer',
-          fontSize: '2rem',
+          fontSize: '15px',
           marginTop: "20px",
           marginBottom: "20px"
         }}>
