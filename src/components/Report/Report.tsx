@@ -42,7 +42,12 @@ const Report: React.FC = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
-            <img src={Interior7} alt="Loft Image 5" className="report-image vertical" /><img src={Interior8} alt="Loft Image 5" className="report-image vertical" />
+            <img src={Interior7} alt="Loft Image 5" className="report-image vertical" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior8} alt="Loft Image 5" className="report-image vertical" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
