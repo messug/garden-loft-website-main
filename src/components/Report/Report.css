@@ -28,9 +28,9 @@
 }
 
 .vertical {
-  height: 31vh;
+  height: 33vh;
   width: 45vw;
-  padding: 0 0.5rem;
+  /* padding: 0 0.1rem; */
 }
 
 .carousel-text {
