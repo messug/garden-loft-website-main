@@ -18,9 +18,9 @@ const Report: React.FC = () => {
     <div className="report-container">
       <Swiper
         modules={[Pagination]}
-        spaceBetween={8}
+        spaceBetween={10}
         pagination={{ clickable: true }}
-        slidesPerView={1}
+        slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '20px' }}

@@ -108,7 +108,7 @@ const About = () => {
 
           </div>
           <div className="research">
-          <h3>Our Reasearch</h3>
+          <h3>Our Research</h3>
           <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
           <p>In 2014, John Brown’s research <br />lab began constructing and <br />user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine.</p>
         </div>
@@ -156,7 +156,7 @@ const About = () => {
          <div className="partnerslogoDiv">
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </div>
-         <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Oganization whose core <br /> business is senior’s care.</p>
+         <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care.</p>
          <div className="btn-content">
           <button className="button-about">Visit our FAQ</button>
         </div>
