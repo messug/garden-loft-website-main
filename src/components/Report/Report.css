@@ -40,12 +40,9 @@
 }
 
 .report-button {
-  background: none;
   border: 1px; /* Yellow outline */
-  width: 280px;
-  height: 140px;
   background-color: rgb(199, 240, 255);
-  padding: 20px 30px;
+  padding: 30px 70px;
   border-radius: 50%;
   cursor: pointer;
   font-size: 22px;
