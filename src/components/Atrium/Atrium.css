@@ -151,7 +151,7 @@
   color: black;
   margin: 5px;
   width: 200px;
-  height: 222px;
+  height: 225px;
   font-size: 12px;
   font-weight: 500;
   font-style: italic;
@@ -161,15 +161,16 @@
 #foundation-section h2 {
   font-size: 15px;
   font-weight: 500;
+  margin-left: 0.5rem;
   font-style: italic;
 }
 
 .foundation-box ul {
-  padding: 0.2rem;
+  padding: 0 0.5rem;
 }
 
 .foundation-box ul li {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .plus-sign {
