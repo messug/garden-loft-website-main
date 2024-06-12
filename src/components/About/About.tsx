@@ -72,13 +72,16 @@ const About = () => {
           <button className="button-about">Call <br /> Us</button>
         </div>
         <div className="history">
+          <div className='history-content'>
           <h3>Our History</h3>
           <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build firm, in 1997</h1>
           <p>Over its 25-year history, <br />Housebrand has completed over <br /> 250 residential projects using <br />a unique practice model that <br />combined architectural design <br />with construction management, <br />real estate services, and <br />furniture retailing.</p>
+          </div>
         </div>
 
+
         <div className="history-section">
-         
+        <div className='research-img'>
             <Swiper
               modules={[Pagination]}
               spaceBetween={10}
@@ -91,11 +94,12 @@ const About = () => {
               {[projectImage1, projectImage2, projectImage3, projectImage10, projectImage13, projectImage12].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
-                    <img src={image} alt={`Project ${index + 1}`} className="project-image" />
+                    <img src={image} alt={`Project ${index + 1}`} className="research-image" />
                   </div>
                 </SwiperSlide>
               ))}
             </Swiper>
+            </div>
             <div className="history-content">
             <p>Housebrand’s work has been <br /> published internationally and <br />recognized with an Award of <br />Excellence in Innovation from <br />the Royal Architectural Institute <br />of Canada. It was the first <br />Canadian firm to receive a Rising <br />Star Leadership Award from <br />Residential Architect Magazine.</p>
             <div className='history-indent'>
@@ -113,7 +117,7 @@ const About = () => {
           <p>In 2014, John Brown’s research <br />lab began constructing and <br />user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine.</p>
         </div>
         <div className="research-section">
-         
+           <div className='research-img'>
             <Swiper
               modules={[Pagination]}
               spaceBetween={10}
@@ -126,11 +130,12 @@ const About = () => {
               {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage13, projectImage12].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
-                    <img src={image} alt={`Project ${index + 1}`} className="project-image" />
+                    <img src={image} alt={`Project ${index + 1}`} className="research-image" />
                   </div>
                 </SwiperSlide>
               ))}
             </Swiper>
+            </div>
             <div className="research-content">
             <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br /> features. In 2015, this work was <br /> awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation.</p> 
             <div className='research-indent'>
