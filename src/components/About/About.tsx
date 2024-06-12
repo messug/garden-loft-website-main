@@ -31,6 +31,7 @@ import projectImage10 from '../../assets/images/about 8f.jpg';
 import projectImage12 from '../../assets/images/about 8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
 import ProtypeVideo from '../../assets/images/garden_loft_v3_prototype_drone_video_october_2017 (1080p).mp4';
+import ProtypeVideoPoster from '../../assets/images/Prototype+video+still.jpg'
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
 
@@ -157,7 +158,7 @@ const About = () => {
 
             <div className="research-img">
           {/* <img src={AtriumImage7} alt="prototype" /> */}
-          <video controls>
+          <video controls poster={ProtypeVideoPoster}>
           <source src={ProtypeVideo}type="video/mp4" />
           Your browser does not support the video tag.
         </video>
