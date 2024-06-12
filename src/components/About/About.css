@@ -1,6 +1,5 @@
 /* About.css */
 .hero-about {
-
   text-align: center;
   margin-bottom: 30px;
 }
@@ -88,18 +87,18 @@
   font-size: 22px;
 }
 
-
-.teams,.research,.partners,.history{
- font-size: 35px;
- align-items: center;
-
+.teams,
+.research,
+.partners,
+.history {
+  font-size: 35px;
+  align-items: center;
 }
 
 .history,
 .research {
   text-align: center;
   margin: 50px 0;
-
 }
 
 .history h1,
@@ -109,7 +108,6 @@
 
   font-size: 24px;
   font-weight: 500;
-
 }
 
 .history p,
@@ -185,6 +183,7 @@
   max-width: 100%;
   height: 300px;
   margin: 0 auto;
+  object-fit: contain;
   object-fit: contain;
   margin-bottom: 15px;
 }

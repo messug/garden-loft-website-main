@@ -107,6 +107,7 @@
   background-color: rgb(199, 240, 255);
   border: 1px;
   color: black;
+
   padding: 30px 50px;
   border-radius: 50%;
   cursor: pointer;
@@ -116,14 +117,14 @@
 }
 
 .custom {
-  width: 80vw;
-  height: 20vh;
+  width: 200px;
+  height: 100px;
   padding: 5px 40px;
 }
 
 .call-us {
-height: 90px;
-width: 200px;
+  height: 90px;
+  width: 200px;
 }
 
 .foundation-section {
