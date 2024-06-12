@@ -127,14 +127,13 @@
 .button-village-cost {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 200px;
-  height: 100px;
+  padding: 30px 60px;
+  color: black;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
   font-size: 22px;
-  padding: 10px;
   font-weight: 500;
 }
 

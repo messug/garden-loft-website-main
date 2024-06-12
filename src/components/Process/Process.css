@@ -66,8 +66,8 @@
 .button-process {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 250px;
-  height: 110px;
+  padding: 35px 70px;
+  color: black;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;

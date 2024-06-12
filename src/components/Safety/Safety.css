@@ -34,19 +34,15 @@
 } */
 .button-safety {
   background-color: rgb(199, 240, 255);
+  color: black;
+  padding: 30px 60px;
   border: 1px;
-  width: 65vw;
-  height: 15vh;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin-top: 40px;
   font-size: 22px;
-  padding: 10px;
   font-weight: 500;
-  /* border: 4px solid rgb(240, 212, 5); */
-  /* padding: 10px 50px; /* Adjust padding to make it more oval-shaped */
-  /* border-radius: 70px; */
 }
 
 /* Media Queries for Larger Screens */

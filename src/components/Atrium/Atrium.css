@@ -107,19 +107,23 @@
   background-color: rgb(199, 240, 255);
   border: 1px;
   color: black;
-  width: 260px;
-  height: 150px;
+  padding: 30px 50px;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;
   margin: 40px 40px;
   font-size: 22px;
-  padding: 10px;
 }
 
 .custom {
-  width: 270px;
-  height: 250px;
+  width: 80vw;
+  height: 20vh;
+  padding: 5px 40px;
+}
+
+.call-us {
+height: 90px;
+width: 200px;
 }
 
 .foundation-section {
