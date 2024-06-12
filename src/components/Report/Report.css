@@ -20,15 +20,15 @@
 }
 
 .report-image {
-  width: 100vw;
-  object-fit: contain;
+  width: 80vw;
+  /* object-fit: contain; */
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
 .vertical {
-  height: 33vh;
-  width: 45vw;
+  height: 25vh;
+  /* width: 45vw; */
   /* padding: 0 0.1rem; */
 }
 
