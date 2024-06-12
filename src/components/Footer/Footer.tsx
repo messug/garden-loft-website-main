@@ -7,9 +7,9 @@ function Footer() {
     <>
       <div className="footer">
         <div className="footer-content">
-          <h3>
+          <h2>
             <a href="#support-features">Garden Loft Backyard Suites</a>
-            </h3>
+            </h2>
           <h3>
             <a href="#support-features">Our Support Features</a>
           </h3>
@@ -37,17 +37,17 @@ function Footer() {
           <h3>
             <a href="#garden-lofters">Meet Our Garden Lofters</a>
           </h3>
-          <h3>
+          <h2>
             <a href="/faq">FAQ</a>
-          </h3>
-          <h3><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          </h2>
+          <h2><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Garden Loft Villages
-        </Link></h3>
-          <h3> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+        </Link></h2>
+          <h2> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Atrium House by Garden Loft
-        </Link></h3>
+        </Link></h2>
         <div className="request-section">
-            <h1>Request a:</h1>
+            <h2>Request a:</h2>
             <div className="call-feat">
               <h3>
                 <Link to="/phone-call">Phone Call</Link>
