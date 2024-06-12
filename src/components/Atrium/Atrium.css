@@ -9,11 +9,11 @@
 .hero-atrium-img {
   height: auto;
   object-fit: cover;
-  /* width: 100vw; */
-  padding-bottom: 0.4rem;
+  width: 100vw;
+  /* padding-bottom: 0.4rem; */
 }
 .atrium-content {
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
 }
 
 .atrium-content h3 {
@@ -99,7 +99,7 @@
   font-size: 22px;
   /* font-weight: 500; */
   text-align: right;
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
   line-height: 1.7rem;
 }
 
