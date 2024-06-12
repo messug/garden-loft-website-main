@@ -18,25 +18,31 @@
   /* width: 70%; Adjust this width to control how much you want to shift the text to the left */
   margin-left: -7%; /* Center the content within the footer */
 }
+.footer a {
+  color: black;
+  font-weight: 600;
+}
 
 .footer h1 {
   font-size: 22px;
   margin-bottom: 1rem;
 }
-.footer h1 {
+.footer h2 {
   font-size: 22px;
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 
 .footer h3 {
   font-size: 22px;
-
-  margin: 1rem 1.7rem;
+  font-weight: 400;
+  margin: 1.1rem 1rem;
 }
 
 .footer h3 a {
   color: #0c0101c2;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .footer h3 a:hover {
@@ -45,7 +51,8 @@
 
 .request-section {
   display: flex;
-  margin-left: 1.5rem;
+  font-weight: 600;
+
   width: 90vw;
 }
 
