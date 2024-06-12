@@ -2,11 +2,11 @@ import './About.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import AtriumImage1 from '/images/Atrium 1.jpg';
-import Carina from '../../assets/images/Carina2.jpg';
-import John from '../../assets/images/John+Brown.jpg';
-import Matthew from '../../assets/images/Mattew.jpg';
-import Jim from '../../assets/images/jim.jpg';
-import James from '../../assets/images/james.jpg';
+import Carina from '../../assets/images/About 2.jpg';
+import John from '../../assets/images/About 3.jpg';
+import Matthew from '../../assets/images/About 4.jpg';
+import Jim from '../../assets/images/About 5.jpg';
+import James from '../../assets/images/About 6.jpg';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -18,9 +18,9 @@ import projectImage3 from '../../assets/images/backyard 23.jpg';
 import projectImage10 from '../../assets/images/backyard 30.jpg';
 import projectImage12 from '../../assets/images/backyard 32.jpg';
 import projectImage13 from '../../assets/images/backyard 33.jpg';
-import AtriumImage7 from '../../assets/images/Prototype+video+still.jpg';
+import ProtypeVideo from '../../assets/images/garden_loft_v3_prototype_drone_video_october_2017 (1080p).mp4';
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
-import ThinAirLabs from '../../assets/images/thinairlab logo.jpeg';
+import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
 
 
 
@@ -32,7 +32,8 @@ const About = () => {
         <div className="hero-about-img">
           <img src={AtriumImage1} alt="Atrium House Image 1" />
           <div className="hero-about-content">
-            <h1>We are architects, <br />builders, and <br />software developers</h1>
+            <h1>We are architects, builders, 
+              <br />and software developers</h1>
           </div>
           <div className='about-content'>
             <p>We create high-quality places to live that empower dignity, independence and belonging in the lives of seniors and others with differing abilities.</p>
@@ -43,27 +44,27 @@ const About = () => {
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
             <h1>Carina van Olm <br />Founder + Director</h1>
-            <p>Carina has a background in small business operations and interior design. She leads the Garden Loft Executive Team and is responsible for business management and interior design.</p>
+            <p>Carina has a background in small business operations and interior design. She leads the Garden Loft Executive Team and is responsible for business management and interior design</p>
           </div>
           <div className='team-content'>
             <img src={John} alt="John Brown" />
             <h1>John Brown <br />Founder + Director</h1>
-            <p>John is a registered architect, age-in-place researcher, and Dean of the University of Calgary’s School of Architecture Planning and Landscape. He leads design research, early project design, and business development.</p>
+            <p>John is a registered architect, age-in-place researcher, and Dean of the University of Calgary’s School of Architecture Planning and Landscape. He leads design research, early project design, and business development</p>
           </div>
           <div className='team-content'>
             <img src={Matthew} alt="Matthew North" />
             <h1>Matthew North <br />Founder + Director</h1>
-            <p>Matthew is a registered architect and a construction expert. He leads detail project design, construction management, and prefabrication logistics.</p>
+            <p>Matthew is a registered architect and a construction expert. He leads detail project design, construction management, and prefabrication logistics</p>
           </div>
           <div className='team-content'>
             <img src={Jim} alt="Jim Gibson" />
             <h1>Jim Gibson <br />Director</h1>
-            <p>Jim is a published author, entrepreneur, founder, venture financier, and community builder. He is a member of Garden Loft’s Board of Directors.</p>
+            <p>Jim is a published author, entrepreneur, founder, venture financier, and community builder. He is a member of Garden Loft’s Board of Directors</p>
           </div>
           <div className='team-content'>
             <img src={James} alt="James Lochrie" />
             <h1>James Lochrie <br />Director</h1>
-            <p>James Lochrie is a technology entrepreneur and founder / Managing Partner of Thin Air Labs. He is a member of Garden Loft’s Board of Directors.</p>
+            <p>James Lochrie is a technology entrepreneur and founder / Managing Partner of Thin Air Labs. He is a member of Garden Loft’s Board of Directors</p>
           </div>
         </div>
       </section>
@@ -143,8 +144,13 @@ const About = () => {
             </div>
 
             <div className="research-img">
-          <img src={AtriumImage7} alt="prototype" />
+          {/* <img src={AtriumImage7} alt="prototype" /> */}
+          <video controls>
+          <source src={ProtypeVideo}type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
          <div className='research-indent'>
+          
             <p>In 2022 and 2023, five <br /> production Garden Lofts were <br /> prototyped for backyard clients <br /> in Calgary and Edmonton. This <br /> version of Garden Loft received <br /> the City of Calgary’s 2023 <br />Accessibility Award.</p>
           </div>
         </div>
