@@ -79,6 +79,20 @@
   margin-bottom: 10px;
 }
 
+.button-advantage {
+  background-color: rgb(199, 240, 255);
+  color: black;
+  padding: 30px 60px;
+  border: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
   .advantage-content h2 {
     font-size: 2.5rem;

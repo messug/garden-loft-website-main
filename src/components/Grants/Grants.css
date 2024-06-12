@@ -45,9 +45,8 @@
 .button-safety-grant {
   background-color: rgb(199, 240, 255);
   border: 1px;
-  width: 260px;
-  height: 150px;
-  /* padding: 20px 30px; */
+  padding: 35px 55px;
+  color: black;
   border-radius: 50%;
   cursor: pointer;
   text-align: center;

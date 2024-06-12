@@ -23,17 +23,17 @@
 
 .project-image {
   /* display: block; */
-  width: 100vw;
+  width: 80vw;
   max-width: 100%;
-  height: auto;
+  border-radius: 0%;
   margin: 0 auto;
-  object-fit: contain;
+  /* object-fit: contain; */
   margin-bottom: 15px;
 }
 
 .project-landscape {
-  height: 25vh;
-  width: 34vw;
+  height: 23.2vh;
+  /* width: 34vw; */
   /* padding: 0 0.1rem; */
 }
 

@@ -2,6 +2,7 @@
 
 .award-section {
   position: relative;
+  width: 100vw;
   background: url("/images/award.jpg") no-repeat center center/cover; /* Make sure to use the correct path to your image */
   align-content: justify;
   text-align: right;
@@ -23,8 +24,8 @@
 
 .learn-more-btn {
   background-color: transparent;
-  /* border: 2px solid transparent; */
-  color: white;
+  border: 2px solid transparent;
+  color:transparent;
   padding: 0.5rem 1rem;
   font-size: 22px;
   margin-top: 1rem;
@@ -33,7 +34,16 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.learn-more-btn:hover {
+.award-button {
+  border: 1px; /* Yellow outline */
+  background-color: rgb(199, 240, 255);
+  padding: 30px 70px;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .learn-btn {

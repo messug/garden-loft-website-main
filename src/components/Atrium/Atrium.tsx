@@ -45,7 +45,7 @@ small village-style community.</em></h3>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
           <h3><em>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</em></h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
-          <button className='button-atrium custom'>We custom <br/> design and <br/>build Atrium<br/>Houses across<br/> Alberta</button>
+          <button className='button-atrium custom'>We custom  design and build Atrium Houses across Alberta</button>
           <div className="logoDiv">
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
             <img src={GLLogo} alt="Garden Loft Logo" />
@@ -74,7 +74,7 @@ small village-style community.</em></h3>
               </ul>
             </div>
           </div>
-          <button className='button-atrium'>Call us</button>
+          <button className='button-atrium call-us'>Call us</button>
           <img src={AtriumImage6} alt="Atrium House Image 6" />
           <h2>Atrium House is<br/> particularly well suited<br/> for rural and remote<br/> communities</h2>
           <h3><em>Atrium House’s prefabricated<br/>
