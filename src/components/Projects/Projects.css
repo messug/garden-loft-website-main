@@ -25,14 +25,15 @@
   /* display: block; */
   width: 80vw;
   max-width: 100%;
+
   border-radius: 0%;
   margin: 0 auto;
-  /* object-fit: contain; */
+  object-fit: cover;
   margin-bottom: 15px;
 }
 
 .project-landscape {
-  height: 23.2vh;
+  height: 24vh;
   /* width: 34vw; */
   /* padding: 0 0.1rem; */
 }

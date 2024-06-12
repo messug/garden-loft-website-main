@@ -40,40 +40,47 @@ living in a Garden Loft with<br/>
 the social connectiveness<br/>
 and sense of belonging that<br/>
 comes from being part of a<br/>
-small village-style community.</em></h3>
+small village-style community</em></h3>
           <button className='button-atrium'>Learn more about Garden Loft units</button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
           <h3><em>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</em></h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
           <button className='button-atrium custom'>We custom  design and build Atrium Houses across Alberta</button>
+          <h2>Atrium House is a <br/>collaboration between  <br/>Garden Loft and <br/> the Brenda Strafford<br/> Foundation</h2>
           <div className="logoDiv">
+            
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
             <img src={GLLogo} alt="Garden Loft Logo" />
           </div>
-          <h2>Atrium House is a <br/>collaboration with <br/>the Brenda Strafford<br/> Foundation</h2>
+         
           <div id='plusDiv'>
-            <h3>advanced<br/> age-in-place <br/>architecture</h3>
+          <h3>person-led <br/>care and<br/> operations</h3>
             <div className="plus-sign">+</div>
-            <h3>person-led <br/>care and<br/> operations</h3>
+            <h3>advanced<br/> age-in-place <br/>architecture</h3>
+         
           </div>
-          <div className="foundation-section">
-            <div className="foundation-box">
-              <h2>GARDEN LOFT</h2>
-              <ul>
-                <li>Research-based inclusive and accessible design</li>
-                <li>Precision adaptive prefabrication</li>
-                <li>Award-winning architectural expertise</li>
-              </ul>
-            </div>
-            <div className="foundation-box">
-              <h2>BRENDA STRAFFORD FOUNDATION</h2>
+          <div id="foundation-section">
+          <div className="foundation-box">
+              <h2>BRENDA STRAFFORD FOUNDATION provides</h2>
               <ul>
                 <li>Adaptive care and living model based on inclusion, diversity, and equity</li>
                 <li>Customized and guided operational playbook</li>
                 <li>Award-winning care expertise</li>
               </ul>
             </div>
+            <div className="plus-sign">+</div>
+            <div className="foundation-box">
+              <h2>GARDEN LOFT provides</h2>
+              <ul>
+                <li>Research-based inclusive and accessible design</li>
+                <li>Precision adaptive prefabrication</li>
+                <li>Award-winning architectural expertise</li>
+              </ul>
+            </div>
           </div>
+           
+           
+          
           <button className='button-atrium call-us'>Call us</button>
           <img src={AtriumImage6} alt="Atrium House Image 6" />
           <h2>Atrium House is<br/> particularly well suited<br/> for rural and remote<br/> communities</h2>
