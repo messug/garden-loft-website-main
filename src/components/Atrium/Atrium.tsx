@@ -40,7 +40,7 @@ living in a Garden Loft with<br/>
 the social connectiveness<br/>
 and sense of belonging that<br/>
 comes from being part of a<br/>
-small village-style community.</em></h3>
+small village-style community</em></h3>
           <button className='button-atrium'>Learn more about Garden Loft units</button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
           <h3><em>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</em></h3>

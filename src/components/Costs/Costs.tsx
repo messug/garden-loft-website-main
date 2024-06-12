@@ -8,7 +8,7 @@ const Costs: React.FC = () => {
     <div className="costs-container">
       <img className="costs-img" src={GLCost} alt="GL" />
       <div className="costs-text">
-        <h2>Garden Lofts  can be more <br />affordable than living in care  <br />facility</h2>
+        <h2>Garden Lofts  can be more <br />affordable than living in a care  <br />facility</h2>
       </div>
     </div>
     <div className="costs-content">
