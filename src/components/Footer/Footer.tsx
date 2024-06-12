@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer">
         <div className="footer-content">
           <h2>
-            <a href="#support-features">Garden Loft Backyard Suites</a>
+            <Link to="/" style={{ textDecoration: "none", color: "#0e0101b8" }}>Garden Loft Backyard Suites</Link>
             </h2>
           <h3>
             <a href="#support-features">Our Support Features</a>
@@ -37,43 +37,43 @@ function Footer() {
           <h3>
             <a href="#garden-lofters">Meet Our Garden Lofters</a>
           </h3>
-          <h2>
+          <h3>
             <a href="/faq">FAQ</a>
-          </h2>
+          </h3>
           <h2><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Garden Loft Villages
         </Link></h2>
           <h2> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Atrium House by Garden Loft
         </Link></h2>
-        <div className="request-section">
+        <h2><Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
+        <h3><a href="#our-team">Our Team</a></h3>
+<h3><a href="#our-history">Our History</a></h3>
+<h3><a href="#our-partners">Our Partners</a></h3>
+        <div className="footer-content">
             <h2>Request a:</h2>
-            <div className="call-feat">
+            <div>
               <h3>
                 <Link to="/phone-call">Phone Call</Link>
               </h3>
-              <ul>
-                <li>
+              
                   <h3>
                     <Link to="/brochure">Brochure</Link>
                   </h3>
-                </li>
-                <li>
+               
+                
                   <h3>
                     <Link to="/feasibility-report">Feasibility Report</Link>
                   </h3>
-                </li>
-                <li>
+              
                   <h3>
                     <Link to="/book-tour">Book A Tour</Link>
                   </h3>
-                </li>
-                <li>
+              
                   <h3>
                     <Link to="/initial">Initial Meeting</Link>
                   </h3>
-                </li>
-              </ul>
+              
             </div>
         </div>
         </div>
