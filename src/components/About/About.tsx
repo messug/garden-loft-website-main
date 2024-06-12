@@ -12,12 +12,24 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import projectImage1 from '../../assets/images/backyard 21.jpg';
-import projectImage2 from '../../assets/images/backyard 22.jpg';
-import projectImage3 from '../../assets/images/backyard 23.jpg';
-import projectImage10 from '../../assets/images/backyard 30.jpg';
-import projectImage12 from '../../assets/images/backyard 32.jpg';
-import projectImage13 from '../../assets/images/backyard 33.jpg';
+import projectImage1 from '../../assets/images/about 8c.jpg';
+import projectImage2 from '../../assets/images/about 8d.jpg';
+import projectImage3 from '../../assets/images/about 8e.jpg';
+import projectImage4 from '../../assets/images/about 7a.jpg';
+import projectImage5 from '../../assets/images/about 7b.jpg';
+import projectImage6 from '../../assets/images/about 7c.jpg';
+import projectImage7 from '../../assets/images/about 7d.jpg';
+import projectImage8 from '../../assets/images/about 7e.jpg';
+import projectImage9 from '../../assets/images/about 7f.jpg';
+import projectImage14 from '../../assets/images/about 7g.jpg';
+import projectImage15 from '../../assets/images/about 7h.jpg';
+import projectImage16 from '../../assets/images/about 7i.jpg';
+import projectImage17 from '../../assets/images/about 7j.jpg';
+import projectImage18 from '../../assets/images/about 8a.jpg';
+import projectImage19 from '../../assets/images/about 8b.jpg';
+import projectImage10 from '../../assets/images/about 8f.jpg';
+import projectImage12 from '../../assets/images/about 8g.jpg';
+import projectImage13 from '../../assets/images/about 8h.jpg';
 import ProtypeVideo from '../../assets/images/garden_loft_v3_prototype_drone_video_october_2017 (1080p).mp4';
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
@@ -92,7 +104,7 @@ const About = () => {
               loop={true}
               style={{ paddingBottom: '20px' }}
             >
-              {[projectImage1, projectImage2, projectImage3, projectImage10, projectImage13, projectImage12].map((image, index) => (
+              {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17,projectImage18,projectImage19].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
@@ -128,7 +140,7 @@ const About = () => {
               loop={true}
               style={{ paddingBottom: '20px' }}
             >
-              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage13, projectImage12].map((image, index) => (
+              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
