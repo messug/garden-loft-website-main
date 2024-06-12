@@ -42,7 +42,7 @@ function Village() {
 
           <h3>
             <em>
-              All the advantages <br /> of living in a Garden Lft <br />{" "}
+              All the advantages <br /> of living in a Garden Loft <br />{" "}
               combined with an <br /> intentional community
             </em>
           </h3>
@@ -126,18 +126,16 @@ function Village() {
             </em>
           </h3>
           <img src={Village6} alt="GL-Cost Image" />
-          <p ><em>Small Town Rental Village</em></p>
-          <h3>
-            <em>10 Garden Loft units located in <br/> a park-like setting to augment <br/> and
-            adjacent care facility with independent living units <br/> of an adjacent
-            care facility</em>
-          </h3>
+          <h3>Small Town Rental Village</h3>
+          <p>
+           <em>
+            10 Garden Loft units in a <br/> park-like setting on the grounds to<br/>  increase capacity of an<br/>  adjacent care facility</em>
+          </p>
           <img src={Village7} alt="GL-Cost Image" />
-          <p><em>Country Residential Village</em></p>
-          <h3>
-            <em>93 Garden Loft units with cafe and recreation amenity<br/> buildings on
-            an acreage <br/> outside of Calgary</em>
-          </h3>
+          <h3>Country Residential Village</h3>
+          <p>
+            <em>93 Garden Loft units <br/> augmented with community amenity <br/> building on an acreage site<br/>  outside of Calgary</em>
+          </p>
           <button className="button-village-cost">Tour our <br/> Showsuite</button>
         </div>
       </section>

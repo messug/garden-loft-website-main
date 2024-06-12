@@ -16,14 +16,13 @@
 
 .workers-list h3 {
   text-align: left;
-  margin-left: 1rem;
+  margin-left: 3rem;
   font-size: 22px;
-  font-weight: 500;
 }
 
 .village-list {
   text-align: left;
-  padding-left: 2rem;
+  padding-left: 4rem;
   color: black;
   font-size: 22px;
   font-weight: 500;
@@ -34,7 +33,7 @@
 }
 
 .village-content h3 {
-  padding: 0 1.2rem;
+  padding: 1.2rem;
   font-size: 22px;
   font-weight: 500;
   line-height: 2rem;
@@ -57,7 +56,6 @@
 
 #village p {
   font-size: 22px;
-  font-weight: 600;
 }
 
 #village img {
@@ -85,6 +83,7 @@
 
 .hero-content {
   text-align: center;
+  color: white;
   width: 100vw;
   height: 80vh;
   padding: 10px;
@@ -111,6 +110,7 @@
 
 .hero-village h1 {
   font-size: 35px;
+  color: white;
   /* margin-bottom: 9rem; */
   text-align: left;
   line-height: 3rem;
@@ -118,7 +118,8 @@
 
 .hero-village p {
   font-size: 22px;
-  font-weight: 500;
+  color: white;
+
   text-align: right;
   /* margin-bottom: 2rem; */
   line-height: 1.5rem;
