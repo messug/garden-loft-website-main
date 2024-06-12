@@ -80,19 +80,8 @@ const Advantage: React.FC = () => {
         </SwiperSlide>
       </Swiper>
       <div style={{ textAlign: 'center', alignContent: "center", marginTop: '1px' }}>
-        <button style={{
-          background: 'none',
-          width: '220px',
-          height: '100px',
-          backgroundColor: 'rgb(199, 240, 255)',
-          border: '1px',
-          padding: '20px 30px',
-          borderRadius: '50%', /* Adjusted to create an elliptical shape */
-          cursor: 'pointer',
-          fontSize: '22px',
-          marginTop: "20px",
-          marginBottom: "20px"
-        }}>
+        <button className="button-advantage"
+        >
           Call Us
         </button>
       </div>

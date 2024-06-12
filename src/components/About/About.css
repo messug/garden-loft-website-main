@@ -59,7 +59,6 @@
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 10px;
- 
 }
 
 .team-content p {
@@ -79,7 +78,7 @@
 
 .button-about {
   background-color: rgb(199, 240, 255);
-  border: 1px ;
+  border: 1px;
   width: 200px;
   height: 100px;
   border-radius: 50%;
@@ -89,9 +88,11 @@
   font-size: 22px;
 }
 
+
 .teams,.research,.partners,.history{
  font-size: 35px;
  align-items: center;
+
 }
 
 .history,
@@ -99,13 +100,13 @@
   text-align: center;
   margin: 50px 0;
 
-  
 }
 
 .history h1,
 .research h1 {
   margin-bottom: 20px;
   font-style: italic;
+
   font-size: 24px;
   font-weight: 500;
 
@@ -118,13 +119,13 @@
   font-style: italic;
 }
 
-.history-content p{
+.history-content p {
   font-size: 22px;
   text-align: center;
   line-height: 1.4;
   font-style: italic;
 }
-.history-indent p{
+.history-indent p {
   padding: 10px;
   font-size: 22px;
   text-indent: 1px;
@@ -135,7 +136,7 @@
   margin-top: 50px;
 }
 
-.research-content p{
+.research-content p {
   font-size: 22px;
   text-align: center;
   line-height: 1.4;
@@ -143,23 +144,23 @@
   text-indent: 2rem;
 }
 
-.research-indent p{
+.research-indent p {
   padding: 10px;
   font-size: 22px;
   text-indent: 2rem;
 }
 
-.research-img img{
+.research-img img {
   object-fit: cover;
   width: 100%;
 }
 
-.partners{
+.partners {
   align-items: center;
   text-align: center;
   padding: 20px;
 }
-.partners p{
+.partners p {
   font-size: 22px;
   font-style: italic;
   text-indent: 0rem;
@@ -176,6 +177,7 @@
   object-fit: contain;
   width: 40vw;
 }
+
 .research-image {
   /* display: block; */
   object-fit: contain;
@@ -190,6 +192,7 @@
 .research-landscape {
   height: 25vh;
   width: 34vw;
+
   /* padding: 0 0.1rem; */
 }
 @media (min-width: 768px) {

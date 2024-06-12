@@ -47,7 +47,7 @@ function Village() {
             </em>
           </h3>
           <button className="button-village-cost">
-            Learn more about Garden Loft units
+            Learn more<br/> about Garden <br/> Loft units
           </button>
 
           <img src={Village3} alt="GL-Cost Image" />
@@ -103,7 +103,7 @@ function Village() {
           </ul>
 
           <button className="button-village-cost">
-            Book a preliminary consult
+            Book a <br/>preliminary<br/>consult
           </button>
         </div>
         <div className="village-content">
@@ -138,7 +138,7 @@ function Village() {
             <em>93 Garden Loft units with cafe and recreation amenity<br/> buildings on
             an acreage <br/> outside of Calgary</em>
           </h3>
-          <button className="button-village-cost">Tour our Showsuite</button>
+          <button className="button-village-cost">Tour our <br/> Showsuite</button>
         </div>
       </section>
       <Footer />

@@ -35,10 +35,9 @@
 
 .testimony-button {
   border: none;
-  width: 200px;
-  height: 100px;
+  padding: 40px 60px;
+  color: black;
   background-color: rgb(199, 240, 255);
-  padding: 20px 30px;
   border-radius: 50%; /* Adjusted to create an elliptical shape */
   cursor: pointer;
   font-size: 22px;
