@@ -2,13 +2,17 @@ import GLLogo from "../../assets/gl-john-logo.png";
 import { Link } from 'react-router-dom';
 import "./Footer.css";
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0)
+}
+
 function Footer() {
   return (
     <>
       <div className="footer">
         <div className="footer-content">
           <h2>
-            <Link to="/" style={{ textDecoration: "none", color: "#0e0101b8" }}>Garden Loft Backyard Suites</Link>
+            <Link onClick={scrollToTop} to="/" style={{ textDecoration: "none", color: "#0e0101b8" }}>Garden Loft Backyard Suites</Link>
             </h2>
           <h3>
             <a href="#support-features">Our Support Features</a>
@@ -38,41 +42,42 @@ function Footer() {
             <a href="#garden-lofters">Meet Our Garden Lofters</a>
           </h3>
          
-          <h2><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          <h2><Link onClick={scrollToTop} to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Garden Loft Villages
         </Link></h2>
-          <h2> <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          <h2> <Link onClick={scrollToTop} to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Atrium House by Garden Loft
         </Link></h2>
-        <h2><Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
-        <h3><a href="#our-team">Our Team</a></h3>
-<h3><a href="#our-history">Our History</a></h3>
-<h3><a href="#our-partners">Our Partners</a></h3>
+        <h2><Link onClick={scrollToTop} to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
+        <h3><Link to="/about#team"
+        >Our Team</Link></h3>
+<h3><Link to="/about#our-history">Our History</Link></h3>
+<h3><Link to="/about#our-partners">Our Partners</Link></h3>
 <h2>
-            <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }}>FAQ</Link>
+            <Link onClick={scrollToTop} to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }}>FAQ</Link>
           </h2>
         <div className="footer-content">
             <h2>Request a:</h2>
             <div>
               <h3>
-                <Link to="/phone-call">Phone Call</Link>
+                <Link onClick={scrollToTop} to="/phone-call">Phone Call</Link>
               </h3>
               
                   <h3>
-                    <Link to="/brochure">Brochure</Link>
+                    <Link onClick={scrollToTop} to="/brochure">Brochure</Link>
                   </h3>
                
                 
                   <h3>
-                    <Link to="/feasibility-report">Feasibility Report</Link>
+                    <Link onClick={scrollToTop} to="/feasibility-report">Feasibility Report</Link>
                   </h3>
               
                   <h3>
-                    <Link to="/book-tour">Book A Tour</Link>
+                    <Link onClick={scrollToTop} to="/book-tour">Book A Tour</Link>
                   </h3>
               
                   <h3>
-                    <Link to="/initial">Initial Meeting</Link>
+                    <Link onClick={scrollToTop} to="/initial">Initial Meeting</Link>
                   </h3>
               
             </div>

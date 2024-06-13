@@ -10,6 +10,11 @@ const Navbar: React.FC = () => {
 
   let lastScrollY = window.scrollY;
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
+
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -38,30 +43,30 @@ const Navbar: React.FC = () => {
         isNavbarVisible ? "visible" : "hidden"
       }`}
     >
-      <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+      <Link onClick={scrollToTop} to="/" style={{ textDecoration: "none", color: "inherit" }}>
         <div className="logo">
           <img src={GLLogo} alt="Logo" />
           {/* <h1>garden loft</h1> */}
         </div>
       </Link>
       <div className={`menu-web ${isMenuOpen ? "open" : ""}`} id="menu-web">
-        <Link to="/" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/" style={{ textDecoration: "none" }}>
           <p>Backyard Suites</p>
         </Link>
-        <Link to="/village" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/village" style={{ textDecoration: "none" }}>
           <p>Villages</p>
         </Link>
-        <Link to="/atrium" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/atrium" style={{ textDecoration: "none" }}>
           <p>Atrium House</p>
         </Link>
-        <Link to="/about" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/about" style={{ textDecoration: "none" }}>
           <p>About</p>
         </Link>
         
-        <Link to="/about" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/about" style={{ textDecoration: "none" }}>
           <p>Contact</p>
         </Link>
-        <Link to="/faq" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/faq" style={{ textDecoration: "none" }}>
           <p>FAQ</p>
         </Link>
        </div>
