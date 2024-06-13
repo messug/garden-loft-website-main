@@ -33,7 +33,9 @@
 
 .video {
   width: 100vw;
-  object-fit: contain;
+  height: 85vh;
+  /* object-fit: contain; */
+  object-fit: cover;
   margin-top: -0.6rem;
 }
 
