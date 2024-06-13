@@ -89,7 +89,7 @@ const About = () => {
           <div className='history-content'>
           <h3>Our History</h3>
           <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build firm, in 1997</h1>
-          <p>Over its 25-year history, <br />Housebrand has completed over <br /> 250 residential projects using <br />a unique practice model that <br />combined architectural design <br />with construction management, <br />real estate services, and <br />furniture retailing.</p>
+          <p>Over its 25-year history, <br />Housebrand has completed over <br /> 250 residential projects using <br />a unique practice model that <br />combined architectural design <br />with construction management, <br />real estate services, and <br />furniture retailing</p>
           </div>
         </div>
 
@@ -115,7 +115,7 @@ const About = () => {
             </Swiper>
             </div>
             <div className="history-content">
-            <p>Housebrand’s work has been <br /> published internationally and <br />recognized with an Award of <br />Excellence in Innovation from <br />the Royal Architectural Institute <br />of Canada. It was the first <br />Canadian firm to receive a Rising <br />Star Leadership Award from <br />Residential Architect Magazine.</p>
+            <p>Housebrand’s work has been <br /> published internationally and <br />recognized with an Award of <br />Excellence in Innovation from <br />the Royal Architectural Institute <br />of Canada. It was the first <br />Canadian firm to receive a Rising <br />Star Leadership Award from <br />Residential Architect Magazine</p>
             <div className='history-indent'>
             <p>In 2022, Carina, John, <br /> and Matthew transitioned <br />Housebrand into Garden Loft</p>
             </div>
@@ -128,7 +128,7 @@ const About = () => {
           <div className="research">
           <h3>Our Research</h3>
           <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
-          <p>In 2014, John Brown’s research <br />lab began constructing and <br />user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine.</p>
+          <p>In 2014, John Brown’s research <br />lab began constructing and <br />user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
         </div>
         <div className="research-section">
            <div className='research-img'>
@@ -151,9 +151,9 @@ const About = () => {
             </Swiper>
             </div>
             <div className="research-content">
-            <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br /> features. In 2015, this work was <br /> awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation.</p> 
+            <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br /> features. In 2015, this work was <br /> awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
             <div className='research-indent'>
-            <p>In 2016 Housebrand <br /> constructed a fully-functioning <br /> V3 prototype of the portable <br />living unit that was field-tested <br /> on several sites with multiple <br />residents of differing abilities. <br />The findings of the V3 prototype <br /> field-testing were incorporated <br /> into the current production <br /> version of Garden Loft.</p>
+            <p>In 2016 Housebrand <br /> constructed a fully-functioning <br /> V3 prototype of the portable <br />living unit that was field-tested <br /> on several sites with multiple <br />residents of differing abilities. <br />The findings of the V3 prototype <br /> field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
             </div>
 
             <div className="research-img">
@@ -164,7 +164,7 @@ const About = () => {
         </video>
          <div className='research-indent'>
           
-            <p>In 2022 and 2023, five <br /> production Garden Lofts were <br /> prototyped for backyard clients <br /> in Calgary and Edmonton. This <br /> version of Garden Loft received <br /> the City of Calgary’s 2023 <br />Accessibility Award.</p>
+            <p>In 2022 and 2023, five <br /> production Garden Lofts were <br /> prototyped for backyard clients <br /> in Calgary and Edmonton. This <br /> version of Garden Loft received <br /> the City of Calgary’s 2023 <br />Accessibility Award</p>
           </div>
         </div>
         <div className="btn-content">
@@ -175,12 +175,12 @@ const About = () => {
           <div className="partnerslogoDiv">
             <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </div>
-         <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally.</p>
+         <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
          
          <div className="partnerslogoDiv">
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </div>
-         <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care.</p>
+         <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
          <div className="btn-content">
           <button className="button-about">Visit our FAQ</button>
         </div>
