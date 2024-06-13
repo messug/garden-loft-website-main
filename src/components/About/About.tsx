@@ -35,13 +35,25 @@ import ProtypeVideoPoster from '../../assets/images/Prototype+video+still.jpg'
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
 
-
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const About = () => {
+
+const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
   return (
     <>
       <Navbar />
-      <section className="hero-about">
+      <section id="about" className="hero-about">
         <div className="hero-about-img">
           <img src={AtriumImage1} alt="Atrium House Image 1" />
           <div className="hero-about-content">
@@ -52,6 +64,7 @@ const About = () => {
             <p>We create high-quality places to live that empower dignity, independence and belonging in the lives of seniors and others with differing abilities.</p>
           </div>
         </div>
+
           <h3></h3>
           <div className="teams" id="our-team"  >
           <h3>Our Team</h3>
@@ -86,6 +99,7 @@ const About = () => {
         <div className="btn-content">
           <button className="button-about">Call <br /> Us</button>
         </div>
+
         <div className="history"  id="our-history">
           <div className='history-content'>
           <h3>Our History</h3>
@@ -171,7 +185,9 @@ const About = () => {
         <div className="btn-content">
           <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
         </div>
+
         <div className="partners"  id="our-partners">
+
           <h3>Our Partners</h3>
           <div className="partnerslogoDiv">
             <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
