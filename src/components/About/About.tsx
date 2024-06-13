@@ -64,7 +64,9 @@ const location = useLocation();
             <p>We create high-quality places to live that empower dignity, independence and belonging in the lives of seniors and others with differing abilities.</p>
           </div>
         </div>
-        <div id="teams" className="teams">
+
+          <h3></h3>
+          <div className="teams" id="our-team"  >
           <h3>Our Team</h3>
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
@@ -97,7 +99,8 @@ const location = useLocation();
         <div className="btn-content">
           <button className="button-about">Call <br /> Us</button>
         </div>
-        <div id="#our-history" className="history">
+
+        <div className="history"  id="our-history">
           <div className='history-content'>
           <h3>Our History</h3>
           <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build <br />firm, in 1997</h1>
@@ -182,7 +185,9 @@ const location = useLocation();
         <div className="btn-content">
           <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
         </div>
-        <div id="#our-partners"className="partners">
+
+        <div className="partners"  id="our-partners">
+
           <h3>Our Partners</h3>
           <div className="partnerslogoDiv">
             <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
