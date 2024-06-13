@@ -6,12 +6,12 @@ const scrollToTop = () => {
   window.scrollTo(0, 0)
 }
 
-const scrollToSection = (id) => {
-  const element = document.getElementById(id);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
+// const scrollToSection = (id) => {
+//   const element = document.getElementById(id);
+//   if (element) {
+//     element.scrollIntoView({ behavior: "smooth" });
+//   }
+// };
 
 
 
@@ -61,7 +61,7 @@ function Footer() {
         </Link></h2>
 
         <h2><Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
-        <h3>
+        {/* <h3>
 
         <a onClick={() => scrollToSection("our-team")} href="/about#our-team">
               Our Team
@@ -78,7 +78,7 @@ function Footer() {
             <a onClick={() => scrollToSection("our-partners")} href="/about#our-partners">
               Our Partners
             </a>
-          </h3>
+          </h3> */}
 
  
 <h2>
