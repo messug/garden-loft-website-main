@@ -1,4 +1,9 @@
 /* About.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-about {
   text-align: center;
   margin-bottom: 30px;
