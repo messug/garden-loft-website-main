@@ -6,20 +6,13 @@ const scrollToTop = () => {
   window.scrollTo(0, 0)
 }
 
-const scrollToSection = (id: string) => {
-  console.log('Scrolling to:', id);
+const scrollToSection = (id) => {
   const element = document.getElementById(id);
   if (element) {
-    const topPos = element.getBoundingClientRect().top + window.pageYOffset;
-    console.log('Scrolling to position:', topPos);
-    window.scrollTo({
-      top: topPos,
-      behavior: 'smooth'
-    });
-  } else {
-    console.log('Element not found:', id);
+    element.scrollIntoView({ behavior: "smooth" });
   }
 };
+
 
 
 
