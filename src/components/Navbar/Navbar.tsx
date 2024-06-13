@@ -57,22 +57,14 @@ const Navbar: React.FC = () => {
         <Link to="/about" style={{ textDecoration: "none" }}>
           <p>About</p>
         </Link>
+        
+        <Link to="/about" style={{ textDecoration: "none" }}>
+          <p>Contact</p>
+        </Link>
         <Link to="/faq" style={{ textDecoration: "none" }}>
           <p>FAQ</p>
         </Link>
-        <div className="button-group">
-          <Link to="/tour" style={{ textDecoration: "none" }}>
-            <div className="button3">
-              <a href="#our-units">Book a Tour</a>
-            </div>
-          </Link>
-          <Link to="/tour" style={{ textDecoration: "none" }}>
-            <div className="button3">
-              <a href="#our-units">Contact Us</a>
-            </div>
-          </Link>
-        </div>
-      </div>
+       </div>
       <div className={`hamburger-menu ${isMenuOpen ? "open" : ""}`} id="hamburger-menu" onClick={toggleMenu}>
         <span className={`hamburger2 ${isScrolled ? "scrolled" : ""} ${isNavbarVisible ? "visible" : "hidden"}`}></span>
         <span className={`hamburger ${isScrolled ? "scrolled" : ""} ${isNavbarVisible ? "visible" : "hidden"}`}></span>
