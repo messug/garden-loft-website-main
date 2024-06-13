@@ -18,6 +18,7 @@
   text-align: left;
   margin-left: 3rem;
   font-size: 22px;
+  font-weight: 500;
 }
 
 .village-list {
@@ -76,14 +77,14 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   width: 100vw;
   overflow-x: hidden;
 }
 
 .hero-content {
   text-align: center;
-  color: white;
+  color: black;
   width: 100vw;
   height: 80vh;
   padding: 10px;
@@ -110,7 +111,7 @@
 
 .hero-village h1 {
   font-size: 35px;
-  color: white;
+  color: black;
   /* margin-bottom: 9rem; */
   text-align: left;
   line-height: 3rem;
@@ -118,7 +119,7 @@
 
 .hero-village p {
   font-size: 22px;
-  color: white;
+  color: black;
 
   text-align: right;
   /* margin-bottom: 2rem; */
