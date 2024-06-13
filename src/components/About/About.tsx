@@ -30,7 +30,7 @@ import projectImage19 from '../../assets/images/about 8b.jpg';
 import projectImage10 from '../../assets/images/about 8f.jpg';
 import projectImage12 from '../../assets/images/about 8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
-import ProtypeVideo from '../../assets/images/garden_loft_v3_prototype_drone_video_october_2017 (1080p).mp4';
+import ProtypeVideo from '/images/Short prototype drone 2024_06_12.mp4';
 import ProtypeVideoPoster from '../../assets/images/Prototype+video+still.jpg'
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
