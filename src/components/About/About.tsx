@@ -65,7 +65,7 @@ const location = useLocation();
           </div>
         </div>
 
-          <h3></h3>
+        
           <div className="teams" id="our-team"  >
           <h3>Our Team</h3>
           <div className='team-content'>
