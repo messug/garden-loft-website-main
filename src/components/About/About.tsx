@@ -88,7 +88,7 @@ const About = () => {
         <div className="history">
           <div className='history-content'>
           <h3>Our History</h3>
-          <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build firm, in 1997</h1>
+          <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build <br />firm, in 1997</h1>
           <p>Over its 25-year history, <br />Housebrand has completed over <br /> 250 residential projects using <br />a unique practice model that <br />combined architectural design <br />with construction management, <br />real estate services, and <br />furniture retailing</p>
           </div>
         </div>
@@ -105,7 +105,7 @@ const About = () => {
               loop={true}
               style={{ paddingBottom: '20px' }}
             >
-              {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17,projectImage18,projectImage19].map((image, index) => (
+              {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
@@ -141,7 +141,7 @@ const About = () => {
               loop={true}
               style={{ paddingBottom: '20px' }}
             >
-              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13].map((image, index) => (
+              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
