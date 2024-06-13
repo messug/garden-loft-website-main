@@ -6,6 +6,24 @@ const scrollToTop = () => {
   window.scrollTo(0, 0)
 }
 
+const scrollToSection = (id) => {
+  console.log('Scrolling to:', id);
+  const element = document.getElementById(id);
+  if (element) {
+    const topPos = element.getBoundingClientRect().top + window.pageYOffset;
+    console.log('Scrolling to position:', topPos);
+    window.scrollTo({
+      top: topPos,
+      behavior: 'smooth'
+    });
+  } else {
+    console.log('Element not found:', id);
+  }
+};
+
+
+
+
 function Footer() {
   return (
     <>
@@ -50,9 +68,24 @@ function Footer() {
         </Link></h2>
 
         <h2><Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
-        <h3><a href="/about#our-team">Our Team</a></h3>
-<h3><a href="/about#our-history">Our History</a></h3>
-<h3><a href="/about#our-partners">Our Partners</a></h3>
+        <h3>
+
+        <a onClick={() => scrollToSection("our-team")} href="/about#our-team">
+              Our Team
+            </a>
+    
+
+          </h3>
+          <h3>
+            <a onClick={() => scrollToSection("our-history")} href="/about#our-history">
+              Our History
+            </a>
+          </h3>
+          <h3>
+            <a onClick={() => scrollToSection("our-partners")} href="/about#our-partners">
+              Our Partners
+            </a>
+          </h3>
 
  
 <h2>

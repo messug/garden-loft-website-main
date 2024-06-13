@@ -1,8 +1,5 @@
 /* About.css */
-/* 
-html {
-  scroll-behavior: smooth;
-} */
+
 
 .hero-about {
   text-align: center;
@@ -102,9 +99,13 @@ html {
 }
 
 .teams,
-.research,
 .partners,
 .history {
+  font-size: 35px;
+  align-items: center;
+ color: #000;
+}
+.research{
   font-size: 35px;
   align-items: center;
  color: #000;
