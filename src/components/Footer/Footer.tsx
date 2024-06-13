@@ -6,7 +6,7 @@ const scrollToTop = () => {
   window.scrollTo(0, 0)
 }
 
-const scrollToSection = (id) => {
+const scrollToSection = (id: string) => {
   console.log('Scrolling to:', id);
   const element = document.getElementById(id);
   if (element) {
