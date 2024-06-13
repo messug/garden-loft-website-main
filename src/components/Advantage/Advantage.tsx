@@ -7,7 +7,7 @@ import livingRoomImage from '../../assets/images/backyard 5.jpg'; // Ensure this
 import livingRoomImage1 from '../../assets/images/backyard 2.jpg'; // Ensure this path is correct
 import livingRoomImage2 from '../../assets/images/backyard 3.jpg'; // Ensure this path is correct
 import livingRoomImage3 from '../../assets/images/backyard 4.jpg'; // Ensure this path is correct
-import livingRoomImage5 from '../../assets/images/backyard 1.jpg'; // Ensure this path is correct
+import livingRoomImage5 from '../../assets/images/Babiak video still 1 cropped.jpg'; // Ensure this path is correct
 import livingRoomImage6 from '../../assets/images/backyard 6.jpg'; // Ensure this path is correct
 import './Advantage.css'
 
