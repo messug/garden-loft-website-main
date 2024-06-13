@@ -48,20 +48,26 @@
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   #support-features h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 0 7rem;
+    line-height: 2.5rem;
   }
 
-  #support-features p {
-    font-size: 1.25rem;
+  .button-safety {
+    padding: 2.1rem 5rem;
+    font-size: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   #support-features h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    padding: 0 8rem;
+    line-height: 3.4rem;
   }
 
-  #support-features p {
-    font-size: 1.5rem;
+  .button-safety {
+    padding: 2.1rem 6rem;
+    font-size: 2.8rem;
   }
 }
