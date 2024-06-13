@@ -27,7 +27,7 @@ const Advantage: React.FC = () => {
         <SwiperSlide>
           <div className="advantage-slide">
             <img src={livingRoomImage5} alt="Living Room" className="advantage-image" />
-            <div className="advantage-title  ">Community <br/>Connected</div>
+            <div className="advantage-title black-text ">Community <br/>Connected</div>
             <div className="advantage-text">
               <p><em>Garden Loft’s backyard location is close to family, without being intrusive. Our digital platform offers online activities and gatherings</em></p>
             </div>

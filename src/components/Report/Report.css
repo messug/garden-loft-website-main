@@ -21,7 +21,7 @@
 
 .report-image {
   width: 80vw;
-  /* object-fit: contain; */
+  object-fit: contain;
   margin: 0 auto;
   margin-bottom: 30px;
 }
