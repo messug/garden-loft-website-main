@@ -173,7 +173,7 @@ const location = useLocation();
 
             <div className="research-img">
           {/* <img src={AtriumImage7} alt="prototype" /> */}
-          <video controls poster={ProtypeVideoPoster}>
+          <video rel="noopener noreferrer" controls poster={ProtypeVideoPoster}>
           <source src={ProtypeVideo}type="video/mp4" />
           Your browser does not support the video tag.
         </video>
