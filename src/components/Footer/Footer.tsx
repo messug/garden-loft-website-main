@@ -45,9 +45,9 @@ function Footer() {
           Atrium House by Garden Loft
         </Link></h2>
         <h2><Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }}>About</Link> </h2>
-        <h3><a href="#our-team">Our Team</a></h3>
-<h3><a href="#our-history">Our History</a></h3>
-<h3><a href="#our-partners">Our Partners</a></h3>
+        <h3><a href="/about#our-team">Our Team</a></h3>
+<h3><a href="/about#our-history">Our History</a></h3>
+<h3><a href="/about#our-partners">Our Partners</a></h3>
 <h2>
             <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }}>FAQ</Link>
           </h2>
