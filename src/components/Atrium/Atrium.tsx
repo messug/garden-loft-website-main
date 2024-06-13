@@ -29,7 +29,7 @@ const Atrium = () => {
       <section id="atrium">
         <div className="atrium-content">
           <h2>Combining advanced <br/>age-in-place architecture <br/>with person-led care and <br/>living support</h2>
-          <h3><em>Atrium House features <br/>Garden Loft units clustered<br/> around a central interior<br/> light-filled community atrium</em></h3>
+          <h3><em>Atrium House features <br/>Garden Loft units clustered<br/> around a light-filled central <br/>interior community atrium</em></h3>
           <img src={AtriumImage2} alt="Atrium House Image 2" />
           <h2>Atrium House is a small <br/>care home providing <br/>high levels of nursing<br/> care and support for up<br/> to 14 residents</h2>
           <img src={AtriumImage3} alt="Atrium House Image 3" />
@@ -39,8 +39,8 @@ privacy and independence of<br/>
 living in a Garden Loft with<br/>
 the social connectiveness<br/>
 and sense of belonging that<br/>
-comes from being part of a<br/>
-small village-style community</em></h3>
+comes from being a part of a<br/>
+small scale village-like<br/> communal building</em></h3>
           <button className='button-atrium'>Learn more about Garden Loft units</button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
           <h3><em>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</em></h3>

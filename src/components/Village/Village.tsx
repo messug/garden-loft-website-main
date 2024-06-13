@@ -66,10 +66,10 @@ function Village() {
           </h2>
         </div>
         <div className="workers-list">
-          <h3 className="work-title">We work with: </h3>
+          <h3 ><em>We work with: </em></h3>
         </div>
         <div className="client-list">
-          <ul className="village-list">
+          <ul className="village-list"><em>
             <li>
               <h4>Developers</h4>
             </li>
@@ -100,7 +100,7 @@ function Village() {
             <li>
               <h4>Existing care facilities</h4>
             </li>
-          </ul>
+            </em> </ul>
 
           <button className="button-village-cost">
             Book a <br/>preliminary<br/>consult
@@ -111,7 +111,7 @@ function Village() {
           <h3>
             <em>
               Garden Loft villages are <br/> particularly well suited in rural<br/>
-              communities with small-scale <br/> demand for supportive housing
+              communities with limited <br/> demand for supportive housing
             </em>
           </h3>
           <button className="button-village-cost call-us">Call us</button>
@@ -129,12 +129,13 @@ function Village() {
           <h3>Small Town Rental Village</h3>
           <p>
            <em>
-            10 Garden Loft units in a <br/> park-like setting on the grounds to<br/>  increase capacity of an<br/>  adjacent care facility</em>
+            
+            10 Garden Loft units in a <br/>  park-like setting adjacent to<br/>an existing care facility<br/>  in order to increase capacity</em>
           </p>
           <img src={Village7} alt="GL-Cost Image" />
           <h3>Country Residential Village</h3>
           <p>
-            <em>93 Garden Loft units <br/> augmented with community amenity <br/> building on an acreage site<br/>  outside of Calgary</em>
+            <em>93 Garden Loft units <br/> augmented with community amenity <br/> buildings on an acreage site<br/>  outside of Calgary</em>
           </p>
           <button className="button-village-cost">Tour our <br/> Showsuite</button>
         </div>

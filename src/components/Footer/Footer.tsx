@@ -17,7 +17,7 @@ function Footer() {
             <a href="#garden-loft-advantage">The Garden Loft Advantage</a>
           </h3>
           <h3>
-            <a href="#award">Pur 2024 Award</a>
+            <a href="#award">Our 2024 Award</a>
           </h3>
           <h3>
             <a href="#two-units">Our Units</a>
@@ -37,9 +37,7 @@ function Footer() {
           <h3>
             <a href="#garden-lofters">Meet Our Garden Lofters</a>
           </h3>
-          <h3>
-            <a href="/faq">FAQ</a>
-          </h3>
+         
           <h2><Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }}>
           Garden Loft Villages
         </Link></h2>
@@ -50,6 +48,9 @@ function Footer() {
         <h3><a href="#our-team">Our Team</a></h3>
 <h3><a href="#our-history">Our History</a></h3>
 <h3><a href="#our-partners">Our Partners</a></h3>
+<h2>
+            <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }}>FAQ</Link>
+          </h2>
         <div className="footer-content">
             <h2>Request a:</h2>
             <div>
