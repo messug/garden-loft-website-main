@@ -146,7 +146,7 @@ const scrollToTop = () => {
   window.scrollTo(0, 0)
 }
 
-const scrollToSection = (id) => {
+const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
