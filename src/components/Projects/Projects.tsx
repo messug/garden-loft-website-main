@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
   return (
     <>
       
-      <div className="projects-section">
+      <div className="projects-section" id='projects'>
         <div className="projects-content">
           <h2>Our Projects</h2>
           <p><em>We have recently completed backyard suites in Calgary <br/> and Edmonton</em></p>
@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
             slidesPerView={1.2}
             centeredSlides={true}
             loop={true}
-            style={{ paddingBottom: '20px' }}
+            style={{ paddingBottom: '0px' }}
           >
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
