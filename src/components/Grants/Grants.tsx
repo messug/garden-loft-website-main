@@ -19,7 +19,7 @@ for the $10,000 secondary suite grant</h1>
       </div>
 
       <div className='grant-h2'>
-        <h2> <em>Garden Lofts are also now<br/> permitted in most cities and <br/> towns across Canada</em></h2>
+        <h2> Garden Lofts are also now<br/> permitted in most cities and <br/> towns across Canada</h2>
       </div>
  
   </section>

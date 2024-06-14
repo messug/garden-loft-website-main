@@ -69,7 +69,7 @@ const Report: React.FC = () => {
    
       </Swiper>
       <div className="carousel-text">
-        <p className="report-title"><em>Combining light-filled <br/>open plan loft-living with <br/>safety and peace of mind</em></p>
+        <p className="report-title">Combining light-filled <br/>open plan loft-living with <br/>safety and peace of mind</p>
       </div>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <button className="report-button">Request a <br />Feasibility <br /> Report</button>

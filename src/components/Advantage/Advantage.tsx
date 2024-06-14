@@ -29,7 +29,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage5} alt="Living Room" className="advantage-image" />
             <div className="advantage-title black-text ">Community <br/>Connected</div>
             <div className="advantage-text">
-              <p><em>Garden Loft’s backyard location is close to family, without being intrusive. Our digital platform offers online activities and gatherings</em></p>
+              <p>Garden Loft’s backyard location is close to family, without being intrusive. Our digital platform offers online activities and gatherings</p>
             </div>
           </div>
         </SwiperSlide>
@@ -38,7 +38,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage6} alt="Living Room" className="advantage-image" />
             <div className="advantage-title black-text">Non-Institutional <br/>Living</div>
             <div className="advantage-text">
-              <p><em>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</em></p>
+              <p>Garden Lofts have a modern living space that opens out to a shared family garden. They have a full kitchen, laundry, and lots of storage</p>
             </div>
           </div>
         </SwiperSlide>
@@ -47,7 +47,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage1} alt="Living Room" className="advantage-image" />
             <div className="advantage-title">Prefabrication <br/>Efficiency</div>
             <div className="advantage-text">
-              <p><em>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</em></p>
+              <p>Garden Lofts are built in a controlled factory environment according to CSA standards to ensure high quality efficient construction</p>
             </div>
           </div>
         </SwiperSlide>
@@ -56,7 +56,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage2} alt="Living Room" className="advantage-image" />
             <div className="advantage-title">Low-Impact <br/>Installation</div>
             <div className="advantage-text">
-              <p><em>Garden Lofts are delivered to the site by truck and craned into place with minimal on-site disruption. They can be resold and moved when no longer needed</em></p>
+              <p>Garden Lofts are delivered to the site by truck and craned into place with minimal on-site disruption. They can be resold and moved when no longer needed</p>
             </div>
           </div>
         </SwiperSlide>
@@ -65,7 +65,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage3} alt="Living Room" className="advantage-image" />
             <div className="advantage-title">Research-Based<br/> Design</div>
             <div className="advantage-text">
-              <p><em>Garden Loft's safety and support features were developed and tested at the University of Calgary in collaboration with medical researchers</em></p>
+              <p>Garden Loft's safety and support features were developed and tested at the University of Calgary in collaboration with medical researchers</p>
             </div>
           </div>
         </SwiperSlide>
@@ -74,7 +74,7 @@ const Advantage: React.FC = () => {
             <img src={livingRoomImage} alt="Living Room" className="advantage-image" />
             <div className="advantage-title black-text">Technology-Enabled <br/>Support</div>
             <div className="advantage-text">
-              <p><em>Garden Loft's built-in safety and support features enable someone with differing abilities to live with more independence</em></p>
+              <p>Garden Loft's built-in safety and support features enable someone with differing abilities to live with more independence</p>
             </div>
           </div>
         </SwiperSlide>
