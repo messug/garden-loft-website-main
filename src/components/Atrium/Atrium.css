@@ -94,6 +94,7 @@
 .hero-atrium-img img {
   width: 100vw;
   object-fit: contain;
+  filter: brightness(75%);
 }
 
 .hero-atrium h1 {
@@ -104,7 +105,7 @@
 }
 
 .hero-atrium p {
-  font-size: 22px;
+  font-size: 32px;
   /* font-weight: 500; */
   text-align: right;
   margin-bottom: 1rem;

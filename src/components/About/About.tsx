@@ -1,7 +1,7 @@
 import './About.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import AtriumImage1 from '/images/Atrium 1.jpg';
+import AtriumImage1 from '../../assets/images/about 1.jpg';
 import Carina from '../../assets/images/About 2.jpg';
 import John from '../../assets/images/About 3.jpg';
 import Matthew from '../../assets/images/About 4.jpg';
@@ -173,7 +173,7 @@ const location = useLocation();
 
             <div className="research-img">
           {/* <img src={AtriumImage7} alt="prototype" /> */}
-          <video rel="noopener noreferrer" playsInline controls poster={ProtypeVideoPoster}>
+          <video rel="noopener noreferrer" autoPlay playsInline controls poster={ProtypeVideoPoster}>
           <source src={ProtypeVideo}type="video/mp4" />
           Your browser does not support the video tag.
         </video>

@@ -12,6 +12,7 @@
 .sky-background {
   height: 15vh;
   background-color: rgb(216, 235, 241);
+  filter: brightness(75%);
 }
 
 .workers-list h3 {
@@ -107,23 +108,23 @@
   width: 100vw;
   /* height: 70vh; */
   object-fit: contain;
+  filter: brightness(75%);
 }
 
 .hero-village h1 {
   font-size: 35px;
-  color: black;
+  color: rgb(246, 244, 244);
   /* margin-bottom: 9rem; */
   text-align: left;
   line-height: 3rem;
 }
 
 .hero-village p {
-  font-size: 22px;
-  color: black;
-
+  font-size: 32px;
+  color: rgb(246, 244, 244);
   text-align: right;
   /* margin-bottom: 2rem; */
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .button-village-cost {

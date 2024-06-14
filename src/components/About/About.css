@@ -13,6 +13,7 @@
 .hero-about-img img {
   width: 100%;
   height: auto;
+  filter: brightness(75%);
 }
 
 .hero-about-content h1 {
