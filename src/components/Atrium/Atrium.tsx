@@ -102,7 +102,7 @@ enhanced housing solutions</h3>
           
           <h2>Atrium House can also <br/>be combined with a <br/>Garden Loft Village</h2>
           <img src={AtriumImage7} alt="Atrium House Image 7" />
-          <h3>A common entry courtyard deck<br/> enhances community by <br/>connecting the private outdoor <br/>spaces for the independent living <br/>Garden Loft units with the communal outdoor space for <br/>Atrium residents</h3>
+          <h3>A common entry courtyard deck<br/> enhances community by <br/>connecting the private outdoor <br/>spaces for the independent living <br/>Garden Loft units with the communal <br/> outdoor space for <br/>Atrium residents</h3>
           <img src={AtriumImage8} alt="Atrium House Image 8" />
           <button className='button-atrium'>Visit our showsuite and sales center</button>
         </div>
