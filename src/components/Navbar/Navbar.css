@@ -6,7 +6,7 @@
   padding: 0.7rem;
   width: 100vw;
   gap: 5rem;
-  position: fixed;
+  position: absolute;
   top: 0;
   transition: all 0.3s ease;
   z-index: 10;
@@ -19,13 +19,13 @@
   color: #000;
 }
 
-.navbar.visible {
+/* .navbar.visible {
   transform: translateY(0);
 }
 
 .navbar.hidden {
   transform: translateY(-100%);
-}
+} */
 
 .navbar p {
   line-height: 0.2rem;

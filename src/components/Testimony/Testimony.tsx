@@ -4,7 +4,7 @@ import testimonyImage from '../../assets/images/backyard 36.jpg'; // Ensure this
 
 const Testimony: React.FC = () => {
   return (
-    <section className="testimony-section">
+    <section className="testimony-section" id='garden-lofters'>
       <h1 className="testimony-title">Meet our <br/>Garden Lofters</h1>
       <div className="testimony-content">
         <img src={testimonyImage} alt="Garden Lofters" className="testimony-image" />
