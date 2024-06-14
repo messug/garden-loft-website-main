@@ -2,7 +2,7 @@ import './Process.css';
 
 const Process = () => {
   return (
-    <section className="process-section">
+    <section className="process-section" id='four-step-process'>
       <h1>Our <br/> 4 Step Process</h1>
       <div className="steps">
         <div className="step">

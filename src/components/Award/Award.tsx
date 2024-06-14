@@ -3,7 +3,7 @@ import "./Award.css";
 const Award = () => {
   return (
     <>
-    <section className="award-section">
+    <section className="award-section"  id="award">
       <div className="award-content">
         <h1>
           Garden Loft received the 2024 City of Calgary Accessibility Award

@@ -99,7 +99,7 @@ const location = useLocation();
         <div className="btn-content">
           <button className="button-about">Call <br /> Us</button>
         </div>
-
+        </section>
         <div className="history"  id="our-history">
           <div className='history-content'>
           <h3>Our History</h3>
@@ -186,7 +186,7 @@ const location = useLocation();
           <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
         </div>
 
-        <div className="partners"  id="our-partners">
+        <section className="partners"  id="our-partners">
 
           <h3>Our Partners</h3>
           <div className="partnerslogoDiv">
@@ -202,11 +202,11 @@ const location = useLocation();
           <button className="button-about">Visit our FAQ</button>
         </div>
 
-        </div> 
+        </section> 
         </div>
         </div>
         </div>
-      </section>
+    
       <Footer />
     </>
   );
