@@ -8,8 +8,8 @@ const Testimony: React.FC = () => {
       <h1 className="testimony-title">Meet our <br/>Garden Lofters</h1>
       <div className="testimony-content">
         <img src={testimonyImage} alt="Garden Lofters" className="testimony-image" />
-        <p className="testimony-description"><em>
-          When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot</em>
+        <p className="testimony-description">
+          When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot
         </p>
         <button className="testimony-button">Visit our FAQ</button>
       </div>
