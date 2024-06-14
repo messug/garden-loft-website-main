@@ -2,11 +2,12 @@
 
 .award-section {
   position: relative;
-  width: 100vw;
+  width: 93vw;
   background: url("/images/award.jpg") no-repeat center center/cover; /* Make sure to use the correct path to your image */
   align-content: justify;
   text-align: right;
   margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .award-content {
@@ -25,7 +26,7 @@
 .learn-more-btn {
   background-color: transparent;
   border: 2px solid transparent;
-  color:transparent;
+  color: transparent;
   padding: 0.5rem 1rem;
   font-size: 22px;
   margin-top: 1rem;
