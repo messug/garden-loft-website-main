@@ -15,7 +15,8 @@ const Home: React.FC = () => {
         {/* <img className="video" src={BYSuite} /> */}
         <div className="content">
         <h1>Garden Loft Backyard Suites</h1>
-        <p>family focused <br />supportive living</p></div>
+        <p className='mobile-para'> family focused <br />supportive living</p>
+        <p className='desktop-para'>family focused supportive living</p></div>
       </div>
     </section>
   );

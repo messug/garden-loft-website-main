@@ -5,7 +5,6 @@
   align-items: center;
   padding: 0.7rem;
   width: 100vw;
-
   gap: 5rem;
   position: fixed;
   top: 0;
@@ -52,6 +51,7 @@
   font-size: 35px;
   align-items: left;
   gap: 1rem;
+  margin-top: -3rem;
 }
 
 .menu-web a {
@@ -156,7 +156,7 @@
   margin-left: -8px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1223px) {
   .menu-web {
     display: none;
     flex-direction: column;
@@ -189,4 +189,33 @@
   .hamburger-menu {
     display: flex;
   }
+}
+
+/* Media Queries for Tablet Screens */
+@media (min-width: 769px) {
+  .menu-web p {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  .hamburger-menu {
+    transform: scale(2);
+    margin-top: 3rem;
+}
+
+  .logo img {
+    transform: scale(4);
+    margin-top: 3rem;
+}
+}
+
+.navbar {
+  padding: 5rem;
+}
+
+
+/* Media Queries for Desktop Screens */
+@media (min-width: 1024px) {
+ 
+
 }
