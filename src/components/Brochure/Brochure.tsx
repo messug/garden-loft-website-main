@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
@@ -19,7 +19,7 @@ const Brochure = () => {
 
     const [message, setMessage] = useState('');
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
@@ -27,7 +27,7 @@ const Brochure = () => {
         });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         try {
@@ -59,9 +59,14 @@ const Brochure = () => {
                 referral: '',
                 question: ''
             });
-        } catch (error) {
-            console.error('Error submitting form:', error);
-            setMessage(`An error occurred. Please try again. ${error.message}`);
+        } catch (error: unknown) {
+            if (error instanceof Error) {
+                console.error('Error submitting form:', error.message);
+                setMessage(`An error occurred. Please try again. ${error.message}`);
+            } else {
+                console.error('Error submitting form:', error);
+                setMessage(`An error occurred. Please try again.`);
+            }
         }
     };
 
