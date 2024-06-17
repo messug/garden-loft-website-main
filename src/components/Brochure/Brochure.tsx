@@ -21,7 +21,8 @@ const Brochure = () => {
 
     const [message, setMessage] = useState('');
 
-    const handleChange = (e) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const handleChange = (e: { target: { name: any; value: any; }; }) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
@@ -29,7 +30,7 @@ const Brochure = () => {
         });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
         try {
