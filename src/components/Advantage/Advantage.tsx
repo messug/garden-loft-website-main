@@ -13,7 +13,7 @@ import './Advantage.css'
 
 const Advantage: React.FC = () => {
   return (
-    <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw", height: "180vh" }}>
+    <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw", height: "160vh" }}>
       <h1 style={{ fontSize: "35px", marginBottom: '30px', marginTop: '40px', fontWeight: '500' }}>The Garden Loft <br /> Backyard Advantage</h1>
       <Swiper
         modules={[Pagination]}
