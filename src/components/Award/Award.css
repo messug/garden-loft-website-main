@@ -2,12 +2,12 @@
 
 .award-section {
   position: relative;
-  width: 93vw;
+  width: 90vw;
   background: url("/images/award.jpg") no-repeat center center/cover; /* Make sure to use the correct path to your image */
   align-content: justify;
   text-align: right;
   margin-bottom: 1rem;
-  margin: 1rem;
+  margin: 1.3rem;
 }
 
 .award-content {
