@@ -74,7 +74,7 @@ const Brochure = () => {
         <>
             <Navbar />
             <form className="brochure-form" onSubmit={handleSubmit}>
-                <h1>Request a Brochure / Ask a Question</h1>
+                <h1>Request a Brochure </h1>
                 {message && <p>{message}</p>}
                 <div className="form-group">
                     <label>Name (required)</label>
