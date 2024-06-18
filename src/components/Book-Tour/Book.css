@@ -1,18 +1,26 @@
 /* Book.css */
 .book-container {
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 150px;
+  padding: 120px;
 }
 
 .book-title {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 50px;
 }
 
 .calendly-widget {
-  margin: 0 auto;
+  margin: -100px;
+  align-items: center;
+  width: 100%;
   max-width: 1200px; /* Adjust width as needed */
-  height: 500px;    /* Adjust height as needed */
+  height: 600px;    /* Adjust height as needed */
 }
 
 @media (min-width: 768px) {
