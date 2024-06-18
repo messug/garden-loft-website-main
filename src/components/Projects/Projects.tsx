@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
       <div className="projects-section" id='projects'>
         <div className="projects-content">
           <h2>Our Projects</h2>
-          <p>We have recently completed backyard suites in Calgary <br/> and Edmonton</p>
+          <p>We have recently completed backyard suites in Calgary and Edmonton</p>
           <Swiper
             modules={[Pagination]}
             spaceBetween={10}
