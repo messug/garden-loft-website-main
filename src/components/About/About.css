@@ -13,7 +13,7 @@
 .hero-about-img img {
   width: 100vw;
   object-fit: cover;
-  height: 105vh;
+  height: 90vh;
   filter: brightness(75%);
 }
 
@@ -23,7 +23,7 @@
   left:55%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 26px;
+  font-size: 30px;
   text-align: center;
   width: 400px;
   line-height: 1.9;
