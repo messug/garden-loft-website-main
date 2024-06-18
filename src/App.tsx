@@ -10,6 +10,7 @@ import Atrium from "./components/Atrium/Atrium";
 import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
+import Feasibility from "./components/Feasibility-report/Feasibility";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/village" element={<Village />} />
           <Route path="/brochure" element={<Brochure />} />
           <Route path="/book-tour" element={<Book />} />
+          <Route path="/feasibility-report" element={<Feasibility />} />
           <Route path="/atrium" element={<Atrium /> }/>
           <Route path="/initial" element={< Initial/> }/>
         </Routes>
