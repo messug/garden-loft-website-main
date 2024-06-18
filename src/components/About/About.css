@@ -11,8 +11,9 @@
 }
 
 .hero-about-img img {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  object-fit: cover;
+  height: 105vh;
   filter: brightness(75%);
 }
 
