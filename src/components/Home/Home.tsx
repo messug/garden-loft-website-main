@@ -3,7 +3,7 @@ import './Home.css';
 
 // import BYSuite from '../../assets/images/backyard 1.jpg'
 // import FrontVideo from "/images/Website front page clip 2024_06_12.mp4"
-import FrontVideo from "/images/front-page-720.mp4"
+import FrontVideo from "/images/Backyard 1.mp4"
 
 
 const Home: React.FC = () => {
