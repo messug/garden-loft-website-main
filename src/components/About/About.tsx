@@ -1,7 +1,7 @@
 import './About.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import AtriumImage1 from '../../assets/images/about 1 (4).jpg';
+import AtriumImage1 from '/images/About 1 (3).jpg';
 import Carina from '../../assets/images/About 2.jpg';
 import John from '../../assets/images/About 3.jpg';
 import Matthew from '../../assets/images/About 4.jpg';
