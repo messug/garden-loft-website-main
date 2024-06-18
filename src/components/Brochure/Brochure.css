@@ -3,7 +3,7 @@
   max-width: 480px;
   margin: 0 auto;
   padding: 10px;
-  background-color: #e6e1e1;
+  background-color: #f5efef;
   border: 1px solid #fbf5f5;
   border-radius: 4px;
   margin-top: 150px;
@@ -53,15 +53,17 @@
 .brochure-form button {
   width: 100%;
   padding: 10px;
-  background-color: #59dcfd;
-  color: white;
+  font-size: 2rem;
+  background-color: #C7F0FF;
+  color: black;
   border: none;
   border-radius: 1.7rem;
   cursor: pointer;
 }
 
 .brochure-form button:hover {
-  background-color: #0056b3;
+  background-color: #10bfff;
+  color: white;
 }
 
 .brochure-form p {
