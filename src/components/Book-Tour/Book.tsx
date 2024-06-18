@@ -10,7 +10,11 @@ function Book() {
     <>
       <Navbar />
       <div className="book-container">
-        <h1 className="book-title">Book A Tour Suite</h1>
+        <h1 className="book-title">
+        <span>Book A Tour</span><br />
+        <span>Suite</span>
+
+        </h1>
         <div className="calendly-widget">
           <Calendly />
         </div>
