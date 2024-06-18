@@ -57,8 +57,10 @@
     margin-bottom: 26rem;
   }
 
-  .learn-more-btn {
-    font-size: 1.25rem;
+  .award-button {
+    font-size: 2rem;
+  padding: 2.1rem 5rem;
+  margin-top: 3rem; 
   }
 }
 
@@ -71,4 +73,11 @@
   .learn-more-btn {
     font-size: 1.5rem;
   }
+
+  .award-button {
+    font-size: 2rem;
+  padding: 2.1rem 5rem;
+  margin-top: 3rem; 
+  }
+ 
 }
