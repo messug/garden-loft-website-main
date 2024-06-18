@@ -11,13 +11,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  line-height: 2;
-  margin-bottom: 50px;
+  line-height: 1.2;
+  margin-bottom: 85px;
 }
 
 .calendly-widget {
-  margin: -100px;
+  margin: -85px;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   width: 100%;
   max-width: 1200px; /* Adjust width as needed */
   height: 600px;    /* Adjust height as needed */
