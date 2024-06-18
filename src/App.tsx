@@ -8,6 +8,7 @@ import Village from './components/Village/Village'
 import About from "./components/About/About";
 import Atrium from "./components/Atrium/Atrium";
 import Brochure from './components/Brochure/Brochure';
+import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/tour" element={<Tour />} />
           <Route path="/village" element={<Village />} />
           <Route path="/brochure" element={<Brochure />} />
+          <Route path="/book-tour" element={<Book />} />
           <Route path="/atrium" element={<Atrium /> }/>
           <Route path="/initial" element={< Initial/> }/>
         </Routes>
