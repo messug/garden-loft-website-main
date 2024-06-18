@@ -162,6 +162,7 @@
     flex-direction: column;
     gap: 4rem;
     position: absolute;
+    left:-50px;
     top: 100px;
     background-color: #ffffff;
     color: #000;
