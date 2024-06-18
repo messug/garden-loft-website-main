@@ -1,5 +1,5 @@
 // Book.js
-import React from 'react';
+
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import Calendly from '../Calendly'; // Adjust the path as needed
