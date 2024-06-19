@@ -58,6 +58,11 @@
   font-weight: 500;
 }
 
+.button-safety-grant > a {
+  text-decoration: none;
+  color: black;
+}
+
 .grant-h2 h2 {
   font-size: 22px;
   align-items: center;
@@ -90,7 +95,6 @@
   #rules-and-grants h1 {
     font-size: 2.5rem;
     font-weight: 400;
-  
   }
 
   #rules-and-grants p {
