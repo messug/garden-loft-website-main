@@ -1,6 +1,8 @@
 
 import GLCost from  '../../assets/images/backyard 35.jpg'
 import './Grants.css'
+import { Link } from 'react-router-dom';
+
 
 function Grants() {
   return (
@@ -15,7 +17,7 @@ for the $10,000 secondary suite grant</h1>
   </div>
  
      <div  className='button-grant'>
-      <button className='button-safety-grant'>Learn about <br />the new rules +  <br />grants</button>
+      <button className='button-safety-grant'><Link to="/learn-more#zoning" >Learn about <br />the new rules +  <br />grants</Link></button>
       </div>
 
       <div className='grant-h2'>

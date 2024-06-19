@@ -46,6 +46,11 @@
   font-weight: 500;
 }
 
+.button-safety > a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   #support-features h1 {

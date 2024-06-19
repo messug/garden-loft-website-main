@@ -42,7 +42,7 @@ const LearnMore: React.FC = () => {
       <section className="learn-more-section" id="learn-more">
         <h1 className="section-title">Our Safety and Support Features</h1>
         <img src={LM2} alt="safety-features" className='award-image'/>
-        <p className="section-description">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p>
+        <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p>
         <Swiper
           modules={[Pagination]}
           spaceBetween={10}
