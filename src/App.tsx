@@ -11,6 +11,7 @@ import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 import Feasibility from "./components/Feasibility-report/Feasibility";
+import LearnMore from "./components/LearnMore/LearnMore";
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
           <Route path="/feasibility-report" element={<Feasibility />} />
           <Route path="/atrium" element={<Atrium /> }/>
           <Route path="/initial" element={< Initial/> }/>
+          <Route path="/learn-more" element={<LearnMore/>}/>
+          
         </Routes>
       </Router>
     </>
