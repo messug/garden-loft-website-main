@@ -199,10 +199,11 @@ const Footer = () => {
           </h3>
 
           <h2>
-            <Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>Garden Loft Villages</Link>
+            <Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Garden Loft Villages</Link>
+       
           </h2>
           <h2>
-            <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>Atrium House by Garden Loft</Link>
+            <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Atrium House by Garden Loft</Link>
           </h2>
 {/* 
           <h2>
