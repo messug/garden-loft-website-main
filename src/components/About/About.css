@@ -11,8 +11,9 @@
 }
 
 .hero-about-img img {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  object-fit: cover;
+  height: 90vh;
   filter: brightness(75%);
 }
 
@@ -22,10 +23,10 @@
   left:55%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   width: 400px;
-  line-height: 1.2;
+  line-height: 1.9;
 }
 
 .about-content p {
@@ -33,7 +34,6 @@
   font-size: 22px;
   text-align: center;
   line-height: 1.6;
- 
   padding: 0 10px;
  
  

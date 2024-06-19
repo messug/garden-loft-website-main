@@ -76,14 +76,41 @@
   #rules-and-grants p {
     font-size: 1rem;
   }
+
+  .grant-h2 h2 {
+    font-size: 2rem;
+    margin: 3rem;
+    align-self: center;
+    text-align: center;
+    line-height: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
   #rules-and-grants h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+  
   }
 
   #rules-and-grants p {
     font-size: 1.5rem;
+  }
+  .background-image {
+    width: 90%;
+    height: 70vh;
+    opacity: 0.6; /* Lower opacity for the background image */
+  }
+  .grant-h2 h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .button-safety-grant {
+    font-size: 2rem;
+    padding: 2.1rem 6rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
   }
 }

@@ -3,6 +3,7 @@
   margin-top: 1rem;
   text-align: center;
   width: 100vw;
+  
 }
 
 .report-title {
@@ -53,6 +54,8 @@
 @media (min-width: 768px) {
   .report-title {
     font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
   }
 
   .carousel-text {
@@ -60,16 +63,20 @@
   }
 
   .report-button {
-    width: 200px;
-    height: 60px;
-    font-size: 1.2rem;
-    padding: 15px 25px;
+    font-size: 2rem;
+    padding: 2.1rem 5rem;
+    margin-bottom: 8rem;
+  }
+  .report-container .swiper {
+    transform: scale(1);
   }
 }
 
 @media (min-width: 1024px) {
   .report-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
   }
 
   .carousel-text {
@@ -77,9 +84,12 @@
   }
 
   .report-button {
-    width: 220px;
-    height: 70px;
-    font-size: 1.4rem;
-    padding: 20px 30px;
+    font-size: 2rem;
+    padding: 2.1rem 5rem;
+    margin-top: 3rem;
+  }
+
+  .report-container .swiper {
+    transform: scale(0.75);
   }
 }

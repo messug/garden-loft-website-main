@@ -1,8 +1,11 @@
-/* Advantage.css */
-/* #garden-loft-advantage {
 
-} */
-
+#garden-loft-advantage h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 40px; 
+  font-weight: 500;
+  line-height: 2rem;
+}
 .swiper-pagination {
   position: relative;
   bottom: 10px;
@@ -55,6 +58,7 @@
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
   z-index: 10;
 }
+
 .black-text {
   color: #000;
 }
@@ -98,35 +102,85 @@
     font-size: 2.5rem;
   }
 
+  .advantage-text p {
+    font-size: 2.7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 65vw;
+    line-height: 70px;
+    font-weight: 300;
+  }
+
+  .advantage-title {
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    line-height: 4.5rem;
+  }
+
+  #garden-loft-advantage h1 {
+    font-size: 5rem;
+    margin-bottom: 30px;
+    margin-top: 40px; 
+    font-weight: 500;
+    line-height: 5rem;
+  }
+
   .advantage-content p {
     font-size: 1.5rem;
   }
 
-  .advantage-image {
-    /* width: 50vw;
-    height: 50vh; */
+  .button-advantage {
+    padding: 2.1rem 5rem;
+    font-size: 2rem;
   }
 
-  .advantage-title {
-    font-size: 2rem;
+  .swiper {
+    transform: scale(0.7);
+    overflow: visible;
   }
 }
 
 @media (min-width: 1024px) {
+  #garden-loft-advantage h1 {
+    margin-top: 8rem;
+margin-bottom: 2rem;
+  }
+
+
   .projects-content h2 {
     font-size: 3rem;
   }
 
-  .projects-content p {
-    font-size: 1.8rem;
+  .swiper {
+    transform: scale(0.35);
+    overflow: visible;
   }
 
-  .advantage-image {
-    /* width: 33vw;
-    height: 50vh; */
+  .button-advantage {
+    padding: 2.1rem 5rem;
+    font-size: 2rem;
+    margin-bottom:  40rem;
+ 
+  }
+
+  .advantage-text p {
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 65vw;
+    line-height: 90px;
+    font-weight: 300;
+  }
+
+  .advantage-content h2 {
+    font-size: 5rem;
   }
 
   .advantage-title {
-    font-size: 2.5rem;
+  
+    font-size: 6rem;
+  letter-spacing: 0.3rem;
   }
+
+ 
 }

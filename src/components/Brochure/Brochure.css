@@ -1,48 +1,73 @@
+/* Brochure.css */
 .brochure-form {
-  max-width: 600px;
+  max-width: 480px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #f5efef;
+  border: 1px solid #fbf5f5;
+  border-radius: 4px;
+  margin-top: 150px;
+  border-radius: 1rem;
 }
 
-.form-group {
+.brochure-form h1 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.form-group label {
+.brochure-form .form-group {
+  margin-bottom: 15px;
+}
+
+.brochure-form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.name-inputs input {
-  width: 48%;
-  display: inline-block;
+.brochure-form .name-inputs {
+  display: flex;
+  justify-content: space-between;
 }
 
-input,
-select,
-textarea,
-button {
+.brochure-form .name-inputs input {
+  width: 48%;
+}
+
+.brochure-form input[type="text"],
+.brochure-form input[type="email"],
+.brochure-form input[type="tel"],
+.brochure-form select,
+.brochure-form textarea {
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
   border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 5px;
 }
 
-button {
-  background-color: #4caf50;
+.brochure-form textarea {
+  height: 100px;
+}
 
+.brochure-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #C7F0FF;
+  color: black;
   border: none;
-  padding: 15px 20px;
+  border-radius: 1.7rem;
   cursor: pointer;
-  border-radius: 5px;
-  width: auto;
-  display: inline-block;
+}
+
+.brochure-form button:hover {
+  background-color: #10bfff;
+  color: white;
+}
+
+.brochure-form p {
   text-align: center;
-  text-decoration: none;
+  color: green;
+  font-weight: bold;
 }

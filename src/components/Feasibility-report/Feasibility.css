@@ -1,0 +1,63 @@
+/* FormComponent.css */
+.feasibility-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px;
+  background-color: #f9f9f9;
+  border: 1px solid #f7f3f3;
+  border-radius: 5px;
+}
+
+.feasibility-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feasibility-form p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.feasibility-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.feasibility-form span {
+  color: rgb(4, 4, 4);
+}
+
+.name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-fields input {
+  width: 48%;
+}
+
+.feasibility-form input,
+.feasibility-form select,
+.feasibility-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #f7f4f4;
+  border-radius: 3px;
+}
+
+.feasibility-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #C7f0ff;
+  color: #000;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.feasibility-form button:hover {
+  background-color: #04b8fa;
+  color: white;
+}

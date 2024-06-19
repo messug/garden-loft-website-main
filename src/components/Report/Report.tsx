@@ -9,8 +9,9 @@ import Interior3 from '../../assets/images/backyard 10.jpg';
 import Interior4 from '../../assets/images/backyard 11.jpg'; 
 import Interior5 from '../../assets/images/backyard 12.jpg'; 
 import Interior6 from '../../assets/images/backyard 13.jpg'; 
-import Interior7 from '../../assets/images/backyard 14.jpg'; 
-import Interior8 from '../../assets/images/backyard 15.jpg'; 
+import Interior7 from '../../assets/images/backyard 14v2.jpg'; 
+import Interior8 from '../../assets/images/backyard 15v2.jpg'; 
+import Interior9 from '../../assets/images/backyard 16v2.jpg'; 
 import './Report.css';
 
 const Report: React.FC = () => {
@@ -42,12 +43,17 @@ const Report: React.FC = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
-            <img src={Interior7} alt="Loft Image 5" className="report-image vertical" />
+            <img src={Interior7} alt="Loft Image 5" className="report-image " />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="report-slide">
-            <img src={Interior8} alt="Loft Image 5" className="report-image vertical" />
+            <img src={Interior8} alt="Loft Image 5" className="report-image " />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="report-slide">
+            <img src={Interior9} alt="Loft Image 5" className="report-image" />
           </div>
         </SwiperSlide>
         <SwiperSlide>

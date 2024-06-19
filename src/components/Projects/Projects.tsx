@@ -13,10 +13,10 @@ import projectImage6 from '../../assets/images/backyard 26.jpg';
 import projectImage7 from '../../assets/images/backyard 27.jpg';
 import projectImage8 from '../../assets/images/backyard 28.jpg';
 import projectImage9 from '../../assets/images/backyard 29.jpg';
-import projectImage10 from '../../assets/images/backyard 30.jpg';
+import projectImage10 from '../../assets/images/backyard 30v2.jpg';
 import projectImage11 from '../../assets/images/backyard 31.jpg';
 import projectImage12 from '../../assets/images/backyard 32.jpg';
-import projectImage13 from '../../assets/images/backyard 33.jpg';
+import projectImage13 from '../../assets/images/backyard 33v2.jpg';
 import './Projects.css';
 
 
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
       <div className="projects-section" id='projects'>
         <div className="projects-content">
           <h2>Our Projects</h2>
-          <p>We have recently completed backyard suites in Calgary <br/> and Edmonton</p>
+          <p>We have recently completed backyard suites in Calgary and Edmonton</p>
           <Swiper
             modules={[Pagination]}
             spaceBetween={10}
@@ -84,14 +84,14 @@ const Projects: React.FC = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
-                <img src={projectImage10} alt="Project 10" className="project-image project-landscape" />
+                <img src={projectImage10} alt="Project 10" className="project-image " />
               
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
               
-                <img src={projectImage13} alt="Project 13" className="project-image project-landscape" />
+                <img src={projectImage13} alt="Project 13" className="project-image " />
               </div>
             </SwiperSlide>
             <SwiperSlide>

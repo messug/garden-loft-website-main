@@ -1,0 +1,44 @@
+/* Book.css */
+.book-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 120px;
+}
+
+.book-title {
+  font-size: 35px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 85px;
+}
+
+.calendly-widget {
+  margin: -85px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust width as needed */
+  height: 600px;    /* Adjust height as needed */
+}
+
+@media (min-width: 768px) {
+  .calendly-widget {
+    height: 700px; /* Slightly taller on tablets */
+  }
+}
+
+@media (min-width: 1024px) {
+  .calendly-widget {
+    height: 800px; /* Even taller on desktops */
+  }
+}
+
+@media (min-width: 1440px) {
+  .calendly-widget {
+    height: 900px; /* Tallest on large desktops */
+  }
+}
