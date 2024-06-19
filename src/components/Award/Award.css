@@ -3,25 +3,24 @@
 .award-section {
   position: relative;
   width: 90vw;
-  text-align: center;
-  align-items: center;
+  background: url("/images/award.jpg") no-repeat center center/cover; /* Make sure to use the correct path to your image */
+  align-content: justify;
+  text-align: right;
+  margin-bottom: 1rem;
   margin: 1.3rem;
 }
 
 .award-content {
   color: white;
-  padding-top: 5px;
-  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
-  margin-bottom: 5px;
-  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .award-content h1 {
-  color: #000;
-  font-size: 30px;
+  font-size: 22px;
+  margin-bottom: 11rem;
   padding: 0 1rem;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .learn-more-btn {
@@ -48,15 +47,14 @@
   margin-top: 2rem;
 }
 
-.video-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+.learn-btn {
+  text-align: left;
 }
 
 @media (min-width: 768px) {
   .award-content h1 {
     font-size: 2rem;
+    margin-bottom: 26rem;
   }
 
   .learn-more-btn {
@@ -67,6 +65,7 @@
 @media (min-width: 1024px) {
   .award-content h1 {
     font-size: 2.5rem;
+    margin-bottom: 30rem;
   }
 
   .learn-more-btn {
