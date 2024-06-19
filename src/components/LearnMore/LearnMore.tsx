@@ -130,6 +130,7 @@ import './LearnMore.css';
 import LM1 from "/images/Learn 1.jpg";
 import LM2 from "/images/Learn 2.jpg";
 import LM3 from "/images/Learn 3.jpg";
+import LM4 from "/images/Learn 4.jpg";
 import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
 import Footer from '../Footer/Footer';
@@ -170,13 +171,13 @@ const LearnMore: React.FC = () => {
           slidesPerView={1.2}
           centeredSlides={true}
           loop={true}
-          style={{ paddingBottom: '20px' }}
+          style={{ paddingBottom: '10px' }}
         >
           <SwiperSlide>
             <div className="support-feature-box" id="safety-support">
               <h3>General</h3>
               <ul>
-                <li>Constructed to care <br/>facility building standards</li>
+                <li>Conforms to Alberta <br/>small care home<br/> standards</li>
                 <li>Wheelchair accessible<br/> throughout</li>
                 <li>Fall-safe compliant <br/>flooring throughout</li>
                 <li>Continuous grab-rails<br/> throughout</li>
@@ -201,9 +202,9 @@ const LearnMore: React.FC = () => {
             <div className="support-feature-box" id="digital">
               <h3>Digital</h3>
               <ul>
-                <li>‘Just for us’ community and activity platform with caregiver access</li>
-                <li>Integrated smart-home digital assistant with caregiver access and alerts</li>
-                <li>Activity-detection monitoring with caregiver alerts</li>
+                <li>‘Just for us’ community<br/> and activity platform with <br/>caregiver access</li>
+                <li>Integrated smart-home<br/> digital assistant with<br/> caregiver access and <br/>alerts (in development)</li>
+                <li>Activity-detection<br/> monitoring with caregiver <br/>alerts (in development)</li>
               </ul>
             </div>
           </SwiperSlide>
@@ -211,10 +212,10 @@ const LearnMore: React.FC = () => {
             <div className="support-feature-box" id="kitchen">
               <h3>Kitchen</h3>
               <ul>
-                <li>Easy-reach kitchen storage</li>
-                <li>Accessible oven/microwave</li>
-                <li>Optional upgrade to electric no-reach upper kitchen cabinets</li>
-                <li>Manual-adjust vari-height kitchen counters with optional electric control</li>
+                <li>Easy-reach kitchen<br/> storage</li>
+                <li>Accessible oven/<br/>microwave</li>
+                <li>Optional upgrade to <br/>electric no-reach upper <br/>kitchen cabinets</li>
+                <li>Manual-adjust vari-<br/>height kitchen counters<br/> with optional electric <br/>control</li>
               </ul>
             </div>
           </SwiperSlide>
@@ -222,10 +223,10 @@ const LearnMore: React.FC = () => {
             <div className="support-feature-box" id="bedroom">
               <h3>Bedroom</h3>
               <ul>
-                <li>Safety night-lighting in bedroom</li>
-                <li>Easy-reach bedroom storage</li>
-                <li>Optional overhead bed lift</li>
-                <li>Optional electric multi-height adjustable bed</li>
+                <li>Safety night-lighting in<br/> bedroom</li>
+                <li>Easy-reach bedroom <br/>storage</li>
+                <li>Optional overhead bed <br/>lift</li>
+                <li>Optional electric multi-<br/>height adjustable bed</li>
               </ul>
             </div>
           </SwiperSlide>
@@ -233,31 +234,32 @@ const LearnMore: React.FC = () => {
 
         <h1 className="section-title" id="awards">Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
-        <p>Garden Loft received the 2023 Calgary Award for Accessibility at a ceremony on June 14, 2023.</p>
+        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
         <img src={LM3} alt="AwardVideo" className='award-image'/>
         {/* <iframe width="560" height="315" src={LM2} title="YouTube video player" frameBorder="0" allowFullScreen></iframe> */}
-        <p>Watch the award video prepared by the City of Calgary</p>
+        <p>Watch the award video <br/>prepared by the City of Calgary</p>
 
         <h1 className="section-title" id="costs">Compare Costs</h1>
-        <p>Living in a Garden Loft can cost less than living in an average priced lodge or senior’s home in Calgary - even after you factor in food and activities.</p>
+        <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
         <img src={LM5} alt="JohnVideo" className='award-image'/>
         {/* <iframe width="560" height="315" src={LM3} title="YouTube video player" frameBorder="0" allowFullScreen></iframe> */}
-        <p>Watch John Brown explain the economics of living in a Garden Loft</p>
+        <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
 
         <h1 className="section-title" id="financing">Financing Options</h1>
-        <img src={LM5} alt="Financing Options" className="financing-image"/>
-        <p>Garden Lofts are registered secondary suites and eligible for mortgage financing. This includes Alberta Treasury Branch’s Residential Outbuilding Program. When combined with a Home Equity Line of Credit or other mortgage product, up to 100% of the purchase could be financed.</p>
-        <p>Work with our mortgage specialist to determine your financing options.</p>
+        <img src={LM4} alt="Financing Options" className="financing-image"/>
+        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
+        <p>This includes Alberta<br/> Treasury Branch’s Residential<br/> Outbuilding Program <br/>When combined with a Home<br/> Equity Line of Credit or other<br/> mortgage product, up to 100%<br/> of the purchase could be<br/> financed</p>
+        <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
         <h1 className="section-title" id="reselling">Reselling your Garden Loft</h1>
         <img src={LM5} alt="Reselling" className="reselling-image"/>
-        <p>As a prefabricated structure, Garden Loft can be sold and moved off your property when it is no longer required. This recoups a large part of the unit’s original purchase price.</p>
-        <p>By recapturing a large part of your initial investment, the net cost of living in a Garden Loft can be less than renting in most lodges and retirement homes - even when you include a monthly allowance for food, activities, utilities, insurance, and property taxes.</p>
+        <p>As a prefabricated structure, <br/>Garden Loft can be sold and <br/>moved off your property when <br/>it is no longer required <br/>This recoups a large part of the<br/> unit’s original purchase price</p>
+        <p>By recapturing a large part <br/>of your initial investment, the<br/> net cost of living in a Garden <br/>Loft can be less than renting <br/>in most lodges and retirement <br/>homes - even when you include a <br/>monthly allowance for food,<br/> activities, utilities, insurance,<br/> and property taxes</p>
 
         <h1 className="section-title" id="zoning">New Zoning Rules</h1>
         <img src={LM6} alt="Zoning" className="zoning-image"/>
-        <p>As of 2024, the City of Calgary’s blanket rezoning for secondary suites has made it significantly easier to obtain approval for a Garden loft in almost every residential neighborhood in the city.</p>
-        <p>Garden Lofts are also allowed in most zoning districts in Edmonton as well as in many other towns and cities in Canada. We take care of the city approval process and obtaining the required permits to place a Garden Loft on your property. Our complimentary feasibility study includes an initial evaluation of the zoning bylaw rules for your property.</p>
+        <p>As of 2024, the City of Calgary’s blanket rezoning for secondary suites has made it significantly easier to obtain approval for a Garden loft in almost every residential neighborhood in the city</p>
+        <p>Garden Lofts are also allowed in most zoning districts in Edmonton as well as in many other towns and cities in Canada We take care of the city approval process and obtaining the required permits to place a Garden Loft on your property Our complimentary feasibility study includes an initial evaluation of the zoning bylaw rules for your property</p>
       </section>
       <Footer/>
     </>
