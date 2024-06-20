@@ -40,6 +40,14 @@
   margin-bottom: 20px;
 }
 
+/* .quote{
+  width: ;
+} */
+
+.quote-sign {
+  text-align: right;
+}
+
 .section-title {
   font-size: 35px;
   padding: 0 1.5rem;
