@@ -1,0 +1,66 @@
+/* Phone.css */
+
+.phone {
+  padding: 100px 20px 20px 20px;
+  text-align: center;
+}
+
+.phone h1 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 20px;
+ }
+
+.phone p {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.phone-button, .email-button {
+  font-size: 22px;
+  color: black;
+  background-color: #C7F0FF;
+  border-radius: 3rem;
+  padding: 20px 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.phone-button:hover, .email-button:hover {
+  color: white;
+  background-color: rgb(5, 95, 159);
+}
+
+@media (max-width: 768px) {
+  .phone h1 {
+    font-size: 30px;
+  }
+
+  .phone p {
+    font-size: 18px;
+  }
+
+  .phone-button, .email-button {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .phone h1 {
+    font-size: 24px;
+  }
+
+  .phone p {
+    font-size: 16px;
+  }
+
+  .phone-button, .email-button {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+}

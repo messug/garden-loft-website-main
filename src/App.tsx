@@ -11,7 +11,11 @@ import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 import Feasibility from "./components/Feasibility-report/Feasibility";
+
+import Phone from "./components/Phone/Phone";
+
 import LearnMore from "./components/LearnMore/LearnMore";
+
 
 
 function App() {
@@ -27,6 +31,7 @@ function App() {
           <Route path="/brochure" element={<Brochure />} />
           <Route path="/book-tour" element={<Book />} />
           <Route path="/feasibility-report" element={<Feasibility />} />
+          <Route path="/phone-call" element={<Phone /> }/>
           <Route path="/atrium" element={<Atrium /> }/>
           <Route path="/initial" element={< Initial/> }/>
           <Route path="/learn-more" element={<LearnMore/>}/>

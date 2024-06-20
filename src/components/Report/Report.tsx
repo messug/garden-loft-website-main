@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { useNavigate } from 'react-router-dom'; 
 import { Pagination } from 'swiper/modules';
 import Interior1 from '../../assets/images/backyard 8.jpg';
 import Interior2 from '../../assets/images/backyard 9.jpg'; 
@@ -15,6 +16,14 @@ import Interior9 from '../../assets/images/backyard 16v2.jpg';
 import './Report.css';
 
 const Report: React.FC = () => {
+
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleButtonClick = () => {
+    navigate('/feasibility-report'); // Navigate to the contact page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  
+  };
   return (
     <div className="report-container">
       <Swiper
@@ -78,7 +87,7 @@ const Report: React.FC = () => {
         <p className="report-title">Combining light-filled <br/>open plan loft-living with <br/>safety and peace of mind</p>
       </div>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-button">Request a <br />Feasibility <br /> Report</button>
+        <button className="report-button"   onClick={handleButtonClick}>Request a <br />Feasibility <br /> Report</button>
       </div>
     </div>
   );
