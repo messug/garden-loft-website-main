@@ -3,7 +3,8 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 import projectImage1 from '../../assets/images/backyard 21.jpg';
 import projectImage2 from '../../assets/images/backyard 22.jpg';
 import projectImage3 from '../../assets/images/backyard 23.jpg';
@@ -29,11 +30,15 @@ const Projects: React.FC = () => {
           <h2>Our Projects</h2>
           <p>We have recently completed backyard suites in Calgary and Edmonton</p>
           <Swiper
-            modules={[Pagination]}
+            modules={[Pagination, Navigation]}
             spaceBetween={10}
             pagination={{ clickable: true }}
             slidesPerView={1.2}
             centeredSlides={true}
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            }}
             loop={true}
             style={{ paddingBottom: '0px' }}
             breakpoints={{
@@ -112,8 +117,8 @@ const Projects: React.FC = () => {
                 <img src={projectImage12} alt="Project 12" className="project-image" />
               </div>
             </SwiperSlide>
-           
-
+            <div className="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
           </Swiper>
         </div>
       </div>

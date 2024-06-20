@@ -116,4 +116,8 @@
     width: 15vw;
   }
 
+  .gl-two img {
+    max-width: 84%;
+  }
+
 }
