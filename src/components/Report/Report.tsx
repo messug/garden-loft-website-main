@@ -34,6 +34,14 @@ const Report: React.FC = () => {
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          // 768: {
+          //   slidesPerView: 2,
+          // },
+          1024: {
+            slidesPerView: 1.7,
+            spaceBetween: 10,
+          },}}
       >
         <SwiperSlide>
           <div className="report-slide">
