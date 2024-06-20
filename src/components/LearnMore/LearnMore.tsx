@@ -12,6 +12,7 @@ import LM4 from "/images/Learn 4.jpg";
 import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
 import JohnLM from "/images/image.png";
+// import JohnCostVideo from "/images/Learn More about Cost.mp4";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -128,6 +129,10 @@ const LearnMore: React.FC = () => {
 
         <h1 className="section-title" id="costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
+        {/* <video className="award-image" rel="noopener noreferrer" autoPlay playsInline controls poster={JohnCostVideo}>
+          <source src={JohnCostVideo}type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> */}
         <img src={JohnLM} alt="JohnVideo" className='award-image'/>
         <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
 

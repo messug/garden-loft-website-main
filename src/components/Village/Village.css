@@ -140,6 +140,11 @@
   font-weight: 500;
 }
 
+.button-village-cost > a {
+  text-decoration: none;
+  color: black;
+}
+
 .call-us {
   height: 100px;
 }
