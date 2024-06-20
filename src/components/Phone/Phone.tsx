@@ -11,10 +11,10 @@ function Phone() {
       <Navbar />
       <div className='phone'>
         <h1>Contact Us</h1>
-        <p>If you have any inquiries and would like to visit <br /> to tour Our loft. We are available anytime of the day. <br />You can call us or email us by clicking the buttons.</p>
+       
 
         <a href="tel:4032294330" className="phone-button">
-          <FontAwesomeIcon icon={faPhone} /> (403)-2294330
+          <FontAwesomeIcon icon={faPhone} /> (403)-229 4330
         </a>
         <a href="mailto:info@gardenloft.ca" className="email-button">
           <FontAwesomeIcon icon={faEnvelope} /> info@gardenloft.ca
