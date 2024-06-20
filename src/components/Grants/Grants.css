@@ -58,6 +58,11 @@
   font-weight: 500;
 }
 
+.button-safety-grant > a {
+  text-decoration: none;
+  color: black;
+}
+
 .grant-h2 h2 {
   font-size: 22px;
   align-items: center;
@@ -76,14 +81,35 @@
   #rules-and-grants p {
     font-size: 1rem;
   }
+
+  .grant-h2 h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 0 7rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .button-safety-grant {
+    font-size: 1.2rem;
+    padding: 1.5rem 4rem;
+    margin-bottom: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
   #rules-and-grants h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-weight: 400;
   }
 
   #rules-and-grants p {
     font-size: 1.5rem;
   }
+  .background-image {
+    width: 90%;
+    height: 70vh;
+    opacity: 0.6; /* Lower opacity for the background image */
+  }
+
 }

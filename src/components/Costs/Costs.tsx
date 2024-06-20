@@ -1,6 +1,7 @@
 import React from 'react';
 import './Costs.css';
 import GLCost from '../../assets/images/gl-cost.png'
+import { Link } from "react-router-dom";
 
 const Costs: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Costs: React.FC = () => {
       </div>
     </div>
     <div className="costs-content">
-      <button className="button-costs">Compare <br /> our costs</button>
+      <button className="button-costs"><Link to="/learn-more#costs" >Compare <br /> our costs</Link></button>
     </div>
   </section>
   );
