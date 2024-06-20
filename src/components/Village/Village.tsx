@@ -8,6 +8,7 @@ import Village4 from "/images/Village-4.jpg";
 import Village5 from "/images/village-5.jpg";
 import Village6 from "/images/village-6.jpg";
 import Village7 from "/images/village-7.jpg";
+import { Link } from "react-router-dom";
 
 function Village() {
   return (
@@ -47,7 +48,8 @@ function Village() {
            
           </h3>
           <button className="button-village-cost">
-            Learn more<br/> about Garden <br/> Loft units
+          <Link to="/#two-units">
+            Learn more<br/> about Garden <br/> Loft units</Link>
           </button>
 
           <img src={Village3} alt="GL-Cost Image" />
