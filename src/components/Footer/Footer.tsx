@@ -88,7 +88,9 @@ const Footer = () => {
           <h3>
             <Link to="/about#our-partners" onClick={() => scrollToSection('our-partners')}>Our Partners</Link>
           </h3>
-
+          <h2>
+            <Link to="/learn-more" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Learn More</Link>
+          </h2>
           <h2>
             <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>FAQ</Link>
           </h2>
