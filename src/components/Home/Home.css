@@ -61,7 +61,7 @@
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .home h1 {
-    font-size: 8rem;
+    font-size: 7.5rem;
     width: 85vw;
     line-height: 7rem;
     margin-bottom: 3rem;
