@@ -12,11 +12,22 @@
 }
 .footer-content {
   /* background-color: #f8ab07d6;  */
-
-  padding: 1rem;
-  text-align: left;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 100%;
+max-width: 1200px;
+  /* padding: 1rem; */
+  /* text-align: left; */
   /* width: 70%; Adjust this width to control how much you want to shift the text to the left */
-  margin-left: -7%; /* Center the content within the footer */
+  /* margin-left: -7%;  */
+  
+}
+
+.footer-column {
+  flex: 1;
+  padding: 1rem;
+  min-width: 200px;
 }
 .footer a {
   color: black;
@@ -84,6 +95,9 @@
 
 .logos-section {
   padding: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .logos {
   display: flex;
@@ -121,4 +135,10 @@
 
 .address {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-column {
+    flex: 1 1 100%;
+  }
 }

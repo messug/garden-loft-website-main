@@ -11,8 +11,7 @@ function Book() {
       <Navbar />
       <div className="book-container">
         <h1 className="book-title">
-        <span>Book A Tour</span><br />
-        <span>Suite</span>
+        <span>Book A Tour</span>
 
         </h1>
         <div className="calendly-widget">

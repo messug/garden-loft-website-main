@@ -1,9 +1,15 @@
 /* Initial.css */
+
 .initial-meeting {
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 9rem 2rem 0.5rem 3rem;
   text-align: center;
+}
+
+.initial-meeting h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
 }
 
 .form-group {
@@ -22,28 +28,33 @@
   font-size: 1rem;
 }
 
-.date-picker {
-  margin-bottom: 1rem;
-}
-
-.date-picker label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-
 .button-meet {
-  background-color: #007bff;
-  color: white;
+  background-color: #C7F0FF;
+  color: black;
+  font-size: 22px;
   padding: 0.5rem 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 2rem;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 .button-meet:hover {
   background-color: #0056b3;
+  color: white;
 }
+
+
+.calendly-widget {
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust width as needed */
+  height: 600px;    /* Adjust height as needed */
+}
+
 
 .contact-info {
   margin-top: 2rem;
@@ -59,4 +70,33 @@
 
 .contact-info a:hover {
   text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .initial-meeting h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group label, .form-group input, .button-meet {
+    font-size: 0.875rem;
+  }
+
+  .button-meet {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .initial-meeting h2 {
+    font-size: 1.25rem;
+  }
+
+  .form-group label, .form-group input, .button-meet {
+    font-size: 0.75rem;
+  }
+
+  .button-meet {
+    padding: 0.5rem;
+  }
 }

@@ -1,6 +1,16 @@
 import './Process.css';
+import { useNavigate } from 'react-router-dom'; 
+
+
 
 const Process = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleButtonClick = () => {
+    navigate('/book-tour'); // Navigate to the contact page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  
+  };
   return (
     <section className="process-section" id='four-step-process'>
       <h1>Our <br/> 4 Step Process</h1>
@@ -48,7 +58,7 @@ const Process = () => {
       </div>
 
       <div className="process">
-        <button className="button-process">Tour Our <br /> Showsuite</button>
+        <button className="button-process"  onClick={handleButtonClick}>Tour Our <br /> Showsuite</button>
 
       </div>
     </section>

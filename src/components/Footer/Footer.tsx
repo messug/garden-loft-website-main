@@ -167,6 +167,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div className="footer-content">
+          <div className="footer-column">
           <h2>
             <Link to="/" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>Garden Loft Backyard Suites</Link>
           </h2>
@@ -197,7 +198,8 @@ const Footer = () => {
           <h3>
             <Link to="/#garden-lofters" onClick={() => scrollToSection('garden-lofters')}>Meet Our Garden Lofters</Link>
           </h3>
-
+    </div>
+     <div className="footer-column">
           <h2>
             <Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>Garden Loft Villages</Link>
           </h2>
@@ -224,7 +226,8 @@ const Footer = () => {
           <h2>
             <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>FAQ</Link>
           </h2>
-          <div className="footer-content">
+          </div>
+          <div className="footer-column">
             <h2>Request a:</h2>
             <div>
               <h3>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useNavigate } from 'react-router-dom'; 
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
@@ -12,6 +13,13 @@ import livingRoomImage6 from '../../assets/images/backyard 6.jpg'; // Ensure thi
 import './Advantage.css'
 
 const Advantage: React.FC = () => {
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleButtonClick = () => {
+    navigate('/phone-call'); // Navigate to the contact page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  
+  };
   return (
     <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw"}}>
       <h1 style={{ fontSize: "35px", marginBottom: '30px', marginTop: '40px', fontWeight: '500' }}>The Garden Loft <br /> Backyard Advantage</h1>
@@ -80,7 +88,7 @@ const Advantage: React.FC = () => {
         </SwiperSlide>
       </Swiper>
       <div style={{ textAlign: 'center', alignContent: "center", marginTop: '1px' }}>
-        <button className="button-advantage"
+        <button className="button-advantage" onClick={handleButtonClick}
         >
           Call Us
         </button>
