@@ -59,6 +59,10 @@
   text-decoration: none;
 }
 
+.desktop-cost {
+  display: none;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .costs-content h1 {
@@ -108,10 +112,10 @@ width: 50vw;
   .desktop-description-cost {
     width: 45vw;
     line-height: 4rem;
-    align-self: center;
     margin-top: 1rem;
     align-content: center;
-    text-align: center
+    text-align: center;
+    align-self: center;
     ;
   
   }
@@ -133,5 +137,6 @@ width: 50vw;
     padding: 1.5rem 5rem;
     margin-top: 3rem;
     align-content: center;
+    margin-left: 7rem;
   }
 }

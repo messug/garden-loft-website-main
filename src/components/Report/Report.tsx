@@ -2,8 +2,9 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 import { useNavigate } from 'react-router-dom'; 
-import { Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 import Interior1 from '../../assets/images/backyard 8.jpg';
 import Interior2 from '../../assets/images/backyard 9.jpg'; 
 import Interior3 from '../../assets/images/backyard 10.jpg'; 
@@ -27,11 +28,15 @@ const Report: React.FC = () => {
   return (
     <div className="report-container">
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={10}
         pagination={{ clickable: true }}
         slidesPerView={1.2}
         centeredSlides={true}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
         loop={true}
         style={{ paddingBottom: '20px' }}
         breakpoints={{
@@ -88,8 +93,8 @@ const Report: React.FC = () => {
             <img src={Interior6} alt="Loft Image 5" className="report-image" />
           </div>
         </SwiperSlide>
-    
-   
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
       </Swiper>
       <div className="carousel-text">
         <p className="report-title">Combining light-filled <br/>open plan loft-living with <br/>safety and peace of mind</p>
