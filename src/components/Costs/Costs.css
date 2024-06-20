@@ -82,4 +82,56 @@
     line-height: 4rem;
     right: 5%;
   }
+
+  .costs-container {
+    display: none;
+  }
+
+  .button-costs {
+    display: none;
+  }
+
+  .desktop-cost{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding: 0 5rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .desktop-image-cost img {
+width: 50vw;
+  }
+
+  .desktop-description-cost {
+    width: 45vw;
+    line-height: 4rem;
+    align-self: center;
+    margin-top: 1rem;
+    align-content: center;
+    text-align: center
+    ;
+  
+  }
+
+  .desktop-description-cost h2{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+ .award-button {
+    display: none;
+  }
+  
+  .desktop-cost-button{
+    display: block;
+    font-size: 1.2rem;
+    padding: 1.5rem 5rem;
+    margin-top: 3rem;
+    align-content: center;
+  }
 }
