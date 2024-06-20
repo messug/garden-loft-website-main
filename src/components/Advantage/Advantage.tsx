@@ -2,7 +2,8 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 import livingRoomImage from '../../assets/images/backyard 5.jpg'; // Ensure this path is correct
 import livingRoomImage1 from '../../assets/images/backyard 2.jpg'; // Ensure this path is correct
 import livingRoomImage2 from '../../assets/images/backyard 3.jpg'; // Ensure this path is correct
@@ -16,9 +17,13 @@ const Advantage: React.FC = () => {
     <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw"}}>
       <h1 className="gl-advantage-header">The Garden Loft <br /> Backyard Advantage</h1>
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={10}
         pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
         slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
@@ -86,6 +91,8 @@ const Advantage: React.FC = () => {
             </div>
           </div>
         </SwiperSlide>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
       </Swiper>
       <div style={{ textAlign: 'center', alignContent: "center", marginTop: '1px' }}>
         <button className="button-advantage"
