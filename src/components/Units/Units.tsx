@@ -26,7 +26,7 @@ const Units: React.FC = () => {
           customizable exterior and <br/> interior finishes <br/> left or right hand plan available
         </p>
       </div>
-      <div className="gl-two">
+      <div className="gl-one">
         <img src={GL480f} alt="GL380" />
         <div className="title-gl">GL480-s</div>
         <p className="gl-specs">

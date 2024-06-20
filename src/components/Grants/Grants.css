@@ -84,10 +84,16 @@
 
   .grant-h2 h2 {
     font-size: 2rem;
-    margin: 3rem;
-    align-self: center;
-    text-align: center;
-    line-height: 3rem;
+    font-weight: 300;
+    padding: 0 7rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .button-safety-grant {
+    font-size: 1.2rem;
+    padding: 1.5rem 4rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -105,16 +111,5 @@
     height: 70vh;
     opacity: 0.6; /* Lower opacity for the background image */
   }
-  .grant-h2 h2 {
-    font-size: 3.5rem;
-    line-height: 4rem;
-    margin-bottom: 4rem;
-  }
 
-  .button-safety-grant {
-    font-size: 2rem;
-    padding: 2.1rem 6rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-  }
 }

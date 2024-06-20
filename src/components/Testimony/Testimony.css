@@ -46,39 +46,28 @@
 /* Media Queries */
 @media (min-width: 768px) {
   .testimony-title {
-    font-size: 5rem;
-    font-weight: 500;
-    line-height: 5.5rem;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
   }
 
   .testimony-description {
     font-size: 2rem;
-    margin: 3rem;
-    align-self: center;
-    text-align: center;
-    line-height: 3rem;
-  }
-
-  .testimony-button {
-    
+    font-weight: 300;
+    padding: 0 7rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+margin-top: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .testimony-title {
-    font-size: 5rem;
-    font-weight: 500;
-  }
-
-  .testimony-description {
-    margin-top: 3rem;
-    font-size: 3.5rem;
-    line-height: 4rem;
-    margin-bottom: 4rem;
-  }
 
   .testimony-button {
-    font-size: 2rem;
+    font-size: 1.2rem;
     padding: 3rem 6rem;
     margin-top: 3rem;
     margin-bottom: 5rem;
