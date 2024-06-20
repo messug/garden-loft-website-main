@@ -1,13 +1,14 @@
-/* Advantage.css */
-/* #garden-loft-advantage {
 
-} */
-
+#garden-loft-advantage h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 40px; 
+  font-weight: 500;
+  line-height: 2rem;
+}
 .swiper-pagination {
   position: relative;
   bottom: 10px;
-
-
 }
 
 .swiper-pagination-bullet {
@@ -57,6 +58,7 @@
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
   z-index: 10;
 }
+
 .black-text {
   color: #000;
 }
@@ -100,35 +102,110 @@
     font-size: 2.5rem;
   }
 
+  .advantage-text p {
+    font-size: 1.2rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 45vw;
+    line-height: 1.5rem;
+    font-weight: 300;
+  }
+
+  .advantage-title {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+
+    line-height: 2.5rem;
+  }
+
+  #garden-loft-advantage h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin-top: 40px; 
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+  }
+
   .advantage-content p {
     font-size: 1.5rem;
   }
 
-  .advantage-image {
-    /* width: 50vw;
-    height: 50vh; */
+  .button-advantage {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
   }
 
-  .advantage-title {
-    font-size: 2rem;
+  .advantage-image {
+    /* max-width: 100%; */
+    width: 40vw;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(211, 211, 211);
+  }
+
+  .swiper {
+    /* transform: scale(0.7); */
+    overflow: visible;
+   
   }
 }
 
 @media (min-width: 1024px) {
+  #garden-loft-advantage h1 {
+    margin-top: 5rem;
+margin-bottom: 2rem;
+  }
+
+
   .projects-content h2 {
     font-size: 3rem;
   }
 
-  .projects-content p {
-    font-size: 1.8rem;
+  .swiper {
+    /* transform: scale(0.35); */
+    overflow: visible;
   }
 
-  .advantage-image {
-    /* width: 33vw;
-    height: 50vh; */
+  .button-advantage {
+    padding: 2.1rem 5rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+ 
+  }
+
+  .advantage-text p {
+    font-size: 1.2rem;
+    margin-left: 23rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    width: 22vw;
+    line-height: 1.7rem;
+    font-weight: 300;
+  }
+
+  .advantage-content h2 {
+    font-size: 5rem;
   }
 
   .advantage-title {
-    font-size: 2.5rem;
+  
+    font-size: 1.5rem;
+    font-weight: 800;
+  /* letter-spacing: 0.2rem; */
   }
+
+  .advantage-image {
+    /* max-width: 100%; */
+    width: 20vw;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgb(211, 211, 211);
+  }
+
+ 
 }

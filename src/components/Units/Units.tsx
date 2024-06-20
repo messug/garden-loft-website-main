@@ -12,6 +12,7 @@ const Units: React.FC = () => {
         
         {/* <p>Garden Lofts come in 2 sizes:</p> */}
       </div>
+      <div className="unit-wrapper">
       <div className="gl-one">
         <img src={GL480s} alt="GL380" />
         <div className="title-gl">GL480-f</div>
@@ -25,7 +26,7 @@ const Units: React.FC = () => {
           customizable exterior and <br/> interior finishes <br/> left or right hand plan available
         </p>
       </div>
-      <div className="gl-two">
+      <div className="gl-one">
         <img src={GL480f} alt="GL380" />
         <div className="title-gl">GL480-s</div>
         <p className="gl-specs">
@@ -48,6 +49,7 @@ const Units: React.FC = () => {
           <br/>
           customizable exterior and <br/>interior finishes <br/> left or right hand plan available
         </p>
+      </div>
       </div>
     </section>
   );

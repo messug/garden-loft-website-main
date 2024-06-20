@@ -1,5 +1,6 @@
 /* Projects.css */
 .projects-section {
+  margin-top: 4rem;
   padding: 20px;
   background-color: #ffffff;
 }
@@ -40,30 +41,54 @@
 
 @media (min-width: 768px) {
   .projects-content h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
   }
 
   .projects-content p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    width: 70vw;
+    margin: 3rem;
+    margin-left: 8rem;
+    align-self: center;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: 300;
+  }
+  .projects-content .swiper {
+    transform: scale(1);
   }
 
-  .project-image {
+  /* .project-image {
     width: 50vw;
     height: 50vh;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
-  .projects-content h2 {
-    font-size: 3rem;
-  }
+
 
   .projects-content p {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+    margin-left: 13rem;
   }
 
+  /* .projects-content .swiper {
+    transform: scale(0.75);
+  } */
+
   .project-image {
-    width: 33vw;
-    height: 50vh;
+    /* display: block; */
+    width: 50vw;
+    max-width: 100%;
+    border-radius: 0%;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 15px;
   }
 }
