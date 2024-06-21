@@ -107,10 +107,10 @@
 }
 
 .hero-video {
-  width: 100vw;
+
   /* height: 70vh; */
-  object-fit: contain;
-  filter: brightness(75%);
+  object-fit: fill;
+  filter: brightness(85%);
 }
 
 .hero-village h1 {
@@ -219,7 +219,9 @@
     display: none;
   }
   .hero-village img {
-    object-fit: cover;
+    object-fit: contain;
+    filter: brightness(75%);
+
   }
 
   .sec1 {
