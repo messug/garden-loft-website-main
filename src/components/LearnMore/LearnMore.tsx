@@ -60,13 +60,13 @@ the diverse needs of many<br/>
 people with disabilities, including<br/>
 elderly people who need fall-safe<br/>
 flooring or wheelchairs users who<br/>
-need zero-step floor plans.”</p>
-<p className='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
+need zero-step floor plans.”</p></em>
+<p id='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
 Accelerator Professorship in Law<br/>
 & Disability Policy,<br/>
 Faculty of Law, University of<br/>
 Calgary</p>
-</em>
+
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
         <Swiper
@@ -76,7 +76,7 @@ Calgary</p>
           slidesPerView={1.2}
           centeredSlides={true}
           loop={true}
-          style={{ paddingBottom: '10px' }}
+          style={{ paddingBottom: '4rem' }}
         >
           <SwiperSlide>
             <div className="support-feature-box" id="safety-support">
@@ -136,7 +136,7 @@ Calgary</p>
             </div>
           </SwiperSlide>
         </Swiper>
-
+<div className='award-sectionL'>
         <h1 className="section-title" id="awards">Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
@@ -151,7 +151,9 @@ Calgary</p>
           className='video-embed'
         ></iframe>
         <p>Watch the award video <br/>prepared by the City of Calgary</p>
+        </div>
 
+<div className='compare-costsL'>
         <h1 className="section-title" id="costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
         {/* <video className="award-image" rel="noopener noreferrer" autoPlay playsInline controls poster={JohnCostVideo}>
@@ -160,17 +162,25 @@ Calgary</p>
         </video> */}
         <img src={JohnLM} alt="JohnVideo" className='award-image'/>
         <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
-
+        </div>
+<div className='financeL'>
         <h1 className="section-title" id="financing">Financing Options</h1>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
         <p>This includes Alberta<br/> Treasury Branch’s Residential<br/> Outbuilding Program <br/>When combined with a Home<br/> Equity Line of Credit or other<br/> mortgage product, up to 100%<br/> of the purchase could be<br/> financed</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
+        </div>
+
+
+        <div className='resellingL'>
         <h1 className="section-title" id="reselling">Reselling your Garden Loft</h1>
         <img src={LM5} alt="Reselling" className="reselling-image"/>
         <p>As a prefabricated structure, <br/>Garden Loft can be sold and <br/>moved off your property when <br/>it is no longer required <br/>This recoups a large part of the<br/> unit’s original purchase price</p>
         <p>By recapturing a large part <br/>of your initial investment, the<br/> net cost of living in a Garden <br/>Loft can be less than renting <br/>in most lodges and retirement <br/>homes - even when you include a <br/>monthly allowance for food,<br/> activities, utilities, insurance,<br/> and property taxes</p>
+        </div>
+
+        <div className='zoningL'>
 
         <h1 className="section-title" id="zoning">New Zoning Rules</h1>
         <img src={LM6} alt="Zoning" className="zoning-image"/>
@@ -178,6 +188,7 @@ Calgary</p>
         <p>Garden Lofts are also allowed  <br/>in most zoning districts in  <br/>Edmonton as well as in many <br/> other towns and cities in <br/> Canada </p>
         <p>We take care of the city  <br/>approval process  <br/>and obtaining the required  <br/>permits to place a Garden Loft <br/> on your property </p>
         <p>Our complimentary feasibility  <br/>study includes an initial <br/> evaluation of the zoning bylaw <br/> rules for your property</p>
+        </div>
       </section>
       <Footer />
     </>
