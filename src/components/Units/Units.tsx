@@ -3,7 +3,9 @@ import "./Units.css";
 import GL380 from "../../assets/images/backyard 20 (edited).jpg";
 import GL480s from "../../assets/images/backyard 18.jpg"
 import GL480f from "../../assets/images/backyard 19.jpg";
+
 // import GL480 from "../../assets/images/gl480.png";
+
 const Units: React.FC = () => {
   return (
     <section id="two-units">

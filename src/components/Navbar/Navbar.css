@@ -215,6 +215,7 @@
 
 /* Media Queries for Desktop Screens */
 @media (min-width: 1024px) {
- 
-
+  .navbar {
+    width: 98vw;
+  } 
 }

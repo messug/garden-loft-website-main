@@ -12,6 +12,7 @@ import AtriumImage7 from '/images/Atrium 7.jpg';
 import AtriumImage8 from '/images/Atrium 8.jpg';
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import GLLogo from '../../assets/gl-john-logo.png';
+import { Link } from 'react-router-dom';
 
 const Atrium = () => {
   return (
@@ -41,7 +42,7 @@ the social connectiveness<br/>
 and sense of belonging that<br/>
 comes from being a part of a<br/>
 small scale village-like<br/> communal building</h3>
-          <button className='button-atrium'>Learn more about Garden Loft units</button>
+          <button className='button-atrium'><Link to="/#two-units">Learn more about Garden Loft units</Link></button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
           <h3>The prefabricated Garden Loft<br/> units can be configured in any<br/> number of ways and combined<br/> with other uses to meet the site<br/> and programmatic needs of a <br/>particular project</h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />

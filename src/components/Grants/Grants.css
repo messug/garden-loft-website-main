@@ -94,22 +94,103 @@
     font-size: 1.2rem;
     padding: 1.5rem 4rem;
     margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+
+  .desktop-grant {
+    display: none;
   }
 }
 
 @media (min-width: 1024px) {
   #rules-and-grants h1 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 2.3rem;
+    font-weight: 500;
+    width: 50vw;
   }
 
   #rules-and-grants p {
     font-size: 1.5rem;
   }
-  .background-image {
-    width: 90%;
-    height: 70vh;
-    opacity: 0.6; /* Lower opacity for the background image */
+
+
+  .desktop-grant {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding: 0 5rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+    margin-left: 4rem;
+  }
+
+  .desktop-image-grant img {
+width: 50vw;
+opacity: 0.5;
+  }
+
+  .desktop-description-grant {
+    width: 45vw;
+    line-height: 4rem;
+    margin-top: 1rem;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    ;
+  
+  }
+
+  .desktop-description-grant h2{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+ .button-safety-grant {
+    display: none;
+  }
+
+
+  .image-container, .button-grant, .grant-h2 {
+    display: none;
+  }
+  
+  .desktop-grant-button {
+    display: block;
+    background-color: rgb(199, 240, 255);
+    color: black;
+  border: 1px;
+  padding: 35px 25px;
+  color: black;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 22px;
+  margin-bottom: 2rem;
+  font-weight: 500;
+    margin-left: 9rem;
+  }
+
+  .desktop-grant-button a {
+    color: black;
+  }
+
+  .overlay-text-desktop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust text color as needed */
+    width: 50vw;
+  }
+
+  .desktop-image-grant {
+    position: relative;
+    width: 100%;
   }
 
 }

@@ -103,8 +103,8 @@ const location = useLocation();
         <div className="history"  id="our-history">
           <div className='history-content'>
           <h3>Our History</h3>
-          <h1>Carina, John and Matthew <br />co-founded Housebrand, <br />a residential design/build <br />firm, in 1997</h1>
-          <p>Over its 25-year history, <br />Housebrand has completed over <br /> 250 residential projects using <br />a unique practice model that <br />combined architectural design <br />with construction management, <br />real estate services, and <br />furniture retailing</p>
+          <h1>Carina, John and Matthew co-founded Housebrand, residential design/build firm, in 1997</h1>
+          <p>Over its 25-year history, Housebrand has completed over 250 residential projects using a unique practice model that  architectural design with construction management, real estate services, and furniture retailing</p>
           </div>
         </div>
 
@@ -130,9 +130,9 @@ const location = useLocation();
             </Swiper>
             </div>
             <div className="history-content">
-            <p>Housebrand’s work has been <br /> published internationally and <br />recognized with an Award of <br />Excellence in Innovation from <br />the Royal Architectural Institute <br />of Canada. It was the first <br />Canadian firm to receive a Rising <br />Star Leadership Award from <br />Residential Architect Magazine</p>
+            <p>Housebrand’s work has been  published internationally and recognized with an Award of <br />Excellence in Innovation from the Royal Architectural Institute of Canada. It was the first <br />Canadian firm to receive a Rising Star Leadership Award from Residential Architect Magazine</p>
             <div className='history-indent'>
-            <p>In 2022, Carina, John, <br /> and Matthew transitioned <br />Housebrand into Garden Loft</p>
+            <p>In 2022, Carina, John, <br /> and Matthew transitioned Housebrand into Garden Loft</p>
             </div>
         <div className="btn-content">
           <button className="button-about">Book a <br /> preliminary <br />consult</button>
@@ -142,8 +142,8 @@ const location = useLocation();
           </div>
           <div className="research">
           <h3>Our Research</h3>
-          <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
-          <p>In 2014, John Brown’s research <br />lab began constructing and <br />user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
+          <h1>Garden Loft originated as <br />a research project at the University of Calgary</h1>
+          <p>In 2014, John Brown’s research lab began constructing and user-test two V1 and V2 mock- ups of a backyard portable living unit in collaboration with researchers from the Cumming School of Medicine</p>
         </div>
         <div className="research-section">
            <div className='research-img'>
@@ -166,9 +166,9 @@ const location = useLocation();
             </Swiper>
             </div>
             <div className="research-content">
-            <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br /> features. In 2015, this work was <br /> awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
+            <p>The test results were  used to refine the design of the unit and its physical support features. In 2015, this work was awarded a City of Calgary  Mayor’s Urban Design Award in Housing Innovation</p> 
             <div className='research-indent'>
-            <p>In 2016 Housebrand <br /> constructed a fully-functioning <br /> V3 prototype of the portable <br />living unit that was field-tested <br /> on several sites with multiple <br />residents of differing abilities. <br />The findings of the V3 prototype <br /> field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
+            <p>In 2016 Housebrand  constructed a fully-functioning V3 prototype of the portable living unit that was field-tested on several sites with multiple residents of differing abilities. The findings of the V3 prototype field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
             </div>
 
             <div className="research-img">

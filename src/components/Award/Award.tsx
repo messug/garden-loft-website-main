@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Award.css";
+import AwardImage from "../../assets/images/alt backyard 17.jpg"
 
 
 const Award = () => {
@@ -15,6 +16,17 @@ const Award = () => {
         </div>
       </div>
     </section>
+    <div className="desktop-view">
+    <div className="desktop-description">
+      <h1>
+          Garden Loft received the 2024 City of Calgary Accessibility Award
+        </h1>
+        <button className="award-button desktop-button"> <Link to="/learn-more#awards"  >Learn more <br/>about our <br/> awards</Link></button>
+      </div>
+      <div className="desktop-image">
+        <img src={AwardImage} alt="Award Image" />
+      </div>
+    </div>
       <div style={{ textAlign: 'center' }}>
       {/* <Link to="/learn-more#awards" className="award-button">
       Learn more <br />about our <br /> awards        </Link> */}

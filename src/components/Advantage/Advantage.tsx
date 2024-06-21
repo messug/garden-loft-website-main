@@ -1,9 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useNavigate } from 'react-router-dom'; 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
 import livingRoomImage from '../../assets/images/backyard 5.jpg'; // Ensure this path is correct
 import livingRoomImage1 from '../../assets/images/backyard 2.jpg'; // Ensure this path is correct
 import livingRoomImage2 from '../../assets/images/backyard 3.jpg'; // Ensure this path is correct
@@ -13,24 +13,29 @@ import livingRoomImage6 from '../../assets/images/backyard 6.jpg'; // Ensure thi
 import './Advantage.css'
 
 const Advantage: React.FC = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
-
-  const handleButtonClick = () => {
-    navigate('/phone-call'); // Navigate to the contact page
-    window.scrollTo(0, 0); // Scroll to the top of the page
-  
-  };
   return (
     <section id="garden-loft-advantage" style={{ textAlign: 'center', width: "100vw"}}>
       <h1 className="gl-advantage-header">The Garden Loft <br /> Backyard Advantage</h1>
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={10}
         pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
         slidesPerView={1.2}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '0px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 4.5,
+            spaceBetween: 5,
+          },}}
       >
         <SwiperSlide>
           <div className="advantage-slide">
@@ -86,9 +91,11 @@ const Advantage: React.FC = () => {
             </div>
           </div>
         </SwiperSlide>
+        <div className="swiper-button-prev"></div>
+        <div className="swiper-button-next"></div>
       </Swiper>
       <div style={{ textAlign: 'center', alignContent: "center", marginTop: '1px' }}>
-        <button className="button-advantage" onClick={handleButtonClick}
+        <button className="button-advantage"
         >
           Call Us
         </button>

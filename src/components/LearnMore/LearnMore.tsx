@@ -12,6 +12,7 @@ import LM4 from "/images/Learn 4.jpg";
 import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
 import JohnLM from "/images/image.png";
+// import JohnCostVideo from "/images/Learn More about Cost.mp4";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -40,9 +41,34 @@ const LearnMore: React.FC = () => {
       </section>
 
       <section className="learn-more-section" id="learn-more">
+      
         <h1 className="section-title">Our Safety and Support Features</h1>
         <img src={LM2} alt="safety-features" className='award-image'/>
-        <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p>
+        <div className='quote'>
+          <em>
+        <p>“The Garden Loft team<br/>
+understands that the housing<br/>
+market is failing people with<br/>
+disabilities and has designed<br/>
+homes that take an aspirational<br/>
+approach to accessible design.</p>
+<p>Because the Garden Loft suites<br/>
+are prefabricated and have a<br/>
+variety of customizations<br/>
+available, they are able to meet<br/>
+the diverse needs of many<br/>
+people with disabilities, including<br/>
+elderly people who need fall-safe<br/>
+flooring or wheelchairs users who<br/>
+need zero-step floor plans.”</p>
+<p className='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
+Accelerator Professorship in Law<br/>
+& Disability Policy,<br/>
+Faculty of Law, University of<br/>
+Calgary</p>
+</em>
+</div>
+        {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
         <Swiper
           modules={[Pagination]}
           spaceBetween={10}
@@ -128,6 +154,10 @@ const LearnMore: React.FC = () => {
 
         <h1 className="section-title" id="costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
+        {/* <video className="award-image" rel="noopener noreferrer" autoPlay playsInline controls poster={JohnCostVideo}>
+          <source src={JohnCostVideo}type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> */}
         <img src={JohnLM} alt="JohnVideo" className='award-image'/>
         <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
 

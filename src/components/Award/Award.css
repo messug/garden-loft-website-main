@@ -55,6 +55,10 @@
   text-align: left;
 }
 
+.desktop-view {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .award-content h1 {
     font-size: 2rem;
@@ -69,6 +73,39 @@
 }
 
 @media (min-width: 1024px) {
+  .award-section {
+    display: none;
+  }
+
+  .desktop-view{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding: 0 5rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .desktop-image img {
+width: 50vw;
+  }
+
+  .desktop-description {
+    width: 45vw;
+    line-height: 4rem;
+    align-self: center;
+    margin-top: 3rem;
+  
+  }
+
+  .desktop-description h1{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
   .award-content h1 {
     font-size: 2.5rem;
     margin-bottom: 30rem;
@@ -77,10 +114,19 @@
   .learn-more-btn {
     font-size: 1.5rem;
   }
-
-  .award-button {
+ .award-button {
+    display: none;
+ 
+  }
+  
+  .desktop-button{
+    display: block;
     font-size: 1.2rem;
     padding: 1.5rem 5rem;
     margin-top: 3rem;
+    align-content: center;
+    margin-left: 11rem;
   }
+
+ 
 }

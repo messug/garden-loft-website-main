@@ -47,8 +47,8 @@
 @media (min-width: 768px) {
   .testimony-title {
     font-size: 3rem;
-    margin-top: 40px;
-    margin-bottom: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 0.1rem;
@@ -59,17 +59,62 @@
     font-weight: 300;
     padding: 0 7rem;
     line-height: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 margin-top: 2rem;
+  }
+
+  .testimony-button {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
-
-  .testimony-button {
-    font-size: 1.2rem;
-    padding: 3rem 6rem;
-    margin-top: 3rem;
-    margin-bottom: 5rem;
+  .desktop-testimony{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    padding: 0 5rem;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 12rem;
+    margin-top: 4rem;
   }
+
+  .desktop-image-testimony img {
+width: 50vw;
+  }
+
+  .desktop-description-testimony {
+    width: 45vw;
+    line-height: 4rem;
+    margin-top: 1rem;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    ;
+  
+  }
+
+  .desktop-description-testimony h2{
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .desktop-testimony-button{
+    border: none;
+    margin-top: 2rem;
+    padding: 40px 60px;
+    color: black;
+    background-color: rgb(199, 240, 255);
+    border-radius: 50%; /* Adjusted to create an elliptical shape */
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .testimony-content{
+    display: none;
+  } 
 }
