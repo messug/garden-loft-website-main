@@ -59,7 +59,7 @@ available, they are able to meet<br/>
 the diverse needs of many<br/>
 people with disabilities, including<br/>
 elderly people who need fall-safe<br/>
-flooring or wheelchairs users who<br/>
+flooring or wheelchair users who<br/>
 need zero-step floor plans.”</p></em>
 <p id='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
 Accelerator Professorship in Law<br/>

@@ -12,8 +12,8 @@ function Grants() {
           <h1>
             Garden Lofts <br />
             are now permitted <br /> in all Calgary neighborhoods <br />
-            and qualify <br />
-            for the $10,000 secondary suite grant
+            {/* and qualify <br />
+            for the $10,000 secondary suite grant */}
           </h1>
         </div>
       </div>
@@ -56,8 +56,8 @@ function Grants() {
           <h1>
             Garden Lofts <br />
             are now permitted <br /> in all Calgary neighborhoods <br />
-            and qualify <br />
-            for the $10,000 secondary suite grant
+            {/* and qualify <br />
+            for the $10,000 secondary suite grant */}
           </h1>
         </div>
         </div>
