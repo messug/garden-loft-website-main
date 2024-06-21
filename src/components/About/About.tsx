@@ -74,12 +74,12 @@ const location = useLocation();
             <p>Carina has a background in small business operations and interior design. She leads the Garden Loft Executive Team and is responsible for business management and interior design</p>
           </div>
           <div className='team-content'>
-            <img src={John} alt="John Brown" />
+            <img src={John} alt="John Brown"  className='john'/>
             <h1>John Brown <br />Founder + Director</h1>
             <p>John is a registered architect, age-in-place researcher, and Dean of the University of Calgary’s School of Architecture Planning and Landscape. He leads design research, early project design, and business development</p>
           </div>
           <div className='team-content'>
-            <img src={Matthew} alt="Matthew North" />
+            <img src={Matthew} alt="Matthew North" className='matt'/>
             <h1>Matthew North <br />Founder + Director</h1>
             <p>Matthew is a registered architect and a construction expert. He leads detail project design, construction management, and prefabrication logistics</p>
           </div>

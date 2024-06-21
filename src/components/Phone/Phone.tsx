@@ -11,9 +11,7 @@ function Phone() {
       <Navbar />
       <div className='phone'>
         <h1>Contact Us</h1>
-       
-
-        <a href="tel:4032294330" className="phone-button">
+       <a href="tel:4032294330" className="phone-button">
           <FontAwesomeIcon icon={faPhone} /> (403)-229 4330
         </a>
         <a href="mailto:info@gardenloft.ca" className="email-button">
