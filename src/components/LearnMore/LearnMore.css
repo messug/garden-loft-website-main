@@ -132,7 +132,16 @@
 
 @media (min-width: 768px) {
   .hero-text {
-    font-size: 2rem;
+    /* font-size: 7rem; */
+    width: 50%;
+    position: absolute;
+    bottom: -106%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    max-width: 400px;
   }
 
   .section-title {
@@ -158,7 +167,17 @@
 
 @media (min-width: 1024px) {
   .hero-text {
-    font-size: 2.5rem;
+    font-size: 26px;
+    width: 500px;
+    position: absolute;
+    bottom: -106%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.9;
   }
 
   .section-title {
