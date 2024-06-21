@@ -1,7 +1,6 @@
 import React from 'react';
 import './Testimony.css';
 import testimonyImage from '../../assets/images/backyard 36.jpg'; // Ensure this path is correct
-import testimonyImage2 from '../../assets/images/backyard 36.jpg'; // Ensure this path is correct
 import {Link} from 'react-router-dom';
 
 const Testimony: React.FC = () => {
