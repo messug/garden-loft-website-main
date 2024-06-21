@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -16,9 +17,18 @@ import JohnLM from "/images/image.png";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
+
+
 const LearnMore: React.FC = () => {
   const location = useLocation();
+  
+  const navigate = useNavigate(); // Initialize useNavigate
 
+  const handleButtonClick = () => {
+    navigate('/feasibility-report'); // Navigate to the contact page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  
+  };
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
@@ -28,6 +38,9 @@ const LearnMore: React.FC = () => {
     }
   }, [location]);
 
+  
+
+  
   return (
     <>
       <Navbar />
@@ -204,6 +217,9 @@ Calgary</p>
         <p>Our complimentary feasibility  <br/>study includes an initial <br/> evaluation of the zoning bylaw <br/> rules for your property</p>
         </div>
       </section>
+      <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <button className="report-button"   onClick={handleButtonClick}>Request a <br />Feasibility <br /> Report</button>
+      </div>
       <Footer />
     </>
   );
