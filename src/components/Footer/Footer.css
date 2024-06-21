@@ -12,16 +12,15 @@
 }
 .footer-content {
   /* background-color: #f8ab07d6;  */
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-width: 100%;
-max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
   /* padding: 1rem; */
   /* text-align: left; */
   /* width: 70%; Adjust this width to control how much you want to shift the text to the left */
   /* margin-left: -7%;  */
-  
 }
 
 .footer-column {
@@ -42,6 +41,15 @@ max-width: 1200px;
   font-size: 22px;
   margin-bottom: 1rem;
   font-weight: 600;
+}
+
+.footer h2 a {
+  color: #0c0101c2;
+  text-decoration: none;
+}
+
+.footer h2 a:hover {
+  text-decoration: underline;
 }
 
 .footer h3 {
