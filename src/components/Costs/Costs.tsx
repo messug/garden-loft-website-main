@@ -1,6 +1,6 @@
 import React from "react";
 import "./Costs.css";
-import GLCost from "../../assets/images/gl-cost.png";
+// import GLCost from "../../assets/images/gl-cost.png";
 import GLImage2 from "../../assets/images/backyard 34v2.jpg";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ const Costs: React.FC = () => {
   return (
     <section id="compare-costs">
       <div className="costs-container">
-        <img className="costs-img" src={GLCost} alt="GL" />
+        <img className="costs-img" src={GLImage2} alt="GL" />
         <div className="costs-text">
           <h2>
             Garden Lofts can be more <br />

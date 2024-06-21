@@ -62,6 +62,17 @@ font-size: 1.2rem;
   color: black;
 }
 
+#support-features .samantha h1 {
+  font-weight: 600;
+}
+#support-features .samantha h2 {
+  font-weight: 300;
+  font-size: 1.2rem;
+  width: 50vw;
+  text-align: right;
+  margin-top: 3rem;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   #support-features h1 {

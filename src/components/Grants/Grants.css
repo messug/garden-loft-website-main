@@ -72,6 +72,10 @@
   line-height: 35px;
 }
 
+.desktop-grant{
+  display: none;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   #rules-and-grants h1 {

@@ -7,11 +7,11 @@
   color: black;
 }
 
-.sky-background {
+/* .sky-background {
   height: 15vh;
   background-color: rgb(216, 235, 241);
   filter: brightness(75%);
-}
+} */
 
 .sec1 {
   display:none;
@@ -108,7 +108,7 @@
 
 .hero-video {
 
-  /* height: 70vh; */
+  height: 130vh;
   object-fit: fill;
   filter: brightness(85%);
 }

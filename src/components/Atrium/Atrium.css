@@ -7,7 +7,7 @@
 }
 
 .hero-atrium-img {
-  height: auto;
+  /* height: 120vh; */
   object-fit: cover;
   width: 100vw;
   /* padding-bottom: 0.4rem; */
@@ -96,7 +96,7 @@
   height: 100vh;
   object-fit: cover;
   filter: brightness(75%);
-  margin-top: -15rem;
+  /* margin-top: -5rem; //adjust */
 }
 
 .hero-atrium h1 {
