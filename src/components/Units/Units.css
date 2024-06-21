@@ -67,7 +67,7 @@
 @media (min-width: 768px) {
   #two-units h1 {
     font-size: 3rem;
-    margin-top: 40px;
+    margin-top: 6rem;
     font-weight: 700;
     line-height: 3rem;
     letter-spacing: 0.1rem;
@@ -84,10 +84,6 @@
 }
 
 @media (min-width: 1024px) {
-  #two-units {
-  }
-
-
   .gl-one img,
   .gl-two img {
     display: flex;

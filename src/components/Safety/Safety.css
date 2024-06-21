@@ -70,7 +70,7 @@
   .button-safety {
     padding: 1.5rem 5rem;
     font-size: 1.1rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   #support-features {
@@ -79,6 +79,10 @@
 }
 
 @media (min-width: 1024px) {
+
+  #support-features {
+    margin-top: 5rem;
+  }
   #support-features h1 {
     font-size: 2rem;
     font-weight: 400;

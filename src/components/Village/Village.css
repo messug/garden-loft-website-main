@@ -1,11 +1,9 @@
 #village {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
   text-align: center;
   margin-bottom: 3rem;
-  /* margin-top: -50px; */
   color: black;
 }
 
@@ -162,21 +160,60 @@
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
-  #village h1 {
-    font-size: 3rem;
+
+  .hero-village img{
+    object-fit:fill;
   }
 
-  #village p {
-    font-size: 1.25rem;
+  .content-village {
+    color: rgb(0, 0, 0);
+    width: 85%;
+    height: 69vh;
+    padding-left: 3rem;
+    display: flex;
+  }
+
+  .hero-village h1 {
+    font-size: 7rem;
+    line-height: 6rem;
+  }
+
+  .hero-village p {
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-align: right;
+    line-height: 3rem;
+  }
+
+  .village-content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 7rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .village-content h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  .button-village-cost {
+    
+    padding: 30px 60px;
+
+
+
+    margin-top: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
   }
 }
 
 @media (min-width: 1024px) {
-  #village h1 {
-    font-size: 4rem;
-  }
+  .hero-village img{
 
-  #village p {
-    /* font-size: 1.5rem; */
+    object-fit:cover;
+    
   }
 }
