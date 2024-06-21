@@ -1,7 +1,8 @@
 import "./Village.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import Village1 from "/images/Village-1.jpg";
+// import Village1 from "/images/Village-1.jpg";
+import Village1Hero from "/images/Village 1-hero.jpg"
 import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
@@ -19,7 +20,7 @@ function Village() {
       <section className="hero-village">
         <div className="hero-content">
           <div className="sky-background"></div>
-          <img className="hero-video" src={Village1} alt="Village1" />
+          <img className="hero-video" src={Village1Hero} alt="Village1" />
           <div className="content-village">
             <h1>Garden Loft Villages</h1>
             <p>
