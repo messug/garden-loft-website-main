@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   text-align: right;
-  margin-bottom: 22rem;
+  margin-bottom: 26rem;
   font-size: 24px;
 }
 
@@ -40,12 +40,13 @@
   margin-bottom: 20px;
 }
 
-/* .quote{
-  width: ;
+/* .quote {
+  margin-bottom: 2rem;
 } */
 
-.quote-sign {
+#quote-sign {
   text-align: right;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -91,6 +92,25 @@
 .support-feature-box ul li {
   margin-bottom: 30px;
   font-size: 22px;
+}
+.award-sectionL {
+  margin-bottom: 4rem;
+}
+
+.compare-costsL {
+  margin-bottom: 4rem;
+}
+
+.financeL {
+  margin-bottom: 4rem;
+}
+
+.resellingL {
+  margin-bottom: 4rem;
+}
+
+.zoningL {
+  margin-bottom: 4rem;
 }
 
 .award-image,
