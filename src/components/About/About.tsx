@@ -7,6 +7,7 @@ import John from '../../assets/images/About 3.jpg';
 import Matthew from '../../assets/images/About 4.jpg';
 import Jim from '../../assets/images/About 5.jpg';
 import James from '../../assets/images/About 6.jpg';
+import { Navigation } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -61,25 +62,27 @@ const location = useLocation();
               <br />and software developers</h1>
           </div>
           <div className='about-content'>
-            <p>We create high-quality places to live that empower dignity, independence and belonging in the lives of seniors and others with differing abilities.</p>
+            <p>We create high-quality places to live that empower dignity,  independence <br />and belonging in the lives of seniors and others with differing abilities.</p>
           </div>
         </div>
-
+            <div className='our-team-title'>
+            <h3>Our Team</h3>
+            </div>
         
           <div className="teams" id="our-team"  >
-          <h3>Our Team</h3>
+         
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
             <h1>Carina van Olm <br />Founder + Director</h1>
             <p>Carina has a background in small business operations and interior design. She leads the Garden Loft Executive Team and is responsible for business management and interior design</p>
           </div>
           <div className='team-content'>
-            <img src={John} alt="John Brown" />
+            <img src={John} alt="John Brown"  className='john'/>
             <h1>John Brown <br />Founder + Director</h1>
             <p>John is a registered architect, age-in-place researcher, and Dean of the University of Calgary’s School of Architecture Planning and Landscape. He leads design research, early project design, and business development</p>
           </div>
           <div className='team-content'>
-            <img src={Matthew} alt="Matthew North" />
+            <img src={Matthew} alt="Matthew North"/>
             <h1>Matthew North <br />Founder + Director</h1>
             <p>Matthew is a registered architect and a construction expert. He leads detail project design, construction management, and prefabrication logistics</p>
           </div>
@@ -100,39 +103,57 @@ const location = useLocation();
           <button className="button-about">Call Us</button>
         </div>
         </section>
+        <div className='our-team-title'>
+            <h3 >Our History</h3>
+            </div>
+      
         <div className="history"  id="our-history">
           <div className='history-content'>
-          <h3>Our History</h3>
-          <h1>Carina, John and Matthew co-founded Housebrand, residential design/build firm, in 1997</h1>
-          <p>Over its 25-year history, Housebrand has completed over 250 residential projects using a unique practice model that  architectural design with construction management, real estate services, and furniture retailing</p>
+         
+          <h1>Carina, John and Matthew <br />co-founded Housebrand,<br /> residential design/ <br />build firm, in 1997</h1>
+          <p>Over its 25-year history,<br />Housebrand has completed over <br />250 residential projects using <br />a unique practice model that  <br />architectural design <br />with construction management,<br /> real estate services, and furniture  <br />retailing</p>
           </div>
         </div>
 
 
         <div className="history-section">
         <div className='research-img'>
-            <Swiper
-              modules={[Pagination]}
-              spaceBetween={10}
-              pagination={{ clickable: true }}
-              slidesPerView={1.2}
-              centeredSlides={true}
-              loop={true}
-              style={{ paddingBottom: '20px' }}
-            >
-              {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17].map((image, index) => (
+          
+        <Swiper
+        modules={[Pagination, Navigation]}
+        spaceBetween={10}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },}}
+      >    {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
                   </div>
                 </SwiperSlide>
               ))}
+               <div className="swiper-button-prev"></div>
+               <div className="swiper-button-next"></div>
             </Swiper>
             </div>
             <div className="history-content">
-            <p>Housebrand’s work has been  published internationally and recognized with an Award of <br />Excellence in Innovation from the Royal Architectural Institute of Canada. It was the first <br />Canadian firm to receive a Rising Star Leadership Award from Residential Architect Magazine</p>
+            <p>Housebrand’s work has been  <br /> published internationally and <br /> recognized with an Award of <br />Excellence in Innovation from  <br />the Royal Architectural Institute <br />of Canada. It was the first <br />Canadian firm to receive a Rising <br />Star Leadership Award from <br />Residential Architect Magazine</p>
             <div className='history-indent'>
-            <p>In 2022, Carina, John, <br /> and Matthew transitioned Housebrand into Garden Loft</p>
+            <p>In 2022, Carina, John, <br /> and Matthew transitioned <br />Housebrand into Garden Loft</p>
             </div>
         <div className="btn-content">
           <button className="button-about">Book a <br /> preliminary <br />consult</button>
@@ -140,21 +161,36 @@ const location = useLocation();
 
 
           </div>
-          <div className="research">
-          <h3>Our Research</h3>
-          <h1>Garden Loft originated as <br />a research project at the University of Calgary</h1>
-          <p>In 2014, John Brown’s research lab began constructing and user-test two V1 and V2 mock- ups of a backyard portable living unit in collaboration with researchers from the Cumming School of Medicine</p>
+          <div className='our-team-title'>
+            <h3 >Our Research</h3>
+            </div>
+         
+        <div className="research">
+        <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
+          <p>In 2014, John Brown’s research <br />lab began constructing and <br /> user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
         </div>
         <div className="research-section">
            <div className='research-img'>
             <Swiper
-              modules={[Pagination]}
-              spaceBetween={10}
-              pagination={{ clickable: true }}
-              slidesPerView={1.2}
-              centeredSlides={true}
-              loop={true}
-              style={{ paddingBottom: '20px' }}
+        modules={[Pagination, Navigation]}
+        spaceBetween={10}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },}}
             >
               {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
                 <SwiperSlide key={index}>
@@ -163,12 +199,14 @@ const location = useLocation();
                   </div>
                 </SwiperSlide>
               ))}
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
             </Swiper>
             </div>
             <div className="research-content">
-            <p>The test results were  used to refine the design of the unit and its physical support features. In 2015, this work was awarded a City of Calgary  Mayor’s Urban Design Award in Housing Innovation</p> 
+            <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br />features. In 2015, this work was <br />awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
             <div className='research-indent'>
-            <p>In 2016 Housebrand  constructed a fully-functioning V3 prototype of the portable living unit that was field-tested on several sites with multiple residents of differing abilities. The findings of the V3 prototype field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
+            <p>In 2016 Housebrand  <br />constructed a fully-functioning <br /> V3 prototype of the portable <br /> living unit that was field-tested <br />on several sites with multiple <br /> residents of differing abilities. <br />The findings of the V3 prototype <br />field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
             </div>
 
             <div className="research-img">
@@ -186,9 +224,12 @@ const location = useLocation();
           <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
         </div>
 
+         <div className='our-team-title'>
+           <h3 >Our Partners</h3>
+            </div>
+       
         <section className="partners"  id="our-partners">
-
-          <h3>Our Partners</h3>
+          <div className='partners-item'>
           <div className="partnerslogoDiv">
             <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </div>
@@ -198,6 +239,7 @@ const location = useLocation();
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </div>
          <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+         </div>
          <div className="btn-content">
           <button className="button-about">Visit our FAQ</button>
         </div>

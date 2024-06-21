@@ -1,265 +1,3 @@
-/* About.css
-
-
-.hero-about {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.hero-about-img {
-  position: relative;
-}
-
-.hero-about-img img {
-  width: 100vw;
-  object-fit: cover;
-  height: 90vh;
-  filter: brightness(75%);
-}
-
-.hero-about-content h1 {
-  position: absolute;
-  bottom:25%;
-  left:55%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  width: 400px;
-  line-height: 1.9;
-}
-
-.about-content p {
-  margin-top: 20px;
-  font-size: 22px;
-  text-align: center;
-  line-height: 1.6;
-  padding: 0 10px;
- 
- 
-}
-
-.teams {
-  margin-top: 50px ;
-  object-fit: contain;
-
-}
-
-.teams h1 {
-  margin-bottom: 30px;
-}
-
-.team-content {
-  display: inline-block;
-  width: 90%;
-  margin-bottom: 40px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.team-content img {
-  object-fit: contain;
-  width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-}
-
-.team-content h1 {
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.team-content p {
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 1.3;
-  padding: 0 1rem;
-
-}
-
-.btn-content {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button-about {
-  background-color: rgb(199, 240, 255);
-  border: 1px;
-  width: 200px;
-  height: 100px;
-  border-radius: 50%;
-  cursor: pointer;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 22px;
-  color: #000;
-}
-
-.teams,
-.partners,
-.history {
-  font-size: 35px;
-  align-items: center;
- color: #000;
-}
-.research{
-  font-size: 35px;
-  align-items: center;
- color: #000;
-}
-
-.history,
-.research {
-  text-align: center;
-  margin: 50px 0;
-}
-
-.history h1,
-.research h1 {
-  margin-bottom: 20px;
- 
-
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.history p,
-.research p {
-  font-size: 22px;
-  margin-bottom: 20px;
-
-}
-
-.history-content p {
-  font-size: 22px;
-  text-align: center;
-  line-height: 1.6;
- 
-  padding: 10px;
-  padding-bottom: 10px ;
-  
-}
-.history-indent p {
-  padding: 10px;
-  font-size: 22px;
-  text-indent: 1px;
-}
-
-.history-section,
-.research-section {
-  margin-top: 50px;
-}
-
-.research-content p {
-  font-size: 22px;
-  text-align: center;
-  line-height: 1.6;
- 
-  text-indent: 2rem;
-}
-
-.research-indent p {
-  padding: 30px;
-  font-size: 22px;
-  text-indent: 1.5rem;
-  padding-bottom: 50px;
-}
-
-
-.research-img video{
- 
-  object-fit: cover;
-  width: 100%;
-  height: auto;
-}
-
-.partners {
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-.partners p {
-  font-size: 22px;
-
-  text-indent: 0rem;
-}
-
-.partnerslogoDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 20px;
-}
-
-.partnerslogoDiv img {
-  object-fit: contain;
-  width: 40vw;
-}
-
-.research-image {
-  /* display: block; */
-  /* object-fit: contain;
-  width: 100vw;
-  max-width: 100%;
-  height: 300px;
-  margin: 0 auto;
-  object-fit: contain;
-  object-fit: contain;
-  margin-bottom: 15px;
- 
-}
-
-.research-landscape {
-  height: 25vh;
-  width: 34vw;
-
-  /* padding: 0 0.1rem; */
-
-/* @media (min-width: 768px) {
-  .team-content {
-  
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 45%;
-    margin: 2.5%;
-  }
-
-  .history p,
-  .research p {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .team-content {
-
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    margin: 1.66%;
-  }
-
-  .hero-about-content h1 {
-    font-size: 3rem;
-  }
-
-  .about-content p {
-    font-size: 1.5rem;
-  }
-
-  .history p,
-  .research p {
-    font-size: 1.2rem;
-  }
-}  */
-
-
 .hero-about {
   text-align: center;
   margin-bottom: 30px;
@@ -321,6 +59,8 @@
   height: auto;
   margin-bottom: 15px;
 }
+
+
 
 .team-content h1 {
   font-size: 30px;
@@ -465,27 +205,68 @@
   width: 34vw;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+display: none;
+}
+
+
+  .our-team-title {
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+
 @media (min-width: 768px) {
+  
+  .hero-about-img img {
+    width: 100vw;
+    object-fit: cover;
+    height: 90vh;
+    filter: brightness(75%);
+  }
+ 
+
+  .our-team-title {
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
   .team-content {
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 45%;
     margin: 2.5%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .team-content h1 {
     font-size: 2rem;
     text-align: center;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   
   .team-content p {
     font-size: 2rem;
-   
   }
+  
+  .about-content p {
+    font-size: 2rem;
+  }
+
+  
+  .history h1,
+  .research h1 {
+    font-size: 2rem;
+  }
+
 
   .history p,
   .research p {
@@ -493,24 +274,26 @@
   }
 
   .hero-about-content h1 {
-    font-size: 7rem;
-    width: 50%;
+    font-size: 3.5rem;
+    width: 80%;
     position: absolute;
-    bottom: 15%;
-    left: 65%;
+    bottom: 5%;
+    left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 30px;
     text-align: center;
-    max-width: 400px;
+    max-width: 600px;
     line-height: 1.9;
   }
+
+  
   .team-content img {
     object-fit: contain;
     width: 100%;
-   
+    align-items: baseline;
     margin-bottom: 10px;
   }
+  
   .history-content p {
     font-size: 2rem;
     text-align: center;
@@ -518,29 +301,121 @@
     padding: 10px;
     padding-bottom: 10px;
   }
+  
   .research-content p {
     font-size: 2rem;
     text-align: center;
     line-height: 1.6;
     text-indent: 2rem;
   }
-  .research-image {
+  
+  .research-image img{
     object-fit: contain;
-    width: 80vw;
-    max-width: 100%;
-    height: 80vh;
+    max-width: none;
+    width: 100vw;
+    /* max-width: 100%; */
+    /* height: 60vh; */
     margin: 0 auto;
-   
   }
+  .swiper {
+    /* transform: scale(0.7); */
+    overflow: visible;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  }
+  .partnerslogoDiv img {
+    object-fit: contain;
+    width: 25vw;
+  }
+  
+
+
+  /* Positioning */
+  .swiper-button-prev {
+    left: 45px;
+    top: 190px;
+  }
+
+  .swiper-button-next {
+    right: 45px; /* Adjust right position */
+    top: 190px;
+  }
+
+  .teams {
+    font-size: 3rem;
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+    
+  }
+  /* .our-team-title  {
+    display:flex;
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+
+  } */
 }
 
 @media (min-width: 1024px) {
+  .hero-about-img img {
+    width: 100vw;
+    object-fit: cover;
+    height: 130vh;
+   
+  }
+
+  .hero-about-content h1 {
+    font-size: 4rem;
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.9;
+  }
+
   .team-content {
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 30%;
     margin: 1.6%;
+
+  }
+  .team-content img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  .team-content-matt img {
+    object-fit: contain;
+    width: 30%;
+    height: 100vh;
+ 
   }
  
   .team-content h1 {
@@ -548,40 +423,40 @@
     text-align: center;
     align-items: center;
     justify-content: center;
- 
   }
   
   .team-content p {
     font-size: 2rem;
-   
   }
-  .hero-about-content h1 {
-    font-size: 3rem;
-    width: 500px;
-    position: absolute;
-    bottom: 20%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    max-width: 600px;
-    line-height: 1.9;
-  }
+  
+ 
 
   .about-content p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
+
+
+
+.teams {
+  font-size: 3rem;
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: unset;
+}
 
   .history h1,
   .research h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .history p,
   .research p {
     font-size: 2rem;
   }
+  
   .history-content p {
     font-size: 2rem;
     text-align: center;
@@ -596,25 +471,110 @@
     line-height: 1.6;
     text-indent: 2rem;
   }
+
+  /* .partnerslogoDiv img {
+    object-fit: contain;
+    width: 15vw;
+  } */
+
+  .partners {
+    flex-direction: column;
+  }
+  
+  .partners-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .partners-item:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .partners-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .partnerslogoDiv {
+    margin: 0 10px;
+  }
+
+  .partnerslogoDiv img {
+    max-width: 200px; /* Adjust as needed */
+    /* height: auto; */
+  }
+
+  .partners-item p {
+    flex: 1;
+    margin: 0; /* Ensure there's no extra margin */
+    padding: 0 20px; 
+    line-height: 1.6; 
+    max-width: 600px;
+    max-height: 100vh;
+  }
+
+  /* .btn-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .button-about {
+    background-color: rgb(199, 240, 255);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+  } */
+
+.swiper {
+    /* transform: scale(0.35); */
+    overflow: visible;
+  }
+  .swiper-button-prev,
+    .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      top: 185px;
+    }
+  
   .research-image {
     object-fit: contain;
-    width: 200vw;
-    max-width: 100%;
-    height: 90vh;
+    width: 170vw;
+    /* max-width: 98%; */
+    /* height: 60vh; */
     margin: 0 auto;
-   
+ 
   }
+  /* .research-img img{
+    border: 2px solid rgb(211, 211, 211);
+  } */
+  
   .button-about {
     background-color: rgb(199, 240, 255);
     border: 1px;
-    width: 250px;
-    height: 150px;
+    width: 220px;
+    height: 110px;
     border-radius: 50%;
     cursor: pointer;
     text-align: center;
     margin-top: 10px;
-    font-size: 32px;
+    font-size: 25px;
     color: #000;
   }
-  
+
+  .our-team-title {
+    display:flex;
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+  }
+
 }
