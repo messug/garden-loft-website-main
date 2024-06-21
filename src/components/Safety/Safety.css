@@ -14,6 +14,17 @@
   width: 55vw;
 }
 
+#support-features .samantha {
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+#support-features .samantha h1{
+font-size: 1.2rem;
+  font-weight: 200;
+}
+
+
 #support-features p {
   font-size: 22px;
   margin-bottom: 1rem;
