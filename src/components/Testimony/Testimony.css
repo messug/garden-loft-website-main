@@ -43,6 +43,10 @@
   font-size: 22px;
 }
 
+.desktop-testimony{
+  display: none;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   .testimony-title {
