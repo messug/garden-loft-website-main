@@ -1,5 +1,3 @@
-/* About.css */
-
 .hero-about {
   text-align: center;
   margin-bottom: 30px;
@@ -22,7 +20,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 3rem;
+  font-size: 30px;
   text-align: center;
   width: 90%;
   max-width: 400px;
@@ -31,7 +29,7 @@
 
 .about-content p {
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 22px;
   text-align: center;
   line-height: 1.6;
   padding: 0 10px;
@@ -44,38 +42,34 @@
 
 .teams h1 {
   margin-bottom: 30px;
-  font-size: 2rem;
 }
 
 .team-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
+  display: inline-block;
+  width: 90%;
   margin-bottom: 40px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.team-content-item {
-  width: 45%;
-  margin: 2.5%;
-}
-
-.team-content-item img {
+.team-content img {
   object-fit: contain;
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin-bottom: 15px;
 }
 
-.team-content-item h1 {
-  font-size: 2rem;
+
+
+.team-content h1 {
+  font-size: 30px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 
-.team-content-item p {
-  font-size: 1.5rem;
+.team-content p {
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.3;
   padding: 0 1rem;
@@ -97,15 +91,20 @@
   cursor: pointer;
   text-align: center;
   margin-top: 10px;
-  font-size: 1.5rem;
+  font-size: 22px;
   color: #000;
 }
 
 .teams,
 .partners,
-.history,
+.history {
+  font-size: 35px;
+  align-items: center;
+  color: #000;
+}
+
 .research {
-  font-size: 2rem;
+  font-size: 35px;
   align-items: center;
   color: #000;
 }
@@ -119,28 +118,45 @@
 .history h1,
 .research h1 {
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: 500;
 }
 
 .history p,
 .research p {
-  font-size: 1.5rem;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
-.history-content p,
-.research-content p {
-  font-size: 1.5rem;
+.history-content p {
+  font-size: 22px;
   text-align: center;
   line-height: 1.6;
   padding: 10px;
+  padding-bottom: 10px;
 }
 
-.history-indent p,
-.research-indent p {
+.history-indent p {
   padding: 10px;
-  font-size: 1.5rem;
+  font-size: 22px;
+  text-indent: 1px;
+}
+
+.history-section,
+.research-section {
+  margin-top: 50px;
+}
+
+.research-content p {
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.6;
+  text-indent: 2rem;
+}
+
+.research-indent p {
+  padding: 30px;
+  font-size: 22px;
   text-indent: 1.5rem;
   padding-bottom: 50px;
 }
@@ -158,7 +174,8 @@
 }
 
 .partners p {
-  font-size: 1.5rem;
+  font-size: 22px;
+  text-indent: 0rem;
 }
 
 .partnerslogoDiv {
@@ -170,7 +187,7 @@
 
 .partnerslogoDiv img {
   object-fit: contain;
-  width: 30vw;
+  width: 40vw;
 }
 
 .research-image {
@@ -179,6 +196,7 @@
   max-width: 100%;
   height: 300px;
   margin: 0 auto;
+  object-fit: contain;
   margin-bottom: 15px;
 }
 
@@ -187,101 +205,376 @@
   width: 34vw;
 }
 
-@media (min-width: 768px) {
-  .team-content-item {
-    width: 45%;
-    margin: 2.5%;
+.swiper-button-prev,
+.swiper-button-next {
+display: none;
+}
+
+
+  .our-team-title {
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 
-  .team-content-item h1 {
+
+@media (min-width: 768px) {
+  
+  .hero-about-img img {
+    width: 100vw;
+    object-fit: cover;
+    height: 90vh;
+    filter: brightness(75%);
+  }
+ 
+
+  .our-team-title {
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .team-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    margin: 2.5%;
     font-size: 2rem;
   }
 
-  .team-content-item p {
-    font-size: 1.5rem;
+  .team-content h1 {
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-content p {
+    font-size: 2rem;
+  }
+  
+  .about-content p {
+    font-size: 2rem;
+  }
+
+  
+  .history h1,
+  .research h1 {
+    font-size: 2rem;
+  }
+
+
+  .history p,
+  .research p {
+    font-size: 2rem;
+  }
+
+  .hero-about-content h1 {
+    font-size: 3.5rem;
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.9;
+  }
+
+  
+  .team-content img {
+    object-fit: contain;
+    width: 100%;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+  
+  .history-content p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .research-content p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    text-indent: 2rem;
+  }
+  
+  .research-image img{
+    object-fit: contain;
+    max-width: none;
+    width: 100vw;
+    /* max-width: 100%; */
+    /* height: 60vh; */
+    margin: 0 auto;
+  }
+  .swiper {
+    /* transform: scale(0.7); */
+    overflow: visible;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 70px;
+  height: 70px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  }
+  .partnerslogoDiv img {
+    object-fit: contain;
+    width: 25vw;
+  }
+  
+
+
+  /* Positioning */
+  .swiper-button-prev {
+    left: 45px;
+    top: 190px;
+  }
+
+  .swiper-button-next {
+    right: 45px; /* Adjust right position */
+    top: 190px;
+  }
+
+  .teams {
+    font-size: 3rem;
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+    
+  }
+  /* .our-team-title  {
+    display:flex;
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+
+  } */
+}
+
+@media (min-width: 1024px) {
+  .hero-about-img img {
+    width: 100vw;
+    object-fit: cover;
+    height: 130vh;
+   
   }
 
   .hero-about-content h1 {
     font-size: 4rem;
-    width: 50%;
+    width: 80%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.9;
   }
 
-  .about-content p {
-    font-size: 1.8rem;
-  }
+  .team-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 1.6%;
 
-  .history h1,
-  .research h1 {
-    font-size: 2.5rem;
   }
-
-  .history p,
-  .research p {
-    font-size: 1.8rem;
-  }
-  .partnerslogoDiv img {
+  .team-content img {
     object-fit: contain;
-    width: 20vw;
-  }
-  
-  .research-image {
-    object-fit: contain;
-    width: 50vw;
-    max-width: 90%;
-    height: 100px;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
     margin-bottom: 15px;
   }
-}
-
-@media (min-width: 1024px) {
-  .team-content-item {
+  .team-content-matt img {
+    object-fit: contain;
     width: 30%;
-    margin: 1.66%;
+    height: 100vh;
+ 
   }
+ 
+  .team-content h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-content p {
+    font-size: 2rem;
+  }
+  
+ 
 
-  .team-content-item h1 {
+  .about-content p {
     font-size: 2.5rem;
   }
 
-  .team-content-item p {
-    font-size: 2rem;
-  }
 
-  .hero-about-content h1 {
-    font-size: 5rem;
-    max-width: 600px;
-  }
 
-  .about-content p {
-    font-size: 3rem;
-  }
+.teams {
+  font-size: 3rem;
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: unset;
+}
 
   .history h1,
   .research h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .history p,
   .research p {
     font-size: 2rem;
+  }
+  
+  .history-content p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+
+  .research-content p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.6;
+    text-indent: 2rem;
+  }
+
+  /* .partnerslogoDiv img {
+    object-fit: contain;
+    width: 15vw;
+  } */
+
+  .partners {
+    flex-direction: column;
+  }
+  
+  .partners-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+
+  .partners-item:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .partners-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .partnerslogoDiv {
+    margin: 0 10px;
+  }
+
+  .partnerslogoDiv img {
+    max-width: 200px; /* Adjust as needed */
+    /* height: auto; */
+  }
+
+  .partners-item p {
+    flex: 1;
+    margin: 0; /* Ensure there's no extra margin */
+    padding: 0 20px; 
+    line-height: 1.6; 
+    max-width: 600px;
+    max-height: 100vh;
+  }
+
+  /* .btn-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .button-about {
-    width: 230px;
-    height: 130px;
-    font-size: 2rem;
+    background-color: rgb(199, 240, 255);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+  } */
+
+.swiper {
+    /* transform: scale(0.35); */
+    overflow: visible;
   }
-  .partnerslogoDiv img {
-    object-fit: contain;
-    width: 20vw;
-  }
+  .swiper-button-prev,
+    .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      top: 185px;
+    }
   
   .research-image {
     object-fit: contain;
-    width: 30vw;
-    max-width: 80%;
-    height: 90px;
-   
+    width: 170vw;
+    /* max-width: 98%; */
+    /* height: 60vh; */
+    margin: 0 auto;
+ 
   }
+  /* .research-img img{
+    border: 2px solid rgb(211, 211, 211);
+  } */
+  
+  .button-about {
+    background-color: rgb(199, 240, 255);
+    border: 1px;
+    width: 220px;
+    height: 110px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #000;
+  }
+
+  .our-team-title {
+    display:flex;
+    font-size: 3rem;
+    margin-top: 4rem;
+    align-items: center;
+  }
+
 }

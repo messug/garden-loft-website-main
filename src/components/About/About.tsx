@@ -7,6 +7,7 @@ import John from '../../assets/images/About 3.jpg';
 import Matthew from '../../assets/images/About 4.jpg';
 import Jim from '../../assets/images/About 5.jpg';
 import James from '../../assets/images/About 6.jpg';
+import { Navigation } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -61,13 +62,15 @@ const location = useLocation();
               <br />and software developers</h1>
           </div>
           <div className='about-content'>
-            <p>We create high-quality places to live that empower dignity, independence and belonging in the lives of seniors and others with differing abilities.</p>
+            <p>We create high-quality places to live that empower dignity,  independence <br />and belonging in the lives of seniors and others with differing abilities.</p>
           </div>
         </div>
-
+            <div className='our-team-title'>
+            <h3>Our Team</h3>
+            </div>
         
           <div className="teams" id="our-team"  >
-          <h3>Our Team</h3>
+         
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
             <h1>Carina van Olm <br />Founder + Director</h1>
@@ -79,7 +82,7 @@ const location = useLocation();
             <p>John is a registered architect, age-in-place researcher, and Dean of the University of Calgary’s School of Architecture Planning and Landscape. He leads design research, early project design, and business development</p>
           </div>
           <div className='team-content'>
-            <img src={Matthew} alt="Matthew North" className='matt'/>
+            <img src={Matthew} alt="Matthew North"/>
             <h1>Matthew North <br />Founder + Director</h1>
             <p>Matthew is a registered architect and a construction expert. He leads detail project design, construction management, and prefabrication logistics</p>
           </div>
@@ -100,9 +103,13 @@ const location = useLocation();
           <button className="button-about">Call Us</button>
         </div>
         </section>
+        <div className='our-team-title'>
+            <h3 >Our History</h3>
+            </div>
+      
         <div className="history"  id="our-history">
           <div className='history-content'>
-          <h3>Our History</h3>
+         
           <h1>Carina, John and Matthew <br />co-founded Housebrand,<br /> residential design/ <br />build firm, in 1997</h1>
           <p>Over its 25-year history,<br />Housebrand has completed over <br />250 residential projects using <br />a unique practice model that  <br />architectural design <br />with construction management,<br /> real estate services, and furniture  <br />retailing</p>
           </div>
@@ -111,22 +118,36 @@ const location = useLocation();
 
         <div className="history-section">
         <div className='research-img'>
-            <Swiper
-              modules={[Pagination]}
-              spaceBetween={10}
-              pagination={{ clickable: true }}
-              slidesPerView={1.2}
-              centeredSlides={true}
-              loop={true}
-              style={{ paddingBottom: '20px' }}
-            >
-              {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17].map((image, index) => (
+          
+        <Swiper
+        modules={[Pagination, Navigation]}
+        spaceBetween={10}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },}}
+      >    {[projectImage4, projectImage5, projectImage6, projectImage7, projectImage8, projectImage9,projectImage14,projectImage15,projectImage16,projectImage17].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
                   </div>
                 </SwiperSlide>
               ))}
+               <div className="swiper-button-prev"></div>
+               <div className="swiper-button-next"></div>
             </Swiper>
             </div>
             <div className="history-content">
@@ -140,21 +161,36 @@ const location = useLocation();
 
 
           </div>
-          <div className="research">
-          <h3>Our Research</h3>
-          <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
+          <div className='our-team-title'>
+            <h3 >Our Research</h3>
+            </div>
+         
+        <div className="research">
+        <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
           <p>In 2014, John Brown’s research <br />lab began constructing and <br /> user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
         </div>
         <div className="research-section">
            <div className='research-img'>
             <Swiper
-              modules={[Pagination]}
-              spaceBetween={10}
-              pagination={{ clickable: true }}
-              slidesPerView={1.2}
-              centeredSlides={true}
-              loop={true}
-              style={{ paddingBottom: '20px' }}
+        modules={[Pagination, Navigation]}
+        spaceBetween={10}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },}}
             >
               {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
                 <SwiperSlide key={index}>
@@ -163,6 +199,8 @@ const location = useLocation();
                   </div>
                 </SwiperSlide>
               ))}
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
             </Swiper>
             </div>
             <div className="research-content">
@@ -186,9 +224,12 @@ const location = useLocation();
           <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
         </div>
 
+         <div className='our-team-title'>
+           <h3 >Our Partners</h3>
+            </div>
+       
         <section className="partners"  id="our-partners">
-
-          <h3>Our Partners</h3>
+          <div className='partners-item'>
           <div className="partnerslogoDiv">
             <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </div>
@@ -198,6 +239,7 @@ const location = useLocation();
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </div>
          <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+         </div>
          <div className="btn-content">
           <button className="button-about">Visit our FAQ</button>
         </div>
