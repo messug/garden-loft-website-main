@@ -34,7 +34,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-column">
           <h2>
-            <Link to="/" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>Garden Loft Backyard Suites</Link>
+            <Link to="/"  onClick={() => scrollToSection('')}>Garden Loft Backyard Suites</Link>
           </h2>
           <h3>
             <Link to="/#support-features" onClick={() => scrollToSection('support-features')}>Our Support Features</Link>
@@ -66,17 +66,17 @@ const Footer = () => {
     </div>
      <div className="footer-column">
           <h2>
-            <Link to="/village" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Garden Loft Villages</Link>
+            <Link to="/village" onClick={scrollToTop}>Garden Loft Villages</Link>
        
           </h2>
           <h2>
-            <Link to="/atrium" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Atrium House by Garden Loft</Link>
+            <Link to="/atrium"  onClick={scrollToTop}>Atrium House by Garden Loft</Link>
           </h2>
 {/* 
           <h2>
             <Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>About</Link>
           </h2> */}
-          <h2><Link onClick={scrollToTop} to="about" style={{ textDecoration: "none", color: "#0e0101b8" }}>
+          <h2><Link onClick={scrollToTop} to="about" >
          About
         </Link></h2>
           <h3>
@@ -89,10 +89,10 @@ const Footer = () => {
             <Link to="/about#our-partners" onClick={() => scrollToSection('our-partners')}>Our Partners</Link>
           </h3>
           <h2>
-            <Link to="/learn-more" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={scrollToTop}>Learn More</Link>
+            <Link to="/learn-more"  onClick={scrollToTop}>Learn More</Link>
           </h2>
           <h2>
-            <Link to="/faq" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>FAQ</Link>
+            <Link to="/faq"  onClick={() => scrollToSection('')}>FAQ</Link>
           </h2>
           </div>
           <div className="footer-column">
