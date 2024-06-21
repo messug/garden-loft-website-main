@@ -17,7 +17,7 @@ const Advantage: React.FC = () => {
   const navigate = useNavigate(); // Initialize useNavigate
 
   const handleButtonClick = () => {
-    navigate('/feasibility-report'); // Navigate to the contact page
+    navigate('/phone-call'); // Navigate to the contact page
     window.scrollTo(0, 0); // Scroll to the top of the page
   
   };
