@@ -1,7 +1,7 @@
 import "./Village.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import Village1 from "/images/Village-1.jpg";
+// import Village1 from "/images/Village-1.jpg";
 import Village1Hero from "/images/Village 1-hero.jpg"
 import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
