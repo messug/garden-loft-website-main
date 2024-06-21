@@ -51,6 +51,9 @@ function Village() {
           <div className="sec1">
             <div className="sec1-words">
               <h2>
+              {" "}
+                <br/>
+                <br/>
                 Garden Loft creates <br /> small-scale supportive <br /> living
                 communities{" "}
               </h2>
@@ -66,6 +69,9 @@ function Village() {
           <div className="sec1">
             <div className="sec1-words">
               <h2>
+              {" "}
+                <br/>
+                <br/>
                 All the advantages <br /> of living in a Garden Loft <br />{" "}
                 combined with an <br /> intentional community
               </h2>
@@ -97,6 +103,9 @@ function Village() {
           <div className="sec1">
             <div className="sec1-words">
               <h2>
+                {" "}
+                <br/>
+                <br/>
                 Garden Loft Villages <br /> can be integrated with new or <br />{" "}
                 existing community buildings, <br />
                 clubhouses, and coffee shops
@@ -227,6 +236,9 @@ function Village() {
           <div className="sec1">
             <div className="sec1-words">
               <h3>
+              {" "}
+                <br/>
+                <br/>
                 Garden Loft villages are <br /> particularly well suited in
                 rural
                 <br />
@@ -262,6 +274,11 @@ function Village() {
 
           <div className="sec1">
             <div className="sec1-words">
+            {" "}
+                <br/>
+                <br/>{" "}
+                <br/>
+                <br/>
             <h2>Small Town Rental Village</h2>
             <h3>
               10 Garden Loft units in a <br /> park-like setting adjacent to
@@ -288,6 +305,10 @@ function Village() {
 
           <div className="sec1">
             <div className="sec1-words">
+            {" "}
+                <br/>
+                <br/>{" "}
+                
             <h2>Country Residential Village</h2>
           <h3>
             93 Garden Loft units <br /> augmented with community amenity <br />{" "}

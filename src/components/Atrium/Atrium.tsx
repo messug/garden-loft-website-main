@@ -36,6 +36,9 @@ const Atrium = () => {
           <div className="sec1">
             <div className="sec1-words">
             <h2>
+            {" "}
+                <br/>
+               
               Combining advanced <br />
               age-in-place architecture <br />
               with person-led care and <br />
@@ -72,6 +75,9 @@ const Atrium = () => {
           <div className="sec1">
             <div className="sec1-words">
             <h2>
+            {" "}
+                <br/>
+                <br/>
             Atrium House is a small <br />
             care home providing <br />
             high levels of nursing
@@ -335,6 +341,12 @@ const Atrium = () => {
           <div className="sec1">
             <div className="sec1-words">
             <h2>
+            {" "}
+                <br/>
+                <br/>
+                {" "}
+                <br/>
+            
             Atrium House can also <br />
             be combined with a <br />
             Garden Loft Village
