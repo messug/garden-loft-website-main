@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import './LearnMore.css';
 import LM1 from "/images/Learn 1.jpg";
 import LM2 from "/images/Learn 2.jpg";
@@ -70,13 +70,25 @@ Calgary</p>
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Navigation]}
           spaceBetween={10}
           pagination={{ clickable: true }}
           slidesPerView={1.2}
           centeredSlides={true}
+          navigation={{
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }}
           loop={true}
           style={{ paddingBottom: '4rem' }}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 0,
+            },}}
         >
           <SwiperSlide>
             <div className="support-feature-box" id="safety-support">
@@ -135,6 +147,8 @@ Calgary</p>
               </ul>
             </div>
           </SwiperSlide>
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
         </Swiper>
 <div className='award-sectionL'>
         <h1 className="section-title" id="awards">Our Awards</h1>
