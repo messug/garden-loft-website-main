@@ -114,14 +114,7 @@ function Village() {
             </h3>
             <img src={Village4} alt="GL-Cost Image" />
           </div>
-          <div className="sec2">
-            <h3>
-              Garden Loft Villages <br /> can be integrated with new or <br />{" "}
-              existing community buildings, <br />
-              clubhouses, and coffee shops
-            </h3>
-            <img src={Village4} alt="GL-Cost Image" />
-          </div>
+   
           <div className="sec1">
             <div className="sec1-words">
               <h2>
@@ -295,7 +288,7 @@ function Village() {
 
           <div className="sec1">
             <div className="sec1-words">
-            <h1>Country Residential Village</h1>
+            <h2>Country Residential Village</h2>
           <h3>
             93 Garden Loft units <br /> augmented with community amenity <br />{" "}
             buildings on an acreage site
