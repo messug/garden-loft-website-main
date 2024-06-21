@@ -60,13 +60,13 @@ the diverse needs of many<br/>
 people with disabilities, including<br/>
 elderly people who need fall-safe<br/>
 flooring or wheelchairs users who<br/>
-need zero-step floor plans.”</p>
+need zero-step floor plans.”</p></em>
 <p className='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
 Accelerator Professorship in Law<br/>
 & Disability Policy,<br/>
 Faculty of Law, University of<br/>
 Calgary</p>
-</em>
+
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
         <Swiper
