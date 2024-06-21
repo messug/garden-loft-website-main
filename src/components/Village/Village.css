@@ -162,6 +162,12 @@
   font-size: 35px;
 }
 
+.desktop-hero-p {
+  display: none;
+}
+
+
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .hero-village img {
@@ -208,6 +214,10 @@
     font-size: 1.1rem;
     font-weight: 500;
   }
+
+  .desktop-hero-p {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -215,12 +225,38 @@
     width: 50vw;
   }
 
+  .content-village {
+    padding:0;
+  }
+
+  .hero-content {
+    position: relative;
+  }
+  .hero-village {
+    height: 100vh;
+    width: 100vw;
+  overflow: hidden;
+  }
+
+  .hero-village p {
+    margin-right: 6rem;
+  }
+  .sky-background {
+   display: none;
+  }
+
   .sec-mobile {
     display: none;
   }
   .hero-village img {
-    object-fit: contain;
-    width: 100vw;
+    position: absolute; /* Fix the image within the container */
+    margin-top: -9.5rem;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+    height:auto;
     filter: brightness(75%);
 
   }
@@ -252,6 +288,13 @@
 .sec1image img.rotate {
   transform: rotate(90deg);
   width: 10vw;
+}
+.mobile-hero-p {
+  display: none;
+}
+
+.desktop-hero-p {
+  display: block;
 }
 
 }

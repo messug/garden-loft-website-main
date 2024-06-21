@@ -23,8 +23,12 @@ function Village() {
           <img className="hero-video" src={Village1Hero} alt="Village1" />
           <div className="content-village">
             <h1>Garden Loft Villages</h1>
-            <p>
+            <p className="mobile-hero-p">
               community embedded <br />
+              supportive living
+            </p>
+            <p className="desktop-hero-p">
+              community embedded 
               supportive living
             </p>
           </div>
