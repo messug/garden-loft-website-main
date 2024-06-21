@@ -74,7 +74,8 @@ people with disabilities, including<br/>
 elderly people who need fall-safe<br/>
 flooring or wheelchair users who<br/>
 need zero-step floor plans.”</p></em>
-<p id='quote-sign'>- Stephanie Chipeur, Azrieli<br/>
+<p id='quote-sign'>- Stephanie Chipeur<br/>
+ Azrieli
 Accelerator Professorship in Law<br/>
 & Disability Policy,<br/>
 Faculty of Law, University of<br/>
