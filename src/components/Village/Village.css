@@ -220,6 +220,7 @@
   }
   .hero-village img {
     object-fit: contain;
+    width: 100vw;
     filter: brightness(75%);
 
   }
