@@ -5,11 +5,16 @@
   text-align: center;
 }
 
+.navbarBackground {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 20vh;
+}
+
 .phone h1 {
   font-size: 40px;
   color: black;
   margin-bottom: 20px;
- }
+}
 
 .phone p {
   font-size: 22px;
@@ -19,10 +24,11 @@
   margin-top: 20px;
 }
 
-.phone-button, .email-button {
+.phone-button,
+.email-button {
   font-size: 22px;
   color: black;
-  background-color: #C7F0FF;
+  background-color: #c7f0ff;
   border-radius: 3rem;
   padding: 20px 30px;
   text-decoration: none;
@@ -30,7 +36,8 @@
   margin: 10px;
 }
 
-.phone-button:hover, .email-button:hover {
+.phone-button:hover,
+.email-button:hover {
   color: white;
   background-color: rgb(5, 95, 159);
 }
@@ -44,9 +51,14 @@
     font-size: 18px;
   }
 
-  .phone-button, .email-button {
+  .phone-button,
+  .email-button {
     font-size: 20px;
     padding: 8px 16px;
+  }
+  .navbarBackground {
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 10vh;
   }
 }
 
@@ -59,8 +71,13 @@
     font-size: 16px;
   }
 
-  .phone-button, .email-button {
+  .phone-button,
+  .email-button {
     font-size: 18px;
     padding: 6px 12px;
+  }
+
+  .navbarBackground {
+    height: 12vh;
   }
 }

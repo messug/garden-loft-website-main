@@ -8,7 +8,9 @@ import './Phone.css';
 function Phone() {
   return (
     <>
+
       <Navbar />
+      <div className='navbarBackground'></div>
       <div className='phone'>
         <h1>Contact Us</h1>
        <a href="tel:4032294330" className="phone-button">

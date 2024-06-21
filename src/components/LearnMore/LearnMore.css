@@ -201,6 +201,10 @@
     right: 40px;
     top: 450px;
   }
+
+  #quote-sign {
+    margin-right: 10rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -237,5 +241,9 @@
 
   .support-feature-box ul li {
     font-size: 1.5rem;
+  }
+
+  #quote-sign {
+    margin-right: 29rem;
   }
 }
