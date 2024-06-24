@@ -12,8 +12,8 @@ import LM3 from "/images/Learn 3.jpg";
 import LM4 from "/images/Learn 4.jpg";
 import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
-import JohnLM from "/images/image.png";
-// import JohnCostVideo from "/images/Learn More about Cost.mp4";
+// import JohnLM from "/images/image.png";
+import JohnCostVideo from "/images/cost_comparison_v1_2024_06_20 (1080p).mp4";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -170,7 +170,7 @@ Calgary</p>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
         <iframe
           width="100%"
-          height="315"
+          height="515"
           src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
           title="YouTube video player"
           frameBorder="0"
@@ -184,11 +184,11 @@ Calgary</p>
 <div className='compare-costsL'>
         <h1 className="section-title" id="costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
-        {/* <video className="award-image" rel="noopener noreferrer" autoPlay playsInline controls poster={JohnCostVideo}>
+        <video className="award-image" rel="noopener noreferrer" playsInline controls poster={JohnCostVideo}>
           <source src={JohnCostVideo}type="video/mp4" />
           Your browser does not support the video tag.
-        </video> */}
-        <img src={JohnLM} alt="JohnVideo" className='award-image'/>
+        </video>
+        {/* <img src={JohnLM} alt="JohnVideo" className='award-image'/> */}
         <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
         </div>
 <div className='financeL'>
