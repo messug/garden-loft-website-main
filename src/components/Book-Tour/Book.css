@@ -1,4 +1,9 @@
 /* Book.css */
+
+.navbarBackground {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 20vh;
+}
 .book-container {
   justify-content: center;
   align-items: center;

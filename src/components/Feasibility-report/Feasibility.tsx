@@ -47,6 +47,7 @@ const Feasibility = () => {
 
   return (
     <>
+   
       <Navbar />
       <div className='navbarBackground'></div>
       <form onSubmit={handleSubmit} className="feasibility-form">

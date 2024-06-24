@@ -201,6 +201,7 @@ const Brochure = () => {
     return (
         <>
             <Navbar />
+            <div className='navbarBackground'></div>
             <form className="brochure-form" onSubmit={handleSubmit}>
                 <h1>Request a Brochure </h1>
                 {message && <p>{message}</p>}

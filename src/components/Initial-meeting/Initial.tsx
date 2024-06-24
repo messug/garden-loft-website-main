@@ -38,7 +38,7 @@ const Initial: React.FC = () => {
   return (
     <>
       <Navbar />
-     
+      <div className='navbarBackground'></div>
       <div className="initial-meeting">
         <h2>Book a Complimentary Initial Meeting</h2>
         {/* <form onSubmit={handleSubmit}>
@@ -77,12 +77,7 @@ const Initial: React.FC = () => {
         <div className="calendly-widget">
         <Calendly />
         </div>
-        <div className="contact-info">
-          <p>Email: <a href="mailto:info@gardenloft.ca">info@gardenloft.ca</a></p>
-          <p>Phone: <span>403 2294330 (o)</span> <span>403-6148363 (c)</span></p>
-          <p>Showroom: 838-11th Avenue SW Calgary, AB T2R 0E5 (by appointment only)</p>
-          <p><a href="/privacy-policy">Our Privacy Policy</a></p>
-        </div>
+       
       </div>
       <Footer />
     </>

@@ -1,4 +1,9 @@
 /* Brochure.css */
+
+.navbarBackground {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 20vh;
+}
 .brochure-form {
   max-width: 480px;
   margin: 0 auto;

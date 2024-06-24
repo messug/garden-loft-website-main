@@ -9,6 +9,7 @@ function Book() {
   return (
     <>
       <Navbar />
+      <div className='navbarBackground'></div>
       <div className="book-container">
         <h1 className="book-title">
         <span>Book A Tour</span>
