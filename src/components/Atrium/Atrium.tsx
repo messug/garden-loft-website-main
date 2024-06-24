@@ -1,8 +1,7 @@
 import "./Atrium.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-// import AtriumImage1 from '/images/Atrium 1.jpg';
-import AtriumImage1v2 from "/images/Atrium 1v2.jpg";
+import AtriumVideo from  '/images/atrium hero.mp4'
 import AtriumImage2 from "/images/Atrium 2.jpg";
 import AtriumImage3 from "/images/Atrium 3.jpg";
 import AtriumImage4 from "/images/Atrium 4.jpg";
@@ -18,7 +17,7 @@ const Atrium = () => {
   return (
     <>
       <Navbar />
-      <section className="hero-atrium">
+      {/* <section className="hero-atrium">
         <div className="hero-atrium-img">
           <img src={AtriumImage1v2} alt="Atrium House Image 1" />
           <div className="hero-atrium-content">
@@ -29,7 +28,17 @@ const Atrium = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="home">
+      <div className="home-content">
+        <video className="video" src={AtriumVideo} autoPlay loop muted playsInline  />
+        {/* <img className="video" src={BYSuite} /> */}
+        <div className="content">
+        <h1>Atrium House</h1>
+        <p className='mobile-para'> care-enhanced <br />community living</p>
+        <p className='desktop-para'>care-enhanced community living</p></div>
+      </div>
+    </section>
       <section id="atrium">
         <div className="atrium-content">
 

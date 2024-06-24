@@ -2,7 +2,8 @@ import "./Village.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 // import Village1 from "/images/Village-1.jpg";
-import Village1Hero from "/images/Village 1-hero.jpg"
+// import Village1Hero from "/images/Village 1-hero.jpg"
+import VillageVideo from '/images/village hero.mp4'
 import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
@@ -17,7 +18,7 @@ function Village() {
   return (
     <>
       <Navbar />
-      <section className="hero-village">
+      {/* <section className="hero-village">
         <div className="hero-content">
           <div className="sky-background"></div>
           <img className="hero-video" src={Village1Hero} alt="Village1" />
@@ -33,7 +34,19 @@ function Village() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+        <section className="home">
+      <div className="home-content">
+        <video className="video" src={VillageVideo} autoPlay loop muted playsInline  />
+        {/* <img className="video" src={BYSuite} /> */}
+        <div className="content">
+        <h1>Garden Loft Villages</h1>
+        <p className='mobile-para'> community embedded <br />
+        supportive living</p>
+        <p className='desktop-para'> community embedded 
+        supportive living</p></div>
+      </div>
+    </section>
       <section id="village">
         <div className="village-content">
           <div className="sec-mobile">
