@@ -44,8 +44,7 @@ function Grants() {
           <button className="button-grant desktop-grant-button">
           <Link to="/learn-more#zoning">
             Learn about <br />
-            the new rules + <br />
-            grants
+            the new rules
           </Link>
           </button>
         </div>
