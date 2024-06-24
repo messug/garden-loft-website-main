@@ -22,8 +22,7 @@ function Grants() {
         <button className="button-safety-grant">
           <Link to="/learn-more#zoning">
             Learn about <br />
-            the new rules + <br />
-            grants
+            the new rules
           </Link>
         </button>
       </div>
