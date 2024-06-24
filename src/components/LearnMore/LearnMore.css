@@ -125,7 +125,7 @@
 
 .video-embed {
   width: 100%;
-  max-width: 600px;
+  max-width: 1000px;
   height: auto;
   margin: 20px auto;
 }
@@ -205,6 +205,12 @@
   #quote-sign {
     margin-right: 10rem;
   }
+  .video-embed {
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    margin: 20px auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -245,5 +251,11 @@
 
   #quote-sign {
     margin-right: 29rem;
+  }
+  .video-embed {
+    width: 100%;
+    max-width: 900px;
+    height: 100vh;
+    margin: 20px auto;
   }
 }
