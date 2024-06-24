@@ -212,7 +212,7 @@ display: none;
 
 
   .our-team-title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 4rem;
     align-items: center;
     text-align: center;
@@ -348,7 +348,7 @@ display: none;
   /* Positioning */
   .swiper-button-prev {
     left: 45px;
-    top: 190px;
+    top: 100px;
   }
 
   .swiper-button-next {
@@ -478,13 +478,22 @@ display: none;
   } */
 
   .partners {
+    /* flex-direction: column; */
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    align-items: center;
+    text-align: left;
+    padding: 40px 20px;
+    position: relative;
   }
   
   .partners-item {
     display: flex;
     align-items: center;
     text-align: left;
+    width: 80%;
+    max-width: 1200px;
     margin-bottom: 40px;
   }
 
@@ -497,12 +506,13 @@ display: none;
   }
 
   .partnerslogoDiv {
-    margin: 0 10px;
+    margin: 0 20px 10px 20px;
+    text-align: center;
   }
 
   .partnerslogoDiv img {
     max-width: 200px; /* Adjust as needed */
-    /* height: auto; */
+    height: auto;
   }
 
   .partners-item p {
