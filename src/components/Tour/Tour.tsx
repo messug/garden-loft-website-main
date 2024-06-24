@@ -8,6 +8,7 @@ function Tour() {
   return (
     <>
     <Navbar />
+    <div className='navbarBackground'></div>
     <section id="faq">
     <img src={GLCost} alt="GL-Cost Image" />
     <div className="safety-content">
