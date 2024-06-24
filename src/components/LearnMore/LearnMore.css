@@ -205,6 +205,13 @@
   #quote-sign {
     margin-right: 10rem;
   }
+
+  .award-image {
+  width: 100%;
+  max-width: 600px;
+  height: 130vh;
+  margin: 20px auto;
+}
   .video-embed {
     width: 100%;
     max-width: 900px;
@@ -250,7 +257,13 @@
   }
 
   #quote-sign {
-    margin-right: 29rem;
+    margin-right: 20rem;
+  }
+  .award-image {
+    width: 100%;
+    max-width: 600px;
+    height: 130vh;
+    margin: 20px auto;
   }
   .video-embed {
     width: 100%;
