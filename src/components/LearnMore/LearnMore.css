@@ -118,7 +118,7 @@
 .reselling-image,
 .zoning-image {
   width: 100%;
-  max-width: 600px;
+  /* max-width: 600px; */
   height: auto;
   margin: 20px auto;
 }
@@ -207,15 +207,15 @@
   }
 
   .award-image {
-  width: 100%;
-  max-width: 600px;
-  height: 130vh;
+  width: 100vw;
+  /* max-width: 600px; */
+  /* height: 130vh; */
   margin: 20px auto;
 }
   .video-embed {
     width: 100%;
     max-width: 900px;
-    height: 100vh;
+    height: 70vh;
     margin: 20px auto;
   }
 }
@@ -259,16 +259,18 @@
   #quote-sign {
     margin-right: 20rem;
   }
-  .award-image {
-    width: 100%;
-    max-width: 600px;
-    height: 130vh;
+  .award-image, .financing-image,
+  .reselling-image,
+  .zoning-image {
+    width: 50vw;
+    /* max-width: 600px; */
+    /* height: 130vh; */
     margin: 20px auto;
   }
   .video-embed {
     width: 100%;
     max-width: 900px;
-    height: 100vh;
+    height: 60vh;
     margin: 20px auto;
   }
 }
