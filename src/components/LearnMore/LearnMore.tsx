@@ -174,7 +174,7 @@ Calgary</p>
           src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
           title="YouTube video player"
           frameBorder="0"
-          allow="autoplay; encrypted-media"
+          // allow="autoplay; encrypted-media"
           allowFullScreen
           className='video-embed'
         ></iframe>
