@@ -48,6 +48,24 @@
   font-weight: 300;
 }
 
+.installation{
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.install-content h1{
+  padding: 2rem;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.install-content p{
+  line-height: 1.5;
+  font-size: 22px;
+ 
+}
+ 
+
 @media (min-width: 768px) {
   .projects-content h2 {
     font-size: 3rem;
