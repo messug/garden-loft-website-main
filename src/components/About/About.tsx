@@ -71,7 +71,7 @@ const About = () => {
               <br />and software developers</h1>
           </div>
           <div className='about-content'>
-            <p>We create high-quality places to live that empower dignity,  independence <br />and belonging in the lives of seniors and others with differing abilities.</p>
+            <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
           </div>
         </div>
             <div className='our-team-title'>

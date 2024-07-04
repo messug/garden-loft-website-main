@@ -358,17 +358,15 @@
     display: flex; /* Show on tablet view */
   }
 
-    /* Positioning */
-    .swiper-button-prev {
-      left: 45px;
-    
-    }
+ .swiper-button-prev {
+      left: 40px;
+      top: 200px;
+  }
   
-    .swiper-button-next {
-      right: 45px; /* Adjust right position */
-      top: 180px;
-     
-    }
+.swiper-button-next {
+  right: 40px;
+  top: 200px;
+}
 
 .partners {
     display: flex;
@@ -451,6 +449,11 @@
     line-height: 1.9;
   }
 
+  .about-content p {
+    padding: 30px;
+    font-size: 30px;
+  }
+
   .team-content {
     text-align: center;
     align-items: center;
@@ -477,17 +480,19 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
+   
   }
   
   .team-content p {
     font-size: 22px;
+    font-style: italic;
+    font-weight: lighter;
   }
   
  
 
-  .about-content p {
-    font-size: 35px;
-  }
+ 
 
 
 
@@ -504,12 +509,14 @@
   .history h1,
   .research h1 {
     font-size: 27px;
-    font-weight: 500;
+    font-weight: 330;
+  
   }
 
   .history p,
   .research p {
     font-size: 22px;
+    width: 100%;
   }
   
   .history-content p {
@@ -671,10 +678,13 @@
 
   .swiper-button-prev {
     left: 20px; /* Adjust the position from the left as needed */
+    top: 100;
   }
 
   .swiper-button-next {
     right: 20px; /* Adjust the position from the right as needed */
+    top: 190;
+
   }
   
   .research-image {
