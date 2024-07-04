@@ -62,7 +62,11 @@
 .install-content p{
   line-height: 1.5;
   font-size: 22px;
- 
+}
+
+.installation-vid {
+  width: 90vw;
+  margin: 3rem 0;
 }
  
 
@@ -118,4 +122,9 @@
     object-fit: cover;
     margin-bottom: 15px;
   }
+
+  .installation-vid {
+    width: 50vw;
+  }
+   
 }
