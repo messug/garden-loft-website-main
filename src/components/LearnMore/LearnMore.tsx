@@ -14,6 +14,7 @@ import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
 // import JohnLM from "/images/image.png";
 import JohnCostVideo from "/images/cost_comparison_video_2024_07_03 (1080p).mp4";
+import JohnCostVideoThumbnail from '/images/Screenshot 2024-07-04 at 10.56.45 AM.png'
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -184,7 +185,7 @@ Calgary</p>
 <div className='compare-costsL'>
         <h1 className="section-title" id="costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
-        <video className="award-image" rel="noopener noreferrer" playsInline controls poster={JohnCostVideo}>
+        <video className="award-image" rel="noopener noreferrer" playsInline controls poster={JohnCostVideoThumbnail}>
           <source src={JohnCostVideo}type="video/mp4" />
           Your browser does not support the video tag.
         </video>

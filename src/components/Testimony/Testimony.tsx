@@ -2,6 +2,7 @@ import React from 'react';
 import './Testimony.css';
 // import testimonyImage from '../../assets/images/backyard 36.jpg'; // Ensure this path is correct
 import GardenLofters from '/images/lofter_interviews_reduced_for_website_2024_07_03 (1080p).mp4'; // Ensure this path is correct
+import GardenLoftersThumbnail from '/images/Screenshot 2024-07-04 at 11.01.33 AM.png'
 
 import {Link} from 'react-router-dom';
 
@@ -33,8 +34,7 @@ const Testimony: React.FC = () => {
           </button>
         </div>
         <div className="desktop-image-testimony">
-        {/* <img src={testimonyImage} alt="Garden Lofters" className="testimony-image" /> */}
-        <video className='gl-lofter-vid' rel="noopener noreferrer" playsInline controls poster={GardenLofters}>
+        <video className='gl-lofter-vid' rel="noopener noreferrer" playsInline controls poster={GardenLoftersThumbnail}>
           <source src={GardenLofters} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

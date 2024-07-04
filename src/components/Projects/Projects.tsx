@@ -19,7 +19,8 @@ import projectImage11 from '../../assets/images/backyard 31.jpg';
 import projectImage12 from '../../assets/images/backyard 32.jpg';
 import projectImage13 from '../../assets/images/backyard 33v2.jpg';
 import './Projects.css';
-
+import InstallationVideo from '/images/installation video 2024_07_03.mp4'
+import InstallationVideoThumbnail from '/images/Screenshot 2024-07-04 at 10.57.35 AM.png'
 
 const Projects: React.FC = () => {
   return (
@@ -166,7 +167,12 @@ const Projects: React.FC = () => {
       <div className='installation'>
         <div className='install-content'>
           <h1>  Installation</h1>
-          <video src=""></video>
+
+          <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
+          <source src={InstallationVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
           <p>Garden Lofts are delivered by truck and craned into place <br />
           They are supported on eight screw piles to minimize site <br /> impact
           and serviced through a shallow utility trench from the house <br />
