@@ -16,7 +16,7 @@ const Units: React.FC = () => {
       </div>
       <div className="unit-wrapper">
       <div className="gl-one">
-        <img src={GL480s} alt="GL380" />
+        <img src={GL480f} alt="GL380" />
         <div className="title-gl">GL480-f</div>
         <p className="gl-specs">
           one bedroom with front wall entry <br />
@@ -29,7 +29,7 @@ const Units: React.FC = () => {
         </p>
       </div>
       <div className="gl-one">
-        <img src={GL480f} alt="GL380" />
+        <img src={GL480s} alt="GL380" />
         <div className="title-gl">GL480-s</div>
         <p className="gl-specs">
           one bedroom with side wall entry <br /> 480 sq.ft. footprint <br/>  14’-0” x 33’-6” <br />
