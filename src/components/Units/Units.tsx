@@ -1,8 +1,8 @@
 import React from "react";
 import "./Units.css";
-import GL380 from "../../assets/images/backyard 20 (edited).jpg";
-import GL480s from "../../assets/images/backyard 18.jpg"
-import GL480f from "../../assets/images/backyard 19.jpg";
+import GL380 from "../../assets/images/GL380 plan with titles (edited).jpg";
+import GL480s from "../../assets/images/GL480-S plan with titles.jpg"
+import GL480f from "../../assets/images/GL480-F plan with titles.jpg";
 
 // import GL480 from "../../assets/images/gl480.png";
 

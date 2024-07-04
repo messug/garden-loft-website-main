@@ -13,7 +13,7 @@ import LM4 from "/images/Learn 4.jpg";
 import LM5 from "/images/Learn 5.jpg";
 import LM6 from "/images/Learn 6.jpg";
 // import JohnLM from "/images/image.png";
-import JohnCostVideo from "/images/cost_comparison_v1_2024_06_20 (1080p).mp4";
+import JohnCostVideo from "/images/cost_comparison_video_2024_07_03 (1080p).mp4";
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
