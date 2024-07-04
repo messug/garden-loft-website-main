@@ -173,11 +173,13 @@ const Projects: React.FC = () => {
           Your browser does not support the video tag.
         </video>
 
-          <p>Garden Lofts are delivered by truck and craned into place <br /><br />
-          They are supported on eight screw piles to minimize site  impact
-          and serviced through a shallow utility trench from the house <br /><br />
-          The deck, stairs and ramps are constructed after installation 
-          and any landscaping is completed
+
+          <p>Garden Lofts are delivered by truck and craned into place <br />
+          They are supported on eight screw piles to minimize site <br /> impact
+          and serviced through a shallow utility trench from the house <br />
+          The deck, stairs and ramps are constructed after installation <br />
+          and the landscaping is completed
+
           </p>
           </div>
        </div>
