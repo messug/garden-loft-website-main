@@ -11,7 +11,7 @@ import AtriumImage7 from "/images/Atrium 7.jpg";
 import AtriumImage8 from "/images/Atrium 8.jpg";
 import BrendaStrafford from "/images/BrendaStraffordLogo.png";
 import GLLogo from "../../assets/gl-john-logo.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, To, useNavigate } from "react-router-dom";
 
 const Atrium = () => {
   const navigate = useNavigate();
