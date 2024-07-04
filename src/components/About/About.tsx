@@ -37,11 +37,16 @@ import BrendaStrafford from '/images/BrendaStraffordLogo.png';
 import ThinAirLabs from '../../assets/images/All TAL logo variations-01 (1).png';
 
 import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { To, useLocation, useNavigate } from 'react-router-dom';
 
 const About = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
 
-const location = useLocation();
+  const handleNavigate = (path: To) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
 
   useEffect(() => {
     if (location.hash) {
@@ -51,6 +56,10 @@ const location = useLocation();
       }
     }
   }, [location]);
+
+
+  
+   
   return (
     <>
       <Navbar />
@@ -100,7 +109,7 @@ const location = useLocation();
       </section>
       <section className="additional-content">
         <div className="btn-content">
-          <button className="button-about">Call Us</button>
+          <button className="button-about"   onClick={() => handleNavigate('/phone-call')}>Call Us</button>
         </div>
         </section>
         <div className='our-team-title'>
@@ -156,7 +165,7 @@ const location = useLocation();
             <p>In 2022, Carina, John, <br /> and Matthew transitioned <br />Housebrand into Garden Loft</p>
             </div>
         <div className="btn-content">
-          <button className="button-about">Book a <br /> preliminary <br />consult</button>
+          <button className="button-about" onClick={() => handleNavigate('/book-tour')}>Book a <br /> preliminary <br />consult</button>
         </div>
 
 
@@ -222,7 +231,9 @@ const location = useLocation();
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about">Visit our<br /> showsuite and  <br />sales center</button>
+          <button className="button-about" onClick={() => handleNavigate('/book-tour')}>Visit our<br /> showsuite and  <br />sales center
+          </button>
+
         </div>
 
          <div className='our-team-title'>
@@ -241,7 +252,7 @@ const location = useLocation();
     </div>
   </div>
   <div className="btn-content">
-    <button className="button-about">Visit our FAQ</button>
+    <button className="button-about"  onClick={() => handleNavigate('/faq')}>Visit our FAQ</button>
   </div>
 </section>
 
