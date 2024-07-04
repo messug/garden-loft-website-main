@@ -1,7 +1,7 @@
 import "./Atrium.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import AtriumVideo from  '/images/atrium hero.mp4'
+import AtriumVideo from  '/images/Atrium Hero 2.mp4'
 import AtriumImage2 from "/images/Atrium 2.jpg";
 import AtriumImage3 from "/images/Atrium 3.jpg";
 import AtriumImage4 from "/images/Atrium 4.jpg";
