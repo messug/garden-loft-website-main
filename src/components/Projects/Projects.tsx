@@ -137,7 +137,7 @@ const Projects: React.FC = () => {
               
                 <img src={projectImage13} alt="Project 13" className="project-image " />
                 <div className="neighbourhood">
-                <h3>Capilano, Edmonton</h3>
+                <h3>Ellerslie, Edmonton</h3>
             </div>
               </div>
             </SwiperSlide>
