@@ -39,6 +39,15 @@
   /* padding: 0 0.1rem; */
 }
 
+.neighbourhood h3 {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+ 
+  line-height: 1.7rem;
+  font-weight: 300;
+}
+
 @media (min-width: 768px) {
   .projects-content h2 {
     font-size: 3rem;
