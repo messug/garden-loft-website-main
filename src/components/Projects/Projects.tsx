@@ -20,7 +20,7 @@ import projectImage12 from '../../assets/images/backyard 32.jpg';
 import projectImage13 from '../../assets/images/backyard 33v2.jpg';
 import './Projects.css';
 import InstallationVideo from '/images/installation video 2024_07_03.mp4'
-
+import InstallationVideoThumbnail from '/images/Screenshot 2024-07-04 at 10.57.35 AM.png'
 
 const Projects: React.FC = () => {
   return (
@@ -167,7 +167,7 @@ const Projects: React.FC = () => {
       <div className='installation'>
         <div className='install-content'>
           <h1>  Installation</h1>
-          <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideo}>
+          <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
           <source src={InstallationVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
