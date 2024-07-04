@@ -11,7 +11,7 @@ const Testimony: React.FC = () => {
       <h1 className="testimony-title">Meet our <br/>Garden Lofters</h1>
       <div className="testimony-content">
         {/* <img src={testimonyImage} alt="Garden Lofters" className="testimony-image" /> */}
-        <video className='gl-lofter-vid' rel="noopener noreferrer" autoPlay playsInline controls poster={GardenLofters}>
+        <video className='gl-lofter-vid' rel="noopener noreferrer" playsInline controls poster={GardenLofters}>
           <source src={GardenLofters} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -34,7 +34,7 @@ const Testimony: React.FC = () => {
         </div>
         <div className="desktop-image-testimony">
         {/* <img src={testimonyImage} alt="Garden Lofters" className="testimony-image" /> */}
-        <video className='gl-lofter-vid' rel="noopener noreferrer" autoPlay playsInline controls poster={GardenLofters}>
+        <video className='gl-lofter-vid' rel="noopener noreferrer" playsInline controls poster={GardenLofters}>
           <source src={GardenLofters} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
