@@ -47,6 +47,11 @@
   display: none;
 }
 
+video.gl-lofter-vid {
+  width: 90vw;
+  margin: 3rem 0;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   .testimony-title {
@@ -70,6 +75,10 @@ margin-top: 2rem;
   .testimony-button {
     margin-top: 3rem;
     margin-bottom: 4rem;
+  }
+
+  video.gl-lofter-vid {
+    width: 50vw;
   }
 }
 
