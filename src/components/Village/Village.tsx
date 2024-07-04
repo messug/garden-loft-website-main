@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 // import Village1 from "/images/Village-1.jpg";
 // import Village1Hero from "/images/Village 1-hero.jpg"
-import VillageVideo from '/images/village hero.mp4'
+import VillageVideo from '/images/Village Hero 3.mp4'
 import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
