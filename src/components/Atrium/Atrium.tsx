@@ -11,9 +11,16 @@ import AtriumImage7 from "/images/Atrium 7.jpg";
 import AtriumImage8 from "/images/Atrium 8.jpg";
 import BrendaStrafford from "/images/BrendaStraffordLogo.png";
 import GLLogo from "../../assets/gl-john-logo.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Atrium = () => {
+  const navigate = useNavigate();
+ 
+
+  const handleNavigate = (path: To) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <Navbar />
@@ -156,7 +163,7 @@ const Atrium = () => {
             small scale village-like
             <br /> communal building
           </h3>
-          <button className="button-atrium">
+          <button onClick={() => handleNavigate('/learn-more')} className="button-atrium">
             <Link to="/#two-units">Learn more about Garden Loft units</Link>
           </button>
           <img src={AtriumImage4} alt="Atrium House Image 4" />
@@ -192,7 +199,7 @@ const Atrium = () => {
             particular project
           </h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
-          <button className="button-atrium custom">
+          <button onClick={() => handleNavigate('/atrium')} className="button-atrium custom">
             We custom design and build Atrium Houses across Alberta
           </button>
 </div>
@@ -296,7 +303,7 @@ const Atrium = () => {
             <br />
             enhanced housing solutions
           </h3>
-          <button className="button-atrium">Book a <br/>preliminary consult</button>
+          <button onClick={() => handleNavigate('/book-tour')}className="button-atrium">Book a <br/>preliminary consult</button>
             </div>
             <div className="sec1image">
             <img src={AtriumImage6} alt="Atrium House Image 6" />
@@ -343,7 +350,7 @@ const Atrium = () => {
             <br />
             enhanced housing solutions
           </h3>
-          <button className="button-atrium">Book a preliminary consult</button>
+          <button onClick={() => handleNavigate('/book-tour')} className="button-atrium">Book a preliminary consult</button>
           </div>
 
 
@@ -390,7 +397,7 @@ const Atrium = () => {
             Garden Loft units with the communal <br /> outdoor space for <br />
             Atrium residents
           </h3>
-          <button className="button-atrium">
+          <button onClick={() => handleNavigate('/book-tour')}className="button-atrium">
             Visit our showsuite <br/> and sales center
           </button>
             </div>
@@ -410,7 +417,7 @@ const Atrium = () => {
             Atrium residents
           </h3>
           <img src={AtriumImage8} alt="Atrium House Image 8" />
-          <button className="button-atrium">
+          <button onClick={() => handleNavigate('/book-tour')}className="button-atrium">
             Visit our showsuite and sales center
           </button>
           </div>
