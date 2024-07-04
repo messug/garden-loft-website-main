@@ -73,19 +73,21 @@
   text-align: center;
 }
 .install-content h1{
-  padding: 2rem;
+  padding: 1rem;
   font-size: 35px;
   font-weight: 600;
 }
 
 .install-content p{
-  line-height: 1.5;
+  line-height: 1.7;
   font-size: 22px;
+  font-weight: 500;
+  padding: 0 7rem;
 }
 
 .installation-vid {
   width: 90vw;
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
  
 
@@ -110,6 +112,10 @@
   }
   .projects-content .swiper {
     transform: scale(1);
+  }
+
+  .install-content h1{
+    font-size: 3rem;
   }
 
   /* .project-image {
@@ -144,6 +150,10 @@
 
   .installation-vid {
     width: 50vw;
+  }
+
+  .install-content p{
+    padding: 0 20rem;
   }
    
 }
