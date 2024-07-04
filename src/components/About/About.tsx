@@ -206,7 +206,8 @@ const location = useLocation();
             <div className="research-content">
             <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br />features. In 2015, this work was <br />awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
             <div className='research-indent'>
-            <p>In 2016 Housebrand  <br />constructed a fully-functioning <br /> V3 prototype of the portable <br /> living unit that was field-tested <br />on several sites with multiple <br /> residents of differing abilities. <br />The findings of the V3 prototype <br />field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
+            <p>In 2016 Housebrand  <br />constructed a fully-functioning <br />V3 prototype be
+             of the <br /> portable living unit that was field-tested <br />on several sites with multiple <br /> residents of differing abilities. <br />The findings of the V3 prototype <br />field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
             </div>
 
             <div className="research-img">
@@ -217,7 +218,7 @@ const location = useLocation();
         </video>
          <div className='research-indent'>
           
-            <p>In 2022 and 2023, five <br /> production Garden Lofts were <br /> prototyped for backyard clients <br /> in Calgary and Edmonton. This <br /> version of Garden Loft received <br /> the City of Calgary’s 2023 <br />Accessibility Award</p>
+            <p>In 2022 and 2023, five <br /> production Garden Lofts were  prototyped for <br /> backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award</p>
           </div>
         </div>
         <div className="btn-content">
@@ -228,23 +229,23 @@ const location = useLocation();
            <h3 >Our Partners</h3>
             </div>
        
-        <section className="partners"  id="our-partners">
-          <div className='partners-item'>
-          <div className="partnerslogoDiv">
-            <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
-      </div>
-         <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
-         
-         <div className="partnerslogoDiv">
-            <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
-      </div>
-         <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
-         </div>
-         <div className="btn-content">
-          <button className="button-about">Visit our FAQ</button>
-        </div>
+            <section className="partners" id="our-partners">
+  <div className='partners-item'>
+    <div className="partnerslogoDiv">
+      <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
+      <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
+    </div>
+    <div className="partnerslogoDiv2">
+      <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
+      <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+    </div>
+  </div>
+  <div className="btn-content">
+    <button className="button-about">Visit our FAQ</button>
+  </div>
+</section>
 
-        </section> 
+
         </div>
         </div>
         </div>
