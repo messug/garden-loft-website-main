@@ -177,7 +177,7 @@ const Projects: React.FC = () => {
           They are supported on eight screw piles to minimize site <br /> impact
           and serviced through a shallow utility trench from the house <br />
           The deck, stairs and ramps are constructed after installation <br />
-          and any landscaping is completed
+          and the landscaping is completed
           </p>
           </div>
        </div>
