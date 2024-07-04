@@ -53,51 +53,81 @@ const Projects: React.FC = () => {
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage1} alt="Project 1" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Acadia, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage2} alt="Project 2" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Acadia, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage3} alt="Project 3" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Acadia, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage4} alt="Project 4" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Acadia, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage5} alt="Project 5" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Huntington Hills, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage6} alt="Project 6" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Huntington Hills, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage7} alt="Project 7" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Huntington Hills, Calgary</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage8} alt="Project 8" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Capilano, Edmonton</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage9} alt="Project 9" className="project-image" />
+                <div className="neighbourhood">
+              <h3>Capilano, Edmonton</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage10} alt="Project 10" className="project-image " />
+                <div className="neighbourhood">
+              <h3>Capilano, Edmonton</h3>
+            </div>
               
               </div>
             </SwiperSlide>
@@ -105,16 +135,26 @@ const Projects: React.FC = () => {
               <div style={{ textAlign: 'center' }}>
               
                 <img src={projectImage13} alt="Project 13" className="project-image " />
+                <div className="neighbourhood">
+                <h3>Capilano, Edmonton</h3>
+            </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage11} alt="Project 11" className="project-image" />
+                <div className="neighbourhood">
+                <h3>Ellerslie, Edmonton</h3>
+            </div>
+                
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div style={{ textAlign: 'center' }}>
                 <img src={projectImage12} alt="Project 12" className="project-image" />
+                <div className="neighbourhood">
+                <h3>Ellerslie, Edmonton</h3>
+            </div>
               </div>
             </SwiperSlide>
             <div className="swiper-button-prev"></div>
