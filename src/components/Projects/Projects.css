@@ -39,6 +39,24 @@
   /* padding: 0 0.1rem; */
 }
 
+
+.installation{
+  margin: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.install-content h1{
+  padding: 2rem;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.install-content p{
+  line-height: 1.5;
+  font-size: 22px;
+ 
+}
+
 .neighbourhood h3 {
   font-size: 1.2rem;
   margin-top: 1.2rem;
@@ -47,6 +65,7 @@
   line-height: 1.7rem;
   font-weight: 300;
 }
+
 
 .installation{
   margin: 2rem;

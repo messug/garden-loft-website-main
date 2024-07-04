@@ -167,10 +167,12 @@ const Projects: React.FC = () => {
       <div className='installation'>
         <div className='install-content'>
           <h1>  Installation</h1>
+
           <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
           <source src={InstallationVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+
           <p>Garden Lofts are delivered by truck and craned into place <br />
           They are supported on eight screw piles to minimize site <br /> impact
           and serviced through a shallow utility trench from the house <br />
