@@ -15,6 +15,23 @@
   /* line-height: 40px; */
 }
 
+
+/* .horizontal-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.horizontal-images .horizontal {
+  /* max-width: 33.33%; */
+  /* height: auto;
+  margin:0 5px; 
+   flex: 1;  */
+
+/* }  */
+
+
 .report-slide {
   position: relative;
   text-align: center;
@@ -22,6 +39,7 @@
 
 .report-image {
   width: 80vw;
+  height: auto;
   object-fit: contain;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -90,6 +108,7 @@
     transform: scale(0.55);
   } */
 .report-image{
+  height: auto;
   width: 50vw;
   object-fit: contain;
   margin: 0 auto;
