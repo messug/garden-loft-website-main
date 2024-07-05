@@ -49,13 +49,13 @@ const Report: React.FC = () => {
           },}}
       >
 
-<SwiperSlide>
+{/* <SwiperSlide>
   <div className="report-slide horizontal-images">
     <img src={Interior7} alt="Loft Image 7" className="report-image horizontal" />
     <img src={Interior8} alt="Loft Image 8" className="report-image horizontal" />
     <img src={Interior9} alt="Loft Image 9" className="report-image horizontal" />
   </div>
-</SwiperSlide>
+</SwiperSlide> */}
 
         <SwiperSlide>
           <div className="report-slide">

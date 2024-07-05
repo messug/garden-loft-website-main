@@ -16,7 +16,7 @@
 }
 
 
-.horizontal-images {
+/* .horizontal-images {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,11 +25,11 @@
 
 .horizontal-images .horizontal {
   /* max-width: 33.33%; */
-  height: auto;
+  /* height: auto;
   margin:0 5px; 
-   flex: 1; 
+   flex: 1;  */
 
-}
+/* }  */
 
 
 .report-slide {
