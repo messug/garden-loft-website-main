@@ -257,7 +257,7 @@ function Village() {
                 <br />
                 communities with limited <br /> demand for supportive housing
               </h3>
-              <button className="button-village-cost call-us">Call us</button>
+              <button  className="button-village-cost call-us">Call us</button>
             </div>
             <div className="sec1image">
               <img src={Village5} alt="GL-Cost Image" />

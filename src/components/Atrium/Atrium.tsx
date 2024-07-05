@@ -255,7 +255,7 @@ const Atrium = () => {
               </ul>
             </div>
           </div>
-<div className="center">   <button className="button-atrium call-us">Call us</button></div>
+<div className="center">   <button onClick={() => handleNavigate('/phone-call')}className="button-atrium call-us">Call us</button></div>
 <div className="center">    <h2>
             Atrium House is
             <br /> particularly well suited
