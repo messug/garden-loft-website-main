@@ -1,31 +1,81 @@
+.navbarBackground {
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 20vh;
+}
+
+
 #faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 3rem;
+  font-size: 35px;
+  margin-bottom: 20px;
+  /* padding: 30px; */
+  padding-top: 20px;
 }
 
-.safety-content {
-  padding: 10px;
-  margin-top: 3rem;
+.faq-content {
+  width: 90%;
+  max-width: 800px;
 }
 
-#faq h1 {
-  font-size: 1.5rem;
+.faq-item {
+  /* border-bottom: 1px solid #ddd; */
   margin-bottom: 1rem;
 }
-#faq p {
+
+.faq-item h2 {
+  font-size: 35px;
+  align-items: left;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 2px solid transparent;
+}
+
+.faq-section {
+  padding: 10px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.faq-section h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 2rem 0 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #201f1f;
+}
+
+.faq-section h3:hover {
+  border-bottom: 2px solid #000;
+ 
+}
+
+.faq-section p {
   font-size: 1rem;
-  margin-bottom: 0.5rem;
+  margin: 1.5rem 0;
 }
 
-#faq img {
-  width: 100vw;
-  height: 70vh;
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
 }
 
+.arrow.down {
+  transform: rotate(135deg);
+}
 
 .button-safety-cost {
   background-color: transparent;
@@ -44,7 +94,11 @@
     font-size: 3rem;
   }
 
-  #faq p {
+  .faq-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .faq-section p {
     font-size: 1.25rem;
   }
 }
@@ -54,7 +108,11 @@
     font-size: 4rem;
   }
 
-  #faq p {
+  .faq-section h3 {
+    font-size: 1.75rem;
+  }
+
+  .faq-section p {
     font-size: 1.5rem;
   }
 }
