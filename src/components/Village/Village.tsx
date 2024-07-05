@@ -13,8 +13,23 @@ import Village7 from "/images/village-7.jpg";
 import Village6v2 from '../../assets/images/village 6v2.jpg'
 import Village7v2 from '../../assets/images/village 7v2.jpg'
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'; 
+
 
 function Village() {
+const navigate = useNavigate(); // Initialize useNavigate
+
+const handleButtonClick = () => {
+  navigate('/phone-call'); // Navigate to the contact page
+  window.scrollTo(0, 0); // Scroll to the top of the page
+};
+
+const handleButtonClickTour = () => {
+  navigate('/book-tour'); // Navigate to the contact page
+  window.scrollTo(0, 0); // Scroll to the top of the page
+
+};
+
   return (
     <>
       <Navbar />
@@ -257,7 +272,7 @@ function Village() {
                 <br />
                 communities with limited <br /> demand for supportive housing
               </h3>
-              <button className="button-village-cost call-us">Call us</button>
+              <button onClick={handleButtonClick} className="button-village-cost call-us">Call us</button>
             </div>
             <div className="sec1image">
               <img src={Village5} alt="GL-Cost Image" />
@@ -271,7 +286,7 @@ function Village() {
               <br />
               communities with limited <br /> demand for supportive housing
             </h3>
-            <button className="button-village-cost call-us">Call us</button>
+            <button onClick={handleButtonClick} className="button-village-cost call-us">Call us</button>
           </div>
 
           <h2 className="dev-gl">
@@ -328,7 +343,7 @@ function Village() {
             buildings on an acreage site
             <br /> outside of Calgary
           </h3>
-          <button className="button-village-cost">
+          <button onClick={handleButtonClickTour} className="button-village-cost">
             Tour our <br /> Showsuite
           </button>
             </div>
@@ -346,7 +361,7 @@ function Village() {
             buildings on an acreage site
             <br /> outside of Calgary
           </p>
-          <button className="button-village-cost">
+          <button onClick={handleButtonClickTour} className="button-village-cost">
             Tour our <br /> Showsuite
           </button>
         </div></div>

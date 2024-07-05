@@ -15,6 +15,13 @@ import { Link, To, useNavigate } from "react-router-dom";
 
 const Atrium = () => {
   const navigate = useNavigate();
+
+
+
+const handleButtonClickCall = () => {
+  navigate('/phone-call'); // Navigate to the contact page
+  window.scrollTo(0, 0); // Scroll to the top of the page
+};
  
 
   const handleNavigate = (path: To) => {
@@ -255,8 +262,8 @@ const Atrium = () => {
               </ul>
             </div>
           </div>
-<div className="center">   <button className="button-atrium call-us">Call us</button></div>
-<div className="center">    <h2>
+<div className="center">   <button onClick={handleButtonClickCall} className="button-atrium call-us">Call us</button></div>
+<div className="center sec1">    <h2>
             Atrium House is
             <br /> particularly well suited
             <br /> for rural and remote
