@@ -16,12 +16,11 @@ import { Link, To, useNavigate } from "react-router-dom";
 const Atrium = () => {
   const navigate = useNavigate();
 
-
-
 const handleButtonClickCall = () => {
   navigate('/phone-call'); // Navigate to the contact page
   window.scrollTo(0, 0); // Scroll to the top of the page
 };
+
  
 
   const handleNavigate = (path: To) => {
