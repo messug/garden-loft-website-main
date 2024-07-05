@@ -261,8 +261,8 @@ const handleButtonClickCall = () => {
               </ul>
             </div>
           </div>
-<div className="center">   <button onClick={handleButtonClickCall} className="button-atrium call-us">Call us</button></div>
-<div className="center sec1">    <h2>
+<div className="center">   <button onClick={() => handleNavigate('/phone-call')}className="button-atrium call-us">Call us</button></div>
+<div className="center">    <h2>
             Atrium House is
             <br /> particularly well suited
             <br /> for rural and remote
