@@ -92,7 +92,7 @@ const Footer = () => {
             <Link to="/learn-more"  onClick={scrollToTop}>Learn More</Link>
           </h2>
           <h2>
-            <Link to="/faq"  onClick={() => scrollToSection('')}>FAQ</Link>
+            <Link to="/faq" onClick={scrollToTop}>FAQ</Link>
           </h2>
           </div>
           <div className="footer-column">
