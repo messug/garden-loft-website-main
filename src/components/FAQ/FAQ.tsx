@@ -23,7 +23,7 @@ const FAQ = () => {
           </div>
           <div className="faq-content">
             <div className="faq-item">
-              <h2>General</h2>
+              {/* <h2>General</h2> */}
               <div className="faq-section">
                 <h3 onClick={() => toggleQuestion('general1')}>
                   Where are Garden Lofts built?
