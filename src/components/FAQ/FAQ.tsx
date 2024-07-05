@@ -2,13 +2,13 @@ import { useState } from 'react';
 import './FAQ.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-import GLCost from '../../assets/images/gl-cost.png';
+// import GLCost from '../../assets/images/gl-cost.png';
 
 const FAQ = () => {
-  const [openQuestion, setOpenQuestion] = useState(null);
+    const [openQuestion, setOpenQuestion] =useState<string | null>(null); useState(null);
 
-  const toggleQuestion = (question) => {
-    setOpenQuestion(openQuestion === question ? null : question);
+  const toggleQuestion = (question: string | null) => {
+    setOpenQuestion(prevQuestion => (prevQuestion === question ? null : question));
   };
 
   return (
@@ -215,4 +215,5 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+// eslint-disable-next-line react-refresh/only-export-components
+export default  FAQ;
