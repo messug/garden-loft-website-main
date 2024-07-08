@@ -59,19 +59,22 @@ const Navbar: React.FC = () => {
         <Link onClick={scrollToTop} to="/atrium" style={{ textDecoration: "none" }}>
           <p>Atrium House</p>
         </Link>
+
+        <Link to="/learn-more" style={{ textDecoration: "none" }} onClick={scrollToTop}><p>Learn More</p></Link>
         <Link onClick={scrollToTop} to="/about" style={{ textDecoration: "none" }}>
-          <p>About</p>
+          <p>About Us</p>
         </Link>
-        
+        <Link to="/learn-more" style={{ textDecoration: "none" }} onClick={scrollToTop}><p>Garden Loft Resales</p></Link>
+        <Link onClick={scrollToTop} to="/faq" style={{ textDecoration: "none" }}>
+          <p>FAQ</p>
+        </Link>
         <Link onClick={scrollToTop} to="/phone-call" style={{ textDecoration: "none" }}>
           <p>Contact</p>
         </Link>
        
-            <Link to="/learn-more" style={{ textDecoration: "none" }} onClick={scrollToTop}><p>Learn More</p></Link>
           
-        <Link onClick={scrollToTop} to="/faq" style={{ textDecoration: "none" }}>
-          <p>FAQ</p>
-        </Link>
+          
+     
        </div>
       <div className={`hamburger-menu ${isMenuOpen ? "open" : ""}`} id="hamburger-menu" onClick={toggleMenu}>
         <span className={`hamburger2 ${isScrolled ? "scrolled" : ""} ${isNavbarVisible ? "visible" : "hidden"}`}></span>
