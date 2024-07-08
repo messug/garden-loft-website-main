@@ -165,8 +165,8 @@ Calgary</p>
           <div className="swiper-button-prev"></div>
           <div className="swiper-button-next"></div>
         </Swiper>
-<div className='award-sectionL'>
-        <h1 className="section-title" id="awards">Our Awards</h1>
+<div className='award-sectionL' id="award">
+        <h1 className="section-title" >Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
         <iframe
@@ -183,7 +183,7 @@ Calgary</p>
         </div>
 
 <div className='compare-costsL'>
-        <h1 className="section-title" id="costs">Compare Costs</h1>
+        <h1 className="section-title" id="compare-costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
         <video className="award-image" rel="noopener noreferrer" playsInline controls poster={JohnCostVideoThumbnail}>
           <source src={JohnCostVideo}type="video/mp4" />
@@ -202,16 +202,16 @@ Calgary</p>
         </div>
 
 
-        <div className='resellingL'>
-        <h1 className="section-title" id="reselling">Reselling your Garden Loft</h1>
+        <div className='resellingL' id="reselling">
+        <h1 className="section-title" >Reselling your Garden Loft</h1>
         <img src={LM5} alt="Reselling" className="reselling-image"/>
         <p>As a prefabricated structure, <br/>Garden Loft can be sold and <br/>moved off your property when <br/>it is no longer required <br/>This recoups a large part of the<br/> unit’s original purchase price</p>
         <p>By recapturing a large part <br/>of your initial investment, the<br/> net cost of living in a Garden <br/>Loft can be less than renting <br/>in most lodges and retirement <br/>homes - even when you include a <br/>monthly allowance for food,<br/> activities, utilities, insurance,<br/> and property taxes</p>
         </div>
 
-        <div className='zoningL'>
+        <div className='zoningL' id="new-zoning-rules">
 
-        <h1 className="section-title" id="zoning">New Zoning Rules</h1>
+        <h1 className="section-title" >New Zoning Rules</h1>
         <img src={LM6} alt="Zoning" className="zoning-image"/>
         <p>As of 2024, the City of Calgary’s <br/>blanket rezoning for secondary  <br/>suites has made it significantly  <br/>easier to obtain approval for <br/> a Garden loft in almost every  <br/>residential neighborhood  <br/>in the city</p>
         <p>Garden Lofts are also allowed  <br/>in most zoning districts in  <br/>Edmonton as well as in many <br/> other towns and cities in <br/> Canada </p>

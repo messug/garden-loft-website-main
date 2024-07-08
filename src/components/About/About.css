@@ -287,7 +287,7 @@
   }
 
 
-@media (min-width: 768px) {
+ @media (min-width: 768px) {
   
   .hero-about-img img {
     width: 100vw;
@@ -470,13 +470,13 @@
     align-items: unset;
     
   }
-  /* .our-team-title  {
+.our-team-title  {
     display:flex;
     font-size: 3rem;
     margin-top: 4rem;
     align-items: center;
 
-  } */
+  } 
 }
 
 @media (min-width: 1024px) {
@@ -694,28 +694,9 @@
     text-align: center;
   }
   
- 
 
   
-  /* .btn-content {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 
-  .button-about {
-    background-color: rgb(199, 240, 255);
-    border: 1px solid #000;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    color: #000;
-  } */
 
 .swiper {
     /* transform: scale(0.35); */
@@ -772,3 +753,146 @@
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet view (768px to 1023px) */
+/* @media (min-width: 768px) and (max-width: 1023px) {
+  .hero-about-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-about-content p {
+    font-size: 22px;
+  }
+
+  .about-content p {
+    font-size: 20px;
+    max-width: 80%;
+  }
+
+  .team-content {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .team-content h1 {
+    font-size: 28px;
+  }
+
+  .team-content p {
+    font-size: 18px;
+  }
+
+  .history h1,
+  .research h1 {
+    font-size: 30px;
+  }
+
+  .history p,
+  .research p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .partners-item {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .partnerslogoDiv,
+  .partnerslogoDiv2 {
+    width: 45%;
+  }
+
+  .partnerslogoDiv img,
+  .partnerslogoDiv2 img {
+    max-width: 180px;
+  }
+}
+
+/* Laptop view (1024px and above) */
+/* @media (min-width: 1024px) {
+  .hero-about-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-about-content p {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 22px;
+    max-width: 70%;
+  }
+
+  .team-content {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .team-content h1 {
+    font-size: 30px;
+  }
+
+  .team-content p {
+    font-size: 20px;
+  }
+
+  .history h1,
+  .research h1 {
+    font-size: 36px;
+  }
+
+  .history p,
+  .research p {
+    font-size: 20px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .partners-item {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .partnerslogoDiv,
+  .partnerslogoDiv2 {
+    width: 40%;
+  }
+
+  .partnerslogoDiv img,
+  .partnerslogoDiv2 img {
+    max-width: 200px;
+  }
+
+  .button-about {
+    font-size: 24px;
+    width: 240px;
+    height: 120px;
+  }
+}  */

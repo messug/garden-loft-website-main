@@ -25,9 +25,9 @@ import InstallationVideoThumbnail from '/images/Screenshot 2024-07-04 at 10.57.3
 const Projects: React.FC = () => {
   return (
     <>
-      
+      <section id='project'>
       <div className="projects-section" id='projects'>
-        <div className="projects-content">
+        <div className="projects-content" >
           <h2>Our Projects</h2>
           <p>We have recently completed backyard suites in Calgary and Edmonton</p>
           <Swiper
@@ -164,8 +164,8 @@ const Projects: React.FC = () => {
         </div>
       </div>
 
-      <div className='installation'>
-        <div className='install-content'>
+      <div className='installation' >
+        <div className='install-content' id='nstallation'>
           <h1>  Installation</h1>
 
           <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
@@ -183,7 +183,7 @@ const Projects: React.FC = () => {
           </p>
           </div>
        </div>
-   
+       </section>
     </>
   );
 };

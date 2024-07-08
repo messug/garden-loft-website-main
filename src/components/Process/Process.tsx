@@ -12,8 +12,8 @@ const Process = () => {
   
   };
   return (
-    <section className="process-section" id='four-step-process'>
-      <h1>Our <br/> 4 Step Process</h1>
+    <section className="process-section">
+      <h1 id='four-step-process'>Our <br/> 4 Step Process</h1>
       <div className="steps">
         <div className="step">
           <div className="step-content"> 
@@ -46,7 +46,7 @@ const Process = () => {
           </div>
         </div>
         <div className="step">
-          <div className="step-content">
+          <div className="step-content"  >
             <h3><span className="step-number">4</span> Installation + <br /> Site Completion</h3>
             <p>
               
