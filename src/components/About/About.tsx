@@ -31,6 +31,14 @@ import projectImage19 from '../../assets/images/about 8b.jpg';
 import projectImage10 from '../../assets/images/about 8f.jpg';
 import projectImage12 from '../../assets/images/about 8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
+import project1 from '../../assets/images/Prototype 1.jpg';
+import project2 from '../../assets/images/Prototype 2.jpg';
+import project3 from '../../assets/images/Prototype 3.jpg';
+import project4 from '../../assets/images/Prototype 3a.jpg';
+import project5 from '../../assets/images/Prototype 6.jpg';
+import project6 from '../../assets/images/Prototype 8_12.jpg';
+import project7 from '../../assets/images/Prototype 9_10.jpg';
+import project8 from '../../assets/images/Prototype 11_13.jpg';
 import ProtypeVideo from '/images/Short prototype drone 2024_06_12.mp4';
 import ProtypeVideoPoster from '../../assets/images/Prototype+video+still.jpg'
 import BrendaStrafford from '/images/BrendaStraffordLogo.png';
@@ -67,8 +75,11 @@ const About = () => {
         <div className="hero-about-img">
           <img src={AtriumImage1} alt="Atrium House Image 1" />
           <div className="hero-about-content">
-            <h1>We are architects, builders, 
-              <br />and software developers</h1>
+          <h1 className="hero-about-header">Garden Loft </h1>
+              <p className='mobile-para'> We are architects, builders,   <br />
+              and software developers</p>
+        <p className='desktop-para'>  We are architects, builders,   <br />
+        and software developers </p>
           </div>
           <div className='about-content'>
             <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
@@ -113,7 +124,7 @@ const About = () => {
         </div>
         </section>
         <div className='our-team-title'>
-            <h3 >Our History</h3>
+            <h3 >Our Professional History</h3>
             </div>
       
         <div className="history"  id="our-history">
@@ -165,21 +176,15 @@ const About = () => {
             <p>In 2022, Carina, John, <br /> and Matthew transitioned <br />Housebrand into Garden Loft</p>
             </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('/book-tour')}>Book a <br /> preliminary <br />consult</button>
+          <button className="button-about" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
         </div>
 
 
           </div>
           <div className='our-team-title'>
-            <h3 >Our Research</h3>
+            <h3 >Our Research History</h3>
             </div>
-         
-        <div className="research">
-        <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
-          <p>In 2014, John Brown’s research <br />lab began constructing and <br /> user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
-        </div>
-        <div className="research-section">
-           <div className='research-img'>
+            <div className='research-img'>
             <Swiper
         modules={[Pagination, Navigation]}
         spaceBetween={10}
@@ -212,12 +217,57 @@ const About = () => {
                 <div className="swiper-button-next"></div>
             </Swiper>
             </div>
+        <div className="research">
+        <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
+          <p>In 2014, John Brown’s research <br />lab began constructing and <br /> user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
+        </div>
+        <div className="research-section">
+           
             <div className="research-content">
-            <p>The test results were <br /> used to refine the design of <br />the unit and its physical support <br />features. In 2015, this work was <br />awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
+            <p>The results of this testing  were <br /> used to refine the design of <br />the unit and its physical support <br />features. In 2015, this work was <br />awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
             <div className='research-indent'>
+            <div className='our-team-title'>
+              <h3>Our Prototype</h3> </div>
+              <img src="" alt="" />
+           
+
+            <div className='research-img'>
+            <Swiper
+        modules={[Pagination, Navigation]}
+        spaceBetween={10}
+        pagination={{ clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
+        slidesPerView={1.2}
+        centeredSlides={true}
+        loop={true}
+        style={{ paddingBottom: '20px' }}
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },}}
+            >
+              {[project1,project2, project3,project4, project5, project6,project7,project8].map((image, index) => (
+                <SwiperSlide key={index}>
+                  <div style={{ textAlign: 'center' }}>
+                    <img src={image} alt={`Project ${index + 1}`} className="research-image" />
+                  </div>
+                </SwiperSlide>
+              ))}
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-button-next"></div>
+            </Swiper>
+            </div>
             <p>In 2016 Housebrand  <br />constructed a fully-functioning <br />V3 prototype be
              of the <br /> portable living unit that was field-tested <br />on several sites with multiple <br /> residents of differing abilities. <br />The findings of the V3 prototype <br />field-testing were incorporated <br /> into the current production <br /> version of Garden Loft</p>
             </div>
+
 
             <div className="research-img">
           {/* <img src={AtriumImage7} alt="prototype" /> */}
@@ -225,13 +275,18 @@ const About = () => {
           <source src={ProtypeVideo}type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <div className="btn-content">
+          <button className="button-about" onClick={() => handleNavigate('/gardenloft-resales')}>Learn more  about  <br />our prototype
+          </button>
+
+        </div>
          <div className='research-indent'>
           
             <p>In 2022 and 2023, five <br /> production Garden Lofts were  prototyped for <br /> backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award</p>
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('/book-tour')}>Visit our<br /> showsuite and  <br />sales center
+          <button className="button-about" onClick={() => handleNavigate('/learn-more')}>Learn more about <br />our award
           </button>
 
         </div>
@@ -243,11 +298,15 @@ const About = () => {
             <section className="partners" id="our-partners">
   <div className='partners-item'>
     <div className="partnerslogoDiv">
-      <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
+    <a href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">
+        <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
+      </a>
       <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
     </div>
     <div className="partnerslogoDiv2">
-      <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
+    <a href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">
+        <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
+      </a>
       <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
     </div>
   </div>
@@ -265,6 +324,5 @@ const About = () => {
     </>
   );
 };
-
 export default About;
 
