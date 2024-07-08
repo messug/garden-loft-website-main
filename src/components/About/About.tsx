@@ -85,11 +85,11 @@ const About = () => {
             <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
           </div>
         </div>
-            <div className='our-team-title'>
+            <div className='our-team-title' id="our-team" >
             <h3>Our Team</h3>
             </div>
         
-          <div className="teams" id="our-team"  >
+          <div className="teams"  >
          
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
@@ -123,12 +123,12 @@ const About = () => {
           <button className="button-about"   onClick={() => handleNavigate('/phone-call')}>Call Us</button>
         </div>
         </section>
-        <div className='our-team-title'>
+        <div className='our-team-title' >
             <h3 >Our Professional History</h3>
             </div>
       
-        <div className="history"  id="our-history">
-          <div className='history-content'>
+        <div className="history"  >
+          <div className='history-content' id='our-history'>
          
           <h1>Carina, John and Matthew <br />co-founded Housebrand,<br /> residential design/ <br />build firm, in 1997</h1>
           <p>Over its 25-year history,<br />Housebrand has completed over <br />250 residential projects using <br />a unique practice model that  <br />architectural design <br />with construction management,<br /> real estate services, and furniture  <br />retailing</p>
@@ -181,7 +181,7 @@ const About = () => {
 
 
           </div>
-          <div className='our-team-title'>
+          <div className='our-team-title' id='research'>
             <h3 >Our Research History</h3>
             </div>
             <div className='research-img'>
@@ -225,7 +225,7 @@ const About = () => {
            
             <div className="research-content">
             <p>The results of this testing  were <br /> used to refine the design of <br />the unit and its physical support <br />features. In 2015, this work was <br />awarded a City of Calgary <br /> Mayor’s Urban Design Award <br />in Housing Innovation</p> 
-            <div className='research-indent'>
+            <div className='research-indent' id='prototype'>
             <div className='our-team-title'>
               <h3>Our Prototype</h3> </div>
               <img src="" alt="" />
@@ -291,11 +291,11 @@ const About = () => {
 
         </div>
 
-         <div className='our-team-title'>
+         <div className='our-team-title' >
            <h3 >Our Partners</h3>
             </div>
        
-            <section className="partners" id="our-partners">
+            <section className="partners"  id="our-partners">
   <div className='partners-item'>
     <div className="partnerslogoDiv">
     <a href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">
