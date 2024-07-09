@@ -39,46 +39,43 @@
   /* padding: 0 0.1rem; */
 }
 
-
-.installation{
+.installation {
   margin: 2rem;
   align-items: center;
   text-align: center;
 }
-.install-content h1{
+.install-content h1 {
   padding: 2rem;
   font-size: 35px;
   font-weight: 600;
 }
 
-.install-content p{
+.install-content p {
   line-height: 1.5;
   font-size: 22px;
- 
 }
 
 .neighbourhood h3 {
   font-size: 1.2rem;
   margin-top: 1.2rem;
   margin-bottom: 3rem;
- 
+
   line-height: 1.7rem;
   font-weight: 300;
 }
 
-
-.installation{
+.installation {
   margin: 2rem;
   align-items: center;
   text-align: center;
 }
-.install-content h1{
+.install-content h1 {
   padding: 1rem;
   font-size: 35px;
   font-weight: 600;
 }
 
-.install-content p{
+.install-content p {
   line-height: 1.7;
   font-size: 22px;
   font-weight: 500;
@@ -87,8 +84,8 @@
 .installation-vid {
   width: 90vw;
   margin: 2rem 0;
+  margin-left: -0.8rem;
 }
- 
 
 @media (min-width: 768px) {
   .projects-content h2 {
@@ -113,7 +110,7 @@
     transform: scale(1);
   }
 
-  .install-content h1{
+  .install-content h1 {
     font-size: 3rem;
   }
 
@@ -124,8 +121,6 @@
 }
 
 @media (min-width: 1024px) {
-
-
   .projects-content p {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -151,8 +146,7 @@
     width: 50vw;
   }
 
-  .install-content p{
+  .install-content p {
     padding: 0 20rem;
   }
-   
 }
