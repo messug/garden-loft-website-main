@@ -19,14 +19,25 @@
   object-fit: cover;
   margin-bottom: 20px;
 }
-
 .hero-text {
   position: absolute;
-  bottom: -35vh;
-  right: -40%;
-  transform: translateX(-50%);
+  top: 180px; /* Adjust this value to move the text higher above the image */
+  left: 0;
+  width: 95%;
+  line-height: 2rem;
+  text-align: right;
+}
+
+.hero-text h1 {
+  font-size: 35px;
+  margin-bottom: 10px; /* Add some space between h1 and p */
   color: white;
-  padding: 10px;
+}
+
+.hero-text p {
+  font-size: 32px;
+  align-items: flex-end;
+  color: white;
 }
 
 .learn-more-section {
