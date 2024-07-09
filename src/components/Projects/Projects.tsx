@@ -165,8 +165,8 @@ const Projects: React.FC = () => {
       </div>
 
       <div className='installation' >
-        <div className='install-content' id='nstallation'>
-          <h1>  Installation</h1>
+        <div className='install-content' id='installation'>
+          <h1> Our Installation Process</h1>
 
           <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
           <source src={InstallationVideo} type="video/mp4" />
@@ -174,11 +174,14 @@ const Projects: React.FC = () => {
         </video>
 
 
-          <p>Garden Lofts are delivered by truck and craned into place <br />
+          <p>Garden Lofts are delivered by truck and craned into place. <br />
           They are supported on eight screw piles to minimize site <br /> impact
-          and serviced through a shallow utility trench from the house <br />
+          and serviced through a shallow utility trench from the house. <br />
+          </p>
+          <p>
+
           The deck, stairs and ramps are constructed after installation <br />
-          and the landscaping is completed
+          and the landscaping is completed.
 
           </p>
           </div>

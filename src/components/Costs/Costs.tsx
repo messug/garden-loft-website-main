@@ -42,6 +42,18 @@ const Costs: React.FC = () => {
           </Link>
         </button>
       </div>
+      <div className='finance' id="financing-options">
+<h1>Finance Options</h1>
+<p>The purchase of a<br/>Garden Loft backyard suite can <br/>be financed in multiple ways</p>
+<div className="costs-content">
+        <button className="button-costs">
+          <Link to="/learn-more#finance-options">
+            Learn more <br /> about financing
+          </Link>
+        </button>
+      </div>
+
+      </div>
     </section>
   );
 };
