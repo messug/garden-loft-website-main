@@ -26,7 +26,7 @@ const Costs: React.FC = () => {
             facility
           </h2>
           <button className="button-costs desktop-cost-button">
-            <Link to="/learn-more#costs">
+            <Link to="/learn-more#compare-costs">
               Compare <br /> our costs
             </Link>
           </button>
@@ -37,7 +37,7 @@ const Costs: React.FC = () => {
       </div>
       <div className="costs-content">
         <button className="button-costs">
-          <Link to="/learn-more#costs">
+          <Link to="/learn-more#compare-costs">
             Compare <br /> our costs
           </Link>
         </button>

@@ -49,7 +49,8 @@ const LearnMore: React.FC = () => {
         <div className="hero-image">
           <img src={LM1} alt="Hero" />
           <div className="hero-text">
-            <h1>We deliver unique<br/> solutions for special<br/> needs housing</h1>
+            <h1>Garden Loft</h1>
+            <p>Delivering unique<br/> solutions for special<br/> needs housing</p>
           </div>
         </div>
       </section>
@@ -165,7 +166,8 @@ Calgary</p>
           <div className="swiper-button-prev"></div>
           <div className="swiper-button-next"></div>
         </Swiper>
-<div className='award-sectionL' id="award">
+        <section id="award">
+<div className='award-sectionL' >
         <h1 className="section-title" >Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
@@ -181,7 +183,7 @@ Calgary</p>
         ></iframe>
         <p>Watch the award video <br/>prepared by the City of Calgary</p>
         </div>
-
+        </section>
 <div className='compare-costsL'>
         <h1 className="section-title" id="compare-costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
