@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   text-align: right;
-  margin-bottom: 26rem;
+  margin-bottom: 10rem;
   font-size: 24px;
 }
 
@@ -43,6 +43,7 @@
 .learn-more-section {
   text-align: center;
   padding: 20px;
+ 
 }
 
 .learn-more-section p {
@@ -60,9 +61,11 @@
   margin-bottom: 2rem;
 }
 
-.section-title {
-  font-size: 35px;
+.section-title p {
+  font-size: 22px;
   padding: 0 1.5rem;
+  width: 100%;
+  max-width: 200;
   line-height: 35px;
   color: black;
   margin-top: 30px;
@@ -74,6 +77,10 @@
   color: black;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.safety-features{
+  font-size: 35px;
 }
 
 .support-feature-box {
@@ -107,21 +114,37 @@
 .award-sectionL {
   margin-bottom: 4rem;
 }
+.award-sectionL h1{
+ font-size: 35px;
+}
 
 .compare-costsL {
   margin-bottom: 4rem;
 }
-
+.compare-costsL h1{
+ font-size: 35px;
+}
 .financeL {
   margin-bottom: 4rem;
+}
+.financeL h1{
+  font-size: 35px;
 }
 
 .resellingL {
   margin-bottom: 4rem;
 }
 
+.resellingL h1{
+ font-size: 35px;
+}
+
 .zoningL {
   margin-bottom: 4rem;
+}
+.zoningL h1
+ {
+  font-size: 35px;
 }
 
 .award-image,
@@ -139,6 +162,17 @@
   max-width: 1000px;
   height: auto;
   margin: 20px auto;
+}
+
+.report-buttonbutton{
+  border: 1px; /* Yellow outline */
+  background-color: rgb(199, 240, 255);
+  padding: 10px 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+  color: #000;
+  margin-bottom: 3rem;
 }
 
 .swiper-button-prev,
