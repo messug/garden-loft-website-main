@@ -163,9 +163,9 @@ const Projects: React.FC = () => {
           </Swiper>
         </div>
       </div>
-
+    <section id='installation'>
       <div className='installation' >
-        <div className='install-content' id='nstallation'>
+        <div className='install-content'>
           <h1>  Installation</h1>
 
           <video className='installation-vid' rel="noopener noreferrer" playsInline controls poster={InstallationVideoThumbnail}>
@@ -183,6 +183,7 @@ const Projects: React.FC = () => {
           </p>
           </div>
        </div>
+       </section>
        </section>
     </>
   );

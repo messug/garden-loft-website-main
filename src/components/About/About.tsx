@@ -78,7 +78,7 @@ const About = () => {
           <h1 className="hero-about-header">Garden Loft </h1>
               <p className='mobile-para'> We are architects, builders,   <br />
               and software developers</p>
-        <p className='desktop-para'>  We are architects, builders,   <br />
+        <p className='desktop-para'>  We are <br />architects, <br />builders,   <br />
         and software developers </p>
           </div>
           <div className='about-content'>
