@@ -16,20 +16,24 @@ const Testimony: React.FC = () => {
           <source src={GardenLofters} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
+        <h1>Reselling your Garden Loft</h1>
         <p className="testimony-description">
           When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot
         </p>
-        <button className="testimony-button">Visit our FAQ</button>
+        <button className="testimony-button">   <Link to="/learn-more#reselling">
+            Learn how we<br/> can help
+            </Link></button>
       </div>
 
       <div className="desktop-testimony">
         <div className="desktop-description-cost">
+        <h1>Reselling your Garden Loft</h1>
           <h2>
           When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot
           </h2>
           <button className="button-testimony desktop-testimony-button">
-            <Link to="/faq">
-              Visit our FAQ
+            <Link to="/learn-more#reselling">
+            Learn how we can help
             </Link>
           </button>
         </div>
