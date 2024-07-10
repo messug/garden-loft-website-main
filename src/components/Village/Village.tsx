@@ -3,11 +3,13 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 // import Village1 from "/images/Village-1.jpg";
 // import Village1Hero from "/images/Village 1-hero.jpg"
+import Village8 from "/images/Independent Living Exterior A_small.jpg";
+import Village9 from "/images/Independent Living Exterior B_small.jpg";
 import VillageVideo from '/images/Village Hero 3.mp4'
-import Village2 from "../../assets/images/Village 2.jpg";
+// import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
-import Village5 from "/images/village-5.jpg";
+// import Village5 from "/images/village-5.jpg";
 import Village6 from "/images/village-6.jpg";
 import Village7 from "/images/village-7.jpg";
 import Village6v2 from '../../assets/images/village 6v2.jpg'
@@ -74,7 +76,7 @@ const handleButtonClickTour = () => {
               courtyard, <br /> greenspace, or walkway
             </h3>
 
-            <img src={Village2} alt="GL-Cost Image" />
+            <img src={Village9} alt="GL-Cost Image" />
           </div>
           <div className="sec1">
             <div className="sec1-words">
@@ -91,7 +93,7 @@ const handleButtonClickTour = () => {
               </h3>
             </div>
             <div className="sec1image">
-              <img src={Village2} alt="GL-Cost Image" />
+              <img src={Village9} alt="GL-Cost Image" />
             </div>
           </div>
           <div className="sec1">
@@ -111,7 +113,7 @@ const handleButtonClickTour = () => {
               </button>
             </div>
             <div className="sec1image">
-              <img src={Village3} alt="GL-Cost Image" />
+              <img src={Village8} alt="GL-Cost Image" />
             </div>
           </div>
           <div className="sec2">
@@ -126,7 +128,7 @@ const handleButtonClickTour = () => {
               </Link>
             </button>
 
-            <img src={Village3} alt="GL-Cost Image" />
+            <img src={Village8} alt="GL-Cost Image" />
           </div>
           <div className="sec1">
             <div className="sec1-words">
@@ -159,12 +161,8 @@ const handleButtonClickTour = () => {
                 one-stop-shop <br /> development option for <br /> supportive
                 housing{" "}
               </h2>
-              <button className="button-village-cost">
-                Book a <br />
-                preliminary
-                <br />
-                consult
-              </button>
+              <button className="button-village-cost" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
+               
             </div>
             <div className="sec1image">
               <div className="workers-list">
@@ -251,12 +249,8 @@ const handleButtonClickTour = () => {
               </ul>
             </div>
 
-            <button className="button-village-cost">
-              Book a <br />
-              preliminary
-              <br />
-              consult
-            </button>
+            
+            <button className="button-village-cost" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
           </div>{" "}
         </div>
 
@@ -275,12 +269,12 @@ const handleButtonClickTour = () => {
               <button onClick={handleButtonClick} className="button-village-cost call-us">Call us</button>
             </div>
             <div className="sec1image">
-              <img src={Village5} alt="GL-Cost Image" />
+              <img src={Village3} alt="GL-Cost Image" />
             </div>
           </div>
 
           <div className="sec2">
-            <img src={Village5} alt="GL-Cost Image" />
+            <img src={Village3} alt="GL-Cost Image" />
             <h3>
               Garden Loft villages are <br /> particularly well suited in rural
               <br />
