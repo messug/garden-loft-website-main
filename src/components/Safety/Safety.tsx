@@ -11,8 +11,11 @@ const Safety: React.FC = () => {
         <button className='button-safety'><Link to="/learn-more#safety-support" >Learn about <br />our support <br />features</Link></button>
     </div>
     <div className="samantha">
-    <h1><em>“The team who designed this unit had people’s real interests and needs in mind, they involved accessibility experts and people with lived experience, and it shows. They’re paving the way for accessible, adaptable and affordable housing options that are so badly needed across the country.”</em> </h1>
-<h2> - Samantha Ryan C.E.T., RHFAC, BCIN Principal, <br/> Accessible Built Environment (ABE) Specialist ABE Factors Inc.</h2>
+    <p><em>“The team who designed this unit had people’s real interests and needs in mind, they involved accessibility experts and people with lived experience, and it shows. They’re paving the way for accessible, adaptable and affordable housing options that are so badly needed across the country.”</em> </p>
+    
+  </div>
+  <div className='sign'>
+<p> - Samantha Ryan C.E.T.,<br/> RHFAC, BCIN Principal, <br/> Accessible Built Environment (ABE)<br/> Specialist ABE Factors Inc.</p>
     </div>
     </section>
   );

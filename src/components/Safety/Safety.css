@@ -19,11 +19,10 @@
   font-weight: 300;
 }
 
-#support-features .samantha h1{
-font-size: 1.2rem;
-  font-weight: 200;
+#support-features .samantha h1 {
+  font-size: 22px;
+  font-weight: 400;
 }
-
 
 #support-features p {
   font-size: 22px;
@@ -62,16 +61,27 @@ font-size: 1.2rem;
   color: black;
 }
 
-#support-features .samantha h1 {
-  font-weight: 600;
+#support-features .samantha p {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
 }
-#support-features .samantha h2 {
-  font-weight: 300;
-  font-size: 1.2rem;
-  width: 50vw;
+
+.sign {
   text-align: right;
-  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding: 20px;
+  font-size: 22px;
+  font-weight: 400;
 }
+/* #support-features .samantha h2{
+  text-align: right;
+  margin-bottom: 2rem;
+
+  font-size: 22px;
+  font-weight: 400;
+} */
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
@@ -98,10 +108,16 @@ font-size: 1.2rem;
   #support-features {
     margin-bottom: 4rem;
   }
+
+  #support-features .samantha p {
+    max-width: 20vw;
+  }
+  .sign {
+    margin-left: 10rem;
+  }
 }
 
 @media (min-width: 1024px) {
-
   #support-features {
     margin-top: 5rem;
   }
@@ -115,11 +131,16 @@ font-size: 1.2rem;
   .button-safety {
     padding: 2.1rem 6rem;
     font-size: 1.1rem;
-    
   }
 
   #support-features h1.ideal {
     font-size: 1.2rem;
     font-weight: 400;
+  }
+  #support-features .samantha p {
+    max-width: 20vw;
+  }
+  .sign {
+    margin-left: 20rem;
   }
 }
