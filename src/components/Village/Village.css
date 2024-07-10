@@ -15,7 +15,7 @@
 } */
 
 .sec1 {
-  display:none;
+  display: none;
 }
 
 .workers-list h3 {
@@ -108,7 +108,6 @@
 }
 
 .hero-video {
-
   height: 130vh;
   object-fit: fill;
   filter: brightness(85%);
@@ -167,8 +166,6 @@
   display: none;
 }
 
-
-
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .hero-village img {
@@ -193,6 +190,7 @@
     margin-top: 2rem;
     text-align: right;
     line-height: 3rem;
+    font-weight: 400;
   }
 
   .village-content h2 {
@@ -205,7 +203,7 @@
 
   .village-content h3 {
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   .button-village-cost {
@@ -227,7 +225,7 @@
   }
 
   .content-village {
-    padding:0;
+    padding: 0;
   }
 
   .hero-content {
@@ -236,14 +234,15 @@
   .hero-village {
     height: 100vh;
     width: 100vw;
-  overflow: hidden;
+    overflow: hidden;
   }
 
   .hero-village p {
     margin-right: 6rem;
+    font-weight: 400;
   }
   .sky-background {
-   display: none;
+    display: none;
   }
 
   .sec-mobile {
@@ -255,11 +254,10 @@
     top: 0;
     left: 0;
     object-fit: cover;
-    height:100%;
+    height: 100%;
     width: 100%;
-    height:auto;
+    height: auto;
     filter: brightness(75%);
-
   }
 
   .sec1 {
@@ -286,16 +284,15 @@
   .village-content h2 {
     padding: 0;
   }
-.sec1image img.rotate {
-  transform: rotate(90deg);
-  width: 10vw;
-}
-.mobile-hero-p {
-  display: none;
-}
+  .sec1image img.rotate {
+    transform: rotate(90deg);
+    width: 10vw;
+  }
+  .mobile-hero-p {
+    display: none;
+  }
 
-.desktop-hero-p {
-  display: block;
-}
-
+  .desktop-hero-p {
+    display: block;
+  }
 }
