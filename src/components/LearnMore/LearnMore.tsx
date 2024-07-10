@@ -196,7 +196,7 @@ Calgary</p>
         {/* <img src={JohnLM} alt="JohnVideo" className='award-image'/> */}
         <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
         </div>
-<div className='financeL'>
+<div className='financeL' id="finance-options">
         <h1 className="section-title" id="finance-options">Financing Options</h1>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
