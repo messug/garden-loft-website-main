@@ -181,7 +181,7 @@ const Projects: React.FC = () => {
           <p>
 
           The deck, stairs and ramps are constructed after installation <br />
-          and the landscaping is completed.
+          and the landscaping is completed
 
           </p>
           </div>
