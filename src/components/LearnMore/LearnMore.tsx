@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { To, useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'; 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -23,13 +23,14 @@ import Navbar from '../Navbar/Navbar';
 const LearnMore: React.FC = () => {
   const location = useLocation();
   
-  const navigate = useNavigate(); // Initialize useNavigate
 
-  const handleButtonClick = () => {
-    navigate('/feasibility-report'); // Navigate to the contact page
-    window.scrollTo(0, 0); // Scroll to the top of the page
+    const navigate = useNavigate();
   
-  };
+  
+    const handleNavigate = (path: To) => {
+      navigate(path);
+      window.scrollTo(0, 0);
+    };
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
@@ -49,14 +50,15 @@ const LearnMore: React.FC = () => {
         <div className="hero-image">
           <img src={LM1} alt="Hero" />
           <div className="hero-text">
-            <h1>We deliver unique<br/> solutions for special<br/> needs housing</h1>
+            <h1>Garden Loft</h1>
+            <p>Delivering unique<br/> solutions for special<br/> needs housing</p>
           </div>
         </div>
       </section>
 
       <section className="learn-more-section" id="learn-more">
       
-        <h1 className="section-title">Our Safety and Support Features</h1>
+        <p className="section-title">Our safety and support features enable seniors <br />and others with  differing  abilities to live safely, and with more independence, <br />dignity, and quality of life</p>
         <img src={LM2} alt="safety-features" className='award-image'/>
         <div className='quote'>
           <em>
@@ -84,6 +86,7 @@ Calgary</p>
 
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
+        <h1 className='safety-features'>Garden Loft’s 22 safety features</h1>
         <Swiper
           modules={[Pagination, Navigation]}
           spaceBetween={10}
@@ -165,7 +168,8 @@ Calgary</p>
           <div className="swiper-button-prev"></div>
           <div className="swiper-button-next"></div>
         </Swiper>
-<div className='award-sectionL' id="award">
+        <section id="award">
+<div className='award-sectionL' >
         <h1 className="section-title" >Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
@@ -181,7 +185,7 @@ Calgary</p>
         ></iframe>
         <p>Watch the award video <br/>prepared by the City of Calgary</p>
         </div>
-
+        </section>
 <div className='compare-costsL'>
         <h1 className="section-title" id="compare-costs">Compare Costs</h1>
         <p>Living in a Garden Loft can cost<br/> less than living in an average<br/> priced lodge or senior’s home in <br/>Calgary - even after you factor<br/> in food and activities</p>
@@ -196,10 +200,13 @@ Calgary</p>
         <h1 className="section-title" id="finance-options">Financing Options</h1>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
-        <p>This includes Alberta<br/> Treasury Branch’s Residential<br/> Outbuilding Program <br/>When combined with a Home<br/> Equity Line of Credit or other<br/> mortgage product, up to 100%<br/> of the purchase could be<br/> financed</p>
+        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program When combined with a Home Equity Line of Credit or other mortgage product, up to 100%  of <br /> the purchase could be<br/> financed</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
         </div>
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/learn-more#reselling')}>View our current inventory <br /> resale Garden Lofts</button>
+      </div>
 
 
         <div className='resellingL' id="reselling">
@@ -207,7 +214,11 @@ Calgary</p>
         <img src={LM5} alt="Reselling" className="reselling-image"/>
         <p>As a prefabricated structure, <br/>Garden Loft can be sold and <br/>moved off your property when <br/>it is no longer required <br/>This recoups a large part of the<br/> unit’s original purchase price</p>
         <p>By recapturing a large part <br/>of your initial investment, the<br/> net cost of living in a Garden <br/>Loft can be less than renting <br/>in most lodges and retirement <br/>homes - even when you include a <br/>monthly allowance for food,<br/> activities, utilities, insurance,<br/> and property taxes</p>
+        <p>We can help you sell your Garden Loft by listing it on our resale page</p>
         </div>
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/phone-call')}>Contact <br />our mortgage <br />specialist</button>
+      </div>
 
         <div className='zoningL' id="new-zoning-rules">
 
@@ -220,7 +231,7 @@ Calgary</p>
         </div>
       </section>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-button"   onClick={handleButtonClick}>Request a <br />Feasibility <br /> Report</button>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/feasibility-report')}>Request a <br />Feasibility <br /> Report</button>
       </div>
       <Footer />
     </>

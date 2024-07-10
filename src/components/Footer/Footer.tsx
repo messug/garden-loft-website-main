@@ -180,7 +180,7 @@ const Footer = () => {
             <Link to="/#garden-loft-advantage" onClick={() => scrollToSection('garden-loft-advantage')}>The Garden Loft Advantage</Link>
           </h3>
           <h3>
-            <Link to="/learn-more#award"  onClick={() => scrollToSection('award')}>Our 2024 Award</Link>
+            <Link to="/learn-more#award" >Our 2024 Award</Link>
           </h3>
           <h3>
             <Link to="/#two-units" onClick={() => scrollToSection('two-units')}>Our Units</Link>
@@ -189,7 +189,7 @@ const Footer = () => {
             <Link to="/#projects" onClick={() => scrollToSection('projects')}>Our Projects</Link>
           </h3>
           <h3>
-            <Link to="/#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
+            <Link to="/installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
           </h3>
           <h3>
             <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
