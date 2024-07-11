@@ -3,18 +3,47 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 // import Village1 from "/images/Village-1.jpg";
 // import Village1Hero from "/images/Village 1-hero.jpg"
+import Village8 from "/images/Independent Living Exterior A_small.jpg";
+import Village9 from "/images/Independent Living Exterior B_small.jpg";
 import VillageVideo from '/images/Village Hero 3.mp4'
-import Village2 from "../../assets/images/Village 2.jpg";
+// import Village2 from "../../assets/images/Village 2.jpg";
 import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
-import Village5 from "/images/village-5.jpg";
+// import Village5 from "/images/village-5.jpg";
 import Village6 from "/images/village-6.jpg";
 import Village7 from "/images/village-7.jpg";
 import Village6v2 from '../../assets/images/village 6v2.jpg'
 import Village7v2 from '../../assets/images/village 7v2.jpg'
 import { Link } from "react-router-dom";
+import { useEffect } from 'react';
+import { To, useLocation, useNavigate } from 'react-router-dom';
 
 function Village() {
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleNavigate = (path: To) => {
+    navigate(path);
+    window.scrollTo(0, 0);
+  };
+
+  const handleButtonClick = () => {
+    navigate('/book-tour'); // Navigate to the contact page
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  
+  };
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
+
   return (
     <>
       <Navbar />
@@ -59,7 +88,7 @@ function Village() {
               courtyard, <br /> greenspace, or walkway
             </h3>
 
-            <img src={Village2} alt="GL-Cost Image" />
+            <img src={Village9} alt="GL-Cost Image" />
           </div>
           <div className="sec1">
             <div className="sec1-words">
@@ -76,7 +105,7 @@ function Village() {
               </h3>
             </div>
             <div className="sec1image">
-              <img src={Village2} alt="GL-Cost Image" />
+              <img src={Village9} alt="GL-Cost Image" />
             </div>
           </div>
           <div className="sec1">
@@ -96,7 +125,7 @@ function Village() {
               </button>
             </div>
             <div className="sec1image">
-              <img src={Village3} alt="GL-Cost Image" />
+              <img src={Village8} alt="GL-Cost Image" />
             </div>
           </div>
           <div className="sec2">
@@ -111,7 +140,7 @@ function Village() {
               </Link>
             </button>
 
-            <img src={Village3} alt="GL-Cost Image" />
+            <img src={Village8} alt="GL-Cost Image" />
           </div>
           <div className="sec1">
             <div className="sec1-words">
@@ -144,12 +173,8 @@ function Village() {
                 one-stop-shop <br /> development option for <br /> supportive
                 housing{" "}
               </h2>
-              <button className="button-village-cost">
-                Book a <br />
-                preliminary
-                <br />
-                consult
-              </button>
+              <button className="button-village-cost" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
+               
             </div>
             <div className="sec1image">
               <div className="workers-list">
@@ -236,12 +261,8 @@ function Village() {
               </ul>
             </div>
 
-            <button className="button-village-cost">
-              Book a <br />
-              preliminary
-              <br />
-              consult
-            </button>
+            
+            <button className="button-village-cost" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
           </div>{" "}
         </div>
 
@@ -257,22 +278,22 @@ function Village() {
                 <br />
                 communities with limited <br /> demand for supportive housing
               </h3>
-              <button  className="button-village-cost call-us">Call us</button>
+              <button  className="button-village-cost call-us" onClick={() => handleNavigate('/phone-call')}>Call Us</button>
             </div>
             <div className="sec1image">
-              <img src={Village5} alt="GL-Cost Image" />
+              <img src={Village3} alt="GL-Cost Image" />
             </div>
           </div>
 
           <div className="sec2">
-            <img src={Village5} alt="GL-Cost Image" />
+            <img src={Village3} alt="GL-Cost Image" />
             <h3>
               Garden Loft villages are <br /> particularly well suited in rural
               <br />
               communities with limited <br /> demand for supportive housing
             </h3>
-            <button className="button-village-cost call-us">Call us</button>
-          </div>
+            <button  className="button-village-cost call-us" onClick={() => handleNavigate('/phone-call')}>Call Us</button>
+            </div>
 
           <h2 className="dev-gl">
             <br />
@@ -328,9 +349,7 @@ function Village() {
             buildings on an acreage site
             <br /> outside of Calgary
           </h3>
-          <button className="button-village-cost">
-            Tour our <br /> Showsuite
-          </button>
+          <button className="button-village-cost" onClick={handleButtonClick}>Tour Our <br /> Showsuite</button>
             </div>
             <div className="sec1image">
               <img  src={Village7v2} alt="GL-Cost Image" />
@@ -346,9 +365,7 @@ function Village() {
             buildings on an acreage site
             <br /> outside of Calgary
           </p>
-          <button className="button-village-cost">
-            Tour our <br /> Showsuite
-          </button>
+          <button className="button-village-cost" onClick={handleButtonClick}>Tour Our <br /> Showsuite</button>
         </div></div>
       </section>
       <Footer />
