@@ -236,14 +236,21 @@
     z-index: 10;
   }
 
-  .swiper-button-prev {
+  .swiper-button-prev1 {
     left: 40px;
     top: 450px;
   }
 
-  .swiper-button-next {
+  .swiper-button-next1 {
     right: 40px;
     top: 450px;
+  }
+  .swiper-button-prev {
+    left: 40px;
+  }
+
+  .swiper-button-next {
+    right: 40px;
   }
 
   #quote-sign {
