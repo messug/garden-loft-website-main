@@ -4,11 +4,15 @@ import Footer from "../Footer/Footer";
 import AtriumVideo from  '/images/Atrium Hero 2.mp4'
 import AtriumImage2 from "/images/Atrium 2.jpg";
 import AtriumImage3 from "/images/Atrium 3.jpg";
-import AtriumImage4 from "/images/Atrium 4.jpg";
+// import AtriumImage4 from "/images/Atrium 4.jpg";
 import AtriumImage5 from "/images/Atrium 5.jpg";
 import AtriumImage6 from "/images/Atrium 6.jpg";
 import AtriumImage7 from "/images/Atrium 7.jpg";
 import AtriumImage8 from "/images/Atrium 8.jpg";
+import AtriumImage9 from "/images/Small Care Interior D_small.jpg";
+import AtriumImage10 from "/images/Small Care Interior A_small.jpg";
+import AtriumImage11 from "/images/Small Care Interior B_small.jpg";
+import AtriumImage12 from "/images/Small Care Interior C_small.jpg";
 import BrendaStrafford from "/images/BrendaStraffordLogo.png";
 import GLLogo from "../../assets/gl-john-logo.png";
 import { Link, To, useNavigate } from "react-router-dom";
@@ -64,14 +68,9 @@ const handleButtonClickCall = () => {
               Combining advanced <br />
               age-in-place architecture <br />
               with person-led care and <br />
-              living support
+              support
             </h2>
-            <h3>
-              Atrium House features <br />
-              Garden Loft units clustered
-              <br /> around a light-filled central <br />
-              interior community atrium
-            </h3>
+          
             </div>
             <div className="sec1image">
             <img src={AtriumImage2} alt="Atrium House Image 2" />
@@ -83,14 +82,9 @@ const handleButtonClickCall = () => {
               Combining advanced <br />
               age-in-place architecture <br />
               with person-led care and <br />
-              living support
+              support
             </h2>
-            <h3>
-              Atrium House features <br />
-              Garden Loft units clustered
-              <br /> around a light-filled central <br />
-              interior community atrium
-            </h3>
+          
             <img src={AtriumImage2} alt="Atrium House Image 2" />
           </div>
 
@@ -122,9 +116,22 @@ const handleButtonClickCall = () => {
           </h2>
           <img src={AtriumImage3} alt="Atrium House Image 3" />
 </div>
-
+<div className="sec1 ">
+            <div className="sec1-words ">
+            <h3>
+              Atrium House features <br />
+              Garden Loft units clustered
+              <br /> around a light-filled central <br />
+              interior community atrium
+            </h3>
+</div>
+<div className="sec1image">
+            <img src={AtriumImage9} alt="Atrium House Image 4" />
+            </div>
+</div>
 <div className="sec1 environment">
             <div className="sec1-words ">
+        
             <h3>
             The familiar domestic
             <br />
@@ -147,12 +154,21 @@ const handleButtonClickCall = () => {
           </button>
             </div>
             <div className="sec1image">
-            <img src={AtriumImage4} alt="Atrium House Image 4" />
+            <img src={AtriumImage10} alt="Atrium House Image 10" />
             </div>
           </div>
 
+          <div className="sec2">
+<h3>
+              Atrium House features <br />
+              Garden Loft units clustered
+              <br /> around a light-filled central <br />
+              interior community atrium
+            </h3>
+            <img src={AtriumImage9} alt="Atrium House Image 9" />
+            </div>
 <div className="sec2">
-          <h3>
+            <h3>
             The familiar domestic
             <br />
             environment combines the
@@ -169,10 +185,10 @@ const handleButtonClickCall = () => {
             small scale village-like
             <br /> communal building
           </h3>
-          <button onClick={() => handleNavigate('/learn-more')} className="button-atrium">
+          <button className="button-atrium">
             <Link to="/#two-units">Learn more about Garden Loft units</Link>
           </button>
-          <img src={AtriumImage4} alt="Atrium House Image 4" />
+          <img src={AtriumImage10} alt="Atrium House Image 10" />
           </div>
 
           <div className="sec1">
@@ -185,9 +201,9 @@ const handleButtonClickCall = () => {
             <br /> and programmatic needs of a <br />
             particular project
           </h3>
-          <button className="button-atrium custom">
+          <h3>
             We custom design and build Atrium Houses across Alberta
-          </button>
+            </h3>
             </div>
             <div className="sec1image">
             <img src={AtriumImage5} alt="Atrium House Image 5" />
@@ -205,9 +221,9 @@ const handleButtonClickCall = () => {
             particular project
           </h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
-          <button onClick={() => handleNavigate('/atrium')} className="button-atrium custom">
+     <h3>
             We custom design and build Atrium Houses across Alberta
-          </button>
+            </h3>
 </div>
 
 <div className="sec1">
@@ -218,9 +234,14 @@ const handleButtonClickCall = () => {
             Foundation
           </h2>
 </div>
-<div className="sec2">
-         
-          </div>
+{/* <div className="sec2">
+<h2>
+            Atrium House is a
+            collaboration between <br />
+            Garden Loft and the Brenda Strafford
+            Foundation
+          </h2>
+          </div> */}
           <div className="logoDiv">
             <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
             <img src={GLLogo} alt="Garden Loft Logo" />
@@ -262,7 +283,10 @@ const handleButtonClickCall = () => {
             </div>
           </div>
 <div className="center">   <button onClick={() => handleNavigate('/phone-call')}className="button-atrium call-us">Call us</button></div>
-<div className="center">    <h2>
+<div className="center-words ">
+<h3>Call us to learn more about our combined architecture + care project delivery model</h3></div>
+<div className="center sec1">    
+  <h2>
             Atrium House is
             <br /> particularly well suited
             <br /> for rural and remote
@@ -289,6 +313,14 @@ const handleButtonClickCall = () => {
             <br />
             materials and trades
           </h3>
+          </div>
+          <div className="sec1image">
+            <img src={AtriumImage12} alt="Atrium House Image 12" />
+           
+            </div>
+            </div>
+<div className="sec1">
+            <div className="sec1-words">
           <h3>
             The Atrium Way commissioning
             <br />
@@ -300,7 +332,16 @@ const handleButtonClickCall = () => {
             <br />
             service provider
           </h3>
-          <h3>
+          </div>
+          <div className="sec1image">
+            <img src={AtriumImage11} alt="Atrium House Image 11" />
+            </div>
+          </div>
+      
+          
+<div className="sec1">
+            <div className="sec1-words">
+              <h3>
             The result is a one-stop-shop for
             <br />
             designing, fabricating, and
@@ -309,7 +350,7 @@ const handleButtonClickCall = () => {
             <br />
             enhanced housing solutions
           </h3>
-          <button onClick={() => handleNavigate('/book-tour')}className="button-atrium">Book a <br/>preliminary consult</button>
+          <button onClick={() => handleNavigate('/initial')}className="button-atrium">Book a <br/>preliminary consult</button>
             </div>
             <div className="sec1image">
             <img src={AtriumImage6} alt="Atrium House Image 6" />
@@ -318,6 +359,7 @@ const handleButtonClickCall = () => {
 
 
        <div className="sec2">
+      
           <img src={AtriumImage6} alt="Atrium House Image 6" />
           <h2>
             Atrium House is
@@ -336,6 +378,7 @@ const handleButtonClickCall = () => {
             <br />
             materials and trades
           </h3>
+          <img src={AtriumImage12} alt="Atrium House Image 12" />
           <h3>
             The Atrium Way commissioning
             <br />
@@ -347,6 +390,9 @@ const handleButtonClickCall = () => {
             <br />
             service provider
           </h3>
+          
+            <img src={AtriumImage11} alt="Atrium House Image 11" />
+          
           <h3>
             The result is a one-stop-shop for
             <br />
@@ -356,7 +402,7 @@ const handleButtonClickCall = () => {
             <br />
             enhanced housing solutions
           </h3>
-          <button onClick={() => handleNavigate('/book-tour')} className="button-atrium">Book a preliminary consult</button>
+          <button onClick={() => handleNavigate('/initial')} className="button-atrium1">Book a preliminary consult</button>
           </div>
 
 
@@ -428,6 +474,7 @@ const handleButtonClickCall = () => {
           </button>
           </div>
         </div>
+       
       </section>
       <Footer />
     </>
