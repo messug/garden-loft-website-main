@@ -276,6 +276,16 @@
   display: none; /* Hide by default */
 }
 
+.inline-link {
+  color: #010407;
+  text-decoration: underline;
+}
+
+.inline-link:hover {
+  color: #070808;
+  text-decoration: none;
+}
+
 
 
 

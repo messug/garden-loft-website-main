@@ -301,13 +301,16 @@ const About = () => {
     <a href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">
         <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </a>
-      <p>Thin Air Labs is a <br />Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
+      <p>
+      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> is a <br />
+      Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
     </div>
     <div className="partnerslogoDiv2">
     <a href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">
         <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </a>
-      <p>The Brenda Strafford <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+      <p>
+      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford </a> <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
     </div>
   </div>
   <div className="btn-content">
