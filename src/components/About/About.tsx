@@ -313,7 +313,7 @@ const About = () => {
       </a>
 
       <p>
-      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford </a> <br /> Foundation is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford  <br /> Foundation</a> is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
 
      
     </div>
