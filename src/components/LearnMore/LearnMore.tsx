@@ -51,13 +51,14 @@ const LearnMore: React.FC = () => {
           <img src={LM1} alt="Hero" />
           <div className="hero-text">
             <h1>Garden Loft</h1>
-            <p>Delivering unique<br/> solutions for special<br/> needs housing</p>
+            <p>delivering unique<br/> solutions for special<br/> needs housing</p>
           </div>
         </div>
       </section>
 
       <section className="learn-more-section" id="learn-more">
-      
+      <div id='safety-support'>
+      <h1 className='safety-features'>Garden Loft's Safety <br/>and Support Features</h1>
         <p className="section-title">Our safety and support features enable seniors <br />and others with  differing  abilities to live safely, and with more independence, <br />dignity, and quality of life</p>
         <img src={LM2} alt="safety-features" className='award-image'/>
         <div className='quote'>
@@ -83,10 +84,10 @@ Accelerator Professorship in Law<br/>
 & Disability Policy,<br/>
 Faculty of Law, University of<br/>
 Calgary</p>
-
+</div>
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
-        <h1 className='safety-features'>Garden Loft’s 22 safety features</h1>
+        <h1 className='safety-features'>Our 22 safety features</h1>
         <Swiper
           modules={[Pagination, Navigation]}
           spaceBetween={10}
