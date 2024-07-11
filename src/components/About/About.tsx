@@ -282,7 +282,7 @@ const About = () => {
         </div>
          <div className='research-indent'>
           
-            <p>In 2022 and 2023, five <br /> production Garden Lofts were  prototyped for <br /> backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award</p>
+            <p>In 2022 and 2023, five  production Garden Lofts <br /> were prototyped for  backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award</p>
           </div>
         </div>
         <div className="btn-content">
