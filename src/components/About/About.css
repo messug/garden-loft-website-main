@@ -278,7 +278,7 @@
 
 .inline-link {
   color: #010407;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .inline-link:hover {
