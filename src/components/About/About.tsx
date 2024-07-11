@@ -286,7 +286,7 @@ const About = () => {
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('/learn-more')}>Learn more about <br />our award
+          <button className="button-about" onClick={() => handleNavigate('learn-more#award')}>Learn more about <br />our award
           </button>
 
         </div>
@@ -302,9 +302,10 @@ const About = () => {
         <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </a>
       <p>
-      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> is a <br />
+      Thin Air Labs is a <br />
       Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
     </div>
+
     <div className="partnerslogoDiv2">
     <a href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">
         <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
