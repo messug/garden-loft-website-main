@@ -309,8 +309,9 @@
  
 
   .our-team-title {
+ 
     font-size: 30px;
-    margin-top: 4rem;
+    margin-top: 3rem;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -329,7 +330,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+
     
+  }
+
+  .team-content p {
+    font-size: 22px;
+    /* font-style: italic; */
+    font-weight: 300;
   }
   
   .team-content p {
@@ -337,7 +345,8 @@
   }
   
   .about-content p {
-    font-size: 22px;
+    font-size: 28px;
+   
   }
 
   
@@ -353,16 +362,24 @@
   }
 
   .hero-about-content h1 {
-    font-size: 40px;
-    width: 80%;
+    font-size: 60px;
     position: absolute;
     bottom: 5%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     color: white;
-    text-align: right;
-    max-width: 600px;
-    line-height: 1.9;
+    text-align: center;
+     padding: 10px;
+    line-height: 5rem;
+  
+  }
+
+  
+  .hero-about-content p {
+    text-align:right ;
+    font-size: 43px;
+    font-weight: 640;
+    line-height: 3rem;
   }
 
   
@@ -428,7 +445,7 @@
   
 .swiper-button-next {
   right: 40px;
-  top: 200px;
+  top: 400px;
 }
 
 .partners {
@@ -481,13 +498,7 @@
     align-items: unset;
     
   }
-.our-team-title  {
-    display:flex;
-    font-size: 3rem;
-    margin-top: 4rem;
-    align-items: center;
 
-  } 
 }
 
 @media (min-width: 1024px) {
@@ -513,8 +524,8 @@
   }
 
   .about-content p {
-    padding: 30px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 33px;
   }
 
   .team-content {
@@ -549,9 +560,31 @@
   
   .team-content p {
     font-size: 22px;
-    font-style: italic;
-    font-weight: lighter;
+    /* font-style: italic; */
+    font-weight: 300;
   }
+
+  .hero-about-content h1 {
+    font-size: 85px;
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+     padding: 10px;
+    line-height: 6rem;
+  
+  }
+
+  
+  .hero-about-content p {
+    text-align:right ;
+    font-size: 40px;
+    font-weight: 640;
+    line-height: 3rem;
+  }
+
   
  
 
@@ -759,7 +792,7 @@
   .our-team-title {
     display:flex;
     font-size: 35px;
-    margin-top: 4rem;
+    margin-top: 1.5rem;
     align-items: center;
   }
 
