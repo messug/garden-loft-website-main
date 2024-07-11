@@ -201,26 +201,28 @@ Calgary</p>
         <h1 className="section-title" id="finance-options">Financing Options</h1>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
-        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program When combined with a Home Equity Line of Credit or other mortgage product, up to 100%  of <br /> the purchase could be<br/> financed</p>
+        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
+        <p>When combined with a Home Equity Line of Credit or other mortgage product, up to 100%  of <br /> the purchase could be<br/> financed</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
         </div>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-buttonbutton"   onClick={() => handleNavigate('/learn-more#reselling')}>View our current inventory <br /> resale Garden Lofts</button>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/learn-more#reselling')}>Contact<br /> our   mortgage <br />specialist</button>
       </div>
 
 
         <div className='resellingL' id="reselling">
         <h1 className="section-title" >Reselling your Garden Loft</h1>
-        <img src={LM5} alt="Reselling" className="reselling-image"/>
         <p>As a prefabricated structure, <br/>Garden Loft can be sold and <br/>moved off your property when <br/>it is no longer required <br/>This recoups a large part of the<br/> unit’s original purchase price</p>
+        <img src={LM5} alt="Reselling" className="reselling-image"/>
+       
         <p>By recapturing a large part <br/>of your initial investment, the<br/> net cost of living in a Garden <br/>Loft can be less than renting <br/>in most lodges and retirement <br/>homes - even when you include a <br/>monthly allowance for food,<br/> activities, utilities, insurance,<br/> and property taxes</p>
         <p>We can help you sell your Garden Loft by listing it on our resale page</p>
         </div>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-buttonbutton"   onClick={() => handleNavigate('/phone-call')}>Contact <br />our mortgage <br />specialist</button>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/phone-call')}>View <br/>our current <br />inventory resale <br />Garden Lofts</button>
       </div>
-
+<div id='zoning'>
         <div className='zoningL' id="new-zoning-rules">
 
         <h1 className="section-title" >New Zoning Rules</h1>
@@ -229,6 +231,7 @@ Calgary</p>
         <p>Garden Lofts are also allowed  <br/>in most zoning districts in  <br/>Edmonton as well as in many <br/> other towns and cities in <br/> Canada </p>
         <p>We take care of the city  <br/>approval process  <br/>and obtaining the required  <br/>permits to place a Garden Loft <br/> on your property </p>
         <p>Our complimentary feasibility  <br/>study includes an initial <br/> evaluation of the zoning bylaw <br/> rules for your property</p>
+        </div>
         </div>
       </section>
       <div style={{ textAlign: 'center', marginTop: '20px' }}>
