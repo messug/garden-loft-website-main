@@ -14,7 +14,7 @@
 
 .hero-image img {
   width: 100%;
-  height: 90vh;
+  height: 72vh;
   filter: brightness(75%);
   object-fit: cover;
   margin-bottom: 20px;
@@ -43,7 +43,6 @@
 .learn-more-section {
   text-align: center;
   padding: 20px;
- 
 }
 
 .learn-more-section p {
@@ -79,7 +78,7 @@
   margin-bottom: 20px;
 }
 
-.safety-features{
+.safety-features {
   font-size: 35px;
 }
 
@@ -114,20 +113,20 @@
 .award-sectionL {
   margin-bottom: 4rem;
 }
-.award-sectionL h1{
- font-size: 35px;
+.award-sectionL h1 {
+  font-size: 35px;
 }
 
 .compare-costsL {
   margin-bottom: 4rem;
 }
-.compare-costsL h1{
- font-size: 35px;
+.compare-costsL h1 {
+  font-size: 35px;
 }
 .financeL {
   margin-bottom: 4rem;
 }
-.financeL h1{
+.financeL h1 {
   font-size: 35px;
 }
 
@@ -135,15 +134,14 @@
   margin-bottom: 4rem;
 }
 
-.resellingL h1{
- font-size: 35px;
+.resellingL h1 {
+  font-size: 35px;
 }
 
 .zoningL {
   margin-bottom: 4rem;
 }
-.zoningL h1
- {
+.zoningL h1 {
   font-size: 35px;
 }
 
@@ -164,7 +162,7 @@
   margin: 20px auto;
 }
 
-.report-buttonbutton{
+.report-buttonbutton {
   border: 1px; /* Yellow outline */
   background-color: rgb(199, 240, 255);
   padding: 10px 70px;
@@ -192,6 +190,7 @@
     font-size: 27px;
     text-align: center;
     max-width: 400px;
+    margin-top: 14rem;
   }
 
   .section-title {
@@ -252,11 +251,11 @@
   }
 
   .award-image {
-  width: 100vw;
-  /* max-width: 600px; */
-  /* height: 130vh; */
-  margin: 20px auto;
-}
+    width: 100vw;
+    /* max-width: 600px; */
+    /* height: 130vh; */
+    margin: 20px auto;
+  }
   .video-embed {
     width: 100%;
     max-width: 900px;
@@ -304,7 +303,8 @@
   #quote-sign {
     margin-right: 20rem;
   }
-  .award-image, .financing-image,
+  .award-image,
+  .financing-image,
   .reselling-image,
   .zoning-image {
     width: 50vw;
