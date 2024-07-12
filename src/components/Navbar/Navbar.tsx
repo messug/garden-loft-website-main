@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
         <Link onClick={scrollToTop} to="/about" style={{ textDecoration: "none" }}>
           <p>About Us</p>
         </Link>
-        <Link to="/learn-more" style={{ textDecoration: "none" }} onClick={scrollToTop}><p>Garden Loft Resales</p></Link>
+        <Link to="/reselling" style={{ textDecoration: "none" }} onClick={scrollToTop}><p>Garden Loft Resales</p></Link>
         <Link onClick={scrollToTop} to="/faq" style={{ textDecoration: "none" }}>
           <p>FAQ</p>
         </Link>
