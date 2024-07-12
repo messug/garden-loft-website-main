@@ -71,6 +71,7 @@ const About = () => {
   return (
     <>
       <Navbar />
+      <section id="about" >
       <section id="about" className="hero-about">
         <div className="hero-about-img">
           <img src={AtriumImage1} alt="Atrium House Image 1" />
@@ -85,6 +86,8 @@ const About = () => {
             <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
           </div>
         </div>
+
+        <section id="our-team" >
             <div className='our-team-title' id="our-team" >
             <h3>Our Team</h3>
             </div>
@@ -117,12 +120,16 @@ const About = () => {
             <p>James Lochrie is a technology entrepreneur and founder / Managing Partner of Thin Air Labs. He is a member of Garden Loft’s Board of Directors</p>
           </div>
         </div>
+
+        </section>
       </section>
       <section className="additional-content">
         <div className="btn-content">
           <button className="button-about"   onClick={() => handleNavigate('/phone-call')}>Call Us</button>
         </div>
         </section>
+
+        <section id='our-history'>
         <div className='our-team-title' >
             <h3 >Our Professional History</h3>
             </div>
@@ -134,6 +141,8 @@ const About = () => {
           <p>Over its 25-year history,<br />Housebrand has completed over <br />250 residential projects using <br />a unique practice model that  <br />architectural design <br />with construction management,<br /> real estate services, and furniture  <br />retailing</p>
           </div>
         </div>
+
+        </section>
 
 
         <div className="history-section">
@@ -286,34 +295,38 @@ const About = () => {
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('/learn-more')}>Learn more about <br />our award
+          <button className="button-about" onClick={() => handleNavigate('learn-more#award')}>Learn more about <br />our award
           </button>
 
         </div>
 
+        <section className="partners"  id="our-partners">
          <div className='our-team-title' >
            <h3 >Our Partners</h3>
             </div>
-       
-            <section className="partners"  id="our-partners">
-  <div className='partners-item'>
+      <div className='partners-item'>
     <div className="partnerslogoDiv">
     <a href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">
         <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </a>
 
+      <h6>
+      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> </h6>
       <p>
-      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> is a <br />
+      Thin Air Labs is a <br />
       Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
 
     </div>
+
     <div className="partnerslogoDiv2">
     <a href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">
         <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </a>
+  <h5>
+      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford </a> </h5>
+      <p>Brenda Strafford Foundation <br />is a Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
 
-      <p>
-      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford  <br /> Foundation</a> is a <br />Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+
 
      
     </div>
@@ -327,7 +340,7 @@ const About = () => {
         </div>
         </div>
         </div>
-    
+        </section>
       <Footer />
     </>
   );
