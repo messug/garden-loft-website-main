@@ -189,7 +189,7 @@ const Footer = () => {
             <Link to="/#projects" onClick={() => scrollToSection('projects')}>Our Projects</Link>
           </h3>
           <h3>
-            <Link to="#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
+            <Link to="/#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
           </h3>
           <h3>
             <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
