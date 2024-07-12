@@ -171,10 +171,10 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-column">
           <h2>
-            <Link to="/">Garden Loft Backyard Suites</Link>
+            <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
           </h2>
           <h3>
-            <Link to="/learn-more#support-features"  onClick={() => scrollToSection('support-features')}>Our Support Features</Link>
+            <Link to="/learn-more#support-features"  onClick={() => scrollToSection('support-features')}  >Our Support Features</Link>
           </h3>
           <h3>
             <Link to="/#garden-loft-advantage" onClick={() => scrollToSection('garden-loft-advantage')}>The Garden Loft Advantage</Link>
@@ -189,7 +189,7 @@ const Footer = () => {
             <Link to="/#projects" onClick={() => scrollToSection('projects')}>Our Projects</Link>
           </h3>
           <h3>
-            <Link to="/installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
+            <Link to="#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
           </h3>
           <h3>
             <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
@@ -214,15 +214,15 @@ const Footer = () => {
           <h2>
             <Link to="/atrium"  onClick={scrollToTop}>Atrium House by Garden Loft</Link>
           </h2>
-          <h2><Link to="/about"  onClick={scrollToTop}>About</Link></h2>
+          <h2><Link to="#about"  onClick={scrollToTop}>About Us</Link></h2>
           <h3>
             <Link to="/about#our-team" onClick={scrollToTop}>Our Team</Link>
           </h3>
           <h3>
-            <Link to="/about#our-history" onClick={scrollToTop} >Our History</Link>
+            <Link to="/about#our-history" onClick={scrollToTop} >Our Professional History</Link>
           </h3>
           <h3>
-            <Link to="/about#research"  onClick={scrollToTop}>Our Research</Link>
+            <Link to="/about#research"  onClick={scrollToTop}>Our Research History</Link>
           </h3>
           <h3>
             <Link to="/about#our-partners"  onClick={scrollToTop}>Our Partners</Link>
@@ -253,7 +253,7 @@ const Footer = () => {
                 <Link to="/initial" onClick={scrollToTop}>Initial Meeting</Link>
               </h3>
               <h3>
-                <Link to="/mortgage-specialist" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
+                <Link to="/phone-call" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
               </h3>
             </div>
           </div>
