@@ -1,0 +1,85 @@
+.mortgage-specialist-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.navbarBackground {
+  background-color:  rgba(0, 0, 0, 0.308);
+  
+  height: 20vh;
+
+}
+
+
+.mortgage-specialist-form h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mortgage-specialist-form p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.mortgage-specialist-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.mortgage-specialist-form label span {
+  color: #ff0000;
+  font-size: 0.8em;
+}
+
+.mortgage-specialist-form .name-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mortgage-specialist-form .name-fields input {
+  width: 48%;
+}
+
+.mortgage-specialist-form input,
+.mortgage-specialist-form select,
+.mortgage-specialist-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.mortgage-specialist-form textarea {
+  height: 100px;
+}
+
+.mortgage-specialist-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #C7f0ff;
+  color: #000;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-size: 22px;
+  transition: background-color 0.3s;
+}
+.mortgage-specialist-form .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.mortgage-specialist-form button:hover {
+  background-color: #04b8fa;
+  color: white;
+}
