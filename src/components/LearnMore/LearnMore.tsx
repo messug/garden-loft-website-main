@@ -207,7 +207,7 @@ Calgary</p>
 
         </div>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-buttonbutton"   onClick={() => handleNavigate('/learn-more#reselling')}>Contact<br /> our   mortgage <br />specialist</button>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/morgage')}>Contact<br /> our   mortgage <br />specialist</button>
       </div>
 
 

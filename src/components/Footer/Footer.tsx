@@ -195,10 +195,10 @@ const Footer = () => {
             <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
           </h3>
           <h3>
-            <Link to="/learn-more#finance-options" >Finance Options</Link>
+            <Link to="/learn-more#finance-options"  onClick={scrollToTop}  >Finance Options</Link>
           </h3>
           <h3>
-            <Link to="/learn-more#new-zoning-rules">New Zoning Rules</Link>
+            <Link to="/learn-more#new-zoning-rules"  onClick={scrollToTop} >New Zoning Rules</Link>
           </h3>
           <h3>
             <Link to="/#garden-lofters" onClick={() => scrollToSection('garden-lofters')}>Meet Our Garden Lofters</Link>
@@ -214,7 +214,7 @@ const Footer = () => {
           <h2>
             <Link to="/atrium"  onClick={scrollToTop}>Atrium House by Garden Loft</Link>
           </h2>
-          <h2><Link to="#about"  onClick={scrollToTop}>About Us</Link></h2>
+          <h2><Link to="/about"  onClick={scrollToTop}>About Us</Link></h2>
           <h3>
             <Link to="/about#our-team" onClick={scrollToTop}>Our Team</Link>
           </h3>
