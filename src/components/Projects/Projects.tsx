@@ -395,6 +395,7 @@ const Projects: React.FC = () => {
               <source src={InstallationVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className='installation-text'>
             <p>Garden Lofts are delivered by truck and craned into place. <br />
               They are supported on eight screw piles to minimize site <br /> impact
               and serviced through a shallow utility trench from the house. <br />
@@ -403,6 +404,7 @@ const Projects: React.FC = () => {
               The deck, stairs and ramps are constructed after installation <br />
               and the landscaping is completed
             </p>
+            </div>
           </div>
         </div>
       </section>

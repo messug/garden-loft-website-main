@@ -149,5 +149,9 @@
 
   .install-content p {
     padding: 0 20rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
   }
 }
