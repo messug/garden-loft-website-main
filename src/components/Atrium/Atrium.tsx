@@ -90,7 +90,7 @@ const handleButtonClickCall = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-            <h2>
+            <h3>
             {" "}
                 <br/>
                 <br/>
@@ -99,7 +99,7 @@ const handleButtonClickCall = () => {
             high levels of nursing
             <br /> care and support for up
             <br /> to 14 residents
-          </h2>
+          </h3>
             </div>
             <div className="sec1image">
             <img src={AtriumImage3} alt="Atrium House Image 3" />
@@ -107,13 +107,13 @@ const handleButtonClickCall = () => {
           </div>
 
 <div className="sec2">
-          <h2>
+          <h3>
             Atrium House is a small <br />
             care home providing <br />
             high levels of nursing
             <br /> care and support for up
             <br /> to 14 residents
-          </h2>
+          </h3>
           <img src={AtriumImage3} alt="Atrium House Image 3" />
 </div>
 <div className="sec1 ">
@@ -201,9 +201,9 @@ const handleButtonClickCall = () => {
             <br /> and programmatic needs of a <br />
             particular project
           </h3>
-          <h3>
+          <h2>
             We custom design and build Atrium Houses across Alberta
-            </h3>
+            </h2>
             </div>
             <div className="sec1image">
             <img src={AtriumImage5} alt="Atrium House Image 5" />
@@ -221,9 +221,9 @@ const handleButtonClickCall = () => {
             particular project
           </h3>
           <img src={AtriumImage5} alt="Atrium House Image 5" />
-     <h3>
+     <h2>
             We custom design and build Atrium Houses across Alberta
-            </h3>
+            </h2>
 </div>
 
 <div className="sec1">
@@ -282,9 +282,10 @@ const handleButtonClickCall = () => {
               </ul>
             </div>
           </div>
-<div className="center">   <button onClick={() => handleNavigate('/phone-call')}className="button-atrium call-us">Call us</button></div>
-<div className="center-words ">
+          <div className="center-words ">
 <h3>Call us to learn more about our combined architecture + care project delivery model</h3></div>
+<div className="center">   <button onClick={() => handleNavigate('/phone-call')}className="button-atrium call-us">Call us</button></div>
+
 <div className="center sec1">    
   <h2>
             Atrium House is

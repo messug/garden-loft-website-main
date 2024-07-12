@@ -7,9 +7,9 @@ import Village8 from "/images/Independent Living Exterior A_small.jpg";
 import Village9 from "/images/Independent Living Exterior B_small.jpg";
 import VillageVideo from '/images/Village Hero 3.mp4'
 // import Village2 from "../../assets/images/Village 2.jpg";
-import Village3 from "/images/Village-3.jpg";
+// import Village3 from "/images/Village-3.jpg";
 import Village4 from "/images/Village-4.jpg";
-// import Village5 from "/images/village-5.jpg";
+import Village5 from "/images/village-5.jpg";
 import Village6 from "/images/village-6.jpg";
 import Village7 from "/images/village-7.jpg";
 import Village6v2 from '../../assets/images/village 6v2.jpg'
@@ -269,12 +269,12 @@ const handleButtonClickTour = () => {
               <button onClick={handleButtonClick} className="button-village-cost call-us">Call us</button>
             </div>
             <div className="sec1image">
-              <img src={Village3} alt="GL-Cost Image" />
+              <img src={Village5} alt="GL-Cost Image" />
             </div>
           </div>
 
           <div className="sec2">
-            <img src={Village3} alt="GL-Cost Image" />
+            <img src={Village5} alt="GL-Cost Image" />
             <h3>
               Garden Loft villages are <br /> particularly well suited in rural
               <br />
