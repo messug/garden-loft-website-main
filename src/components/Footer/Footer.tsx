@@ -253,7 +253,7 @@ const Footer = () => {
                 <Link to="/initial" onClick={scrollToTop}>Initial Meeting</Link>
               </h3>
               <h3>
-                <Link to="/phone-call" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
+                <Link to="/morgage" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
               </h3>
             </div>
           </div>

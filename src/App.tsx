@@ -11,10 +11,9 @@ import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 import Feasibility from "./components/Feasibility-report/Feasibility";
-
 import Phone from "./components/Phone/Phone";
-
 import LearnMore from "./components/LearnMore/LearnMore";
+import MortgageSpecialistForm from "./components/morgage/MortgageSpecialistForm..js"
 
 
 
@@ -35,6 +34,7 @@ function App() {
           <Route path="/atrium" element={<Atrium /> }/>
           <Route path="/initial" element={< Initial/> }/>
           <Route path="/learn-more" element={<LearnMore/>}/>
+          <Route path="/morgage" element={<MortgageSpecialistForm/>}/>
           
         </Routes>
       </Router>
