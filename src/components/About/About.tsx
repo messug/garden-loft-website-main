@@ -77,10 +77,10 @@ const About = () => {
           <img src={AtriumImage1} alt="Atrium House Image 1" />
           <div className="hero-about-content">
           <h1 className="hero-about-header">Garden Loft </h1>
-              <p className='mobile-para'> We are architects, builders,   <br />
-              and software developers</p>
-        <p className='desktop-para'>  We are <br />architects, <br />builders,   <br />
-        and software developers </p>
+              <p className='mobile-para'> we are architects,<br/> builders,  
+              and <br />software developers</p>
+        <p className='desktop-para'>  we are <br />architects, <br />builders,  
+        and <br /> software developers </p>
           </div>
           <div className='about-content'>
             <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
