@@ -295,7 +295,7 @@ const About = () => {
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('learn-more#award')}>Learn more about <br />our award
+          <button className="button-about" onClick={() => handleNavigate('/learn-more#award')}>Learn more about <br />our award
           </button>
 
         </div>

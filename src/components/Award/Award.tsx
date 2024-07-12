@@ -21,7 +21,7 @@ const Award = () => {
       <h1>
           Garden Loft received the 2024 City of Calgary Accessibility Award
         </h1>
-        <button className="award-button desktop-button"> <Link to="/learn-more#awards"  >Learn more <br/>about our <br/> awards</Link></button>
+        <button className="award-button desktop-button"> <Link to="/learn-more#award"  >Learn more <br/>about our <br/> awards</Link></button>
       </div>
       <div className="desktop-image">
         <img src={AwardImage} alt="Award Image" />
@@ -30,7 +30,7 @@ const Award = () => {
       <div style={{ textAlign: 'center' }}>
       {/* <Link to="/learn-more#awards" className="award-button">
       Learn more <br />about our <br /> awards        </Link> */}
-    <button className="award-button"> <Link to="/learn-more#awards"  >Learn more <br/>about our <br/> awards</Link></button>
+    <button className="award-button"> <Link to="/learn-more#award"  >Learn more <br/>about our <br/> awards</Link></button>
     </div>
     </>
   );
