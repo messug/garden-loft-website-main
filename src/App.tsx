@@ -11,10 +11,13 @@ import Brochure from './components/Brochure/Brochure';
 import Book from './components/Book-Tour/Book';
 import Initial from "./components/Initial-meeting/Initial";
 import Feasibility from "./components/Feasibility-report/Feasibility";
-import Reselling from "./components/Reselling/Reselling";
-import Phone from "./components/Phone/Phone";
 
+
+import Reselling from "./components/Reselling/Reselling";
+
+import Phone from "./components/Phone/Phone";
 import LearnMore from "./components/LearnMore/LearnMore";
+import MortgageSpecialistForm from "./components/morgage/MortgageSpecialistForm..js"
 
 
 
@@ -36,6 +39,7 @@ function App() {
           <Route path="/initial" element={< Initial/> }/>
          < Route path="/reselling" element={<Reselling/>}/>
           <Route path="/learn-more" element={<LearnMore/>}/>
+          <Route path="/morgage" element={<MortgageSpecialistForm/>}/>
           
         </Routes>
       </Router>
