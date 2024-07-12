@@ -20,7 +20,7 @@ const Testimony: React.FC = () => {
         <p className="testimony-description">
         Garden Lofts can be sold <br/>when no longer required to <br/>recoup a large part of the <br/> initial purchase price
         </p>
-        <button className="testimony-button">   <Link to="/learn-more#reselling">
+        <button className="testimony-button">   <Link to="/reselling">
             Learn how we<br/> can help
             </Link></button>
       </div>
@@ -32,7 +32,7 @@ const Testimony: React.FC = () => {
           Garden Lofts can be sold <br/>when no longer required to <br/>recoup a large part of the <br/> initial purchase price
           </h2>
           <button className="button-testimony desktop-testimony-button">
-            <Link to="/learn-more#reselling">
+            <Link to="/reselling">
             Learn how we can help
             </Link>
           </button>
