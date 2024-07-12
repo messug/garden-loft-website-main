@@ -18,7 +18,7 @@ const Testimony: React.FC = () => {
         </video>
         <h1>Reselling your Garden Loft</h1>
         <p className="testimony-description">
-          When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot
+        Garden Lofts can be sold <br/>when no longer required to <br/>recoup a large part of the <br/> initial purchase price
         </p>
         <button className="testimony-button">   <Link to="/learn-more#reselling">
             Learn how we<br/> can help
@@ -29,7 +29,7 @@ const Testimony: React.FC = () => {
         <div className="desktop-description-cost">
         <h1>Reselling your Garden Loft</h1>
           <h2>
-          When no longer needed, <br/>Garden Loft can be resold <br/>and moved off your lot
+          Garden Lofts can be sold <br/>when no longer required to <br/>recoup a large part of the <br/> initial purchase price
           </h2>
           <button className="button-testimony desktop-testimony-button">
             <Link to="/learn-more#reselling">

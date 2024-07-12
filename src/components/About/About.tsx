@@ -323,9 +323,10 @@ const About = () => {
         <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </a>
   <h5>
-      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Brenda Strafford</a> </h5>
-      <p>
-     Brenda Strafford Foundation <br />is a Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford </a> </h5>
+      <p>Brenda Strafford Foundation <br />is a Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
+
+
 
      
     </div>
