@@ -285,7 +285,7 @@ const About = () => {
           Your browser does not support the video tag.
         </video>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('/gardenloft-resales')}>Learn more  about  <br />our prototype
+          <button className="button-about" onClick={() => handleNavigate('/reselling')}>Learn more  about  <br />our prototype
           </button>
 
         </div>
