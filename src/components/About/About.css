@@ -18,7 +18,7 @@
 
 .hero-about-content {
   position: absolute;
-  top: 45%;
+  top: 66%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: right;
@@ -28,24 +28,26 @@
   max-width: 600px;
 }
 
-.hero-about-header {
+.hero-about-content h1 {
   font-size: 35px;
-  /* margin-bottom:10px;
-  margin-top: -40px; */
-  margin-bottom: 20px;
-  margin-top: 40px; 
-  line-height: 1.5rem;
 }
 
+/* .hero-about-header {
+  font-size: 35px; */
+/* margin-bottom:10px;
+  margin-top: -40px; */
+/* margin-bottom: 20px;
+  margin-top: 40px;
+  line-height: 1.5rem;
+} */
+
 .hero-about-content p {
- 
   font-size: 32px;
   font-weight: 640;
 
-  margin-bottom:0;
+  margin-bottom: 0;
   line-height: 2rem;
 }
-
 
 .mobile-para {
   display: block;
@@ -85,7 +87,6 @@
   line-height: 1.5;
   max-width: 600px; /* Limit the width for better readability */
   margin: 0 auto; /* Center the paragraph horizontally */
-
 }
 
 .teams {
@@ -112,8 +113,6 @@
   height: auto;
   margin-bottom: 15px;
 }
-
-
 
 .team-content h1 {
   font-size: 30px;
@@ -249,7 +248,7 @@
   max-width: 100%;
   height: 300px;
   margin: 0 auto;
- 
+
   object-fit: contain;
   margin-bottom: 15px;
 }
@@ -286,30 +285,23 @@
   text-decoration: none;
 }
 
+.our-team-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 
-
-
-  .our-team-title {
-    font-size: 2rem;
-    margin-top: 2rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-
-
- @media (min-width: 768px) {
-  
+@media (min-width: 768px) {
   .hero-about-img img {
     width: 100vw;
     object-fit: cover;
     height: 90vh;
     filter: brightness(75%);
   }
- 
 
   .our-team-title {
- 
     font-size: 30px;
     margin-top: 3rem;
     align-items: center;
@@ -330,8 +322,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-
-    
   }
 
   .team-content p {
@@ -339,22 +329,19 @@
     /* font-style: italic; */
     font-weight: 300;
   }
-  
+
   .team-content p {
     font-size: 22px;
   }
-  
+
   .about-content p {
     font-size: 28px;
-   
   }
 
-  
   .history h1,
   .research h1 {
     font-size: 30px;
   }
-
 
   .history p,
   .research p {
@@ -362,27 +349,24 @@
   }
 
   .hero-about-content h1 {
-    font-size: 60px;
+    font-size: 7.5rem;
     position: absolute;
-    bottom: 5%;
+    bottom: 50%;
     left: 40%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
-     padding: 10px;
+    padding: 10px;
     line-height: 5rem;
-  
   }
 
-  
   .hero-about-content p {
-    text-align:right ;
+    text-align: right;
     font-size: 43px;
     font-weight: 640;
     line-height: 3rem;
   }
 
-  
   .team-content img {
     object-fit: contain;
     width: 100%;
@@ -390,28 +374,27 @@
     margin-bottom: 10px;
   }
 
-  .history-content h1,.research h1 {
-
+  .history-content h1,
+  .research h1 {
     font-size: 24px;
-
   }
-  
+
   .history-content p {
     font-size: 22px;
-    text-align: center;
+    text-align: right;
     line-height: 1.6;
     padding: 10px;
     padding-bottom: 10px;
   }
-  
+
   .research-content p {
     font-size: 22px;
     text-align: center;
     line-height: 1.6;
     text-indent: 2rem;
   }
-  
-  .research-image img{
+
+  .research-image img {
     object-fit: contain;
     max-width: none;
     width: 100vw;
@@ -420,14 +403,12 @@
     margin: 0 auto;
   }
 
-
-  
-.research-img video {
-  object-fit: cover;
-  width: 80%;
-  height: auto;
-  padding-left: 80px;
-}
+  .research-img video {
+    object-fit: cover;
+    width: 80%;
+    height: auto;
+    padding-left: 80px;
+  }
   .swiper {
     /* transform: scale(0.7); */
     overflow: visible;
@@ -438,17 +419,17 @@
     display: flex; /* Show on tablet view */
   }
 
- .swiper-button-prev {
-      left: 40px;
-      top: 200px;
+  .swiper-button-prev {
+    left: 40px;
+    top: 200px;
   }
-  
-.swiper-button-next {
-  right: 40px;
-  top: 400px;
-}
 
-.partners {
+  .swiper-button-next {
+    right: 40px;
+    top: 400px;
+  }
+
+  .partners {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -463,7 +444,8 @@
     margin-bottom: 40px;
   }
 
-  .partnerslogoDiv, .partnerslogoDiv2 {
+  .partnerslogoDiv,
+  .partnerslogoDiv2 {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -472,7 +454,8 @@
     width: 45%; /* Adjust width to fit two items side by side */
   }
 
-  .partnerslogoDiv img, .partnerslogoDiv2 img {
+  .partnerslogoDiv img,
+  .partnerslogoDiv2 img {
     max-width: 200px; /* Adjust as needed */
     height: auto;
     margin-bottom: 10px; /* Space between logo and text */
@@ -480,15 +463,14 @@
 
   .partners-item p {
     margin: 0; /* Ensure there's no extra margin */
-    line-height: 1.6; 
+    line-height: 1.6;
   }
 
   .btn-content {
     text-align: center;
   }
-  
 
- .teams {
+  .teams {
     font-size: 30px;
     align-items: center;
     color: #000;
@@ -496,9 +478,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: unset;
-    
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -506,20 +486,31 @@
     width: 100vw;
     object-fit: cover;
     height: 130vh;
-   
+  }
+
+  .hero-about-content {
+    position: absolute;
+    bottom: -20%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+    text-align: center;
+
+    line-height: 1.9;
   }
 
   .hero-about-content h1 {
     font-size: 4rem;
     width: 80%;
     position: absolute;
-    bottom: 5%;
-    left: 50%;
+    bottom: 90%;
+    left: 18%;
     transform: translate(-50%, -50%);
     color: white;
-   
+    min-width: 900px;
     text-align: center;
-    max-width: 600px;
+    max-width: 900px;
     line-height: 1.9;
   }
 
@@ -534,7 +525,6 @@
     justify-content: center;
     width: 30%;
     margin: 1.6%;
-
   }
   .team-content img {
     object-fit: contain;
@@ -546,18 +536,15 @@
     object-fit: contain;
     width: 30%;
     height: 100vh;
- 
   }
- 
+
   .team-content h1 {
     font-size: 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
-
-   
   }
-  
+
   .team-content p {
     font-size: 22px;
     /* font-style: italic; */
@@ -565,48 +552,35 @@
   }
 
   .hero-about-content h1 {
-    font-size: 85px;
-    position: absolute;
-    bottom: 5%;
-    left: 48%;
-    transform: translate(-50%, -50%);
-    color: white;
+    font-size: 8rem;
     text-align: center;
-     padding: 10px;
-    line-height: 6rem;
-  
+    line-height: 8rem;
+    margin-top: 6rem;
+    margin-left: -10rem;
   }
 
-  
   .hero-about-content p {
-    text-align:right ;
-    font-size: 40px;
-    font-weight: 640;
-    line-height: 3rem;
+    font-size: 3rem;
+    line-height: 2.3rem;
+    text-align: right;
+    margin-left: -20rem;
+    padding-top: 2rem;
   }
 
-  
- 
-
- 
-
-
-
-.teams {
-  font-size: 35px;
-  align-items: center;
-  color: #000;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: unset;
-}
+  .teams {
+    font-size: 35px;
+    align-items: center;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+  }
 
   .history h1,
   .research h1 {
     font-size: 27px;
     font-weight: 330;
-  
   }
 
   .history p,
@@ -614,7 +588,7 @@
     font-size: 22px;
     width: 100%;
   }
-  
+
   .history-content p {
     font-size: 22px;
     text-align: center;
@@ -631,7 +605,7 @@
   }
 
   .research-img video {
-  align-items: center;
+    align-items: center;
     width: 70%;
     height: auto;
     padding-left: 150px;
@@ -642,14 +616,13 @@
     width: 15vw;
   } */
 
-
   .partners {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
   }
-  
+
   .partners-item {
     display: flex;
     justify-content: space-between;
@@ -657,7 +630,7 @@
     max-width: 1200px;
     margin-bottom: 40px;
   }
-  
+
   .partnerslogoDiv {
     display: flex;
     flex-direction: column;
@@ -665,29 +638,29 @@
     text-align: center;
     width: 45%; /* Adjust width to fit two items side by side */
   }
-  
+
   .partnerslogoDiv img {
     max-width: 200px; /* Adjust as needed */
     height: auto;
     margin-bottom: 10px; /* Space between logo and text */
   }
-  
+
   .partners-item p {
     margin: 0; /* Ensure there's no extra margin */
-    line-height: 1.6; 
+    line-height: 1.6;
   }
-  
+
   .btn-content {
     text-align: center;
   }
-  
+
   .partners {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
   }
-  
+
   .partners-item {
     display: flex;
     /* align-items: flex-start;  */
@@ -696,7 +669,7 @@
     max-width: 1200px;
     margin-bottom: 40px;
   }
-  
+
   .partnerslogoDiv {
     display: flex;
     flex-direction: column;
@@ -706,52 +679,45 @@
     width: 45%; /* Adjust width to fit two items side by side */
   }
 
-  .partnerslogoDiv2{
+  .partnerslogoDiv2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 45%; /* Adjust width to fit two items side by side */
   }
-  
+
   .partnerslogoDiv img {
     max-width: 200px; /* Adjust as needed */
     height: auto;
-   
+
     margin-bottom: 40px; /* Space between logo and text */
   }
 
   .partnerslogoDiv2 img {
-    max-width: 200px; 
+    max-width: 200px;
     height: auto;
     margin-bottom: 10px; /* Space between logo and text */
   }
-  
-  .partners-item p {
-    margin: 0; 
- 
 
-    line-height: 1.6; 
+  .partners-item p {
+    margin: 0;
+
+    line-height: 1.6;
   }
-  
+
   .btn-content {
     text-align: center;
   }
-  
 
-  
-
-
-.swiper {
+  .swiper {
     /* transform: scale(0.35); */
     overflow: visible;
   }
   .swiper-button-prev,
-    .swiper-button-next {
-      display: flex;
-    
-    }
-
+  .swiper-button-next {
+    display: flex;
+  }
 
   .swiper-button-prev {
     left: 20px; /* Adjust the position from the left as needed */
@@ -761,21 +727,16 @@
   .swiper-button-next {
     right: 20px; /* Adjust the position from the right as needed */
     top: 190;
-
   }
-  
+
   .research-image {
     object-fit: contain;
     width: 170vw;
     /* max-width: 98%; */
     /* height: 60vh; */
     margin: 0 auto;
- 
   }
 
-
- 
-  
   .button-about {
     background-color: rgb(199, 240, 255);
     border: 1px;
@@ -790,34 +751,12 @@
   }
 
   .our-team-title {
-    display:flex;
+    display: flex;
     font-size: 35px;
     margin-top: 1.5rem;
     align-items: center;
   }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Tablet view (768px to 1023px) */
 /* @media (min-width: 768px) and (max-width: 1023px) {
