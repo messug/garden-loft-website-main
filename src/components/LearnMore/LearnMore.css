@@ -301,7 +301,7 @@
     width: 500px;
     position: absolute;
     bottom: -106%;
-    left: 82%;
+
     transform: translate(-50%, -50%);
     color: white;
 
@@ -321,7 +321,7 @@
   .hero-text p {
     font-size: 3rem;
     line-height: 2.3rem;
-    text-align: center;
+    text-align: right;
     margin-left: -20rem;
     padding-top: 2rem;
   }
