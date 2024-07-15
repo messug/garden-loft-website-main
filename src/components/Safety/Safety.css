@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.safety-content {
+  margin-top: 2rem;
+}
+
 #support-features h1 {
   font-size: 22px;
   font-weight: 400;
