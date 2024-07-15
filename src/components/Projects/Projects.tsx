@@ -230,10 +230,10 @@ import projectImage6 from '../../assets/images/backyard 26.jpg';
 import projectImage7 from '../../assets/images/backyard 27.jpg';
 import projectImage8 from '../../assets/images/backyard 28.jpg';
 import projectImage9 from '../../assets/images/backyard 29.jpg';
-import projectImage10 from '../../assets/images/backyard 30v2.jpg';
+import projectImage10 from '/images/backyard 30_31.jpg';
 import projectImage11 from '../../assets/images/backyard 31.jpg';
 import projectImage12 from '../../assets/images/backyard 32.jpg';
-import projectImage13 from '../../assets/images/backyard 33v2.jpg';
+import projectImage13 from '/images/backyard 33_33a.jpg';
 import './Projects.css';
 import InstallationVideo from '/images/installation video 2024_07_03.mp4';
 import InstallationVideoThumbnail from '/images/Screenshot 2024-07-04 at 10.57.35 AM.png';
@@ -262,7 +262,7 @@ const Projects: React.FC = () => {
               modules={[Pagination, Navigation]}
               spaceBetween={10}
               pagination={{ clickable: true }}
-              slidesPerView={1.2}
+              slidesPerView={1.25}
               centeredSlides={true}
               navigation={{
                 nextEl: '.swiper-button-next',
@@ -395,6 +395,7 @@ const Projects: React.FC = () => {
               <source src={InstallationVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <div className='installation-text'>
             <p>Garden Lofts are delivered by truck and craned into place. <br />
               They are supported on eight screw piles to minimize site <br /> impact
               and serviced through a shallow utility trench from the house. <br />
@@ -403,6 +404,7 @@ const Projects: React.FC = () => {
               The deck, stairs and ramps are constructed after installation <br />
               and the landscaping is completed
             </p>
+            </div>
           </div>
         </div>
       </section>

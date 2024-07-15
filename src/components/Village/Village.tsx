@@ -269,7 +269,7 @@ function Village() {
         <div className="village-content">
           <div className="sec1">
             <div className="sec1-words">
-              <h3>
+              <h2>
               {" "}
                 <br/>
                 <br/>
@@ -277,7 +277,7 @@ function Village() {
                 rural
                 <br />
                 communities with limited <br /> demand for supportive housing
-              </h3>
+              </h2>
               <button  className="button-village-cost call-us" onClick={() => handleNavigate('/phone-call')}>Call Us</button>
             </div>
             <div className="sec1image">
@@ -295,10 +295,10 @@ function Village() {
             <button  className="button-village-cost call-us" onClick={() => handleNavigate('/phone-call')}>Call Us</button>
             </div>
 
-          <h2 className="dev-gl">
+          <h1 className="dev-gl">
             <br />
-            Garden Loft Village Projects in Development
-          </h2>
+            Garden Loft Village Projects <br/>in Development
+          </h1>
           <h3>
             We are currently working on <br /> village projects in Calgary,{" "}
             <br /> southern Alberta, and <br /> central British Columbia

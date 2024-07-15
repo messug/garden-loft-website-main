@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.safety-content {
+  margin-top: 2rem;
+}
+
 #support-features h1 {
   font-size: 22px;
   font-weight: 400;
@@ -65,7 +69,8 @@
   font-size: 22px;
   font-weight: 400;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
+  line-height: 1.7;
 }
 
 .sign {
@@ -94,10 +99,10 @@
     width: 70vw;
   }
 
-  #support-features h1.ideal {
+  /* #support-features h1.ideal {
     font-size: 1.2rem;
     font-weight: 400;
-  }
+  } */
 
   .button-safety {
     padding: 1.5rem 5rem;
@@ -110,7 +115,9 @@
   }
 
   #support-features .samantha p {
-    max-width: 20vw;
+    padding: 0 10rem;
+    line-height: 2.5rem;
+    margin-top: 1rem;
   }
   .sign {
     margin-left: 10rem;
@@ -133,12 +140,15 @@
     font-size: 1.1rem;
   }
 
-  #support-features h1.ideal {
+  /* #support-features h1.ideal {
     font-size: 1.2rem;
     font-weight: 400;
-  }
+  } */
   #support-features .samantha p {
-    max-width: 20vw;
+    padding: 0 30rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+
   }
   .sign {
     margin-left: 20rem;

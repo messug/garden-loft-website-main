@@ -28,13 +28,11 @@ import projectImage16 from '../../assets/images/about 7i.jpg';
 import projectImage17 from '../../assets/images/about 7j.jpg';
 import projectImage18 from '../../assets/images/about 8a.jpg';
 import projectImage19 from '../../assets/images/about 8b.jpg';
-import projectImage10 from '../../assets/images/about 8f.jpg';
-import projectImage12 from '../../assets/images/about 8g.jpg';
+import projectImage10 from '/images/about 8f_8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
 import project1 from '../../assets/images/Prototype 1.jpg';
 import project2 from '../../assets/images/Prototype 2.jpg';
-import project3 from '../../assets/images/Prototype 3.jpg';
-import project4 from '../../assets/images/Prototype 3a.jpg';
+import project3 from '/images/Prototype 3_3a.jpg';
 import project5 from '../../assets/images/Prototype 6.jpg';
 import project6 from '../../assets/images/Prototype 8_12.jpg';
 import project7 from '../../assets/images/Prototype 9_10.jpg';
@@ -156,7 +154,7 @@ const About = () => {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
-        slidesPerView={1.2}
+        slidesPerView={1.25}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '20px' }}
@@ -202,7 +200,7 @@ const About = () => {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
-        slidesPerView={1.2}
+        slidesPerView={1.25}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '20px' }}
@@ -215,6 +213,7 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
+
               {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
                   <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
@@ -224,6 +223,7 @@ const About = () => {
                       className="research-image" 
                       style={index === 0 ? { border: '0.5px solid black' } : {}}
                     />
+
                   </div>
                 </SwiperSlide>
               ))}
@@ -254,7 +254,7 @@ const About = () => {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
-        slidesPerView={1.2}
+        slidesPerView={1.25}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '20px' }}
@@ -267,7 +267,7 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
-              {[project1,project2, project3,project4, project5, project6,project7,project8].map((image, index) => (
+              {[project1,project2, project3, project5, project6,project7,project8].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
@@ -300,7 +300,7 @@ const About = () => {
           </div>
         </div>
         <div className="btn-content">
-          <button className="button-about" onClick={() => handleNavigate('learn-more#award')}>Learn more about <br />our award
+          <button className="button-about" onClick={() => handleNavigate('/learn-more#award')}>Learn more about <br />our award
           </button>
 
         </div>
@@ -315,8 +315,8 @@ const About = () => {
         <img src={ThinAirLabs} alt="Thin Air Labs Logo" />
       </a>
 
-      <h6>
-      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> </h6>
+      <h5>
+      <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> </h5>
       <p>
       Thin Air Labs is a <br />
       Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
