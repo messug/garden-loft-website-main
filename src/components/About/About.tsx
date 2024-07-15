@@ -28,13 +28,11 @@ import projectImage16 from '../../assets/images/about 7i.jpg';
 import projectImage17 from '../../assets/images/about 7j.jpg';
 import projectImage18 from '../../assets/images/about 8a.jpg';
 import projectImage19 from '../../assets/images/about 8b.jpg';
-import projectImage10 from '../../assets/images/about 8f.jpg';
-import projectImage12 from '../../assets/images/about 8g.jpg';
+import projectImage10 from '/images/about 8f_8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
 import project1 from '../../assets/images/Prototype 1.jpg';
 import project2 from '../../assets/images/Prototype 2.jpg';
-import project3 from '../../assets/images/Prototype 3.jpg';
-import project4 from '../../assets/images/Prototype 3a.jpg';
+import project3 from '/images/Prototype 3_3a.jpg';
 import project5 from '../../assets/images/Prototype 6.jpg';
 import project6 from '../../assets/images/Prototype 8_12.jpg';
 import project7 from '../../assets/images/Prototype 9_10.jpg';
@@ -215,10 +213,10 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
-              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
+              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage13,projectImage18,projectImage19].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
-                    <img src={image} alt={`Project ${index + 1}`} className="research-image" />
+                    <img  src={image} alt={`Project ${index + 1}`} className="research-image" />
                   </div>
                 </SwiperSlide>
               ))}
@@ -262,7 +260,7 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
-              {[project1,project2, project3,project4, project5, project6,project7,project8].map((image, index) => (
+              {[project1,project2, project3, project5, project6,project7,project8].map((image, index) => (
                 <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
                     <img src={image} alt={`Project ${index + 1}`} className="research-image" />
