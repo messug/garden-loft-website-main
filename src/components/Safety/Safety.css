@@ -110,7 +110,9 @@
   }
 
   #support-features .samantha p {
-    max-width: 20vw;
+    padding: 0 10rem;
+    line-height: 2.5rem;
+    margin-top: 1rem;
   }
   .sign {
     margin-left: 10rem;
@@ -138,7 +140,9 @@
     font-weight: 400;
   } */
   #support-features .samantha p {
-    max-width: 20vw;
+    padding: 0 20rem;
+    margin-top: 2rem;
+
   }
   .sign {
     margin-left: 20rem;
