@@ -185,7 +185,7 @@ Calgary</p>
           allowFullScreen
           className='video-embed'
         ></iframe>
-        <p>Watch the award video <br/>prepared by the City of Calgary</p>
+        
         </div>
         </section>
 <div className='compare-costsL'>
