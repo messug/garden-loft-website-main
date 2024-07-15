@@ -2,38 +2,35 @@ import { useState } from 'react';
 import './FAQ.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
-// import GLCost from '../../assets/images/gl-cost.png';
 
 const FAQ = () => {
-    const [openQuestion, setOpenQuestion] =useState<string | null>(null); useState(null);
+    const [openQuestion, setOpenQuestion] = useState<string>('general1');
 
-  const toggleQuestion = (question: string | null) => {
-    setOpenQuestion(prevQuestion => (prevQuestion === question ? null : question));
-  };
+    const toggleQuestion = (question: string) => {
+        setOpenQuestion(prevQuestion => (prevQuestion === question ? null : question));
+    };
 
-  return (
-    <>
-      <Navbar />
-      <div className='navbarBackground'></div>
-      <section>
-        <div id="faq">
-          {/* <img src={GLCost} alt="GL-Cost Image" /> */}
-          <div className="safety-content">
-            <h1>Frequently Asked Questions</h1>
-          </div>
-          <div className="faq-content">
-            <div className="faq-item">
-              {/* <h2>General</h2> */}
-              <div className="faq-section">
-                <h3 onClick={() => toggleQuestion('general1')}>
-                  Where are Garden Lofts built?
-                  <span className={`arrow ${openQuestion === 'general1' ? 'down' : 'right'}`}></span>
-                </h3>
-                {openQuestion === 'general1' && (
-                  <p>
-                    Garden Lofts are constructed at our fabrication facility in southeast Calgary. When the preparatory site work has been completed in your backyard, we deliver and install your Garden Loft with a truck and/or crane. After delivery the unit is hooked up and the landscaping finished off.
-                  </p>
-                )}
+    return (
+        <>
+            <Navbar />
+            <div className='navbarBackground'></div>
+            <section>
+                <div id="faq">
+                    <div className="safety-content">
+                        <h1>Frequently Asked Questions</h1>
+                    </div>
+                    <div className="faq-content">
+                        <div className="faq-item">
+                            <div className="faq-section">
+                                <h3 onClick={() => toggleQuestion('general1')}>
+                                    Where are Garden Lofts built?
+                                    <span className={`arrow ${openQuestion === 'general1' ? 'down' : 'right'}`}></span>
+                                </h3>
+                                {openQuestion === 'general1' && (
+                                    <p>
+                                        Garden Lofts are constructed at our fabrication facility in southeast Calgary. When the preparatory site work has been completed in your backyard, we deliver and install your Garden Loft with a truck and/or crane. After delivery the unit is hooked up and the landscaping finished off.
+                                    </p>
+                                )}
                 <h3 onClick={() => toggleQuestion('general2')}>
                   Is Garden Loft wheelchair accessible?
                   <span className={`arrow ${openQuestion === 'general2' ? 'down' : 'right'}`}></span>
