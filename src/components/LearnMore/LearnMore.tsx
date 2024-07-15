@@ -220,7 +220,7 @@ Calgary</p>
         <p>We can help you sell your Garden Loft by listing it on our resale page</p>
         </div>
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-buttonbutton"   onClick={() => handleNavigate('/reselling')}>View <br/>our current <br />inventory resale <br />Garden Lofts</button>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/reselling')}>View <br/>our current <br />inventory of resale <br />Garden Lofts</button>
       </div>
 <div id='zoning'>
         <div className='zoningL' id="new-zoning-rules">
