@@ -14,7 +14,7 @@ const Carousel: React.FC = () => {
         modules={[Pagination]}
         spaceBetween={10}
         pagination={{ clickable: true }}
-        slidesPerView={1.2}
+        slidesPerView={1.25}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '30px' }}

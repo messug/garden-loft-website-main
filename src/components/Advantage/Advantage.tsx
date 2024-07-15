@@ -32,7 +32,7 @@ const Advantage: React.FC = () => {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
-        slidesPerView={1.2}
+        slidesPerView={1.25}
         centeredSlides={true}
         loop={true}
         style={{ paddingBottom: '0px' }}

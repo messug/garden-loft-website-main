@@ -262,7 +262,7 @@ const Projects: React.FC = () => {
               modules={[Pagination, Navigation]}
               spaceBetween={10}
               pagination={{ clickable: true }}
-              slidesPerView={1.2}
+              slidesPerView={1.25}
               centeredSlides={true}
               navigation={{
                 nextEl: '.swiper-button-next',
