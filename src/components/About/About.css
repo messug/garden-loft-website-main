@@ -515,14 +515,11 @@
 
   .hero-about-content {
     position: absolute;
-    bottom: -20%;
+    bottom: 70%;
     left: 74%;
     transform: translate(-50%, -50%);
-    color: white;
-
-    text-align: center;
-
-    line-height: 1.9;
+    
+   
   }
 
   .hero-about-content h1 {
