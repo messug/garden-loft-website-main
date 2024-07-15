@@ -213,10 +213,17 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
-              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage13,projectImage18,projectImage19].map((image, index) => (
-                <SwiperSlide key={index}>
+
+              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
+                  <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
-                    <img  src={image} alt={`Project ${index + 1}`} className="research-image" />
+                    <img 
+                      src={image} 
+                      alt={`Project ${index + 1}`} 
+                      className="research-image" 
+                      style={index === 0 ? { border: '0.5px solid black' } : {}}
+                    />
+
                   </div>
                 </SwiperSlide>
               ))}
