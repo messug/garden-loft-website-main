@@ -92,7 +92,8 @@ Calgary</p>
           modules={[Pagination, Navigation]}
           spaceBetween={10}
           pagination={{ clickable: true }}
-          slidesPerView={1.2}
+          
+          slidesPerView={1.4}
           centeredSlides={true}
           navigation={{
             nextEl: '.swiper-button-next1',
@@ -111,7 +112,7 @@ Calgary</p>
         >
           <SwiperSlide>
             <div className="support-feature-box" id="safety-support">
-              <h3>General Features</h3>
+              <h3>General </h3>
               <ul>
                 <li>Conforms to Alberta <br/>small care home<br/> standards</li>
                 <li>Wheelchair accessible<br/> throughout</li>
@@ -124,7 +125,7 @@ Calgary</p>
           </SwiperSlide>
           <SwiperSlide>
             <div className="support-feature-box" id="bathroom">
-              <h3>Bathroom Features</h3>
+              <h3>Bathroom</h3>
               <ul>
                 <li>Zero-step shower with <br/>fall-safe compliant<br/> flooring</li>
                 <li>Attendant accessible <br/>shower accommodates <br/>optional safety chair</li>
@@ -136,7 +137,7 @@ Calgary</p>
           </SwiperSlide>
           <SwiperSlide>
             <div className="support-feature-box" id="digital">
-              <h3>Digital Features</h3>
+              <h3>Digital</h3>
               <ul>
                 <li>‘Just for us’ community<br/> and activity platform with <br/>caregiver access</li>
                 <li>Integrated smart-home<br/> digital assistant with<br/> caregiver access and <br/>alerts (in development)</li>
@@ -146,7 +147,7 @@ Calgary</p>
           </SwiperSlide>
           <SwiperSlide>
             <div className="support-feature-box" id="kitchen">
-              <h3>Kitchen Features</h3>
+              <h3>Kitchen</h3>
               <ul>
                 <li>Easy-reach kitchen<br/> storage</li>
                 <li>Accessible oven/<br/>microwave</li>
@@ -157,7 +158,7 @@ Calgary</p>
           </SwiperSlide>
           <SwiperSlide>
             <div className="support-feature-box" id="bedroom">
-              <h3>Bedroom Features</h3>
+              <h3>Bedroom </h3>
               <ul>
                 <li>Safety night-lighting in<br/> bedroom</li>
                 <li>Easy-reach bedroom <br/>storage</li>
@@ -166,8 +167,8 @@ Calgary</p>
               </ul>
             </div>
           </SwiperSlide>
-          <div className="swiper-button-prev"></div>
-          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev1"></div>
+          <div className="swiper-button-next1"></div>
         </Swiper>
         <section id="award">
 <div className='award-sectionL' >
