@@ -75,7 +75,7 @@ const About = () => {
           <img src={AtriumImage1} alt="Atrium House Image 1" />
           <div className="hero-about-content">
           <h1 className="hero-about-header">Garden Loft </h1>
-              <p className='mobile-para'> we are architects,<br/> builders,  
+          <p className='mobile-para'> we are architects,<br/> builders,  
               and <br />software developers</p>
         <p className='desktop-para'>  we are <br />architects, <br />builders,  
         and <br /> software developers </p>
@@ -94,7 +94,7 @@ const About = () => {
          
           <div className='team-content'>
             <img src={Carina} alt="Carina van Olm" />
-            <h1>Carina van Olm <br />Founder + Director</h1>
+            <h1>Carina Van Olm <br />Founder + Director</h1>
             <p>Carina has a background in small business operations and interior design. She leads the Garden Loft Executive Team and is responsible for business management and interior design</p>
           </div>
           <div className='team-content'>
@@ -279,17 +279,17 @@ const About = () => {
             <div className="research-img">
           {/* <img src={AtriumImage7} alt="prototype" /> */}
           <video rel="noopener noreferrer" autoPlay playsInline controls poster={ProtypeVideoPoster}>
-          <source src={ProtypeVideo}type="video/mp4" />
+          <source src={ProtypeVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="btn-content">
           <button className="button-about" onClick={() => handleNavigate('/reselling')}>Learn more  about  <br />our prototype
           </button>
-
-        </div>
+          </div>
+         
          <div className='research-indent'>
-          
-            <p>In 2022 and 2023, five  production Garden Lofts <br /> were prototyped for  backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award</p>
+           <p > In 2022 and 2023, five  production Garden Lofts <br /> were prototyped for backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award 
+           </p>
           </div>
         </div>
         <div className="btn-content">
@@ -321,7 +321,7 @@ const About = () => {
         <img src={BrendaStrafford} alt="Brenda Strafford Logo" />
       </a>
   <h5>
-      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford </a> </h5>
+      <a className="inline-link" href="https://thebsf.ca/about-us.html" target="_blank" rel="noopener noreferrer">Brenda Strafford Foundation </a> </h5>
       <p>Brenda Strafford Foundation <br />is a Calgary-based registered <br /> Canadian Charitable <br /> Organization whose core <br /> business is senior’s care</p>
 
 
