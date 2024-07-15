@@ -4,11 +4,12 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 const FAQ = () => {
-    const [openQuestion, setOpenQuestion] = useState<string>('general1');
+    const [openQuestion, setOpenQuestion] = useState<string| null>('general1');
 
     const toggleQuestion = (question: string) => {
         setOpenQuestion(prevQuestion => (prevQuestion === question ? null : question));
     };
+
 
     return (
         <>
