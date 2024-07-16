@@ -65,6 +65,10 @@
   margin-bottom: 2rem;
 }
 
+.quote-desktop {
+  display: none;
+}
+
 .section-title p {
   font-size: 22px;
   padding: 0 1.5rem;
@@ -383,6 +387,15 @@
   #quote-sign {
     margin-right: 20rem;
   }
+
+  .quote-mobile {
+    display: none;
+  }
+  .quote-desktop {
+    display: block;
+    padding: 0 35rem;
+  }
+
   .elizabeth-image {
     max-width: 400px;
     height: auto;
