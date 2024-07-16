@@ -57,10 +57,23 @@ const LearnMore: React.FC = () => {
       </section>
 
       <section className="learn-more-section" id="learn-more">
-      <div id='safety-support'>
+      <div id='safety-support' >
+      <div className='sec1'>
+        <div className='sec1-words'>
+      <h1 className='safety-features'>Garden Loft's Safety <br/>and Support Features</h1>
+        <p className="section-title">Our safety and support features<br /> enable seniors and others<br /> with  differing  abilities<br /> to live safely, and with<br /> more independence, dignity,<br /> and quality of life</p>
+        </div>
+        <div className='sec1image'>
+        <img src={LM2} alt="safety-features" className='award-image'/>
+        </div>
+</div>
+        <div id='safety-support' className='sec2'>
+       
       <h1 className='safety-features'>Garden Loft's Safety <br/>and Support Features</h1>
         <p className="section-title">Our safety and support features enable seniors <br />and others with  differing  abilities to live safely, and with more independence, <br />dignity, and quality of life</p>
         <img src={LM2} alt="safety-features" className='award-image'/>
+        </div>
+        </div>
         <div className='quote'>
           <em>
         <p>“The Garden Loft team<br/>
@@ -84,10 +97,10 @@ Accelerator Professorship in Law<br/>
 & Disability Policy,<br/>
 Faculty of Law, University of<br/>
 Calgary</p>
-</div>
+
 </div>
         {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
-        <h1 className='safety-features'>Our 22 safety features</h1>
+        <h1 className='safety-features'>Our 22 Safety Features</h1>
         <Swiper
           modules={[Pagination, Navigation]}
           spaceBetween={10}
@@ -172,9 +185,23 @@ Calgary</p>
         </Swiper>
         <section id="award">
 <div className='award-sectionL' >
+  <div className='sec1'>
+    <div className='sec1-words'>
+        <h1 className="section-title" >Our Awards</h1>
+       
+        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
+        </div>
+        <div className='sec1image'>
+        <img src={LM3} alt="Award" className="award-image"/>
+        </div>
+        </div>
+        <div className='sec2'>
+   
         <h1 className="section-title" >Our Awards</h1>
         <img src={LM3} alt="Award" className="award-image"/>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
+       
+        </div>
         <iframe
           width="100%"
           height="515"
@@ -185,7 +212,7 @@ Calgary</p>
           allowFullScreen
           className='video-embed'
         ></iframe>
-        
+       
         </div>
         </section>
 <div className='compare-costsL'>
@@ -196,13 +223,24 @@ Calgary</p>
           Your browser does not support the video tag.
         </video>
         {/* <img src={JohnLM} alt="JohnVideo" className='award-image'/> */}
-        <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p>
+        {/* <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p> */}
         </div>
 <div className='financeL' id="finance-options">
+<div className='sec1'>
+  <div className='sec1-words'>
+        <h1 className="section-title" id="finance-options">Financing Options</h1>
+       
+        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
+        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
+        </div>
+        <div className='sec1image'> <img src={LM4} alt="Financing Options" className="financing-image"/></div>
+        </div>
+  <div className='sec2'>
         <h1 className="section-title" id="finance-options">Financing Options</h1>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
         <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
+        </div>
         <p>When combined with a Home Equity  <br /> Line of Credit or other mortgage product, up <br />to 100%  of  the purchase could be financed</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
@@ -225,10 +263,20 @@ Calgary</p>
       </div>
 <div id='zoning'>
         <div className='zoningL' id="new-zoning-rules">
-
+        <div className='sec1'>
+          <div className='sec1-words'>
+        <h1 className="section-title" >New Zoning Rules</h1>
+        
+        <p>As of 2024, the City of Calgary’s <br/>blanket rezoning for secondary  <br/>suites has made it significantly  <br/>easier to obtain approval for <br/> a Garden loft in almost every  <br/>residential neighborhood  <br/>in the city</p>
+        
+        </div>
+        <div className='sec1image'><img src={LM6} alt="Zoning" className="zoning-image"/></div>
+        </div>
+<div className='sec2'>
         <h1 className="section-title" >New Zoning Rules</h1>
         <img src={LM6} alt="Zoning" className="zoning-image"/>
         <p>As of 2024, the City of Calgary’s <br/>blanket rezoning for secondary  <br/>suites has made it significantly  <br/>easier to obtain approval for <br/> a Garden loft in almost every  <br/>residential neighborhood  <br/>in the city</p>
+        </div>
         <p>Garden Lofts are also allowed  <br/>in most zoning districts in  <br/>Edmonton as well as in many <br/> other towns and cities in <br/> Canada </p>
         <p>We take care of the city  <br/>approval process  <br/>and obtaining the required  <br/>permits to place a Garden Loft <br/> on your property </p>
         <p>Our complimentary feasibility  <br/>study includes an initial <br/> evaluation of the zoning bylaw <br/> rules for your property</p>
