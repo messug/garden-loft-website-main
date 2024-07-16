@@ -335,44 +335,39 @@ const LearnMore: React.FC = () => {
           <div className="swiper-button-next1"></div>
         </Swiper>
         <section id="award">
-          <div className="award-sectionL">
-            <div className="sec1">
-              <div className="sec1-words">
-                <h1 className="section-title">Our Awards</h1>
 
-                <p>
-                  Garden Loft received the
-                  <br /> 2023 Calgary Award for
-                  <br /> Accessibility at a ceremony <br />
-                  on June 14, 2023
-                </p>
-              </div>
-              <div className="sec1image">
-                <img src={LM3} alt="Award" className="award-image" />
-              </div>
-            </div>
-            <div className="sec2">
-              <h1 className="section-title">Our Awards</h1>
-              <img src={LM3} alt="Award" className="award-image" />
-              <p>
-                Garden Loft received the
-                <br /> 2023 Calgary Award for
-                <br /> Accessibility at a ceremony <br />
-                on June 14, 2023
-              </p>
-            </div>
-            <div id="award-test"></div>
-            <iframe
-              width="100%"
-              height="515"
-              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
-              title="YouTube video player"
-              frameBorder="0"
-              // allow="autoplay; encrypted-media"
-              allowFullScreen
-              className="video-embed"
-            ></iframe>
-          </div>
+<div className='award-sectionL' >
+  <div className='sec1'>
+    <div className='sec1-words'>
+        <h1 className="section-title" >Our Awards</h1>
+       
+        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
+        </div>
+        <div className='sec1image'>
+        <img src={LM3} alt="Award" className="award-image"/>
+        </div>
+        </div>
+        <div className='sec2'>
+   
+        <h1 className="section-title" >Our Awards</h1>
+        <img src={LM3} alt="Award" className="award-image"/>
+        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
+       
+        </div>
+      
+        <iframe
+          width="100%"
+          height="515"
+          src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
+          title="YouTube video player"
+          frameBorder="0"
+          // allow="autoplay; encrypted-media"
+          allowFullScreen
+          className='video-embed'
+        ></iframe>
+       
+        </div>
+
         </section>
         <div className="compare-costsL">
           <h1 className="section-title" id="compare-costs">
@@ -398,13 +393,27 @@ const LearnMore: React.FC = () => {
           {/* <img src={JohnLM} alt="JohnVideo" className='award-image'/> */}
           {/* <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p> */}
         </div>
-        <div id="compare-costs-test"></div>
-        <div className="financeL" id="finance-options">
-          <div className="sec1">
-            <div className="sec1-words">
-              <h1 className="section-title" id="finance-options">
-                Financing Options
-              </h1>
+
+       
+<div className='financeL' id="finance-options">
+<div className='sec1'>
+  <div className='sec1-words' >
+        <h1 className="section-title" >Financing Options</h1>
+       
+        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
+        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
+        </div>
+        <div className='sec1image'> <img src={LM4} alt="Financing Options" className="financing-image"/></div>
+        </div>
+  <div className='sec2'>
+        <h1 className="section-title" id="finance-options">Financing Options</h1>
+        <img src={LM4} alt="Financing Options" className="financing-image"/>
+        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
+        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
+        </div>
+        <p>When combined with a Home Equity  <br /> Line of Credit or other mortgage product, up <br />to 100%  of  the purchase could be financed</p>
+        <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
+
 
               <p>
                 Garden Lofts are registered <br />
@@ -466,6 +475,12 @@ const LearnMore: React.FC = () => {
             specialist
           </button>
         </div>
+
+      
+        <div style={{ textAlign: 'center', marginTop: '20px' }}>
+        <button className="report-buttonbutton"   onClick={() => handleNavigate('/morgage')}>Contact<br /> our   mortgage <br />specialist</button>
+      </div>
+
 
         <div className="resellingL" id="reselling">
           <h1 className="section-title">Reselling your Garden Loft</h1>
