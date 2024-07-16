@@ -370,7 +370,7 @@
     font-size: 7.5rem;
     position: absolute;
     bottom: 50%;
-    left: 40%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
@@ -378,11 +378,23 @@
     line-height: 5rem;
   }
 
+
+
+  .hero-about-content h1 {
+    font-size: 8rem;
+    text-align: center;
+    line-height: 8rem;
+    margin-top: 6rem;
+    margin-left: -10rem;
+  }
+
   .hero-about-content p {
-    text-align: right;
-    font-size: 43px;
-    font-weight: 640;
+    font-size: 3rem;
     line-height: 3rem;
+    text-align: center;
+    margin-left: -20rem;
+    margin-top: -6rem;
+    padding-top: 2rem;
   }
 
   .team-content img {
@@ -537,6 +549,7 @@
   .about-content p {
     padding: 20px;
     font-size: 33px;
+    
   }
 
   .team-content {
@@ -581,9 +594,10 @@
 
   .hero-about-content p {
     font-size: 3rem;
-    line-height: 2.3rem;
+    line-height: 3rem;
     text-align: center;
     margin-left: -20rem;
+    margin-top: -6rem;
     padding-top: 2rem;
   }
 
