@@ -180,8 +180,8 @@ Calgary</p>
               </ul>
             </div>
           </SwiperSlide>
-          <div className="swiper-button-prev"></div>
-          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev1"></div>
+          <div className="swiper-button-next1"></div>
         </Swiper>
         <section id="award">
 <div className='award-sectionL' >
