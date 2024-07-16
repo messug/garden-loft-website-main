@@ -37,7 +37,7 @@ const Costs: React.FC = () => {
       </div>
       <div className="costs-content">
         <button className="button-costs ">
-          <Link to="/learn-more#compare-costs">
+          <Link to="/learn-more#compare-costs-test">
             Compare <br /> our costs
           </Link>
         </button>
@@ -46,6 +46,11 @@ const Costs: React.FC = () => {
 <h1>Finance Options</h1>
 <p>The purchase of a<br/>Garden Loft backyard suite can <br/>be financed in multiple ways</p>
 <div className="costs-content">
+        <button className="button-costs ">
+          <Link to="/learn-more#finance-test">
+            Learn more <br /> about financing
+          </Link>
+        </button>
         <button className="button-costs desktop-cost-button-finance">
           <Link to="/learn-more#finance-options">
             Learn more <br /> about financing

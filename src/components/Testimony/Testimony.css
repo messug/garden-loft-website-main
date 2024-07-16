@@ -84,9 +84,8 @@ a {
 }
 
 @media (min-width: 1024px) {
-
-  .testimony-title{
-    display:none;
+  .testimony-title {
+    display: none;
   }
   .desktop-testimony {
     display: flex;
@@ -100,7 +99,7 @@ a {
   }
 
   .desktop-testimony2 {
-margin-top: 1rem;
+    margin-top: 1rem;
   }
 
   .desktop-image-testimony img {
@@ -123,19 +122,26 @@ margin-top: 1rem;
     text-align: center;
   }
 
+  .testimony-title-desktop {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+
   .desktop-testimony h1 {
     font-size: 3rem;
     line-height: 4.5rem;
     font-weight: 700;
     text-align: center;
   }
+
   .desktop-description-cost h2 {
     margin-top: 1rem;
-  font-size: 2rem;
-  line-height: 3.5rem;
-  font-weight: 200;
-  text-align: center;
-}
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
   .desktop-testimony-button {
     border: none;
     margin-top: 2rem;

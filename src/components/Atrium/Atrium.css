@@ -7,6 +7,10 @@
   width: 100vw;
 }
 
+h2, h3 {
+  color: black;
+}
+
 .hero-atrium-img {
   /* height: 120vh; */
   object-fit: cover;
@@ -251,6 +255,7 @@
     overflow: hidden;
   }
 
+
   .hero-atrium-img img {
     position: absolute; /* Fix the image within the container */
     top: 0;
@@ -266,13 +271,40 @@
     margin-top: 10rem;
   }
 
+  .atrium-content h4 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 1.2rem;
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+  }
+
   #atrium img {
     width: 50vw;
   }
 
   .atrium-content h3 {
-    font-weight: 300;
+      /* font-size: 30px;
+    font-weight: 500;
+    width: 25vw; */
     width: 25vw;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;  
+  }
+
+  .atrium-content h5 {
+    width: 20vw;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;  
   }
   .sec2 {
     display: none;
@@ -289,22 +321,66 @@
   .environment {
     margin-top: 1rem;
   }
-  .sec1 .sec1-words {
+  #atrium .sec1 .sec1-words {
+    margin-top: 0rem;
   }
 
   #atrium .logoDiv img {
-    width: 20vw;
+    width: 19vw;
   }
 
   .plus-sign {
-    margin: 4rem;
+    margin: 0rem;
+    font-size: 3rem;
   }
   .foundation-box {
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 
   .center-words h3 {
     margin-left: 36%;
+    margin-top: 3rem;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .sec1-words .para-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+  }
+  .sec1-words .box-1 {
+margin-top: 10rem;
+  }
+  .sec1-words .box-2 {
+margin-top: 8rem;
+padding: 0 1.4rem
+  }
+  .sec1-words .box-3 {
+margin-top: 12rem;
+  }
+  .sec1-words .box-4 {
+margin-top: 2rem;
+  }
+  .sec1-words .box-5 {
+margin-top: 10rem;
+  }
+
+  .sec1-words .box-6 {
+    margin-top: 12rem;
+    padding: 0 1.2rem
+  }
+  .sec1-words .box-7 {
+    margin-top: 10rem;
+  }
+  .sec1-words .box-8 {
+    margin-top: 10rem;
+  }
+  .sec1-words .box-9 {
+    margin-top: 8rem;
+  }
+  .sec1-words .box-10 {
+    margin-top: 2rem;
   }
 }
