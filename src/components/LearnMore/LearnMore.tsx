@@ -202,7 +202,7 @@ Calgary</p>
         <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
        
         </div>
-        <div id='award-test'></div>
+      
         <iframe
           width="100%"
           height="515"
@@ -226,11 +226,11 @@ Calgary</p>
         {/* <img src={JohnLM} alt="JohnVideo" className='award-image'/> */}
         {/* <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p> */}
         </div>
-        <div id="compare-costs-test"></div>
+       
 <div className='financeL' id="finance-options">
 <div className='sec1'>
-  <div className='sec1-words'>
-        <h1 className="section-title" id="finance-options">Financing Options</h1>
+  <div className='sec1-words' >
+        <h1 className="section-title" >Financing Options</h1>
        
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
         <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
@@ -247,7 +247,7 @@ Calgary</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
         </div>
-        <div id='finance-test'></div>
+      
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
         <button className="report-buttonbutton"   onClick={() => handleNavigate('/morgage')}>Contact<br /> our   mortgage <br />specialist</button>
       </div>

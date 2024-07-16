@@ -1,20 +1,20 @@
-
-
-
 // import GLLogo from "../../assets/gl-john-logo.png";
 // import { Link, useLocation } from 'react-router-dom';
 // import "./Footer.css";
 // import { useEffect } from 'react';
 
-
 // const scrollToTop = () => {
 //   window.scrollTo(0, 0)
 // }
 
+
+
 // const scrollToSection = (id: string) => {
 //   const element = document.getElementById(id);
 //   if (element) {
-//     element.scrollIntoView({ behavior: "smooth" });
+//     const yOffset = -70; // Adjust this value according to your fixed header height
+//     const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+//     window.scrollTo({ top: y, behavior: 'smooth' });
 //   }
 // };
 
@@ -24,7 +24,9 @@
 //   useEffect(() => {
 //     const hash = location.hash;
 //     if (hash) {
-//       scrollToSection(hash.substring(1));
+//       setTimeout(() => {
+//         scrollToSection(hash.substring(1));
+//       }, 300); // Add a slight delay to ensure the section is rendered
 //     }
 //   }, [location]);
 
@@ -34,16 +36,16 @@
 //         <div className="footer-content">
 //           <div className="footer-column">
 //           <h2>
-//             <Link to="/"  onClick={() => scrollToSection('')}>Garden Loft Backyard Suites</Link>
+//             <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
 //           </h2>
 //           <h3>
-//             <Link to="/#support-features" onClick={() => scrollToSection('support-features')}>Our Support Features</Link>
+//             <Link to="/learn-more#support-features"  onClick={() => scrollToSection('support-features')}  >Our Support Features</Link>
 //           </h3>
 //           <h3>
 //             <Link to="/#garden-loft-advantage" onClick={() => scrollToSection('garden-loft-advantage')}>The Garden Loft Advantage</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/#award" onClick={() => scrollToSection('award')}>Our 2024 Award</Link>
+//             <Link to="/learn-more#award" >Our 2024 Award</Link>
 //           </h3>
 //           <h3>
 //             <Link to="/#two-units" onClick={() => scrollToSection('two-units')}>Our Units</Link>
@@ -52,41 +54,43 @@
 //             <Link to="/#projects" onClick={() => scrollToSection('projects')}>Our Projects</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
+//             <Link to="/#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/#four-step-process" onClick={() => scrollToSection('four-step-process')}>Our 4 Step Process</Link>
+//             <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/#rules-and-grants" onClick={() => scrollToSection('rules-and-grants')}>Calgary Zoning + Grants</Link>
+//             <Link to="/learn-more#finance-options"  onClick={() => scrollToSection('finance-options')} >Finance Options</Link>
+//           </h3>
+//           <h3>
+//             <Link to="/learn-more#new-zoning-rules"  onClick={scrollToTop} >New Zoning Rules</Link>
 //           </h3>
 //           <h3>
 //             <Link to="/#garden-lofters" onClick={() => scrollToSection('garden-lofters')}>Meet Our Garden Lofters</Link>
+//           </h3>
+//           <h3>
+//             <Link to="/reselling">Reselling Your Garden Loft</Link>
 //           </h3>
 //     </div>
 //      <div className="footer-column">
 //           <h2>
 //             <Link to="/village" onClick={scrollToTop}>Garden Loft Villages</Link>
-       
 //           </h2>
 //           <h2>
 //             <Link to="/atrium"  onClick={scrollToTop}>Atrium House by Garden Loft</Link>
 //           </h2>
-// {/* 
-//           <h2>
-//             <Link to="/about" style={{ textDecoration: "none", color: "#0e0101b8" }} onClick={() => scrollToSection('')}>About</Link>
-//           </h2> */}
-//           <h2><Link onClick={scrollToTop} to="about" >
-//          About
-//         </Link></h2>
+//           <h2><Link to="/about"  onClick={scrollToTop}>About Us</Link></h2>
 //           <h3>
-//             <Link to="/about#our-team" onClick={() => scrollToSection('our-team')}>Our Team</Link>
+//             <Link to="/about#our-team" onClick={scrollToTop}>Our Team</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/about#our-history" onClick={() => scrollToSection('our-history')}>Our History</Link>
+//             <Link to="/about#our-history" onClick={scrollToTop} >Our Professional History</Link>
 //           </h3>
 //           <h3>
-//             <Link to="/about#our-partners" onClick={() => scrollToSection('our-partners')}>Our Partners</Link>
+//             <Link to="/about#research"  onClick={scrollToTop}>Our Research History</Link>
+//           </h3>
+//           <h3>
+//             <Link to="/about#our-partners"  onClick={scrollToTop}>Our Partners</Link>
 //           </h3>
 //           <h2>
 //             <Link to="/learn-more"  onClick={scrollToTop}>Learn More</Link>
@@ -113,6 +117,9 @@
 //               <h3>
 //                 <Link to="/initial" onClick={scrollToTop}>Initial Meeting</Link>
 //               </h3>
+//               <h3>
+//                 <Link to="/morgage" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
+//               </h3>
 //             </div>
 //           </div>
 //         </div>
@@ -121,7 +128,6 @@
 //         <div className="logos">
 //           <div className="logos-title">
 //             <img src={GLLogo} alt="Logos" />
-//             {/* <h1>garden loft</h1> */}
 //           </div>
 //           <div className="address">
 //             <p>
@@ -137,21 +143,21 @@
 // };
 
 // export default Footer;
-
-
 import GLLogo from "../../assets/gl-john-logo.png";
 import { Link, useLocation } from 'react-router-dom';
 import "./Footer.css";
 import { useEffect } from 'react';
 
 const scrollToTop = () => {
-  window.scrollTo(0, 0)
+  window.scrollTo(0, 0);
 }
 
 const scrollToSection = (id: string) => {
   const element = document.getElementById(id);
   if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
+    const yOffset = -70; // Adjust this value according to your fixed header height
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({ top: y, behavior: 'smooth' });
   }
 };
 
@@ -161,7 +167,9 @@ const Footer = () => {
   useEffect(() => {
     const hash = location.hash;
     if (hash) {
-      scrollToSection(hash.substring(1));
+      setTimeout(() => {
+        scrollToSection(hash.substring(1));
+      }, 300); // Add a slight delay to ensure the section is rendered
     }
   }, [location]);
 
@@ -170,69 +178,72 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-column">
-          <h2>
-            <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
-          </h2>
-          <h3>
-            <Link to="/learn-more#support-features"  onClick={() => scrollToSection('support-features')}  >Our Support Features</Link>
-          </h3>
-          <h3>
-            <Link to="/#garden-loft-advantage" onClick={() => scrollToSection('garden-loft-advantage')}>The Garden Loft Advantage</Link>
-          </h3>
-          <h3>
-            <Link to="/learn-more#award" >Our 2024 Award</Link>
-          </h3>
-          <h3>
-            <Link to="/#two-units" onClick={() => scrollToSection('two-units')}>Our Units</Link>
-          </h3>
-          <h3>
-            <Link to="/#projects" onClick={() => scrollToSection('projects')}>Our Projects</Link>
-          </h3>
-          <h3>
-            <Link to="/#installation"  onClick={() => scrollToSection('installation')}  >Our Installation Process</Link>
-          </h3>
-          <h3>
-            <Link to="/learn-more#compare-costs" onClick={() => scrollToSection('compare-costs')}>Compare Our Costs</Link>
-          </h3>
-          <h3>
-            <Link to="/learn-more#finance-options"  onClick={scrollToTop}  >Finance Options</Link>
-          </h3>
-          <h3>
-            <Link to="/learn-more#new-zoning-rules"  onClick={scrollToTop} >New Zoning Rules</Link>
-          </h3>
-          <h3>
-            <Link to="/#garden-lofters" onClick={() => scrollToSection('garden-lofters')}>Meet Our Garden Lofters</Link>
-          </h3>
-          <h3>
-            <Link to="/reselling">Reselling Your Garden Loft</Link>
-          </h3>
-    </div>
-     <div className="footer-column">
-          <h2>
-            <Link to="/village" onClick={scrollToTop}>Garden Loft Villages</Link>
-          </h2>
-          <h2>
-            <Link to="/atrium"  onClick={scrollToTop}>Atrium House by Garden Loft</Link>
-          </h2>
-          <h2><Link to="/about"  onClick={scrollToTop}>About Us</Link></h2>
-          <h3>
-            <Link to="/about#our-team" onClick={scrollToTop}>Our Team</Link>
-          </h3>
-          <h3>
-            <Link to="/about#our-history" onClick={scrollToTop} >Our Professional History</Link>
-          </h3>
-          <h3>
-            <Link to="/about#research"  onClick={scrollToTop}>Our Research History</Link>
-          </h3>
-          <h3>
-            <Link to="/about#our-partners"  onClick={scrollToTop}>Our Partners</Link>
-          </h3>
-          <h2>
-            <Link to="/learn-more"  onClick={scrollToTop}>Learn More</Link>
-          </h2>
-          <h2>
-            <Link to="/faq" onClick={scrollToTop}>FAQ</Link>
-          </h2>
+            <h2>
+              <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
+            </h2>
+            <h3>
+              <Link to="/learn-more#support-features">Our Support Features</Link>
+            </h3>
+            <h3>
+              <Link to="/#garden-loft-advantage">The Garden Loft Advantage</Link>
+            </h3>
+            <h3>
+              <Link to="/learn-more#award">Our 2024 Award</Link>
+            </h3>
+            <h3>
+              <Link to="/#two-units">Our Units</Link>
+            </h3>
+            <h3>
+              <Link to="/#projects">Our Projects</Link>
+            </h3>
+            <h3>
+              <Link to="/#installation">Our Installation Process</Link>
+            </h3>
+            <h3>
+              <Link to="/learn-more#compare-costs">Compare Our Costs</Link>
+            </h3>
+            <h3>
+              <Link to="/learn-more#finance-options"onClick={scrollToTop}>Finance Options</Link>
+            </h3>
+            <h3>
+              <Link to="/learn-more#new-zoning-rules">New Zoning Rules</Link>
+            </h3>
+            <h3>
+              <Link to="/#garden-lofters">Meet Our Garden Lofters</Link>
+            </h3>
+            <h3>
+              <Link to="/reselling">Reselling Your Garden Loft</Link>
+            </h3>
+          </div>
+          <div className="footer-column">
+            <h2>
+              <Link to="/village" onClick={scrollToTop}>Garden Loft Villages</Link>
+            </h2>
+            <h2>
+              <Link to="/atrium" onClick={scrollToTop}>Atrium House by Garden Loft</Link>
+            </h2>
+            <h2>
+              <Link to="/about" onClick={scrollToTop}>About Us</Link>
+            </h2>
+            <h3>
+              <Link to="/about#our-team">Our Team</Link>
+            </h3>
+            <h3>
+              <Link to="/about#our-history">Our Professional History
+              </Link>
+              </h3>
+            <h3>
+              <Link to="/about#research">Our Research History</Link>
+            </h3>
+            <h3>
+              <Link to="/about#our-partners">Our Partners</Link>
+            </h3>
+            <h2>
+              <Link to="/learn-more" onClick={scrollToTop}>Learn More</Link>
+            </h2>
+            <h2>
+              <Link to="/faq" onClick={scrollToTop}>FAQ</Link>
+            </h2>
           </div>
           <div className="footer-column">
             <h2>Request a:</h2>
