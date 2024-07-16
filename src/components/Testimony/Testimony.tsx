@@ -42,10 +42,10 @@ const Testimony: React.FC = () => {
 
       <div className="desktop-testimony">
         <div className="desktop-description-cost">
-        <h1 className="testimony-title-desktop">
-        Meet our <br />
-        Garden Lofters
-      </h1>
+          <h3 className="testimony-title-desktop">
+            Meet our <br />
+            Garden Lofters
+          </h3>
         </div>
         <div className="desktop-image-testimony">
           <video
@@ -61,7 +61,7 @@ const Testimony: React.FC = () => {
         </div>
       </div>
       <div className="desktop-testimony desktop-testimony2">
-      <div className="desktop-description-cost">
+        <div className="desktop-description-cost">
           <h1>Reselling your Garden Loft</h1>
           <h2>
             Garden Lofts can be sold <br />
