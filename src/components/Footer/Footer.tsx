@@ -182,7 +182,7 @@ const Footer = () => {
               <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
             </h2>
             <h3>
-              <Link to="/learn-more#support-features">Our Support Features</Link>
+              <Link to="/learn-more#safety-support">Our Support Features</Link>
             </h3>
             <h3>
               <Link to="/#garden-loft-advantage">The Garden Loft Advantage</Link>
