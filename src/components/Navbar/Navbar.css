@@ -156,7 +156,28 @@
   margin-left: -8px;
 }
 
-@media (max-width: 1223px) {
+
+
+/* Media Queries for Tablet Screens */
+/* @media (min-width: 769px) {
+
+  .menu-web p {
+    margin-top: 5rem;
+    font-size: 1.7rem;
+  }
+
+  .hamburger-menu {
+    transform: scale(2);
+    margin-top: 3rem;
+}
+
+  .logo img {
+    transform: scale(2);
+    margin-top: 3rem;
+}
+} */
+
+@media (min-width: 10px) {
   .menu-web {
     display: none;
     flex-direction: column;
@@ -190,24 +211,6 @@
   .hamburger-menu {
     display: flex;
   }
-}
-
-/* Media Queries for Tablet Screens */
-@media (min-width: 769px) {
-  .menu-web p {
-    margin-top: 5rem;
-    font-size: 1.7rem;
-  }
-
-  .hamburger-menu {
-    transform: scale(2);
-    margin-top: 3rem;
-}
-
-  .logo img {
-    transform: scale(2);
-    margin-top: 3rem;
-}
 }
 
 
