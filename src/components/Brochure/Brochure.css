@@ -73,6 +73,45 @@
 
 .brochure-form p {
   text-align: center;
-  color: green;
+  color: rgb(24, 173, 24);
   font-weight: bold;
+  font-size: medium;
+}
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .brochure-form {
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .brochure-form .name-inputs {
+    display: block;
+  }
+
+  .brochure-form .name-inputs input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .brochure-form button {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .brochure-form {
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .brochure-form .name-inputs input {
+    width: 48%;
+  }
+ 
+
+  .brochure-form button {
+    font-size: 2.5rem;
+  }
 }
