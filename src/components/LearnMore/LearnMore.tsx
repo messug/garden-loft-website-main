@@ -185,7 +185,7 @@ Calgary</p>
           allowFullScreen
           className='video-embed'
         ></iframe>
-        <p>Watch the award video <br/>prepared by the City of Calgary</p>
+        
         </div>
         </section>
 <div className='compare-costsL'>
@@ -203,7 +203,7 @@ Calgary</p>
         <img src={LM4} alt="Financing Options" className="financing-image"/>
         <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
         <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
-        <p>When combined with a Home Equity Line of Credit or other mortgage product, up to 100%  of <br /> the purchase could be<br/> financed</p>
+        <p>When combined with a Home Equity  <br /> Line of Credit or other mortgage product, up <br />to 100%  of  the purchase could be financed</p>
         <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
 
         </div>

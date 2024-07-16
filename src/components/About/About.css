@@ -20,7 +20,7 @@
 
 .hero-about-content {
   position: absolute;
-  top: 66%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: right;
@@ -181,6 +181,7 @@
   margin-bottom: 20px;
   font-size: 24px;
   font-weight: 500;
+ 
 }
 
 .history p,
@@ -215,10 +216,12 @@
   text-indent: 2rem;
 }
 
-.research-indent p {
-  padding: 30px;
-  font-size: 30px;
-  text-indent: 1.5rem;
+.research-indent h1 {
+  padding: 24px;
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
   padding-bottom: 50px;
 }
 
@@ -418,8 +421,8 @@
     margin: 0 auto;
   }
 
- .research-indent p {
-  font-size: 30px;
+ .research-indent h1 {
+  font-size: 27px;
 
  }
 
@@ -512,16 +515,11 @@
 
   .hero-about-content {
     position: absolute;
-    bottom: -20%;
+    bottom: 70%;
     left: 74%;
     transform: translate(-50%, -50%);
-    color: white;
-
-    text-align: center;
-
-    line-height: 1.9;
-  }
-
+}
+ 
   .hero-about-content h1 {
     font-size: 4rem;
     width: 80%;
