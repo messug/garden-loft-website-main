@@ -29,6 +29,7 @@ import projectImage17 from '../../assets/images/about 7j.jpg';
 import projectImage18 from '../../assets/images/about 8a.jpg';
 import projectImage19 from '../../assets/images/about 8b.jpg';
 import projectImage10 from '/images/about 8f_8g.jpg';
+import projectImage12 from '../../assets/images/about 8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
 import project1 from '../../assets/images/Prototype 1.jpg';
 import project2 from '../../assets/images/Prototype 2.jpg';
