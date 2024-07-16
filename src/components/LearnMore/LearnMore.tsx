@@ -64,7 +64,7 @@ const LearnMore: React.FC = () => {
         <p className="section-title">Our safety and support features<br /> enable seniors and others<br /> with  differing  abilities<br /> to live safely, and with<br /> more independence, dignity,<br /> and quality of life</p>
         </div>
         <div className='sec1image'>
-        <img src={LM2} alt="safety-features" className='award-image'/>
+        <img src={LM2} alt="safety-features" className='elizabeth-image'/>
         </div>
 </div>
         <div id='safety-support' className='sec2'>

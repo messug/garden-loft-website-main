@@ -308,6 +308,13 @@
     /* height: 130vh; */
     margin: 20px auto;
   }
+
+  .elizabeth-image {
+    max-width: 300px;
+    height: auto;
+    margin: 20px auto;
+  }
+
   .video-embed {
     width: 100%;
     max-width: 900px;
@@ -376,6 +383,11 @@
 
   #quote-sign {
     margin-right: 20rem;
+  }
+  .elizabeth-image {
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
   }
   .award-image,
   .financing-image,
