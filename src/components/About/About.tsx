@@ -29,6 +29,7 @@ import projectImage17 from '../../assets/images/about 7j.jpg';
 import projectImage18 from '../../assets/images/about 8a.jpg';
 import projectImage19 from '../../assets/images/about 8b.jpg';
 import projectImage10 from '/images/about 8f_8g.jpg';
+import projectImage12 from '../../assets/images/about 8g.jpg';
 import projectImage13 from '../../assets/images/about 8h.jpg';
 import project1 from '../../assets/images/Prototype 1.jpg';
 import project2 from '../../assets/images/Prototype 2.jpg';
@@ -213,10 +214,17 @@ const About = () => {
             spaceBetween: 5,
           },}}
             >
-              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage13,projectImage18,projectImage19].map((image, index) => (
-                <SwiperSlide key={index}>
+
+              {[projectImage1,projectImage2, projectImage3,projectImage10, projectImage12, projectImage13,projectImage18,projectImage19].map((image, index) => (
+                  <SwiperSlide key={index}>
                   <div style={{ textAlign: 'center' }}>
-                    <img  src={image} alt={`Project ${index + 1}`} className="research-image" />
+                    <img 
+                      src={image} 
+                      alt={`Project ${index + 1}`} 
+                      className="research-image" 
+                      style={index === 0 ? { border: '0.5px solid black' } : {}}
+                    />
+
                   </div>
                 </SwiperSlide>
               ))}
@@ -288,8 +296,10 @@ const About = () => {
           </div>
          
          <div className='research-indent'>
-           <p > In 2022 and 2023, five  production Garden Lofts <br /> were prototyped for backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award 
-           </p>
+
+           <h1> In 2022 and 2023, five  production Garden Lofts <br /> were prototyped for backyard clients  in Calgary  <br />and Edmonton. This  version of Garden Loft <br /> received the City of Calgary’s 2023 Accessibility Award 
+           </h1>
+
           </div>
         </div>
         <div className="btn-content">
