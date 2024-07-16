@@ -109,8 +109,8 @@ Calgary</p>
           slidesPerView={1.4}
           centeredSlides={true}
           navigation={{
-            nextEl: '.swiper-button-next1',
-            prevEl: '.swiper-button-prev1',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
           }}
           loop={true}
           style={{ paddingBottom: '4rem' }}
@@ -180,8 +180,8 @@ Calgary</p>
               </ul>
             </div>
           </SwiperSlide>
-          <div className="swiper-button-prev1"></div>
-          <div className="swiper-button-next1"></div>
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
         </Swiper>
         <section id="award">
 <div className='award-sectionL' >
