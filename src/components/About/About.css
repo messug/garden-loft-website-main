@@ -45,7 +45,11 @@
 
 .hero-about-content p {
   font-size: 32px;
+
+  font-weight: 640;
+
   /* font-weight: 640; */
+
   margin-bottom: 0;
   line-height: 2rem;
 }
@@ -56,6 +60,13 @@
 
 .desktop-para {
   display: none;
+
+}
+.hero-about-header p{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
 }
 .hero-about-header p {
   text-align: center;
@@ -153,6 +164,7 @@
   color: #000;
 }
 
+
 .teams,
 .partners,
 .history {
@@ -212,12 +224,14 @@
   text-indent: 2rem;
 }
 
+
 .research-indent h1 {
   padding: 24px;
   color: #000;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
+
   padding-bottom: 50px;
 }
 
@@ -421,6 +435,7 @@
     font-size: 27px;
   }
 
+
   .research-img video {
     object-fit: cover;
     width: 80%;
@@ -435,6 +450,7 @@
   .swiper-button-prev,
   .swiper-button-next {
     display: flex; /* Show on tablet view */
+
   }
 
   .swiper-button-prev {
@@ -609,6 +625,8 @@
     padding: 10px;
     padding-bottom: 10px;
   }
+
+
 
   .research-content p {
     font-size: 22px;
