@@ -46,8 +46,6 @@
 .hero-about-content p {
   font-size: 32px;
 
-  font-weight: 640;
-
   /* font-weight: 640; */
 
   margin-bottom: 0;
@@ -60,13 +58,11 @@
 
 .desktop-para {
   display: none;
-
 }
-.hero-about-header p{
+.hero-about-header p {
   text-align: center;
   justify-content: center;
   align-items: center;
-
 }
 .hero-about-header p {
   text-align: center;
@@ -164,7 +160,6 @@
   color: #000;
 }
 
-
 .teams,
 .partners,
 .history {
@@ -223,7 +218,6 @@
   line-height: 1.6;
   text-indent: 2rem;
 }
-
 
 .research-indent h1 {
   padding: 24px;
@@ -388,8 +382,6 @@
     line-height: 5rem;
   }
 
-
-
   .hero-about-content h1 {
     font-size: 8rem;
     text-align: center;
@@ -399,14 +391,12 @@
   }
 
   .hero-about-content p {
-
     font-size: 3rem;
 
     text-align: right;
     font-size: 43px;
 
-
-    line-height: 3rem;
+    line-height: 2.3rem;
     text-align: center;
     margin-left: -20rem;
     margin-top: -6rem;
@@ -453,7 +443,6 @@
     font-size: 27px;
   }
 
-
   .research-img video {
     object-fit: cover;
     width: 80%;
@@ -468,7 +457,6 @@
   .swiper-button-prev,
   .swiper-button-next {
     display: flex; /* Show on tablet view */
-
   }
 
   .swiper-button-prev {
@@ -564,7 +552,6 @@
   .about-content p {
     padding: 20px;
     font-size: 33px;
-    
   }
 
   .team-content {
@@ -609,10 +596,10 @@
 
   .hero-about-content p {
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 2.3rem;
     text-align: center;
-    margin-left: -20rem;
-    margin-top: -6rem;
+    margin-left: -12rem;
+    margin-top: -4rem;
     padding-top: 2rem;
   }
 
@@ -645,8 +632,6 @@
     padding: 10px;
     padding-bottom: 10px;
   }
-
-
 
   .research-content p {
     font-size: 22px;
