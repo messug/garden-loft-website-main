@@ -76,6 +76,10 @@
   font-weight: 600;
 }
 
+.desktop-cost-button-finance {
+  display: none;
+}
+
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) {
   .costs-content h1 {
