@@ -177,6 +177,9 @@ h2, h3 {
   justify-content: center;
   margin: 1rem 0;
   margin-left: 10px;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-size: 30px;
 }
 
 .foundation-box {
@@ -253,6 +256,11 @@ h2, h3 {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+  }
+
+  #plusDiv {
+    gap: 0.5rem;
+    margin-top: 2rem;
   }
 
 
@@ -369,7 +377,7 @@ margin-top: 10rem;
 
   .sec1-words .box-6 {
     margin-top: 12rem;
-    padding: 0 1.2rem
+    padding: 0 1.6rem
   }
   .sec1-words .box-7 {
     margin-top: 10rem;
