@@ -27,6 +27,7 @@ const LearnMore: React.FC = () => {
     navigate(path);
     window.scrollTo(0, 0);
   };
+
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
@@ -78,7 +79,7 @@ const LearnMore: React.FC = () => {
               />
             </div>
           </div>
-          <div id="safety-support" className="sec2">
+          <div className="sec2">
             <h1 className="safety-features">
               Garden Loft's Safety <br />
               and Support Features
@@ -171,7 +172,6 @@ const LearnMore: React.FC = () => {
             Calgary
           </p>
         </div>
-        {/* <p className="section-description" id="safety-support">Garden Loft’s safety and support<br/> features enable those with <br/>differing abilities to live more <br/>independently and with greater<br/> dignity and quality of life</p> */}
         <h1 className="safety-features">Our 22 Safety Features</h1>
         <Swiper
           modules={[Pagination, Navigation]}
@@ -196,7 +196,7 @@ const LearnMore: React.FC = () => {
           }}
         >
           <SwiperSlide>
-            <div className="support-feature-box" id="safety-support">
+            <div className="support-feature-box">
               <h3>General </h3>
               <ul>
                 <li>
@@ -331,43 +331,46 @@ const LearnMore: React.FC = () => {
               </ul>
             </div>
           </SwiperSlide>
-          <div className="swiper-button-prev1"></div>
-          <div className="swiper-button-next1"></div>
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-button-next"></div>
         </Swiper>
         <section id="award">
-
-<div className='award-sectionL' >
-  <div className='sec1'>
-    <div className='sec1-words'>
-        <h1 className="section-title" >Our Awards</h1>
-       
-        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
-        </div>
-        <div className='sec1image'>
-        <img src={LM3} alt="Award" className="award-image"/>
-        </div>
-        </div>
-        <div className='sec2'>
-   
-        <h1 className="section-title" >Our Awards</h1>
-        <img src={LM3} alt="Award" className="award-image"/>
-        <p>Garden Loft received the<br/> 2023 Calgary Award for<br/> Accessibility at a ceremony <br/>on June 14, 2023</p>
-       
-        </div>
-      
-        <iframe
-          width="100%"
-          height="515"
-          src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
-          title="YouTube video player"
-          frameBorder="0"
-          // allow="autoplay; encrypted-media"
-          allowFullScreen
-          className='video-embed'
-        ></iframe>
-       
-        </div>
-
+          <div className="award-sectionL">
+            <div className="sec1">
+              <div className="sec1-words">
+                <h1 className="section-title">Our Awards</h1>
+                <p>
+                  Garden Loft received the
+                  <br /> 2023 Calgary Award for
+                  <br /> Accessibility at a ceremony <br />
+                  on June 14, 2023
+                </p>
+              </div>
+              <div className="sec1image">
+                <img src={LM3} alt="Award" className="award-image" />
+              </div>
+            </div>
+            <div className="sec2">
+              <h1 className="section-title">Our Awards</h1>
+              <img src={LM3} alt="Award" className="award-image" />
+              <p>
+                Garden Loft received the
+                <br /> 2023 Calgary Award for
+                <br /> Accessibility at a ceremony <br />
+                on June 14, 2023
+              </p>
+            </div>
+            <iframe
+              width="100%"
+              height="515"
+              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
+              title="YouTube video player"
+              frameBorder="0"
+              // allow="autoplay; encrypted-media"
+              allowFullScreen
+              className="video-embed"
+            ></iframe>
+          </div>
         </section>
         <div className="compare-costsL">
           <h1 className="section-title" id="compare-costs">
@@ -394,27 +397,10 @@ const LearnMore: React.FC = () => {
           {/* <p>Watch John Brown explain <br/>the economics of living in <br/>a Garden Loft</p> */}
         </div>
 
-       
-<div className='financeL' id="finance-options">
-<div className='sec1'>
-  <div className='sec1-words' >
-        <h1 className="section-title" >Financing Options</h1>
-       
-        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
-        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
-        </div>
-        <div className='sec1image'> <img src={LM4} alt="Financing Options" className="financing-image"/></div>
-        </div>
-  <div className='sec2'>
-        <h1 className="section-title" id="finance-options">Financing Options</h1>
-        <img src={LM4} alt="Financing Options" className="financing-image"/>
-        <p>Garden Lofts are registered <br/>secondary suites and eligible <br/>for mortgage financing</p> 
-        <p>This includes <br /> Alberta Treasury Branch’s <br /> Residential Outbuilding Program <br/></p>
-        </div>
-        <p>When combined with a Home Equity  <br /> Line of Credit or other mortgage product, up <br />to 100%  of  the purchase could be financed</p>
-        <p>Work with our mortgage <br/>specialist to determine your <br/>financing options</p>
-
-
+        <div className="financeL" id="finance-options">
+          <div className="sec1">
+            <div className="sec1-words">
+              <h1 className="section-title">Financing Options</h1>
               <p>
                 Garden Lofts are registered <br />
                 secondary suites and eligible <br />
@@ -426,7 +412,6 @@ const LearnMore: React.FC = () => {
               </p>
             </div>
             <div className="sec1image">
-              {" "}
               <img
                 src={LM4}
                 alt="Financing Options"
@@ -435,14 +420,8 @@ const LearnMore: React.FC = () => {
             </div>
           </div>
           <div className="sec2">
-            <h1 className="section-title" id="finance-options">
-              Financing Options
-            </h1>
-            <img
-              src={LM4}
-              alt="Financing Options"
-              className="financing-image"
-            />
+            <h1 className="section-title">Financing Options</h1>
+            <img src={LM4} alt="Financing Options" className="financing-image" />
             <p>
               Garden Lofts are registered <br />
               secondary suites and eligible <br />
@@ -475,14 +454,7 @@ const LearnMore: React.FC = () => {
             specialist
           </button>
         </div>
-
-      
-        <div style={{ textAlign: 'center', marginTop: '20px' }}>
-        <button className="report-buttonbutton"   onClick={() => handleNavigate('/morgage')}>Contact<br /> our   mortgage <br />specialist</button>
-      </div>
-
-
-        <div className="resellingL" id="reselling">
+       <div className="resellingL" id="reselling">
           <h1 className="section-title">Reselling your Garden Loft</h1>
           <p>
             As a prefabricated structure, <br />
@@ -493,7 +465,6 @@ const LearnMore: React.FC = () => {
             <br /> unit’s original purchase price
           </p>
           <img src={LM5} alt="Reselling" className="reselling-image" />
-
           <p>
             By recapturing a large part <br />
             of your initial investment, the
@@ -526,7 +497,6 @@ const LearnMore: React.FC = () => {
             <div className="sec1">
               <div className="sec1-words">
                 <h1 className="section-title">New Zoning Rules</h1>
-
                 <p>
                   As of 2024, the City of Calgary’s <br />
                   blanket rezoning for secondary <br />
