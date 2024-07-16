@@ -25,23 +25,54 @@ const Feasibility = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
+  
     try {
       // Save to Firestore
       await addDoc(collection(FIRESTORE_DB, 'feasibilityReports'), formData);
-
+  
+      const templateParams = {
+        to_email: 'jbrown@housebrand.ca',
+        from_name: `${formData.firstName} ${formData.lastName}`,
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone,
+          hearAboutUs: formData.hearAboutUs,
+          projectAddress: formData.projectAddress,
+          city: formData.city,
+          unitType: formData.unitType,
+          additionalInfo: formData.additionalInfo
+        };
+  
       // Send email via EmailJS
-      emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
-        formData,
-        'YOUR_USER_ID'
+      await emailjs.send(
+        'service_9sbvjnv',
+        'template_bh6rn31',
+        templateParams,
+        '--z3yrvQqS1HsMCaG'
       );
-
+  
       alert('Form submitted successfully');
+      
+      // Reset the form after successful submission
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        hearAboutUs: '',
+        projectAddress: '',
+        city: '',
+        unitType: '',
+        additionalInfo: ''
+      });
     } catch (error) {
       console.error('Error submitting form: ', error);
-      alert('Error submitting form');
+      if (error instanceof Error) {
+        alert(`Error submitting form: ${error.message}`);
+      } else {
+        alert('An unknown error occurred while submitting the form');
+      }
     }
   };
 
@@ -106,3 +137,12 @@ const Feasibility = () => {
 };
 
 export default Feasibility;
+
+
+
+
+
+
+
+
+
