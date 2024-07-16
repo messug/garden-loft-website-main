@@ -30,7 +30,7 @@ const Award = () => {
       <div style={{ textAlign: 'center' }}>
       {/* <Link to="/learn-more#awards" className="award-button">
       Learn more <br />about our <br /> awards        </Link> */}
-    <button className="award-button"> <Link to="/learn-more#award"  >Learn more <br/>about our <br/> awards</Link></button>
+    <button className="award-button"> <Link to="/learn-more#award-test"  >Learn more <br/>about our <br/> awards</Link></button>
     </div>
     </>
   );
