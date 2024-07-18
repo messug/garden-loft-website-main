@@ -545,7 +545,7 @@
 
   .hero-about-content {
     position: absolute;
-    bottom: 70%;
+    bottom: 90%;
     left: 74%;
     transform: translate(-50%, -50%);
   }
@@ -555,6 +555,7 @@
     width: 80%;
     position: absolute;
     bottom: 90%;
+    /* top: 70%; */
     left: 18%;
     transform: translate(-50%, -50%);
     color: white;
