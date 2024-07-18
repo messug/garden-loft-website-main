@@ -184,7 +184,6 @@
 .research h1 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 500;
 }
 
 .history p,
@@ -616,34 +615,41 @@
   .history h1,
   .research h1 {
     font-size: 27px;
+    line-height: 1.2;
+    font-weight: 500;
   }
 
   .history p,
   .research p {
     font-size: 22px;
     width: 100%;
+    font-weight: 400;
+    line-height: 1.2;
   }
 
   .history-content p {
     font-size: 22px;
     text-align: center;
-    line-height: 1.6;
-    padding: 10px;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 20px;
     padding-bottom: 10px;
   }
 
   .research-content p {
     font-size: 22px;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.2;
+    font-weight: 400;
     text-indent: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   .research-img video {
     align-items: center;
     width: 70%;
     height: auto;
-    padding-left: 178px;
+    padding-left: 222px;
   }
 
   /* .partnerslogoDiv img {

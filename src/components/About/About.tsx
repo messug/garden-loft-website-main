@@ -81,8 +81,8 @@ const About = () => {
         <p className='desktop-para'>  we are <br />architects, <br />builders,  
         and <br /> software developers </p>
           </div>
-          <div className='about-content'>
-            <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
+          <div className='about-content research-indent'>
+            <h1>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</h1>
           </div>
         </div>
 
