@@ -36,28 +36,28 @@ function Grants() {
 
       <div className="desktop-grant">
         <div className="desktop-description-grant">
-        <h2>
-          {" "}
-          Garden Lofts are also now
-          <br /> permitted in most cities and <br /> towns across Canada
-        </h2>
+          <h2>
+            {" "}
+            Garden Lofts are also now
+            <br /> permitted in most cities and <br /> towns across Canada
+          </h2>
           <button className="button-grant desktop-grant-button">
-          <Link to="/learn-more#zoning">
-            Learn about <br />
-            the new rules
-          </Link>
+            <Link to="/learn-more#zoning">
+              Learn about <br />
+              the new rules
+            </Link>
           </button>
         </div>
         <div className="desktop-image-grant">
           <img src={GLGrant} alt="Grant Image" />
           <div className="overlay-text-desktop">
-          <h1>
-            Garden Lofts <br />
-            are now permitted <br /> in all Calgary neighborhoods <br />
-            {/* and qualify <br />
+            <h1>
+              Garden Lofts <br />
+              are now permitted <br /> in all Calgary neighborhoods <br />
+              {/* and qualify <br />
             for the $10,000 secondary suite grant */}
-          </h1>
-        </div>
+            </h1>
+          </div>
         </div>
       </div>
     </section>
