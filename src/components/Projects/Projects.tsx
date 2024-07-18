@@ -359,14 +359,6 @@ const Projects: React.FC = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div style={{ textAlign: 'center' }}>
-                  <img src={projectImage13} alt="Project 13" className="project-image" />
-                  <div className="neighbourhood">
-                    <h3>Ellerslie, Edmonton</h3>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div style={{ textAlign: 'center' }}>
                   <img src={projectImage11} alt="Project 11" className="project-image" />
                   <div className="neighbourhood">
                     <h3>Ellerslie, Edmonton</h3>
@@ -376,6 +368,14 @@ const Projects: React.FC = () => {
               <SwiperSlide>
                 <div style={{ textAlign: 'center' }}>
                   <img src={projectImage12} alt="Project 12" className="project-image" />
+                  <div className="neighbourhood">
+                    <h3>Ellerslie, Edmonton</h3>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div style={{ textAlign: 'center' }}>
+                  <img src={projectImage13} alt="Project 13" className="project-image" />
                   <div className="neighbourhood">
                     <h3>Ellerslie, Edmonton</h3>
                   </div>

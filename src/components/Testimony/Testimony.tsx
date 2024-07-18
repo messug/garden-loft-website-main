@@ -64,9 +64,8 @@ const Testimony: React.FC = () => {
         <div className="desktop-description-cost">
           <h1>Reselling your Garden Loft</h1>
           <h2>
-            Garden Lofts can be sold <br />
-            when no longer required to <br />
-            recoup a large part of the <br /> initial purchase price
+          When no longer required, <br/>you can sell your Garden Loft and  <br/>recoup a large part of the purchase cost
+          
           </h2>
           <button className="button-testimony desktop-testimony-button">
             <Link to="/reselling">Learn how we can help</Link>

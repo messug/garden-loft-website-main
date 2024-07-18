@@ -363,10 +363,10 @@ const LearnMore: React.FC = () => {
             <iframe
               width="100%"
               height="515"
-              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
+              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=0"
               title="YouTube video player"
               frameBorder="0"
-              // allow="autoplay; encrypted-media"
+              allow="encrypted-media"
               allowFullScreen
               className="video-embed"
             ></iframe>
