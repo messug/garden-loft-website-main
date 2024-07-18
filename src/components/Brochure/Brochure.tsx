@@ -39,7 +39,7 @@ const Brochure = () => {
 
             // Prepare email data
             const templateParams = {
-                to_name: 'jbrown@housebrand.ca', // or whoever the recipient is
+                to_name: 'info@gardenloft.ca', // or whoever the recipient is
                 from_name: `${formData.firstName} ${formData.lastName}`,
                 firstName: formData.firstName,
                 lastName: formData.lastName,
