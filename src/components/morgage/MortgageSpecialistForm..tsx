@@ -47,7 +47,7 @@ const MortgageSpecialistForm: React.FC = () => {
       await addDoc(collection(FIRESTORE_DB, 'Mortgage Specialist'), formData);
 
       const templateParams = {
-        to_email: 'info@gardenloft.ca',
+        to_name: 'info@gardenloft.ca',
         request_type: 'Contact Our Mortgage Specialist',
         from_name: `${formData.firstName} ${formData.lastName}`,
         firstName: formData.firstName,
@@ -55,7 +55,7 @@ const MortgageSpecialistForm: React.FC = () => {
         email: formData.email,
         phone: formData.phone,
         preferredContact: formData.preferredContact,
-        message: formData.message,
+        message: formData.message
       };
 
       // Send email via EmailJS
