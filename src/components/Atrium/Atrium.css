@@ -341,9 +341,16 @@ h2, h3 {
     margin: 0rem;
     font-size: 3rem;
   }
+  .plus-sign2{
+    padding: 0 1.5rem;
+  }
   .foundation-box {
     margin-left: 4rem;
     margin-right: 4rem;
+  }
+
+  #foundation-section {
+    margin-left: 0.7rem;
   }
 
   .center-words h3 {
@@ -376,8 +383,7 @@ margin-top: 10rem;
   }
 
   .sec1-words .box-6 {
-    margin-top: 12rem;
-    padding: 0 1.8rem
+    margin-top: 2rem;
   }
   .sec1-words .box-7 {
     margin-top: 8rem;
@@ -386,9 +392,12 @@ margin-top: 10rem;
     margin-top: 10rem;
   }
   .sec1-words .box-9 {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
   .sec1-words .box-10 {
-    margin-top: 2rem;
+    margin-top: 3rem;
+    padding: 0 3rem;
   }
+
+
 }
