@@ -16,6 +16,10 @@
   padding-top: 20px;
 }
 
+#faq h1 {
+  font-size: 3rem;
+}
+
 .faq-content {
   width: 90%;
   max-width: 800px;
