@@ -40,6 +40,7 @@ const Brochure = () => {
             // Prepare email data
             const templateParams = {
                 to_name: 'info@gardenloft.ca', // or whoever the recipient is
+                request_type: 'Brochure Request',
                 from_name: `${formData.firstName} ${formData.lastName}`,
                 firstName: formData.firstName,
                 lastName: formData.lastName,

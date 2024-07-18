@@ -32,6 +32,7 @@ const Feasibility = () => {
   
       const templateParams = {
         to_email: 'info@gardenloft.ca',
+        request_type: 'feasibility Reports',
         from_name: `${formData.firstName} ${formData.lastName}`,
           firstName: formData.firstName,
           lastName: formData.lastName,
