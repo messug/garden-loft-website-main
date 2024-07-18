@@ -177,7 +177,7 @@
   padding: 10px 70px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 1.1rem;
   color: #000;
   margin-bottom: 3rem;
 }
@@ -348,7 +348,7 @@
     font-size: 8rem;
     text-align: center;
     line-height: 8rem;
-    margin-top: 10rem;
+    margin-top: 12rem;
     margin-left: -56rem;
   }
 

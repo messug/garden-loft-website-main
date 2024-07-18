@@ -482,7 +482,7 @@ const LearnMore: React.FC = () => {
         <div id="zoning">
           <div className="zoningL" id="new-zoning-rules">
             <div className="sec1">
-              <div className="sec1-words">
+              {/* <div className="sec1-words">
                 <h1 className="section-title">New Zoning Rules</h1>
                 <p>
                   As of 2024, the City of Calgary’s <br />
@@ -496,7 +496,22 @@ const LearnMore: React.FC = () => {
               </div>
               <div className="sec1image">
                 <img src={LM6} alt="Zoning" className="zoning-image" />
-              </div>
+              </div> */}
+              <div className="desktop-image-grant">
+          <img src={LM6} alt="Grant Image" />
+          <div className="overlay-text-desktop">
+          <h1 className="section-title">New Zoning Rules</h1>
+                <p>
+                  As of 2024, the City of Calgary’s <br />
+                  blanket rezoning for secondary <br />
+                  suites has made it significantly <br />
+                  easier to obtain approval for <br /> a Garden loft in almost
+                  every <br />
+                  residential neighborhood <br />
+                  in the city
+                </p>
+          </div>
+        </div>
             </div>
             <div className="sec2">
               <h1 className="section-title">New Zoning Rules</h1>
