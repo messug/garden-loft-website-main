@@ -48,7 +48,7 @@ const MortgageSpecialistForm: React.FC = () => {
 
       const templateParams = {
         to_email: 'info@gardenloft.ca',
-        request_type: 'Mortgage Specialist',
+        request_type: 'Contact Our Mortgage Specialist',
         from_name: `${formData.firstName} ${formData.lastName}`,
         firstName: formData.firstName,
         lastName: formData.lastName,
