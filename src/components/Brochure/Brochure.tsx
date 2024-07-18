@@ -39,7 +39,7 @@ const Brochure = () => {
 
             // Prepare email data
             const templateParams = {
-                to_name: 'info@gardenloft.ca', // or whoever the recipient is
+                to_name: 'info@gardenloft.ca',
                 request_type: 'Request a Brochure',
                 from_name: `${formData.firstName} ${formData.lastName}`,
                 firstName: formData.firstName,
@@ -49,7 +49,7 @@ const Brochure = () => {
                 city: formData.city,
                 referral: formData.referral,
                 question: formData.question
-            };
+              };
 
             // Send email via EmailJS
             const response = await emailjs.send(

@@ -31,20 +31,19 @@ const Feasibility = () => {
       await addDoc(collection(FIRESTORE_DB, 'feasibilityReports'), formData);
   
       const templateParams = {
-        to_email: 'info@gardenloft.ca',
+        to_name: 'info@gardenloft.ca',
         request_type: 'Request a feasibility Report',
         from_name: `${formData.firstName} ${formData.lastName}`,
-          firstName: formData.firstName,
-          lastName: formData.lastName,
-          email: formData.email,
-          phone: formData.phone,
-          hearAboutUs: formData.hearAboutUs,
-          projectAddress: formData.projectAddress,
-          city: formData.city,
-          unitType: formData.unitType,
-          additionalInfo: formData.additionalInfo
-        };
-  
+        firstName: formData.firstName,
+        lastName: formData.lastName,
+        email: formData.email,
+        phone: formData.phone,
+        hearAboutUs: formData.hearAboutUs,
+        projectAddress: formData.projectAddress,
+        city: formData.city,
+        unitType: formData.unitType,
+        additionalInfo: formData.additionalInfo
+      };
       // Send email via EmailJS
       await emailjs.send(
         'service_9sbvjnv',
