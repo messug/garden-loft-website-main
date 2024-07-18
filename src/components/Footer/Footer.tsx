@@ -212,7 +212,7 @@ const Footer = () => {
               <Link to="/#garden-lofters">Meet Our Garden Lofters</Link>
             </h3>
             <h3>
-              <Link to="/reselling">Reselling Your Garden Loft</Link>
+              <Link to="/reselling" onClick={scrollToTop}>Reselling Your Garden Loft</Link>
             </h3>
           </div>
           <div className="footer-column">
