@@ -310,7 +310,7 @@ h2, h3 {
     font-size: 30px;
     font-weight: 500;
     line-height: 1.2;
-    padding: 0 1.2rem;
+    /* padding: 0 1.2rem; */
     margin-bottom: 1rem;
     margin-top: 1rem;  
   }
@@ -345,9 +345,17 @@ h2, h3 {
     padding: 0 1rem;
   }
   .foundation-box {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  /* .foundation-box1 {
     margin-left: 4rem;
     margin-right: 4rem;
   }
+  .foundation-box2 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  } */
 
   #foundation-section {
     margin-left: 0.5rem;
@@ -383,7 +391,7 @@ margin-top: 10rem;
   }
 
   .sec1-words .box-6 {
-    margin-top: 5rem;
+    margin-top: 6.5rem;
   }
   .sec1-words .box-7 {
     margin-top: 8rem;
@@ -392,12 +400,14 @@ margin-top: 10rem;
     margin-top: 10rem;
   }
   .sec1-words .box-9 {
-    margin-top: 5rem;
+    margin-top: 6.6rem;
   }
   .sec1-words .box-10 {
-    margin-top: 3rem;
+    margin-top: 5rem;
     padding: 0 3rem;
   }
-
+.sec1-button {
+  margin:20px 0 0 0;
+}
 
 }
