@@ -66,14 +66,15 @@ const Atrium = () => {
           <div className="sec1">
             <div className="sec1-words">
               <div className="box-1">
-              <h2>
-                {" "}
-                <br />
-                Combining advanced <br />
-                age-in-place architecture <br />
-                with person-led care and <br />
-                support
-              </h2></div>
+                <h2>
+                  {" "}
+                  <br />
+                  Combining advanced <br />
+                  age-in-place architecture <br />
+                  with person-led care and <br />
+                  support
+                </h2>
+              </div>
             </div>
             <div className="sec1image">
               <img src={AtriumImage2} alt="Atrium House Image 2" />
@@ -93,17 +94,17 @@ const Atrium = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-            <div className="box-2">
-              <h2>
-                {" "}
-                <br />
-                <br />
-                Atrium House is a small <br />
-                care home providing <br />
-                high levels of nursing
-                <br /> care and support for up
-                <br /> to 14 residents
-              </h2>
+              <div className="box-2">
+                <h2>
+                  {" "}
+                  <br />
+                  <br />
+                  Atrium House is a small <br />
+                  care home providing <br />
+                  high levels of nursing
+                  <br /> care and support for up
+                  <br /> to 14 residents
+                </h2>
               </div>
             </div>
             <div className="sec1image">
@@ -123,13 +124,13 @@ const Atrium = () => {
           </div>
           <div className="sec1 ">
             <div className="sec1-words ">
-            <div className="box-3">
-              <h4>
-                Atrium House features <br />
-                Garden Loft units clustered
-                <br /> around a light-filled central <br />
-                interior community atrium
-              </h4>
+              <div className="box-3">
+                <h4>
+                  Atrium House features <br />
+                  Garden Loft units clustered
+                  <br /> around a light-filled central <br />
+                  interior community atrium
+                </h4>
               </div>
             </div>
             <div className="sec1image">
@@ -138,24 +139,24 @@ const Atrium = () => {
           </div>
           <div className="sec1 environment">
             <div className="sec1-words ">
-            <div className="box-4">
-              <h4>
-                The familiar domestic
-                <br />
-                environment combines the
-                <br />
-                privacy and independence of
-                <br />
-                living in a Garden Loft with
-                <br />
-                the social connectiveness
-                <br />
-                and sense of belonging that
-                <br />
-                comes from being a part of a<br />
-                small scale village-like
-                <br /> communal building
-              </h4>
+              <div className="box-4">
+                <h4>
+                  The familiar domestic
+                  <br />
+                  environment combines the
+                  <br />
+                  privacy and independence of
+                  <br />
+                  living in a Garden Loft with
+                  <br />
+                  the social connectiveness
+                  <br />
+                  and sense of belonging that
+                  <br />
+                  comes from being a part of a<br />
+                  small scale village-like
+                  <br /> communal building
+                </h4>
               </div>
               <button className="button-atrium">
                 <Link to="/#two-units">
@@ -203,15 +204,15 @@ const Atrium = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-            <div className="box-5">
-              <h4>
-                The prefabricated Garden Loft
-                <br /> units can be configured in any
-                <br /> number of ways and combined
-                <br /> with other uses to meet the site
-                <br /> and programmatic needs of a <br />
-                particular project
-              </h4>
+              <div className="box-5">
+                <h4>
+                  The prefabricated Garden Loft
+                  <br /> units can be configured in any
+                  <br /> number of ways and combined
+                  <br /> with other uses to meet the site
+                  <br /> and programmatic needs of a <br />
+                  particular project
+                </h4>
               </div>
             </div>
             <div className="sec1image">
@@ -273,7 +274,7 @@ const Atrium = () => {
                 <li>Award-winning care expertise</li>
               </ul>
             </div>
-            <div className="plus-sign">+</div>
+            <div className="plus-sign plus-sign2">+</div>
             <div className="foundation-box">
               <h2>GARDEN LOFT provides</h2>
               <ul>
@@ -310,16 +311,16 @@ const Atrium = () => {
 
           <div className="sec1 center">
             <div className="sec1-words">
-            <div className="box-7">
-              <h3>
-                Atrium House is particularly well suited for rural and remote
-                communities
-              </h3>
-              <h3 className="para-text">
-                Atrium House’s prefabricated modular construction system can be
-                deployed in areas with limited access to construction materials
-                and trades
-              </h3>
+              <div className="box-7">
+                <h3>
+                  Atrium House is particularly well suited for rural and remote
+                  communities
+                </h3>
+                <h3 className="para-text">
+                  Atrium House’s prefabricated modular construction system can
+                  be deployed in areas with limited access to construction
+                  materials and trades
+                </h3>
               </div>
             </div>
             <div className="sec1image">
@@ -328,12 +329,12 @@ const Atrium = () => {
           </div>
           <div className="sec1">
             <div className="sec1-words">
-            <div className="box-8">
-              <h3>
-                The Atrium Way <br/> commissioning playbook can be customized and
-                implemented to meet the capacity and capabilities of the service
-                provider
-              </h3>
+              <div className="box-8">
+                <h3>
+                  The Atrium Way <br /> commissioning playbook can be customized
+                  and implemented to meet the capacity and capabilities of the
+                  service provider
+                </h3>
               </div>
             </div>
             <div className="sec1image">
@@ -343,18 +344,18 @@ const Atrium = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-            <div className="box-9">
-              <h3>
-                The result is a one-stop-shop for designing, fabricating, and
-                launching high-quality care enhanced housing solutions
-              </h3>
-              <button
-                onClick={() => handleNavigate("/initial")}
-                className="button-atrium"
-              >
-                Book a <br />
-                preliminary consult
-              </button>
+              <div className="box-9">
+                <h3>
+                  The result is a one-stop-shop for designing, fabricating, and
+                  launching high-quality care enhanced housing solutions
+                </h3>
+                <button
+                  onClick={() => handleNavigate("/initial")}
+                  className="button-atrium"
+                >
+                  Book a <br />
+                  preliminary consult
+                </button>
               </div>
             </div>
             <div className="sec1image">
@@ -415,20 +416,15 @@ const Atrium = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-            <div className="box-10">
-              <h2>
-                {" "}
-                <br />
-                <br /> <br />
-                Atrium House can also <br />
-                be combined with a <br />
-                Garden Loft Village
-              </h2>
-              <h3 className="para-text">
-                A common entry courtyard deck enhances community by connecting
-                the private outdoor spaces for the independent living Garden
-                Loft units with the communal outdoor space for Atrium residents
-              </h3>
+              <div className="box-10">
+                <h2>
+                  {" "}
+                  <br />
+                  <br /> <br />
+                  Atrium House can also <br />
+                  be combined with a <br />
+                  Garden Loft Village
+                </h2>
               </div>
             </div>
             <div className="sec1image">
@@ -450,16 +446,36 @@ const Atrium = () => {
           <div className="sec1">
             <div className="sec1-words">
               <div className="box-6">
-              
-              <button
-                onClick={() => handleNavigate("/book-tour")}
-                className="button-atrium"
-              >
-                Visit our showsuite <br /> and sales center
-              </button></div>
+                <h2>
+                  <h2>
+                    A common entry <br />
+                    courtyard deck enhances <br />
+                    community by connecting
+                    <br />
+                    the private outdoor spaces
+                    <br /> for the independent living
+                    <br /> Garden Loft units with the
+                    <br /> communal outdoor space
+                    <br /> for Atrium residents
+                  </h2>
+                </h2>
+              </div>
             </div>
             <div className="sec1image">
-              <img src={AtriumImage8} alt="Atrium House Image 8" />
+              <img src={AtriumImage8} alt="Atrium House Image 7" />
+            </div>
+          </div>
+
+          <div className="sec1">
+            <div className="sec1-words">
+              <div className="box-6">
+                <button
+                  onClick={() => handleNavigate("/book-tour")}
+                  className="button-atrium"
+                >
+                  Visit our showsuite <br /> and sales center
+                </button>
+              </div>
             </div>
           </div>
 
