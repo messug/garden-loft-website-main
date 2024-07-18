@@ -69,7 +69,7 @@ const Testimony: React.FC = () => {
             recoup a large part of the <br /> initial purchase price
           </h2>
           <button className="button-testimony desktop-testimony-button">
-            <Link to="/reselling">Learn how we can help</Link>
+            <Link to="/learn-more#reselling">Learn how we can help</Link>
           </button>
         </div>
       </div>

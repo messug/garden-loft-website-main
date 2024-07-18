@@ -82,7 +82,7 @@ const About = () => {
         and <br /> software developers </p>
           </div>
           <div className='about-content'>
-            <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities.</p>
+            <p>We create high-quality places to live <br />that empower dignity,  independence <br />and belonging in the lives of seniors <br /> and others with differing abilities</p>
           </div>
         </div>
 
@@ -136,7 +136,7 @@ const About = () => {
         <div className="history"  >
           <div className='history-content' id='our-history'>
          
-          <h1>Carina, John and Matthew <br />co-founded Housebrand,<br /> residential design/ <br />build firm, in 1997</h1>
+          <h3>Carina, John and Matthew <br />co-founded Housebrand,<br /> residential design/ <br />build firm, in 1997</h3>
           <p>Over its 25-year history,<br />Housebrand has completed over <br />250 residential projects using <br />a unique practice model that  <br />architectural design <br />with construction management,<br /> real estate services, and furniture  <br />retailing</p>
           </div>
         </div>
@@ -233,7 +233,7 @@ const About = () => {
             </Swiper>
             </div>
         <div className="research">
-        <h1>Garden Loft originated as <br />a research project at the <br />University of Calgary</h1>
+        <h3>Garden Loft originated as <br />a research project at the <br />University of Calgary</h3>
           <p>In 2014, John Brown’s research <br />lab began constructing and <br /> user-test two V1 and V2 mock- <br />ups of a backyard portable <br />living unit in collaboration with <br />researchers from the Cumming <br />School of Medicine</p>
         </div>
         <div className="research-section">

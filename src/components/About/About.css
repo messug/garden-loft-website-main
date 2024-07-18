@@ -193,6 +193,17 @@
   margin-bottom: 20px;
 }
 
+.history-content h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+
+
 .history-content p {
   font-size: 22px;
   text-align: center;
@@ -410,21 +421,33 @@
     margin-bottom: 10px;
   }
 
-  .history-content h1,
-  .research h1 {
-    font-size: 24px;
+  .history-content h3,
+  .research h3 {
+    font-size: 30px;
+    font-weight: 500;
+   
   }
 
+
+
+
   .history-content p {
-    font-size: 22px;
-    text-align: right;
+    font-size: 1.2rem;
+    width: 30vw;
+    text-align: center;
     line-height: 1.6;
     padding: 10px;
     padding-bottom: 10px;
   }
-
+  .research p{
+    font-size: 1.2rem;
+    width: 30vw;
+    text-align: center;
+   
+  }
   .research-content p {
-    font-size: 22px;
+    font-size: 1.2rem;
+    width: 30vw;
     text-align: center;
     line-height: 1.6;
     text-indent: 2rem;
@@ -613,31 +636,39 @@
     align-items: unset;
   }
 
-  .history h1,
-  .research h1 {
-    font-size: 27px;
-    font-weight: 330;
+  .history-content p {
+    font-size: 1.2rem;
+    width: 30vw;
+    text-align: center;
+    align-items: center;
+    line-height: 1.6;
+    margin: 0 auto;
+  }
+
+  .research-content p {
+    font-size: 1.2rem;
+    padding-top: 0;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+
+  .history h3,
+  .research h3 {
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 500;
   }
 
   .history p,
   .research p {
-    font-size: 22px;
+    font-size: 1.2rem;
     width: 100%;
-  }
-
-  .history-content p {
-    font-size: 22px;
-    text-align: center;
-    line-height: 1.6;
     padding: 10px;
-    padding-bottom: 10px;
-  }
-
-  .research-content p {
-    font-size: 22px;
-    text-align: center;
-    line-height: 1.6;
-    text-indent: 2rem;
+  
   }
 
   .research-img video {
@@ -791,7 +822,7 @@
     font-size: 35px;
     margin-top: 1.5rem;
     align-items: center;
-    padding: 22px;
+    padding: 20px;
   }
 }
 
