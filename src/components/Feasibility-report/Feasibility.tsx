@@ -31,7 +31,7 @@ const Feasibility = () => {
       await addDoc(collection(FIRESTORE_DB, 'feasibilityReports'), formData);
   
       const templateParams = {
-        to_email: 'jbrown@housebrand.ca',
+        to_email: 'info@gardenloft.ca',
         from_name: `${formData.firstName} ${formData.lastName}`,
           firstName: formData.firstName,
           lastName: formData.lastName,
