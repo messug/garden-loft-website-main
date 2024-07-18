@@ -348,7 +348,7 @@
     font-size: 8rem;
     text-align: center;
     line-height: 8rem;
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     margin-left: -56rem;
   }
 
@@ -356,8 +356,8 @@
     font-size: 3rem;
     line-height: 2.3rem;
     text-align: center;
-    margin-left: -20rem;
-    padding-top: 2rem;
+    /* margin-left: -20rem;
+    padding-top: 2rem; */
   }
   .section-title {
     font-size: 3rem;
