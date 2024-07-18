@@ -6,7 +6,7 @@ const Calendly = () => {
   return (
     <div >
       <InlineWidget 
-        url="https://calendly.com/gebremess23/30min" 
+        url="https://calendly.com/gardenloft/test" 
       />
     </div>
   );

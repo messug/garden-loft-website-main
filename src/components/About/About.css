@@ -605,7 +605,7 @@
     font-size: 8rem;
     text-align: center;
     line-height: 8rem;
-    margin-top: 6rem;
+    margin-top: 10rem;
     margin-left: -10rem;
   }
 
@@ -676,6 +676,15 @@
     padding: 5px;
     font-size: 30px;
     font-weight: 500;
+  }
+
+  .history p,
+  .research p {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
   }
 
   .research-img video {
