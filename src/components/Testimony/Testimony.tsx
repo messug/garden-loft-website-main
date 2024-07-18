@@ -6,7 +6,12 @@ import GardenLoftersThumbnail from "/images/Screenshot 2024-07-04 at 11.01.33 AM
 
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+}
+
 const Testimony: React.FC = () => {
+  
   return (
     <section className="testimony-section" id="garden-lofters">
       <h1 className="testimony-title">
@@ -33,7 +38,7 @@ const Testimony: React.FC = () => {
         </p>
         <button className="testimony-button">
           {" "}
-          <Link to="/reselling">
+          < Link to="/reselling" onClick={scrollToTop}>
             Learn how we
             <br /> can help
           </Link>
@@ -68,7 +73,10 @@ const Testimony: React.FC = () => {
           
           </h2>
           <button className="button-testimony desktop-testimony-button">
-            <Link to="/learn-more#reselling">Learn how we can help</Link>
+
+         
+            < Link to="/reselling" onClick={scrollToTop}>Learn how we can help</Link>
+
           </button>
         </div>
       </div>

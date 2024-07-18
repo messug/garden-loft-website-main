@@ -184,7 +184,6 @@
 .research h1 {
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 500;
 }
 
 .history p,
@@ -197,17 +196,15 @@
   font-size: 30px;
   font-weight: 500;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.2;
   padding: 10px;
   padding-bottom: 10px;
 }
 
-
-
 .history-content p {
   font-size: 22px;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.2;
   padding: 10px;
   padding-bottom: 10px;
 }
@@ -226,8 +223,9 @@
 .research-content p {
   font-size: 22px;
   text-align: center;
-  line-height: 1.6;
-  text-indent: 2rem;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
 }
 
 .research-indent h1 {
@@ -425,32 +423,26 @@
   .research h3 {
     font-size: 30px;
     font-weight: 500;
-   
   }
-
-
-
 
   .history-content p {
     font-size: 1.2rem;
-    width: 30vw;
+
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.2;
     padding: 10px;
     padding-bottom: 10px;
   }
-  .research p{
+  .research p {
     font-size: 1.2rem;
-    width: 30vw;
+
     text-align: center;
-   
   }
   .research-content p {
     font-size: 1.2rem;
-    width: 30vw;
+
     text-align: center;
-    line-height: 1.6;
-    text-indent: 2rem;
+    line-height: 1.2;
   }
 
   .research-image img {
@@ -636,24 +628,47 @@
     align-items: unset;
   }
 
+  .history h1,
+  .research h1 {
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  .history p,
+  .research p {
+    font-size: 22px;
+
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
   .history-content p {
     font-size: 1.2rem;
-    width: 30vw;
+
     text-align: center;
-    align-items: center;
-    line-height: 1.6;
-    margin: 0 auto;
+
+    line-height: 1.2;
+    font-weight: 400;
+
+    padding-bottom: 10px;
   }
 
   .research-content p {
     font-size: 1.2rem;
     padding-top: 0;
     text-align: center;
-    align-items: center;
+
+    line-height: 1.2;
+    font-weight: 400;
+
+    margin-bottom: 2.5rem;
+
+    /*     align-items: center;
     width: 30vw;
     line-height: 1.6;
     margin: 0 auto;
-    margin-top: 0;
+    margin-top: 0; */
   }
 
   .history h3,
@@ -666,23 +681,17 @@
   .history p,
   .research p {
     font-size: 1.2rem;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px;
     padding-top: 10px;
     text-align: center;
-    align-items: center;
-    width: 30vw;
-    line-height: 1.6;
-    margin: 0 auto;
-    margin-top: 0;
-  
   }
 
   .research-img video {
     align-items: center;
     width: 70%;
     height: auto;
-    padding-left: 178px;
+    padding-left: 222px;
   }
 
   /* .partnerslogoDiv img {
