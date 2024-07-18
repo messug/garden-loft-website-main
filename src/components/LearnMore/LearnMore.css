@@ -22,7 +22,7 @@
 }
 .hero-text {
   position: absolute;
-  top: 180px; /* Adjust this value to move the text higher above the image */
+  top: 200px; /* Adjust this value to move the text higher above the image */
   left: 0;
   width: 95%;
   line-height: 2rem;
@@ -33,6 +33,7 @@
   font-size: 35px;
   margin-top: 270px; /* Add some space between h1 and p */
   color: white;
+  margin-bottom: 1rem;
 }
 
 .hero-text p {
