@@ -689,9 +689,10 @@
 
   .research-img video {
     align-items: center;
-    width: 70%;
+    width: 50%;
     height: auto;
-    padding-left: 222px;
+    padding-left: 420px;
+    margin: 2rem 0;
   }
 
   /* .partnerslogoDiv img {
@@ -817,7 +818,7 @@
     width: 170vw;
     /* max-width: 98%; */
     /* height: 60vh; */
-    margin: 0 auto;
+    margin: 2rem auto;
   }
 
   .button-about {
