@@ -158,7 +158,7 @@ const Atrium = () => {
                   <br /> communal building
                 </h4>
               </div>
-              <button className="button-atrium">
+              <button className="button-atrium sec1-button">
                 <Link to="/#two-units">
                   Learn more about <br /> Garden Loft units
                 </Link>
