@@ -430,6 +430,10 @@
     padding: 2rem;
   }
 
+  .first-box {
+    margin-top: 13rem;
+  }
+
   .sec2 {
     display: none;
   }
