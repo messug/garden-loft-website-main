@@ -56,27 +56,29 @@ const LearnMore: React.FC = () => {
 
       <section className="learn-more-section" id="learn-more">
         <div id="safety-support">
-          <div className="sec1">
-            <div className="sec1-words">
-              <h1 className="safety-features">
-                Garden Loft's Safety <br />
-                and Support Features
-              </h1>
-              <p className="section-title">
-                Our safety and support features
-                <br /> enable seniors and others
-                <br /> with differing abilities
-                <br /> to live safely, and with
-                <br /> more independence, dignity,
-                <br /> and quality of life
-              </p>
-            </div>
-            <div className="sec1image">
-              <img
-                src={LM2}
-                alt="safety-features"
-                className="elizabeth-image"
-              />
+          <div className="first-box">
+            <div className="sec1">
+              <div className="sec1-words">
+                <h1 className="safety-features">
+                  Garden Loft's Safety <br />
+                  and Support Features
+                </h1>
+                <p className="section-title">
+                  Our safety and support features
+                  <br /> enable seniors and others
+                  <br /> with differing abilities
+                  <br /> to live safely, and with
+                  <br /> more independence, dignity,
+                  <br /> and quality of life
+                </p>
+              </div>
+              <div className="sec1image">
+                <img
+                  src={LM2}
+                  alt="safety-features"
+                  className="elizabeth-image"
+                />
+              </div>
             </div>
           </div>
           <div className="sec2">
@@ -129,35 +131,16 @@ const LearnMore: React.FC = () => {
           </em>
           <em>
             <p className="quote-desktop">
-              “The Garden Loft team
-          
-              understands that the housing
-             
-              market is failing people with
-           
-              disabilities and has designed
-             
-              homes that take an aspirational
-             
-              approach to accessible design.
+              “The Garden Loft team understands that the housing market is
+              failing people with disabilities and has designed homes that take
+              an aspirational approach to accessible design.
             </p>
             <p className="quote-desktop">
-              Because the Garden Loft suites
-             
-              are prefabricated and have a
-              variety of customizations
-             
-              available, they are able to meet
-             
-              the diverse needs of many
-              
-              people with disabilities, including
-             
-              elderly people who need fall-safe
-             
-              flooring or wheelchair users who
-             
-              need zero-step floor plans.”
+              Because the Garden Loft suites are prefabricated and have a
+              variety of customizations available, they are able to meet the
+              diverse needs of many people with disabilities, including elderly
+              people who need fall-safe flooring or wheelchair users who need
+              zero-step floor plans.”
             </p>
           </em>
           <p id="quote-sign">
@@ -363,10 +346,10 @@ const LearnMore: React.FC = () => {
             <iframe
               width="100%"
               height="515"
-              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=1"
+              src="https://www.youtube.com/embed/y_nhYxDIm24?autoplay=0"
               title="YouTube video player"
               frameBorder="0"
-              // allow="autoplay; encrypted-media"
+              allow="encrypted-media"
               allowFullScreen
               className="video-embed"
             ></iframe>
@@ -421,7 +404,11 @@ const LearnMore: React.FC = () => {
           </div>
           <div className="sec2">
             <h1 className="section-title">Financing Options</h1>
-            <img src={LM4} alt="Financing Options" className="financing-image" />
+            <img
+              src={LM4}
+              alt="Financing Options"
+              className="financing-image"
+            />
             <p>
               Garden Lofts are registered <br />
               secondary suites and eligible <br />
@@ -454,7 +441,7 @@ const LearnMore: React.FC = () => {
             specialist
           </button>
         </div>
-       <div className="resellingL" id="reselling">
+        <div className="resellingL" id="reselling">
           <h1 className="section-title">Reselling your Garden Loft</h1>
           <p>
             As a prefabricated structure, <br />

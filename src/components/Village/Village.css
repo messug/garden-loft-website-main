@@ -279,8 +279,31 @@
     gap: 8rem;
   }
 
-  .sec1 .sec1-words {
+  /* .sec1 .sec1-words {
     margin-top: 6rem;
+  } */
+
+.sec1-words .v-box-1 {
+    margin-top: 6rem;
+  }
+.sec1-words .v-box-2 {
+    margin-top: 4rem;
+  }
+.sec1-words .v-box-3 {
+    margin-top: 6rem;
+  }
+
+.sec1-words .v-box-4 {
+    margin-top: 6.5rem;
+  }
+.sec1-words .v-box-5 {
+    margin-top: 4rem;
+  }
+.sec1-words .v-box-6 {
+    margin-top: 4rem;
+  }
+.sec1-words .v-box-7 {
+    margin-top: 3rem;
   }
 
   .sec2 {

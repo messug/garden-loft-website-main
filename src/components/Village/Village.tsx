@@ -92,6 +92,7 @@ function Village() {
           </div>
           <div className="sec1">
             <div className="sec1-words">
+              <div className="v-box-1">
               <h2>
               {" "}
                 <br/>
@@ -103,6 +104,7 @@ function Village() {
                 A cluster of Garden Loft units <br /> organized around a
                 courtyard, <br /> greenspace, or walkway
               </h3>
+              </div>
             </div>
             <div className="sec1image">
               <img src={Village9} alt="GL-Cost Image" />
@@ -110,6 +112,7 @@ function Village() {
           </div>
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-2">
               <h2>
               {" "}
                 <br/>
@@ -123,6 +126,7 @@ function Village() {
                   <br /> about Garden <br /> Loft units
                 </Link>
               </button>
+            </div>
             </div>
             <div className="sec1image">
               <img src={Village8} alt="GL-Cost Image" />
@@ -144,14 +148,16 @@ function Village() {
           </div>
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-3">
               <h2>
                 {" "}
                 <br/>
                 <br/>
-                Garden Loft Villages <br /> can be integrated with new or <br />{" "}
-                existing community buildings, <br />
-                clubhouses, and coffee shops
+                Garden Loft Villages <br /> can be integrated with <br/> new or
+                existing <br/>community buildings, <br />
+                clubhouses, <br />and coffee shops
               </h2>
+            </div>
             </div>
             <div className="sec1image">
               <img src={Village4} alt="GL-Cost Image" />
@@ -168,13 +174,14 @@ function Village() {
    
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-4">
               <h2>
                 Garden Loft Village <br /> clients are looking for <br /> a
                 one-stop-shop <br /> development option for <br /> supportive
                 housing{" "}
               </h2>
               <button className="button-village-cost" onClick={() => handleNavigate('/initial')}>Book a <br /> preliminary <br />consult</button>
-               
+               </div>
             </div>
             <div className="sec1image">
               <div className="workers-list">
@@ -269,6 +276,7 @@ function Village() {
         <div className="village-content">
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-5">
               <h2>
               {" "}
                 <br/>
@@ -279,6 +287,7 @@ function Village() {
                 communities with limited <br /> demand for supportive housing
               </h2>
               <button  className="button-village-cost call-us" onClick={() => handleNavigate('/phone-call')}>Call Us</button>
+            </div>
             </div>
             <div className="sec1image">
               <img src={Village5} alt="GL-Cost Image" />
@@ -308,6 +317,7 @@ function Village() {
 
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-6">
             {" "}
                 <br/>
                 <br/>{" "}
@@ -320,6 +330,7 @@ function Village() {
               an existing care facility
               <br /> in order to increase capacity
             </h3> 
+            </div>
             </div>
             <div className="sec1image">
               <img  src={Village6v2} alt="GL-Cost Image" />
@@ -339,6 +350,7 @@ function Village() {
 
           <div className="sec1">
             <div className="sec1-words">
+            <div className="v-box-7">
             {" "}
                 <br/>
                 <br/>{" "}
@@ -350,6 +362,7 @@ function Village() {
             <br /> outside of Calgary
           </h3>
           <button className="button-village-cost" onClick={handleButtonClick}>Tour Our <br /> Showsuite</button>
+            </div>
             </div>
             <div className="sec1image">
               <img  src={Village7v2} alt="GL-Cost Image" />
