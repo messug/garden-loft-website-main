@@ -263,7 +263,7 @@ const Atrium = () => {
             </h5>
           </div>
           <div id="foundation-section">
-            <div className="foundation-box">
+            <div className="foundation-box foundation-box1">
               <h2>BRENDA STRAFFORD FOUNDATION provides</h2>
               <ul>
                 <li>
@@ -275,7 +275,7 @@ const Atrium = () => {
               </ul>
             </div>
             <div className="plus-sign plus-sign2">+</div>
-            <div className="foundation-box">
+            <div className="foundation-box foundation-box2">
               <h2>GARDEN LOFT provides</h2>
               <ul>
                 <li>Research-based inclusive and accessible design</li>
