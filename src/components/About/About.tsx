@@ -321,8 +321,8 @@ const About = () => {
       <h5>
       <a className="inline-link" href="https://www.thinairlabs.ca" target="_blank" rel="noopener noreferrer">Thin Air Labs</a> </h5>
       <p>
-      Thin Air Labs is a <br />
-      Calgary-based venture <br />capital and services firm <br />creating human value <br />by helping early-stage <br />startups scale globally</p>
+      Thin Air Labs is a 
+      Calgary-based<br /> venture capital and services <br />firm creating human value<br /> by helping early-stage <br />startups scale globally</p>
 
     </div>
 
