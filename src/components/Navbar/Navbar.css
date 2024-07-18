@@ -229,7 +229,7 @@
     flex-direction: column;
     gap: 1.5rem;
     position: absolute;
-    left:980px;
+    left:960px;
     top: 100px;
     background-color: #ffffff;
     color: #000000;
@@ -237,7 +237,7 @@
     padding-bottom: 5rem;
     /* padding-top: 5rem; */
     width: 15vw;
-    height: 52vh;
+    height: 60vh;
     margin-top: -90px;
     border-radius: 2rem;
   }
