@@ -44,10 +44,11 @@ const MortgageSpecialistForm: React.FC = () => {
 
     try {
       // Save to Firestore
-      await addDoc(collection(FIRESTORE_DB, 'feasibilityReports'), formData);
+      await addDoc(collection(FIRESTORE_DB, 'Mortgage Specialist'), formData);
 
       const templateParams = {
         to_email: 'info@gardenloft.ca',
+        request_type: 'Mortgage Specialist',
         from_name: `${formData.firstName} ${formData.lastName}`,
         firstName: formData.firstName,
         lastName: formData.lastName,
