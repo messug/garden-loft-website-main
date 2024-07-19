@@ -31,7 +31,7 @@
 
 .hero-text h1 {
   font-size: 35px;
-  margin-top: 210px; /* Add some space between h1 and p */
+  margin-top: 190px; /* Add some space between h1 and p */
   color: white;
   margin-bottom: 1rem;
 }
@@ -349,16 +349,18 @@
     font-size: 8rem;
     text-align: center;
     line-height: 8rem;
-    margin-top: 12rem;
+    margin-top: 4rem;
     margin-left: -56rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
   .hero-text p {
     font-size: 3rem;
     line-height: 2.3rem;
-    text-align: center;
-    /* margin-left: -20rem;
-    padding-top: 2rem; */
+    text-align: justify;
+    margin-left: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /*padding-top: 2rem; */
   }
   .section-title {
     font-size: 3rem;

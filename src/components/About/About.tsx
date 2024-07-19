@@ -92,7 +92,7 @@ const About = () => {
                 We create high-quality places to live <br />
                 that empower dignity, independence <br />
                 and belonging in the lives of seniors <br /> and others with
-                differing abilities.
+                differing abilities
               </h1>
             </div>
           </div>

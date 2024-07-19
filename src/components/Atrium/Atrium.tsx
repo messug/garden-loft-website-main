@@ -468,7 +468,7 @@ const Atrium = () => {
 
           <div className="sec1">
             <div className="sec1-words">
-              <div className="box-6">
+              <div className="box-11">
                 <button
                   onClick={() => handleNavigate("/book-tour")}
                   className="button-atrium"
