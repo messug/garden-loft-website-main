@@ -541,7 +541,8 @@
   .hero-about-img img {
     width: 100vw;
     object-fit: cover;
-    height: 130vh;
+    height: 100vh;
+    opacity: 0.93;
   }
 
   .hero-about-content {
@@ -603,11 +604,15 @@
     font-weight: 300;
   }
 
+  /* #hero-about-header h1 {
+    margin-top: 12rem;
+  } */
+
   .hero-about-content h1 {
     font-size: 8rem;
     text-align: center;
-    line-height: 8rem;
-    margin-top: 20rem;
+    line-height: 2rem;
+    margin-top: 12rem;
     margin-left: -14rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
@@ -617,7 +622,7 @@
     line-height: 2.3rem;
     text-align: justify;
     margin-left: 8rem;
-    margin-top: -4rem;
+    margin-top: 2rem;
     padding-top: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
