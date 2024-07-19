@@ -2,7 +2,13 @@
 
 import { InlineWidget } from 'react-calendly';
 
-const Calendly = ({ url }) => {
+// Define the props interface
+interface CalendlyProps {
+  url: string;
+}
+
+// Update the function to accept props of type CalendlyProps
+const Calendly: React.FC<CalendlyProps> = ({ url }) => {
   return (
     <div>
       <InlineWidget url={url} />
