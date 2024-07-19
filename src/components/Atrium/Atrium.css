@@ -7,7 +7,8 @@
   width: 100vw;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: black;
 }
 
@@ -263,7 +264,6 @@ h2, h3 {
     margin-top: 2rem;
   }
 
-
   .hero-atrium-img img {
     position: absolute; /* Fix the image within the container */
     top: 0;
@@ -293,7 +293,7 @@ h2, h3 {
   }
 
   .atrium-content h3 {
-      /* font-size: 30px;
+    /* font-size: 30px;
     font-weight: 500;
     width: 25vw; */
     width: 25vw;
@@ -302,7 +302,7 @@ h2, h3 {
     line-height: 1.2;
     padding: 0 1.2rem;
     margin-bottom: 1rem;
-    margin-top: 1rem;  
+    margin-top: 1rem;
   }
 
   .atrium-content h5 {
@@ -312,7 +312,7 @@ h2, h3 {
     line-height: 1.2;
     /* padding: 0 1.2rem; */
     margin-bottom: 1rem;
-    margin-top: 1rem;  
+    margin-top: 1rem;
   }
   .sec2 {
     display: none;
@@ -341,7 +341,7 @@ h2, h3 {
     margin: 0rem;
     font-size: 3rem;
   }
-  .plus-sign2{
+  .plus-sign2 {
     padding: 0 1rem;
   }
   .foundation-box {
@@ -369,32 +369,36 @@ h2, h3 {
   }
 
   .sec1-words .para-text {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 2rem;
+    width: 25vw;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   .sec1-words .box-1 {
-margin-top: 9rem;
+    margin-top: 9rem;
   }
   .sec1-words .box-2 {
-margin-top: 6rem;
-padding: 0 1.4rem
+    margin-top: 6rem;
+    padding: 0 1.4rem;
   }
   .sec1-words .box-3 {
-margin-top: 10rem;
+    margin-top: 10rem;
   }
   .sec1-words .box-4 {
-margin-top: 2rem;
+    margin-top: 2rem;
   }
   .sec1-words .box-5 {
-margin-top: 10rem;
+    margin-top: 10rem;
   }
 
   .sec1-words .box-6 {
     margin-top: 6.5rem;
   }
   .sec1-words .box-7 {
-    margin-top: 8rem;
+    margin-top: 6rem;
   }
   .sec1-words .box-8 {
     margin-top: 10rem;
@@ -406,8 +410,12 @@ margin-top: 10rem;
     margin-top: 5rem;
     padding: 0 3rem;
   }
-.sec1-button {
-  margin:20px 0 0 0;
-}
 
+  .sec1-words .box-11 {
+    margin-top: -5rem;
+  }
+
+  .sec1-button {
+    margin: 20px 0 0 0;
+  }
 }
