@@ -2,12 +2,10 @@
 
 import { InlineWidget } from 'react-calendly';
 
-const Calendly = () => {
+const Calendly = ({ url }) => {
   return (
-    <div >
-      <InlineWidget 
-        url="https://calendly.com/gardenloft/test" 
-      />
+    <div>
+      <InlineWidget url={url} />
     </div>
   );
 };

@@ -41,6 +41,9 @@ const Initial: React.FC = () => {
       <div className='navbarBackground'></div>
       <div className="initial-meeting">
         <h2>Book a Complimentary Initial Meeting</h2>
+        <div className="calendly-widget">
+          <Calendly url="https://calendly.com/gardenloft/initial-meeting" />
+        </div>
         {/* <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
@@ -74,9 +77,7 @@ const Initial: React.FC = () => {
           </div>
           <button className='button-meet' type="submit">Book Meeting</button>
         </form> */}
-        <div className="calendly-widget">
-        <Calendly />
-        </div>
+       
        
       </div>
       <Footer />

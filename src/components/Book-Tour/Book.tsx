@@ -16,7 +16,7 @@ function Book() {
 
         </h1>
         <div className="calendly-widget">
-          <Calendly />
+          <Calendly url="https://calendly.com/gardenloft/test" />
         </div>
       </div>
       <Footer />
