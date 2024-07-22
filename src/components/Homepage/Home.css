@@ -223,13 +223,17 @@
 
   }
   .homepage-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   width: 100%;
+   max-width: 250%;
+   text-align: center;
+   justify-content: center;
   }
 
   .item-container {
-    flex-direction: column;
+
+     display: flex; 
+    flex-wrap: wrap; 
+    /* flex-direction: column; */
     width: calc(33.33% - 20px);
     margin-bottom: 40px;
   }
@@ -242,14 +246,13 @@
 
   .text-container {
     text-align: center;
-    width: 100%;
+    width: 120%;
   }
 
   .text-container h3 {
     order: -1;
     margin-bottom: 10px;
   }
-
 }
 
 

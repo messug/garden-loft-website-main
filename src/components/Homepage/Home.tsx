@@ -1,11 +1,13 @@
 import React from 'react';
 import './Home.css';
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import HomeVideo from "/images/Homepage hero video 2024_07_22.mp4"
 
 const Home: React.FC = () => {
   return (
     <>
-
+ <Navbar />
       <section className="home">
         <div className="home-content">
           <video className="video" src={HomeVideo} autoPlay loop muted playsInline  />
@@ -26,14 +28,14 @@ const Home: React.FC = () => {
         <img src="/images/Backyard Circle_1.png" alt="Backyards Suites" />
       </div>
       <div className="text-container">
-        <h3><a href="/backyard-suites">Backyard Suites</a></h3>
+        <h3><a href="/mainpage">Backyard Suites</a></h3>
         <p>family focused <br />supportive living</p>
       </div>
     </div>
     
     <div className="item-container">
       <div className="image-container">
-        <img src="/images/Backyard Circle_1.png" alt="Villages" />
+        <img src="/images/Backyard Circle_1.png" alt="Village" />
       </div>
       <div className="text-container">
         <h3><a href="/villages">Villages</a></h3>
@@ -46,14 +48,14 @@ const Home: React.FC = () => {
         <img src="/images/Atrium House Circle_1.png" alt="Atrium House" />
       </div>
       <div className="text-container">
-        <h3><a href="/small-care-homes">Small Care Homes</a></h3>
+        <h3><a href="/atrium">Small Care Homes</a></h3>
         <p>care enhanced <br /> community living</p>
       </div>
     </div>
   </div>
 </section>
 
-
+<Footer />
     </>
   );
 };
