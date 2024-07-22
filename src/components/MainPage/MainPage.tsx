@@ -2,8 +2,8 @@ import Home from "../Home/Home";
 // import "./App.css";
 import Safety from "../Safety/Safety";
 import Navbar from "../Navbar/Navbar";
-// import HomePage from "../Homepage/Home";
-// import BackyardSuite from "../BackyardSuite/Backyard"
+import HomePage from "../Homepage/Home";
+
 import Units from "../Units/Units";
 import Costs from "../Costs/Costs";
 import Footer from "../Footer/Footer";
@@ -20,9 +20,9 @@ function MainPage() {
   return (
       <>
         <Navbar />
-        {/* <HomePage /> */}
+        <HomePage />
         <Home />
-        {/* <BackyardSuite /> */}
+      
         <Safety />
         <Advantage />
         <Report />

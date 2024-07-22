@@ -18,6 +18,7 @@ import Reselling from "./components/Reselling/Reselling";
 import Phone from "./components/Phone/Phone";
 import LearnMore from "./components/LearnMore/LearnMore";
 import MortgageSpecialistForm from "./components/morgage/MortgageSpecialistForm..js"
+import Home from "./components/Homepage/Home.tsx";
 
 
 
@@ -26,7 +27,8 @@ function App() {
     <>
 <Router> 
         <Routes>
-          <Route path="/" element={<MainPage />} />
+        <Route path="/" element={<Home />} />
+          <Route path="/mainpage" element={<MainPage />} />
           <Route path="/about" element={<About/>} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/tour" element={<Tour />} />
