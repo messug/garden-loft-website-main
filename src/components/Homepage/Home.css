@@ -28,6 +28,9 @@
 .desktop-para {
   display: none;
 }
+.desktop-homepage{
+  display: none;
+}
 
 
 .home-content {
@@ -68,7 +71,7 @@
 }
 
 .homepage-content h1{
-  font-weight: 400;
+  font-weight: 500;
   padding-bottom: 0px;
   margin-bottom: -20px;
 }
@@ -116,16 +119,12 @@
 .text-container h3 a {
   color: inherit;
   text-decoration: none;
-}
-
-.text-container h3 a:hover {
   text-decoration: underline;
 }
 
-
-
-
-
+.text-container h3 a:hover {
+  text-decoration: none;
+}
 
 /* Media Queries for Larger Screens */
 @media (min-width: 768px) and (max-width: 1023px)  {
@@ -160,32 +159,47 @@
     padding-left: 2rem;
     display: flex;
   }
+
   .homepage-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    font-size: 24px;
   }
 
   .item-container {
-    flex-direction: column;
-    width: calc(33.33% - 20px);
-    margin-bottom: 40px;
+    padding: 40px;
   }
 
   .image-container {
-    margin-right: 0;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-right: 60px;
+    margin-left: -20px;
   }
 
-  .text-container {
-    text-align: center;
-    width: 100%;
+  .image-container img {
+    max-width: 250px;
   }
 
   .text-container h3 {
-    order: -1;
-    margin-bottom: 10px;
+    font-size: 32px;
+  }
+
+  .text-container p {
+    font-size: 22px;
+  }
+ 
+}
+
+/* Large tablets and small desktops */
+@media (min-width: 992px) {
+  .home h1 {
+    font-size: 7.8rem;
+  }
+
+  .content {
+    width: 90%;
+    padding-left: 5rem;
+  }
+
+  .homepage-content {
+    font-size: 26px;
   }
 }
 
@@ -209,9 +223,9 @@
 
   .desktop-para {
     display: block;
-    text-align: center;
+    text-align: right;
     display: flex;
-    align-self: center;
+    align-self: right;
   }
 
   .content {
@@ -222,40 +236,49 @@
     padding-left: 7rem;
 
   }
+
   .homepage-content {
-   width: 100%;
-   max-width: 250%;
-   text-align: center;
-   justify-content: center;
+    font-size: 28px;
   }
 
-  .item-container {
+  .deskpage-content {
+    font-size: 28px;
+  }
 
-     display: flex; 
-    flex-wrap: wrap; 
-    /* flex-direction: column; */
-    width: calc(33.33% - 20px);
+  .desk-container {
+    flex-direction: column; /* Set to row for desktop */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
     margin-bottom: 40px;
+    gap: 2rem; /* Small gap between the items */
   }
 
   .image-container {
-    margin-right: 0;
-    margin-bottom: 20px;
-    width: 100%;
+    margin-right: 20px;
+    margin-left: 0;
+    flex: 0 0 auto; /* Prevents image-container from stretching */
   }
 
-  .text-container {
-    text-align: center;
-    width: 120%;
+  .image-container img {
+    max-width: 200px; /* Adjusted size for desktop */
   }
 
-  .text-container h3 {
-    order: -1;
+  .para-container {
+    text-align: left;
+    width: auto;
+    flex: 1; /* Allows para-container to take available space */
+  }
+
+  .para-container h3 {
+    font-size: 36px;
     margin-bottom: 10px;
   }
+
+  .para-container p {
+    font-size: 24px;
+  }
 }
-
-
 
  
 
