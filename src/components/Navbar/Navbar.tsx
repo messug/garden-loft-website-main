@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
         </div>
       </Link>
       <div className={`menu-web ${isMenuOpen ? "open" : ""}`} id="menu-web">
-        <Link onClick={scrollToTop} to="/" style={{ textDecoration: "none" }}>
+        <Link onClick={scrollToTop} to="/mainpage" style={{ textDecoration: "none" }}>
           <p>Backyard Suites</p>
         </Link>
         <Link onClick={scrollToTop} to="/village" style={{ textDecoration: "none" }}>

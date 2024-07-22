@@ -179,7 +179,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-column">
             <h2>
-              <Link to="/" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
+              <Link to="/mainpage" onClick={scrollToTop}>Garden Loft Backyard Suites</Link>
             </h2>
             <h3>
               <Link to="/learn-more#safety-support">Our Support Features</Link>
