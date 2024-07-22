@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         <img src="/images/Backyard Circle_1.png" alt="Village" />
       </div>
       <div className="text-container">
-        <h3><a href="/villages">Villages</a></h3>
+        <h3><a href="/village">Villages</a></h3>
         <p>community embedded  <br />supportive living</p>
       </div>
     </div>
