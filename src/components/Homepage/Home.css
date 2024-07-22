@@ -237,48 +237,76 @@
 
   }
 
-  .homepage-content {
+  /* .homepage-content {
     font-size: 28px;
+  } */
+
+  .homepage-content {
+    display: none;
+  }
+
+  .desktop-homepage {
+    display: block;
   }
 
   .deskpage-content {
-    font-size: 28px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .deskpage-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .deskpage-content > p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .image-container img {
+    border: 2px solid red;
+  }
+  .desk-containers {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
   }
 
   .desk-container {
-    flex-direction: column; /* Set to row for desktop */
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center the items horizontally */
-    margin-bottom: 40px;
-    gap: 2rem; /* Small gap between the items */
+    width: 30%;
   }
 
-  .image-container {
-    margin-right: 20px;
-    margin-left: 0;
-    flex: 0 0 auto; /* Prevents image-container from stretching */
+  .desk-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  .image-container img {
-    max-width: 200px; /* Adjusted size for desktop */
+  .desk-container h3 a {
+    color: inherit;
+    text-decoration: underline;
   }
 
-  .para-container {
-    text-align: left;
-    width: auto;
-    flex: 1; /* Allows para-container to take available space */
+  .desk-container h3 a:hover {
+    text-decoration: none;
   }
 
-  .para-container h3 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  .desk-container .image-container {
+    margin: 1rem 0;
   }
 
-  .para-container p {
-    font-size: 24px;
+  .desk-container .image-container img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
   }
+
+  .desk-container p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+
 }
-
- 
 
