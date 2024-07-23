@@ -69,7 +69,7 @@ function Village() {
         <video className="video" src={VillageVideo} autoPlay loop muted playsInline  />
         {/* <img className="video" src={BYSuite} /> */}
         <div className="content">
-        <h1>Garden Loft Villages</h1>
+        <h1>Villages</h1>
         <p className='mobile-para'> community embedded <br />
         supportive living</p>
         <p className='desktop-para'> community embedded 
