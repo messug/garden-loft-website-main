@@ -23,32 +23,34 @@ const Home: React.FC = () => {
               Supportive housing <br />
               you want to live in
             </p>
-            <p className="desktop-para">
+            <h1 className="desktop-para">
               Supportive housing <br />
-              you want to live in
-            </p>
+              you want to <br />live in
+            </h1>
           </div>
         </div>
       </section>
       <section className="homepage">
         <div className="homepage-content">
-          <h1>Garden loft</h1>
-          <p>
-            is a prefabricated modular <br /> system for creating <br />
+          {/* <h1>Garden loft</h1> */}
+          <h1>
+          Garden loft  <br /> is a prefabricated modular <br /> system for creating <br />
             small-scale high-quality <br /> housing developments
-          </p>
-          <p>
+          </h1>
+          <h1>
             We simplify the process of <br /> creating joyously supportive{" "}
             <br />
             places to live
-          </p>
+          </h1>
           <div className="desk-flex">
             <div className="item-container mob-view">
               <div className="home-image-container">
-                <img
-                  src="/images/Backyard Circle_1.png"
-                  alt="Backyards Suites"
-                />
+              <a href="/mainpage">
+                  <img
+                    src="/images/Backyard Circle_1.png"
+                    alt="Backyards Suites"
+                  />
+                </a>
               </div>
               <div className="text-container">
                 <h3>
@@ -68,10 +70,12 @@ const Home: React.FC = () => {
                 </h3>
               </div>
               <div className="home-image-container">
-                <img
-                  src="/images/Backyard Circle_1.png"
-                  alt="Backyards Suites"
-                />
+              <a href="/mainpage">
+                  <img
+                    src="/images/Backyard Circle_1.png"
+                    alt="Backyards Suites"
+                  />
+                </a>
               </div>
               <div className="text-container">
                 <p>
@@ -83,7 +87,9 @@ const Home: React.FC = () => {
 
             <div className="item-container mob-view">
               <div className="home-image-container">
+              <a href="/village">
                 <img src="/images/village Circle_1.png" alt="Village" />
+                </a>
               </div>
               <div className="text-container">
                 <h3>
@@ -104,7 +110,9 @@ const Home: React.FC = () => {
               </h3>
             </div>
             <div className="home-image-container">
-              <img src="/images/village Circle_1.png" alt="Village" />
+            <a href="/village">
+                <img src="/images/village Circle_1.png" alt="Village" />
+                </a>
             </div>
             <div className="text-container">
               <p>
@@ -116,7 +124,9 @@ const Home: React.FC = () => {
 
           <div className="item-container mob-view">
             <div className="home-image-container">
+            <a href="/atrium">
               <img src="/images/Atrium House Circle_1.png" alt="Atrium House" />
+              </a>
             </div>
             <div className="text-container">
               <h3>
@@ -129,12 +139,7 @@ const Home: React.FC = () => {
           </div>
        
 
-        {/* <div className='homepage-content'>
-    <p>From backyards <br />to small care homes </p>
-    <p>From independent living <br />to high level care </p>
-    <p>Garden Loft delivers<br /> tailored solutions for <br />unique needs</p>
-    </div>
-   */}
+    
 
         <div className="item-container1 desk-view">
           <div className="text-container">
@@ -143,7 +148,9 @@ const Home: React.FC = () => {
             </h3>
           </div>
           <div className="home-image-container">
-            <img src="/images/Atrium House Circle_1.png" alt="Atrium House" />
+          <a href="/atrium">
+              <img src="/images/Atrium House Circle_1.png" alt="Atrium House" />
+              </a>
           </div>
           <div className="text-container">
             <p>
@@ -154,19 +161,19 @@ const Home: React.FC = () => {
         </div>
         
         <div className="homepage-content">
-          <p>
+          <h1>
             From backyards <br />
             to small care homes{" "}
-          </p>
-          <p>
+          </h1>
+          <h1>
             From independent living <br />
             to high level care{" "}
-          </p>
-          <p>
+          </h1>
+          <h1>
             Garden Loft delivers
             <br /> tailored solutions for <br />
             unique needs
-          </p>
+          </h1>
         </div>
         </div>
       
