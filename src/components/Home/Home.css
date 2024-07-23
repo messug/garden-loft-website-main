@@ -12,26 +12,6 @@
   overflow-x: hidden;
 }
 
-.home h1 {
-  font-size: 35px;
-  /* margin-bottom: 1rem; */
-  text-align: right;
-}
-
-.home p {
-  font-size: 32px;
-  text-align: right;
-  margin-bottom: 2.5rem;
-  line-height: 2rem;
-}
-
-.desktop-para {
-  display: none;
-}
-.desktop-homepage {
-  display: none;
-}
-
 .home-content {
   text-align: center;
   width: 100vw;
@@ -50,9 +30,6 @@
   justify-content: end;
   align-items: flex-end;
 }
-.desk-view {
-  display: none;
-}
 
 .video {
   width: 100vw;
@@ -63,69 +40,21 @@
   filter: brightness(75%);
 }
 
-.homepage-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px;
-  font-size: 22px;
-  align-items: center;
-  text-align: center;
+.home h1 {
+  font-size: 35px;
+  /* margin-bottom: 1rem; */
+  text-align: right;
 }
 
-.homepage-content h1 {
-  font-weight: 500;
-  /* padding-bottom: 10px; */
-  margin-bottom: -14px;
+.home p {
+  font-size: 32px;
+  text-align: right;
+  margin-bottom: 2.5rem;
+  line-height: 2rem;
 }
 
-.homepage-content p {
-  font-weight: 400;
-  padding: 10px;
-  line-height: 1.2;
-}
-
-.item-container {
-  display: flex;
-  margin-bottom: 20px;
-  padding: 5px;
-  align-items: center;
-}
-
-.home-image-container {
-  flex: 0 0 50%;
-  margin-right: -4px;
-  margin-left: -6px;
-}
-
-.home-image-container img {
-  width: 100%;
-  height: auto;
-  max-width: 200px; /* Limit the maximum width of the image */
-}
-
-.text-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.text-container h3 {
-  /* margin-bottom: -10px; */
-  font-size: 28px;
-}
-.text-container p {
-  font-size: 20px; /* Adjust as needed */
-}
-
-.text-container h3 a {
-  color: inherit;
-  text-decoration: none;
-  text-decoration: underline;
-}
-
-.text-container h3 a:hover {
-  text-decoration: none;
+.desktop-para {
+  display: none;
 }
 
 /* Media Queries for Larger Screens */
@@ -160,48 +89,7 @@
     padding-left: 2rem;
     display: flex;
   }
-
-  .homepage-content {
-    font-size: 24px;
-  }
-
-  .item-container {
-    padding: 40px;
-  }
-
-  .home-image-container {
-    margin-right: 60px;
-    margin-left: -20px;
-  }
-
-  .home-image-container img {
-    max-width: 250px;
-  }
-
-  .text-container h3 {
-    font-size: 32px;
-  }
-
-  .text-container p {
-    font-size: 22px;
-  }
 }
-
-/* Large tablets and small desktops */
-/* @media (min-width: 992px) {
-  .home h1 {
-    font-size: 7.8rem;
-  }
-
-  .content {
-    width: 90%;
-    padding-left: 5rem;
-  }
-
-  .homepage-content {
-    font-size: 26px;
-  }
-} */
 
 @media (min-width: 1024px) {
   .home h1 {
@@ -215,8 +103,6 @@
     font-size: 3rem;
     line-height: 2.3rem;
     text-align: center;
-    margin-bottom: 9.5rem;
-    /* margin-left: 36.5rem; */
   }
 
   .mobile-para {
@@ -225,17 +111,9 @@
 
   .desktop-para {
     display: block;
-    text-align: right;
+    text-align: center;
     display: flex;
-    align-self: right;
-  }
-
-  .mob-view {
-    display: none;
-  }
-
-  .desk-view {
-    flex-direction: column;
+    align-self: center;
   }
 
   .content {
@@ -244,62 +122,5 @@
     width: 85%;
     height: 90%;
     padding-left: 7rem;
-  }
-
-  .homepage-content {
-    font-size: 28px;
-  }
-
-  .deskpage-content {
-    font-size: 28px;
-  }
-
-  .desk-container {
-    /* Set to row for desktop */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; /* Center the items horizontally */
-    margin-bottom: 40px;
-    gap: 2rem; /* Small gap between the items */
-  }
-
-  .home-image-container {
-    margin-right: 20px;
-    margin-left: 0;
-    flex: 0 0 auto; /* Prevents image-container from stretching */
-  }
-
-  .image-container img {
-    max-width: 200px; /* Adjusted size for desktop */
-  }
-
-  .para-container {
-    text-align: left;
-    width: auto;
-    flex: 1; /* Allows para-container to take available space */
-  }
-
-  .para-container h3 {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-
-  .para-container p {
-    font-size: 24px;
-  }
-
-  .desk-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-
-  .item-container1 {
-    display: flex;
-    margin-bottom: 20px;
-    padding: 5px;
-    align-items: center;
   }
 }
