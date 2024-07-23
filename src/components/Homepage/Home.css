@@ -86,6 +86,7 @@
 
 .item-container {
   display: flex;
+  margin-top: 26px;
   margin-bottom: 20px;
   padding: 5px;
   align-items: center;
