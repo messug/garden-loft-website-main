@@ -19,10 +19,10 @@ const Home: React.FC = () => {
             playsInline
           />
           <div className="content">
-            <p className="mobile-para">
+            <h1 className="mobile-para">
               Supportive housing <br />
               you want to live in
-            </p>
+            </h1>
             <h1 className="desktop-para">
               Supportive housing <br />
               you want to <br />live in
@@ -37,11 +37,11 @@ const Home: React.FC = () => {
           Garden loft  <br /> is a prefabricated modular <br /> system for creating <br />
             small-scale high-quality <br /> housing developments
           </h1>
-          <h1>
+          <p>
             We simplify the process of <br /> creating joyously supportive{" "}
             <br />
             places to live
-          </h1>
+          </p>
           <div className="desk-flex">
             <div className="item-container mob-view">
               <div className="home-image-container">
@@ -161,14 +161,14 @@ const Home: React.FC = () => {
         </div>
         
         <div className="homepage-content">
-          <h1>
+          <p>
             From backyards <br />
             to small care homes{" "}
-          </h1>
-          <h1>
+          </p>
+          <p>
             From independent living <br />
             to high level care{" "}
-          </h1>
+          </p>
           <h1>
             Garden Loft delivers
             <br /> tailored solutions for <br />
