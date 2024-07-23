@@ -40,7 +40,6 @@
   filter: brightness(75%);
 }
 
-
 .home h1 {
   font-size: 35px;
   /* margin-bottom: 1rem; */
@@ -72,7 +71,6 @@
     font-size: 3rem;
     line-height: 3rem;
     text-align: left;
-  
   }
   .video {
     width: 100vw;
@@ -124,6 +122,5 @@
     width: 85%;
     height: 90%;
     padding-left: 7rem;
-
   }
 }
