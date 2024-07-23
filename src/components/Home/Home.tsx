@@ -14,7 +14,7 @@ const Home: React.FC = () => {
         <video className="video" src={FrontVideo} autoPlay loop muted playsInline  />
         {/* <img className="video" src={BYSuite} /> */}
         <div className="content">
-        <h1>Garden Loft Backyard Suites</h1>
+        <h1>Backyard Suites</h1>
         <p className='mobile-para'> family focused <br />supportive living</p>
         <p className='desktop-para'>family focused supportive living</p></div>
       </div>
