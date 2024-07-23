@@ -195,7 +195,7 @@ const About = () => {
                 <br />
                 Housebrand has completed over <br />
                 250 residential projects using <br />a unique practice model
-                that <br />
+                that <br /> combined
                 architectural design <br />
                 with construction management,
                 <br /> real estate services, and furniture <br />
@@ -338,7 +338,7 @@ const About = () => {
             </h3>
             <p>
               In 2014, John Brown’s research <br />
-              lab began constructing and <br /> user-test two V1 and V2 mock-{" "}
+              lab began constructing and <br /> user-testing two V1 and V2 mock-{" "}
               <br />
               ups of a backyard portable <br />
               living unit in collaboration with <br />
