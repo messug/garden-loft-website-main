@@ -185,19 +185,21 @@ const Footer = () => {
               <Link to="/learn-more#safety-support">Our Support Features</Link>
             </h3>
             <h3>
-              <Link to="/#garden-loft-advantage">The Garden Loft Advantage</Link>
+              <Link to="/mainpage#garden-loft-advantage">The Garden Loft Advantage</Link>
             </h3>
             <h3>
               <Link to="/learn-more#award">Our 2024 Award</Link>
             </h3>
-            <h3>
+            {/* <h3>
               <Link to="/#two-units">Our Units</Link>
+            </h3> */}
+            <h3><Link to="/mainpage#two-units" onClick={() => scrollToSection('two-units')}>Our Units</Link></h3>
+
+            <h3>
+              <Link to="/mainpage#projects">Our Projects</Link>
             </h3>
             <h3>
-              <Link to="/#projects">Our Projects</Link>
-            </h3>
-            <h3>
-              <Link to="/#installation">Our Installation Process</Link>
+              <Link to="/mainpage#installation">Our Installation Process</Link>
             </h3>
             <h3>
               <Link to="/learn-more#compare-costs">Compare Our Costs</Link>
@@ -209,7 +211,7 @@ const Footer = () => {
               <Link to="/learn-more#new-zoning-rules">New Zoning Rules</Link>
             </h3>
             <h3>
-              <Link to="/#garden-lofters">Meet Our Garden Lofters</Link>
+              <Link to="/mainpage#garden-lofters">Meet Our Garden Lofters</Link>
             </h3>
             <h3>
               <Link to="/reselling" onClick={scrollToTop}>Reselling Your Garden Loft</Link>
