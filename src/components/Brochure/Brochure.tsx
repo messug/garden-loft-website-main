@@ -52,12 +52,44 @@ const Brochure = () => {
               };
 
             // Send email via EmailJS
-            const response = await emailjs.send(
-                'service_9sbvjnv', // Replace with your EmailJS service ID
-                'template_bh6rn31', // Replace with your EmailJS template ID
-                templateParams,
-                '--z3yrvQqS1HsMCaG' // Replace with your EmailJS user ID
-            );
+            // const response = await emailjs.send(
+            //     'service_9sbvjnv', // Replace with your EmailJS service ID
+            //     'template_bh6rn31', // Replace with your EmailJS template ID
+            //     templateParams,
+            //     '--z3yrvQqS1HsMCaG' // Replace with your EmailJS user ID
+            // );
+
+
+            let response;
+
+try {
+    // Attempt to send email using the primary service
+    response = await emailjs.send(
+        'service_9sbvjnv', // Primary EmailJS service ID
+        'template_bh6rn31', // Template ID
+        templateParams,
+        '--z3yrvQqS1HsMCaG' // User ID
+    );
+} catch (error) {
+    console.error("Primary service failed. Attempting fallback service...", error);
+    try {
+        // Attempt to send email using the fallback service
+        response = await emailjs.send(
+            'service_gtpyqtz', // Fallback EmailJS service ID
+            'template_bh6rn31', // Template ID (same as above)
+            templateParams,
+            '--z3yrvQqS1HsMCaG' // User ID (same as above)
+        );
+    } catch (fallbackError) {
+        console.error("Fallback service also failed:", fallbackError);
+        // Optionally, handle failure of both services (e.g., show an error to the user)
+        throw new Error("Both email services failed to send the email.");
+    }
+}
+
+// If successful, continue with the response handling
+console.log("Email sent successfully:", response);
+
 
             console.log('EmailJS response:', response);
 
