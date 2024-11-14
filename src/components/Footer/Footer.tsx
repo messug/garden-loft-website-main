@@ -147,6 +147,9 @@ import GLLogo from "../../assets/gl-john-logo.png";
 import { Link, useLocation } from 'react-router-dom';
 import "./Footer.css";
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 const scrollToTop = () => {
   window.scrollTo(0, 0);
@@ -266,6 +269,12 @@ const Footer = () => {
               <h3>
                 <Link to="/morgage" onClick={scrollToTop}>Contact Our Mortgage Specialist</Link>
               </h3>
+              <h3>
+            <Link to="/app-privacypolicy" onClick={scrollToTop}>
+                  <FontAwesomeIcon icon={faMobileAlt} style={{ marginRight: '8px' }} />
+                      Garden Loft App Privacy Policy
+                </Link>
+                </h3>
             </div>
           </div>
         </div>
