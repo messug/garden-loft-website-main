@@ -145,6 +145,24 @@
   text-align: center;
 }
 
+.footer h3 a {
+  color: #201f1f; /* or a specific color for the footer links */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer h3 a:hover {
+  color: #0a0a0a; /* Matches the color used in the privacy policy */
+  text-decoration: underline;
+}
+
+.footer h3 a .fa-mobile-alt {
+  color: #161716; /* Icon color, matching your brand styling */
+  font-size: 1em; /* Adjust size as needed */
+}
+
+
 @media (max-width: 768px) {
   .footer-column {
     flex: 1 1 100%;

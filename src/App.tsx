@@ -19,6 +19,8 @@ import Phone from "./components/Phone/Phone";
 import LearnMore from "./components/LearnMore/LearnMore";
 import MortgageSpecialistForm from "./components/morgage/MortgageSpecialistForm..js"
 import Home from "./components/Homepage/Home.tsx";
+import AppPrivacyPolicy from "./components/Privacy/AppPrivacyPolicy.tsx";
+
 
 
 
@@ -42,6 +44,7 @@ function App() {
          < Route path="/reselling" element={<Reselling/>}/>
           <Route path="/learn-more" element={<LearnMore/>}/>
           <Route path="/morgage" element={<MortgageSpecialistForm/>}/>
+          <Route path="/app-privacypolicy" element={<AppPrivacyPolicy />} />
           
         </Routes>
       </Router>
